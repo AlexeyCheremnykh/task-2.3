@@ -1,0 +1,30 @@
+include ../search/search.pug
+
+header.header
+    .header__content
+        .header__logo logo
+        nav.header__nav
+            ul.header__nav-items
+                li.header__nav-item
+                    a.header__nav-link.header__profile Profile
+                li.header__nav-item
+                    a.header__nav-link.header__news News
+                li.header__nav-item
+                    a.header__nav-link.header__events Events
+                li.header__nav-item
+                    a.header__nav-link.header__messages Messages
+                li.header__nav-item
+                    a.header__nav-link.header__contacts Contacts
+                li.header__nav-item
+                    a.header__nav-link.header__videos Videos
+        +search() 
+        .header__profile-photo  
+        ul.header__profile-menu
+            li.header__profile-menu-item
+                a.header__profile-menu-link.header__settings Settings            
+            li.header__profile-menu-item
+                a.header__profile-menu-link.header__support Support
+            li.header__profile-menu-item
+                a.header__profile-menu-link.header__logout Log out
+        
+    

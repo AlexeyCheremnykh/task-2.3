@@ -1,30 +1,30 @@
 include ../search/search.pug
 
-header.header
-    .header__content
-        .header__logo logo
-        nav.header__nav
-            ul.header__nav-items
-                li.header__nav-item
-                    a.header__nav-link.header__profile Profile
-                li.header__nav-item
-                    a.header__nav-link.header__news News
-                li.header__nav-item
-                    a.header__nav-link.header__events Events
-                li.header__nav-item
-                    a.header__nav-link.header__messages Messages
-                li.header__nav-item
-                    a.header__nav-link.header__contacts Contacts
-                li.header__nav-item
-                    a.header__nav-link.header__videos Videos
-        +search() 
-        .header__profile-photo  
-        ul.header__profile-menu
-            li.header__profile-menu-item
-                a.header__profile-menu-link.header__settings Settings            
-            li.header__profile-menu-item
-                a.header__profile-menu-link.header__support Support
-            li.header__profile-menu-item
-                a.header__profile-menu-link.header__logout Log out
+header.page-header
+    .page-header__content
+        .page-header__logo logo
+        nav.page-header__nav
+            ul.page-header__nav-items
+                li.page-header__nav-item
+                    a.page-header__nav-link.page-header__profile Profile
+                li.page-header__nav-item
+                    a.page-header__nav-link.page-header__news News
+                li.page-header__nav-item
+                    a.page-header__nav-link.page-header__events Events
+                li.page-header__nav-item
+                    a.page-header__nav-link.page-header__messages Messages
+                li.page-header__nav-item
+                    a.page-header__nav-link.page-header__contacts Contacts
+                li.page-header__nav-item
+                    a(href="videos.html" class="header__nav-link header__videos") Videos
+        +search()
+        .page-header__profile-photo  
+        ul.page-header__profile-menu
+            li.page-header__profile-menu-item
+                a.page-header__profile-menu-link.page-header__settings Settings            
+            li.page-header__profile-menu-item
+                a.page-header__profile-menu-link.page-header__support Support
+            li.page-header__profile-menu-item
+                a.page-header__profile-menu-link.page-header__logout Log out
         
     

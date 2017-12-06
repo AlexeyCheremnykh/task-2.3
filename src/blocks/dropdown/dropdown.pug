@@ -1,0 +1,6 @@
+mixin dropdown(options)
+    select(class="dropdown")
+        option(value="")      
+        each opt in options            
+            option(class="dropdown__option" value=opt) #{opt} 
+

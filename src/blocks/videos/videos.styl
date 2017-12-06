@@ -1,7 +1,35 @@
-.videos-container
-    display: flex
-    flex-wrap: wrap
-    justify-content: space-between
+.videos       
+    &__header
+        display: flex
+        justify-content: space-between
+        align-items: flex-end
+        margin-bottom: 10px 
 
-    .video
-        margin-top: 10px
+        .dropdown
+            width: 160px
+        .select2-container
+            .selection 
+                .select2-selection
+                    width: 160px
+
+    &__buttons-search
+        display: flex
+        align-items: flex-end
+
+        .standard-button            
+            margin-right: 10px
+        
+        .search
+            margin-left: 5px
+
+    &__container
+        display: flex
+        flex-wrap: wrap
+        justify-content: flex-start
+
+        .video
+            margin-top: 8px
+            margin-right: 8px 
+
+            &:nth-child(3n)
+                margin-right: 0 

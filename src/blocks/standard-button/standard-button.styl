@@ -1,0 +1,65 @@
+.standard-button
+    outline: none
+    padding: 0
+    background-color: #ffffff
+    text-transform: uppercase
+    font-family: "Lato"
+    font-weight: 900
+    letter-spacing: 0.05em
+    border-radius: 3px
+
+    &_big
+        width: 118px
+        height: 32px             
+        font-size: 12px
+    
+    &_small
+        width: 78px
+        height: 22px          
+        font-size: 10px        
+
+    &_red
+        color: #e34a26        
+        border: 1px solid #e75735
+        &^[0]_big
+            box-shadow: 0 3px 0 0 #e75735
+        &^[0]_small
+            box-shadow: 0 2px 0 0 #e75735                    
+
+    &_blue
+        color: #44ae9f        
+        border: 1px solid #4eb7a8
+        &^[0]_big
+            box-shadow: 0 3px 0 0 #4eb7a8
+        &^[0]_small
+            box-shadow: 0 2px 0 0 #4eb7a8  
+
+    &:hover,
+    &:active
+        border: none   
+        color: #ffffff
+        cursor: pointer
+
+    &_red:hover
+        background-color: #e75735
+        &^[0]_big
+            box-shadow: 0 3px 0 0 #bf3e1f
+        &^[0]_small
+            box-shadow: 0 2px 0 0 #bf3e1f        
+    
+    &_blue:hover
+        background-color: #4eb7a8
+        &^[0]_big
+            box-shadow: 0 3px 0 0 #28a290
+        &^[0]_small
+            box-shadow: 0 2px 0 0 #28a290
+
+    &:active       
+        &^[0]_big
+            transform: translateY(3px)
+            box-shadow: none
+        &^[0]_small
+            transform: translateY(2px)
+            box-shadow: none
+
+           

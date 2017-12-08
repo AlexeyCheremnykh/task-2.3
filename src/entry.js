@@ -14,6 +14,7 @@ import "./blocks/header/header.styl";
 import "./blocks/search/search.styl";
 import "./blocks/video/video.styl";
 import "./blocks/videos/videos.styl";
+import "./blocks/videos/videos.js";
 import "./blocks/standard-button/standard-button.styl";
 import "./blocks/dropdown/dropdown.styl";
 import "./blocks/dropdown/dropdown.js";

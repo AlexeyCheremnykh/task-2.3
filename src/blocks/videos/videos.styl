@@ -1,35 +1,88 @@
-.videos       
+.videos
+    position: relative
+    margin-left: auto
+    margin-right: auto
+    padding-top: 20px
+    width: 976px
+
     &__header
-        display: flex
-        justify-content: space-between
-        align-items: flex-end
-        margin-bottom: 10px 
+        margin-bottom: 20px
+        padding-bottom: 20px
+        border-bottom: 1px solid #e5e5e5    
 
-        .dropdown
-            width: 160px
-        .select2-container
-            .selection 
-                .select2-selection
-                    width: 160px
+    &__buttons
+        float: right        
 
-    &__buttons-search
-        display: flex
-        align-items: flex-end
-
-        .standard-button            
-            margin-right: 10px
+        .standard-button                    
+            margin-right: 10px       
         
-        .search
-            margin-left: 5px
+    &__search-wrapper      
+        display: inline-block
+        padding-top: 3px     
+        margin-left: 8px
 
-    &__container
-        display: flex
-        flex-wrap: wrap
-        justify-content: flex-start
+    &__container 
+        padding: 0        
+        border: none !important
+        background-color: transparent
 
         .video
-            margin-top: 8px
-            margin-right: 8px 
+            margin-top: 8px            
 
-            &:nth-child(3n)
-                margin-right: 0 
+    .ui-tabs 
+        .ui-tabs-panel
+            padding: 0            
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between           
+
+        .ui-tabs-nav
+            padding: 0
+            border: none
+            background-color: transparent
+
+        .ui-tabs-anchor
+            font-family: "Lato"
+            font-weight: 400
+        
+        .ui-tabs-active
+            background-color: #4eb7a8
+            border-color: #4eb7a8            
+        
+        .ui-tabs-anchor:focus
+            outline: none
+            
+    .dropdown
+        width: 160px
+    .select2-container
+        position: absolute
+        right: 0
+        top: 100px
+        z-index: 1
+        .selection 
+            .select2-selection
+                width: 160px
+
+@media (max-width: 1024px)
+    .page-content
+        width: 770px
+    
+    .videos
+        width: 648px
+
+@media (max-width: 830px)
+    .page-content
+        width: 520px
+    
+    .videos
+        width: 480px
+
+        .video
+            width: 480px
+            height: 270px
+        
+        .search
+            width: 200px
+
+//@media (max-width: 535px)
+

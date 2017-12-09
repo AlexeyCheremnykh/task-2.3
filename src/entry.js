@@ -18,6 +18,8 @@ import "./blocks/videos/videos.js";
 import "./blocks/standard-button/standard-button.styl";
 import "./blocks/dropdown/dropdown.styl";
 import "./blocks/dropdown/dropdown.js";
+import "./blocks/event/event.styl";
+import "./blocks/tick-box/tick-box.styl";
 
 /*
 import "jquery";

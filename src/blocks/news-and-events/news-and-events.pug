@@ -1,0 +1,12 @@
+extends ../layout/layout.pug
+include ../news/news.pug
+include ../event/event.pug
+include ../tick-box/tick-box
+
+block content
+    .news-and-events
+        .news-and-events__show-settings
+            .news-and-events__tick-boxes
+                +tick_box("Show events", "checked")
+                +tick_box("Show news", "checked")
+        //+event("12", "May", "Event", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")

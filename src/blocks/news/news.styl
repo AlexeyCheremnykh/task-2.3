@@ -1,48 +1,87 @@
 .news
-    width: 288px
-    height: 212px
-    border-radius: 3px
-    overflow: hidden
+    padding: 20px 20px 0 10px
+    width: 98%
 
-    &__image
-        width: 95px
-        height: 212px
-        display: inline-block
-        vertical-align: top
-        background-image: url("img/news-sample.png")
+    &::after
+        display: block
+        content: ""
+        clear: both
+
+    &__categories
+        position: fixed
+        padding: 0
+        margin: 0
+        float: left
+        list-style: none        
+        width: 200px
+        height: 290px
+        text-align: center       
+
+    &__category
+        display: block
+        line-height: 40px        
+
+        &-link
+            text-decoration: none
+            font-family: "Lato"
+            color: #aaaaaa
+
+        &_selected
+            background-color: #dddddd
+
+            & > a 
+                color: #444444
+
+    &__news-block
+        float: right
+
+    &__container-category-wrapper
+        width: 890px
+        margin-left: 80px
+        padding-bottom: 2px
+        border-bottom: 2px solid #e5e5e5
     
-    &__text
-        box-sizing: border-box
-        padding-left: 22px
-        padding-top: 22px
-        padding-right: 20px
-        line-height: 0.9     
-        width: 193px
-        height: 212px
-        display: inline-block
-        vertical-align: top
-        background-color: #e75735
-        color: #ffffff
-
-    &__title
-        font-family: "Lato"
-        font-weight: 300
-        font-size: 28px
-        line-height: 26px
-
-    &__date
+    &__container-category
+        text-decoration: none
         font-family: "Lato"
         font-weight: 900
-        font-size: 11px
-        margin-top: 13px
-        margin-bottom: 15px
         text-transform: uppercase
-        word-spacing: 5px
+        color: #aaaaaa
+        font-size: 20px
 
-    &__content
-        font-family: "Lato"
-        font-weight: 400
-        font-size: 11px
-        line-height: 13px
-        letter-spacing: 0.05em
-        
+        &:hover
+            color: #888888
+  
+    &__news-container
+        box-sizing: border-box      
+        position: relative
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 30px
+        width: 1050px
+        height: 300px
+        padding-top: 20px
+        padding-bottom: 0
+        background-color: #ffffff
+        border-radius: 5px
+        box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.2)
+
+    &__button-wrapper
+        position: absolute
+        top: 131px
+
+        &_right
+            right: 20px
+
+        &_left
+            left: 20px         
+ 
+    &__news-items
+        margin: 10px auto
+        width: 890px
+        overflow: hidden        
+        display: flex
+        justify-content: space-between
+
+        .news
+            flex-shrink: 0

@@ -10823,6 +10823,21 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__blocks_dropdown_dropdown_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15__blocks_dropdown_dropdown_styl__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__blocks_dropdown_dropdown_js__ = __webpack_require__(63);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__blocks_dropdown_dropdown_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16__blocks_dropdown_dropdown_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__blocks_news_news_styl__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__blocks_news_news_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17__blocks_news_news_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__blocks_news_item_news_item_styl__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__blocks_news_item_news_item_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_18__blocks_news_item_news_item_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__blocks_arrow_button_arrow_button_styl__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__blocks_arrow_button_arrow_button_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_19__blocks_arrow_button_arrow_button_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__blocks_event_event_styl__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__blocks_event_event_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_20__blocks_event_event_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__blocks_tick_box_tick_box_styl__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__blocks_tick_box_tick_box_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_21__blocks_tick_box_tick_box_styl__);
+
+
+
+
+
 
 
 
@@ -11473,7 +11488,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".page-content {\n  box-sizing: border-box;\n  width: 1040px;\n  background-color: #fff;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 7px;\n}\nbody {\n  margin: 0;\n  background-color: #f5f5f5;\n}\n", ""]);
+exports.push([module.i, "body {\n  margin: 0;\n}\nbody .page-content {\n  margin-top: 60px;\n  margin-bottom: 20px;\n  background-color: #f5f5f5;\n}\n", ""]);
 
 // exports
 
@@ -11518,7 +11533,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".page-header {\n  box-sizing: border-box;\n  width: 100%;\n  height: 60px;\n  background-color: #e75735;\n}\n.page-header__content {\n  margin: 0 auto;\n  width: 976px;\n  height: 100%;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n}\n.page-header__logo {\n  font-family: \"Lato\";\n  font-weight: 900;\n  text-transform: uppercase;\n  font-size: 35px;\n  color: #9c520a;\n}\n.page-header__nav-items {\n  list-style: none;\n  padding: 0;\n}\n.page-header__nav-item {\n  display: inline-block;\n  cursor: pointer;\n  font-size: 15px;\n  padding-right: 20px;\n  font-family: \"Lato\";\n  font-weight: 400;\n  color: #fdeaa8;\n  text-transform: uppercase;\n}\n.page-header__profile-photo {\n  width: 40px;\n  height: 40px;\n  background: url(" + __webpack_require__(51) + ");\n  background-size: cover;\n  border-radius: 50%;\n  border: 2px solid #ececec;\n}\n.page-header__profile-menu {\n  display: none;\n  overflow: hidden;\n  width: 140px;\n  height: 90px;\n  list-style: none;\n  position: absolute;\n  right: 90px;\n  top: 50px;\n  border-radius: 4px;\n  box-shadow: 3px 3px 7px rgba(0,0,0,0.3);\n  padding: 0;\n  font-family: \"Lato\";\n  font-weight: 400;\n  color: #888;\n}\n.page-header__profile-menu-item {\n  display: block;\n  height: 30px;\n  line-height: 30px;\n  text-align: center;\n  background-color: #f0f0f0;\n}\n.page-header__profile-menu-item:hover {\n  background-color: #e5e5e5;\n}\n.page-header .search__button {\n  background-color: #a52a2a;\n}\n.page-header .search__button:hover {\n  background-color: #8e2525;\n}\n@media (max-width: 1024px) {\n  .page-header .search {\n    width: 250px;\n  }\n}\n", ""]);
+exports.push([module.i, ".page-header {\n  box-sizing: border-box;\n  width: 100%;\n  height: 60px;\n  background-color: #e75735;\n  position: fixed;\n  top: 0;\n  z-index: 1;\n}\n.page-header__content {\n  margin: 0 auto;\n  width: 976px;\n  height: 100%;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n}\n.page-header__logo {\n  font-family: \"Lato\";\n  font-weight: 900;\n  text-transform: uppercase;\n  font-size: 35px;\n  color: #9c520a;\n}\n.page-header__nav-items {\n  list-style: none;\n  padding: 0;\n}\n.page-header__nav-item {\n  display: inline-block;\n  cursor: pointer;\n  padding-right: 20px;\n}\n.page-header__nav-link {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 15px;\n  color: #fdeaa8;\n  text-transform: uppercase;\n  text-decoration: none;\n}\n.page-header__nav-link:hover {\n  color: #e5c65c;\n}\n.page-header__profile-photo {\n  width: 40px;\n  height: 40px;\n  background: url(" + __webpack_require__(51) + ");\n  background-size: cover;\n  border-radius: 50%;\n  border: 2px solid #ececec;\n}\n.page-header__profile-menu {\n  display: none;\n  overflow: hidden;\n  width: 140px;\n  height: 90px;\n  list-style: none;\n  position: absolute;\n  right: 90px;\n  top: 50px;\n  border-radius: 4px;\n  box-shadow: 3px 3px 7px rgba(0,0,0,0.3);\n  padding: 0;\n  font-family: \"Lato\";\n  font-weight: 400;\n  color: #888;\n}\n.page-header__profile-menu-item {\n  display: block;\n  height: 30px;\n  line-height: 30px;\n  text-align: center;\n  background-color: #f0f0f0;\n}\n.page-header__profile-menu-item:hover {\n  background-color: #e5e5e5;\n}\n.page-header .search__button {\n  background-color: #a52a2a;\n}\n.page-header .search__button:hover {\n  background-color: #8e2525;\n}\n@media (max-width: 1024px) {\n  .page-header .search {\n    width: 250px;\n  }\n}\n", ""]);
 
 // exports
 
@@ -11659,7 +11674,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".videos {\n  position: relative;\n  margin-left: auto;\n  margin-right: auto;\n  padding-top: 20px;\n  width: 976px;\n}\n.videos__header {\n  margin-bottom: 20px;\n  padding-bottom: 20px;\n  border-bottom: 1px solid #e5e5e5;\n}\n.videos__buttons {\n  float: right;\n}\n.videos__buttons .standard-button {\n  margin-right: 10px;\n}\n.videos__search-wrapper {\n  display: inline-block;\n  padding-top: 3px;\n  margin-left: 8px;\n}\n.videos__container {\n  padding: 0;\n  border: none !important;\n  background-color: transparent;\n}\n.videos__container .video {\n  margin-top: 8px;\n  margin-right: 8px;\n}\n.videos .ui-tabs .ui-tabs-panel {\n  padding: 0;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: flex-start;\n  margin-right: -8px;\n}\n.videos .ui-tabs .ui-tabs-nav {\n  padding: 0;\n  border: none;\n  background-color: transparent;\n}\n.videos .ui-tabs .ui-tabs-anchor {\n  font-family: \"Lato\";\n  font-weight: 400;\n}\n.videos .ui-tabs .ui-tabs-active {\n  background-color: #4eb7a8;\n  border-color: #4eb7a8;\n}\n.videos .ui-tabs .ui-tabs-anchor:focus {\n  outline: none;\n}\n.videos .dropdown {\n  width: 160px;\n}\n.videos .select2-container {\n  position: absolute;\n  right: 0;\n  top: 100px;\n  z-index: 1;\n}\n.videos .select2-container .selection .select2-selection {\n  width: 160px;\n}\n@media (max-width: 1024px) {\n  .page-content {\n    width: 770px;\n  }\n  .videos {\n    width: 648px;\n  }\n}\n@media (max-width: 830px) {\n  .page-content {\n    width: 520px;\n  }\n  .videos {\n    width: 480px;\n  }\n  .videos .video {\n    width: 480px;\n    height: 270px;\n  }\n  .videos .search {\n    width: 200px;\n  }\n}\n", ""]);
+exports.push([module.i, ".videos-wrapper {\n  width: 1040px;\n  margin-left: auto;\n  margin-right: auto;\n  background-color: #fff;\n}\n.videos {\n  position: relative;\n  margin-left: auto;\n  margin-right: auto;\n  padding-top: 20px;\n  width: 976px;\n}\n.videos__header {\n  margin-bottom: 20px;\n  padding-bottom: 20px;\n  border-bottom: 1px solid #e5e5e5;\n}\n.videos__buttons {\n  float: right;\n}\n.videos__buttons .standard-button:first-child {\n  margin-right: 10px;\n}\n.videos .search {\n  display: inline-block;\n  padding-top: 6px;\n}\n.videos__container {\n  padding: 0;\n  border: none !important;\n  background-color: transparent;\n}\n.videos__container .video {\n  margin-top: 8px;\n  margin-right: 8px;\n}\n.videos .ui-tabs .ui-tabs-panel {\n  padding: 0;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: flex-start;\n  margin-right: -8px;\n}\n.videos .ui-tabs .ui-tabs-nav {\n  padding: 0;\n  border: none;\n  background-color: transparent;\n}\n.videos .ui-tabs .ui-tabs-anchor {\n  font-family: \"Lato\";\n  font-weight: 400;\n}\n.videos .ui-tabs .ui-tabs-active {\n  background-color: #4eb7a8;\n  border-color: #4eb7a8;\n}\n.videos .ui-tabs .ui-tabs-anchor:focus {\n  outline: none;\n}\n.videos .dropdown {\n  width: 160px;\n}\n.videos .select2-container {\n  position: absolute;\n  right: 0;\n  top: 100px;\n  z-index: 1;\n}\n.videos .select2-container .selection .select2-selection {\n  width: 160px;\n}\n@media (max-width: 1024px) {\n  .videos-wrapper {\n    width: 770px;\n  }\n  .videos {\n    width: 648px;\n  }\n}\n@media (max-width: 830px) {\n  .videos-wrapper {\n    width: 520px;\n  }\n  .videos {\n    width: 480px;\n  }\n  .videos .video {\n    width: 480px;\n    height: 270px;\n  }\n  .videos .search {\n    width: 200px;\n  }\n}\n", ""]);
 
 // exports
 
@@ -11774,6 +11789,243 @@ exports.push([module.i, ".dropdown {\n  width: 288px;\n}\n.dropdown__option {\n 
     });
 })
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+
+/***/ }),
+/* 64 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(65);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./news.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./news.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 65 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".news {\n  padding: 20px 20px 0 10px;\n  width: 98%;\n}\n.news::after {\n  display: block;\n  content: \"\";\n  clear: both;\n}\n.news__categories {\n  position: fixed;\n  padding: 0;\n  margin: 0;\n  float: left;\n  list-style: none;\n  width: 200px;\n  height: 290px;\n  text-align: center;\n}\n.news__category {\n  display: block;\n  line-height: 40px;\n}\n.news__category-link {\n  text-decoration: none;\n  font-family: \"Lato\";\n  color: #aaa;\n}\n.news__category_selected {\n  background-color: #ddd;\n}\n.news__category_selected > a {\n  color: #444;\n}\n.news__news-block {\n  float: right;\n}\n.news__container-category-wrapper {\n  width: 890px;\n  margin-left: 80px;\n  padding-bottom: 2px;\n  border-bottom: 2px solid #e5e5e5;\n}\n.news__container-category {\n  text-decoration: none;\n  font-family: \"Lato\";\n  font-weight: 900;\n  text-transform: uppercase;\n  color: #aaa;\n  font-size: 20px;\n}\n.news__container-category:hover {\n  color: #888;\n}\n.news__news-container {\n  box-sizing: border-box;\n  position: relative;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 30px;\n  width: 1050px;\n  height: 300px;\n  padding-top: 20px;\n  padding-bottom: 0;\n  background-color: #fff;\n  border-radius: 5px;\n  box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.2);\n}\n.news__button-wrapper {\n  position: absolute;\n  top: 131px;\n}\n.news__button-wrapper_right {\n  right: 20px;\n}\n.news__button-wrapper_left {\n  left: 20px;\n}\n.news__news-items {\n  margin: 10px auto;\n  width: 890px;\n  overflow: hidden;\n  display: flex;\n  justify-content: space-between;\n}\n.news__news-items .news {\n  flex-shrink: 0;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 66 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(67);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./news-item.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./news-item.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 67 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".news-item {\n  width: 288px;\n  height: 212px;\n  border-radius: 3px;\n  overflow: hidden;\n}\n.news-item__image {\n  width: 95px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-image: url(" + __webpack_require__(68) + ");\n}\n.news-item__text {\n  box-sizing: border-box;\n  padding-left: 22px;\n  padding-top: 22px;\n  padding-right: 20px;\n  line-height: 0.9;\n  width: 193px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-color: #e75735;\n  color: #fff;\n}\n.news-item__title {\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 28px;\n  line-height: 26px;\n}\n.news-item__date {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 11px;\n  margin-top: 13px;\n  margin-bottom: 15px;\n  text-transform: uppercase;\n  word-spacing: 5px;\n}\n.news-item__content {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 11px;\n  line-height: 13px;\n  letter-spacing: 0.05em;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 68 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/news-sample.png";
+
+/***/ }),
+/* 69 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(70);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./arrow-button.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./arrow-button.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 70 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".arrow-button {\n  outline: none;\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  border: 3px solid #4eb7a8;\n  background-color: #fff;\n}\n.arrow-button::after {\n  content: \"\";\n  display: inline-block;\n  position: absolute;\n  top: 14px;\n  width: 13px;\n  height: 13px;\n  border-top: 4px solid #4eb7a8;\n  border-right: 4px solid #4eb7a8;\n}\n.arrow-button_right::after {\n  transform: rotate(45deg);\n  right: 16px;\n}\n.arrow-button_left::after {\n  transform: rotate(-135deg);\n  left: 16px;\n}\n.arrow-button:hover {\n  background-color: #4eb7a8;\n}\n.arrow-button:hover::after {\n  border-color: #fff;\n  background-color: #4eb7a8;\n}\n.arrow-button:disabled {\n  background-color: #e5e5e5;\n  border-color: #e5e5e5;\n}\n.arrow-button:disabled::after {\n  border-color: #fff;\n  background-color: #e5e5e5;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 71 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(72);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./event.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./event.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 72 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".event {\n  width: 288px;\n  height: 212px;\n  border-radius: 3px;\n  overflow: hidden;\n}\n.event__image {\n  width: 95px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-image: url(" + __webpack_require__(73) + ");\n}\n.event__text {\n  box-sizing: border-box;\n  width: 193px;\n  height: 212px;\n  padding-left: 19px;\n  padding-top: 4px;\n  display: inline-block;\n  vertical-align: top;\n  background-color: #4eb7a8;\n  color: #fff;\n}\n.event__text .standard-button {\n  width: 128px;\n  height: 22px;\n  border: none;\n  font-size: 10px;\n  box-shadow: 0 3px 0 0 #379285;\n  margin-left: 13px;\n  word-spacing: 0.2em;\n}\n.event__date {\n  font-family: \"Lato\";\n  font-weight: 300;\n  word-spacing: 14px;\n  margin-bottom: 8px;\n}\n.event__day {\n  font-size: 73px;\n  letter-spacing: -0.04em;\n  display: inline-block;\n  margin-right: 14px;\n}\n.event__month {\n  font-size: 30px;\n  display: inline-block;\n}\n.event__title {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12.5px;\n  margin-bottom: 3px;\n  letter-spacing: 0.05em;\n  text-transform: uppercase;\n}\n.event__content {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 11px;\n  letter-spacing: 0.05em;\n  margin-bottom: 19px;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 73 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/event-sample.png";
+
+/***/ }),
+/* 74 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(75);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./tick-box.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./tick-box.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 75 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".tick-box {\n  display: inline-block;\n  height: 23px;\n}\n.tick-box input {\n  display: none;\n}\n.tick-box__container {\n  cursor: pointer;\n  user-select: none;\n  position: relative;\n  font-size: 17px;\n  padding-left: 27px;\n  font-family: \"Lato\";\n}\n.tick-box__checkmark {\n  position: absolute;\n  top: 0;\n  width: 23px;\n  height: 23px;\n  border-radius: 50%;\n  background-color: #e5e5e5;\n}\n.tick-box__checkmark::after {\n  position: absolute;\n  content: \"\";\n  display: block;\n  width: 9px;\n  height: 4px;\n  transform: rotate(-45deg);\n  top: 7px;\n  right: 6px;\n  border-left: 2px solid #cecece;\n  border-bottom: 2px solid #cecece;\n}\ninput:checked ~ .tick-box__checkmark {\n  background-color: #4eb7a8;\n}\ninput:checked ~ .tick-box__checkmark::after {\n  top: 7px;\n  right: 6px;\n  border-left: 2px solid #fff;\n  border-bottom: 2px solid #fff;\n}\n", ""]);
+
+// exports
+
 
 /***/ })
 /******/ ]);

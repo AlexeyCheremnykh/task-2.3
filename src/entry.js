@@ -18,6 +18,9 @@ import "./blocks/videos/videos.js";
 import "./blocks/standard-button/standard-button.styl";
 import "./blocks/dropdown/dropdown.styl";
 import "./blocks/dropdown/dropdown.js";
+import "./blocks/news/news.styl";
+import "./blocks/news-item/news-item.styl";
+import "./blocks/arrow-button/arrow-button.styl";
 import "./blocks/event/event.styl";
 import "./blocks/tick-box/tick-box.styl";
 

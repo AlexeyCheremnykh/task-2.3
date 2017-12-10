@@ -69,8 +69,8 @@ module.exports = {
             filename: "videos.html"
         }),
         new HtmlWebpackPlugin({
-            template: "src/blocks/news-and-events/news-and-events.pug",
-            filename: "news-and-events.html"
+            template: "src/blocks/news/news.pug",
+            filename: "news.html"
         })
     ]
 }      

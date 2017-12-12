@@ -1,0 +1,10 @@
+mixin location(address, title)
+    .location
+        div(class="location__map" data-address=address)
+        .location__footer
+            .location__footer-text
+                .location__meet-us #{title}
+                .location__address #{address}                    
+            .location__footer-buttons
+                .location__my-location.location__footer-button
+                .location__pin.location__footer-button

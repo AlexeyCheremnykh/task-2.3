@@ -1,0 +1,10 @@
+mixin user_profile(type, name, profession, photo)
+    .user-profile
+        div(class="user-profile__photo" style="background-image: url(" + photo + ");")
+        div(class="user-profile__info user-profile__info_" + type)
+            .user-profile__name #{name}
+            .user-profile__profession #{profession}
+            .user-profile__social-container
+                a(class="user-profile__social-icon user-profile__fb" href="#")
+                a(class="user-profile__social-icon user-profile__twitter" href="#")                
+                a(class="user-profile__social-icon user-profile__dribbble" href="#")              

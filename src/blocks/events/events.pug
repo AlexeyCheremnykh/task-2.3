@@ -1,0 +1,31 @@
+extends ../layout/layout.pug
+include ../location/location.pug
+include ../slider/slider.pug
+include ../dropdown/dropdown.pug
+include ../search/search.pug
+include ../toggle/toggle.pug
+include ../event/event.pug
+include ../user-profile/user-profile.pug
+
+block content
+    .events       
+        .events__my-events
+            h2.events__title My Events
+            .events__map-container
+                //.events__map-toggle
+                +toggle("off")
+                //.events__map-slider   
+                    +slider("type-a", 0, 100)
+                //.events__map
+                +location("Tomsk", "Events")         
+            //.events__search
+            //+search("Find an event")
+            //.events__dropdown
+            //+dropdown(["All events", "Events I'm attending", "Events I'm not attending"])
+            .events__items
+                +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.")
+                +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.")
+                +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.")
+                +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.")
+                +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.")
+            

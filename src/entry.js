@@ -8,6 +8,9 @@ import "../scripts/jquery-ui-1.12.1.custom/jquery-ui.min.css";
 import "../node_modules/css-ripple-effect/dist/ripple.min.css";
 import "../node_modules/select2/dist/js/select2.min.js";
 import "../node_modules/select2/dist/css/select2.min.css";
+import "../node_modules/gmap3/dist/gmap3.min.js"; //мб подобные штуки лучше в папке с блоком хранить?
+import "../node_modules/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.js"
+import "../node_modules/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.css"
 
 import "./blocks/layout/layout.styl";
 import "./blocks/header/header.styl";
@@ -23,21 +26,23 @@ import "./blocks/news-item/news-item.styl";
 import "./blocks/arrow-button/arrow-button.styl";
 import "./blocks/event/event.styl";
 import "./blocks/tick-box/tick-box.styl";
+import "./blocks/events/events.styl";
+import "./blocks/toggle/toggle.styl";
+import "./blocks/toggle/toggle.js";
+import "./blocks/location/location.styl";
+import "./blocks/location/location.js";
+import "./blocks/location/img/map-marker-icon.png";
+import "./blocks/user-profile/user-profile.styl";
+import "./blocks/user-profile/img/user-profile-woman.png";
+import "./blocks/user-profile/img/user-profile-man.png";
+import "./blocks/slider/slider.styl";
+import "./blocks/slider/slider.js";
 
 /*
-import "jquery";
 import "jquery-validation";
 import "chart.js";
-import "../scripts/jquery-ui-1.12.1.custom/jquery-ui.min.js";
-import "../scripts/jquery-ui-1.12.1.custom/jquery-ui.min.css";
-import "../node_modules/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.js"
-import "../node_modules/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.css"
-import "../node_modules/css-ripple-effect/dist/ripple.min.css";
 import "jquery-circle-progress";
 import "../node_modules/jquery-steps/build/jquery.steps.min.js";
-import "../node_modules/select2/dist/js/select2.min.js";
-import "../node_modules/select2/dist/css/select2.min.css";
-import "../node_modules/gmap3/dist/gmap3.min.js";
 
 import "./blocks/main-container/main-container.styl";
 import "./blocks/standard-buttons-container/standard-buttons-container.styl";

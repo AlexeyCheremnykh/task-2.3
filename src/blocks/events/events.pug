@@ -14,13 +14,10 @@ block content
     .events    
         .events__my-events.events__content-item
             h2.events__title My Events
-            .events__map-container
-                .events__display-options
-                    +toggle("Events map", "on")
-                    .events__tick-boxes
-                        +tick_box("Show my calendar", "checked")
-                        //+tick_box("Show recommended", "checked")                
-                +location("Tomsk", "My events")         
+            .events__display-options
+                +toggle("Events map", "on")
+                +tick_box("Show my calendar", "checked")
+            +location("Tomsk", "My events")         
             .events__items
                 +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.")
                 +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.")
@@ -32,7 +29,7 @@ block content
                 +arrow_button("left", "disabled")
                 +arrow_button("right")
         .events__right
-            .events__content-item
+            .events__content-item.events__calendar
                 h2.events__title My Calendar
                 +calendar()
             .events__content-item

@@ -27,6 +27,7 @@ import "./blocks/arrow-button/arrow-button.styl";
 import "./blocks/event/event.styl";
 import "./blocks/tick-box/tick-box.styl";
 import "./blocks/events/events.styl";
+import "./blocks/events/events.js";
 import "./blocks/toggle/toggle.styl";
 import "./blocks/toggle/toggle.js";
 import "./blocks/location/location.styl";

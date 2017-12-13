@@ -37,6 +37,8 @@ import "./blocks/user-profile/img/user-profile-woman.png";
 import "./blocks/user-profile/img/user-profile-man.png";
 import "./blocks/slider/slider.styl";
 import "./blocks/slider/slider.js";
+import "./blocks/calendar/calendar.styl";
+import "./blocks/calendar/calendar.js";
 
 /*
 import "jquery-validation";

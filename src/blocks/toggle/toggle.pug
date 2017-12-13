@@ -1,2 +1,4 @@
-mixin toggle(type)
+mixin toggle(label, type)
     div(class="toggle toggle_" + type)
+        label.toggle__label #{label}
+        .toggle__toggle

@@ -75,7 +75,11 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: "src/blocks/events/events.pug",
             filename: "events.html"
-        })
+        }),
+        new HtmlWebpackPlugin({
+            template: "src/blocks/articles/articles.pug",
+            filename: "articles.html"
+        }),
     ]
 }      
         

@@ -1,0 +1,51 @@
+.articles
+    display: flex
+    justify-content: space-between
+
+    &__left
+        width: 350px
+
+    &__container
+        margin-bottom: 30px
+        background-color: #ffffff
+        padding: 20px 30px
+        border-radius: 5px
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)
+
+    &__categories        
+        padding: 0
+        margin: 0        
+        list-style: none                     
+
+    &__category
+        cursor: pointer
+        display: block
+        line-height: 40px
+
+        &:last-child
+            border: none        
+
+        &-link
+            text-decoration: none
+            font-family: "Lato"
+            color: #aaaaaa
+            padding-left: 10px
+
+        &_selected
+            background-color: #eeeeee
+
+            & > a 
+                color: #888888
+        
+        &:hover
+            background-color: #f9f9f9
+    
+    &__title
+        margin-top: 0
+        text-decoration: none
+        font-family: "Lato"
+        font-weight: 900
+        text-transform: uppercase
+        color: #aaaaaa
+        font-size: 20px
+        border-bottom: 2px solid #e5e5e5

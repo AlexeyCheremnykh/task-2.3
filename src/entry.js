@@ -41,6 +41,7 @@ import "./blocks/slider/slider.js";
 import "./blocks/calendar/calendar.styl";
 import "./blocks/calendar/calendar.js";
 import "./blocks/articles/articles.styl";
+import "./blocks/articles/articles.js";
 
 /*
 import "jquery-validation";

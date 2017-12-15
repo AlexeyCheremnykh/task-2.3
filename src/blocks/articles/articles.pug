@@ -11,6 +11,10 @@ include ../dropdown/dropdown.pug
 block content
     .articles
         .articles__left
+            .articles__search.articles__container
+                h2.articles__title Search
+                +search("Article search")
+
             ul.articles__categorier.articles__container
                 h2.articles__title Categories
                 li.articles__category.articles__category-all.articles__category_selected
@@ -24,20 +28,21 @@ block content
                 li.articles__category.articles__category-cat4
                     a(href="#" class="articles__category-link") Category4
                 li.articles__category.articles__category-cat5
-                    a(href="#" class="articles__category-link") Category5
-            .articles__search.articles__container
-                h2.articles__title Search
-                +search("Article search")
+                    a(href="#" class="articles__category-link") Category5           
+    
             .articles__filter.articles__container
                 h2.articles__title Filter
                 form.articles__filter-form  
-                    h4.articles__filter-title Author                             
-                    input(type="text" class="articles__filter-author" placeholder="Any author")
-                    h4.articles__filter-title Minimum rating
-                    +slider("type-a", 0, 100)
-                    h4.article__filter-title Categories
-                    .articles__filter-categories                    
-                    +dropdown(["All", "Category", "Category", "Category"])
+                    .articles__filter-author
+                        h4.articles__filter-title Author                             
+                        input(type="text" class="articles__filter-author-field" placeholder="Any author")
+                    .articles__filter-rating
+                        h4.articles__filter-title Minimum rating
+                        .articles__slider-wrapper
+                            +slider("type-a", 0, 100)
+                    .articles__filter-tags 
+                        h4.articles__filter-title Tags                
+                        +dropdown(["tag1", "tag2", "tag3", "tag4", "tag5", "tag6", "tag7", "tag8", "tag9", "tag10"])
                     +standard_button("big", "red", "Show")
         .articles__popular.articles__container
             h2.articles__title Popular

@@ -11,6 +11,7 @@ import "../node_modules/select2/dist/css/select2.min.css";
 import "../node_modules/gmap3/dist/gmap3.min.js"; //мб подобные штуки лучше в папке с блоком хранить?
 import "../node_modules/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.js"
 import "../node_modules/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.css"
+import "jquery-circle-progress";
 
 import "./blocks/layout/layout.styl";
 import "./blocks/header/header.styl";
@@ -42,11 +43,16 @@ import "./blocks/calendar/calendar.styl";
 import "./blocks/calendar/calendar.js";
 import "./blocks/articles/articles.styl";
 import "./blocks/articles/articles.js";
+import "./blocks/percentage/percentage.styl";
+import "./blocks/percentage/percentage.js";
+import "./blocks/stages/stages.styl";
+import "./blocks/stages/stages.js";
+import "./blocks/event-new/event-new.styl";
+import "./blocks/event-new/event-new.js";
 
 /*
 import "jquery-validation";
 import "chart.js";
-import "jquery-circle-progress";
 import "../node_modules/jquery-steps/build/jquery.steps.min.js";
 
 import "./blocks/main-container/main-container.styl";

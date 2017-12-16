@@ -1,6 +1,9 @@
 .articles
     display: flex
     justify-content: space-between
+    width: 85%
+    margin-left: auto
+    margin-right: auto
 
     &__left
         width: 350px
@@ -84,8 +87,37 @@
         & .slider
             top: 38px
 
-.select2-container
-    .select2-dropdown
-        .select2-results 
-            .select2-results__option[aria-selected="true"]
-                color: #aaaaaa
+    &__popular
+        width: 700px
+    
+    &__article
+        font-family: "Lato"
+        position: relative
+        border-bottom: 1px solid #e5e5e5
+
+        &-footer
+            display: flex
+            justify-content: space-between
+
+        &-tags
+            list-style: none
+            padding: 0
+
+            &-label
+                display: inline-block
+                margin-right: 5px
+        
+            &-item
+                display: inline-block   
+
+        &-link
+            text-decoration: none
+            color: #000000        
+
+        &-date
+            position: absolute         
+            top: 0
+            right: 0
+
+/*.articles__filter .select2-results__option[aria-selected="true"] ??????
+    color: #aaaaaa !important*/

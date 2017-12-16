@@ -1,0 +1,45 @@
+.stages    
+    width: 577px
+
+    &__stage
+        cursor: default
+        position: relative
+        display: inline-block
+        border-radius: 50%
+        font-family: "Lato"
+        font-weight: 900
+        font-size: 14px
+        text-align: center
+        line-height: 29px        
+        width: 29px
+        height: 29px
+        margin: 0 0 0 108px        
+
+        &::before
+            content: ""
+            display: block
+            position: absolute
+            top: 13px
+            right: 29px
+            height: 5px
+            width: 108px            
+        
+        &:first-child
+            margin-left: 0
+            
+            &::before
+                display: none 
+
+        &-active
+            background-color: #e75735
+            color: #ffffff
+
+            &::before
+                background-color: #e75735  
+
+        &-inactive
+            background-color: #e5e5e5
+            color: #888888
+
+            &::before
+                background-color: #e5e5e5    

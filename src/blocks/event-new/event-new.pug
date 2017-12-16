@@ -1,0 +1,25 @@
+extends ../layout/layout.pug
+
+include ../stages/stages.pug
+include ../location/location.pug
+include ../calendar/calendar.pug
+include ../arrow-button/arrow-button.pug
+include ../tick-box/tick-box.pug
+include ../slider/slider.pug
+
+block content
+    .event-new
+        .event-new__stages
+            +stages(3)
+        .event-new__content
+            ul
+                li
+                    a(href="#stage-first") 1
+                li
+                    a(href="#stage-second") 2
+                li
+                    a(href="#stage-third") 3 
+            div(class="event-new__stage-first" id="stage-first")
+                +location("Tomsk", "Choose a location")
+            div(class="event-new__stage-second" id="stage-second")
+            div(class="event-new__stage-third" id="stage-third")

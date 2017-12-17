@@ -1,12 +1,11 @@
 .events    
     margin-left: auto
-    margin-right: auto
+    margin-right: auto    
     width: 1040px
     display: flex
     justify-content: space-between
-    align-items: flex-start
-    //background-color: #ffffff
-    padding: 0 35px
+    align-items: flex-start 
+    flex-wrap: wrap
 
     .event
         margin-bottom: 15px
@@ -76,6 +75,16 @@
                 margin-left: auto
                 margin-right: auto
 
+    &__new
+        display: block
+        width: 200px
+        margin-left: auto
+        margin-right: auto
+
+        .standard-button
+            width: 200px
+            
+
     &__see-more
         text-decoration: none
         font-family: "Lato"
@@ -86,3 +95,15 @@
         &:hover
             color: #4a9aaf
 
+@media (max-width: 1057px)
+    .events
+        display: block
+        width: 653px
+
+        &__right
+            width: 653px
+
+            .events__container
+                box-sizing: border-box
+                padding: 20px 14px
+                width: 316px

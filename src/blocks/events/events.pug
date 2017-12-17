@@ -1,14 +1,13 @@
 extends ../layout/layout.pug
 include ../location/location.pug
 include ../tick-box/tick-box.pug
-include ../dropdown/dropdown.pug
 include ../search/search.pug
 include ../toggle/toggle.pug
 include ../event/event.pug
-include ../user-profile/user-profile.pug
 include ../calendar/calendar.pug
 include ../search/search.pug
 include ../arrow-button/arrow-button.pug
+include ../standard-button/standard-button.pug
 
 block content
     .events    
@@ -34,7 +33,11 @@ block content
                 +calendar()
             .events__container
                 h2.events__title Search
-                +search("Events search")             
+                +search("Events search")
+            .events__container
+                h2.events__title New event
+                a(href="event-new.html" class="events__new")
+                    +standard_button("big", "blue", "create a new  event")            
             .events__container
                 h2.events__title Recommended
                 +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")

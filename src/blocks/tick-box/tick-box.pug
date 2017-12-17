@@ -1,10 +1,12 @@
 mixin tick_box(label, status)    
     .tick-box
         if (status=="checked")
-            label(class="tick-box__container") #{label}
+            label(class="tick-box__container") 
+                .tick-box__label #{label}
                 input(type="checkbox" checked)
                 .tick-box__checkmark
         else
-            label(class="tick-box__container") #{label}
+            label(class="tick-box__container") 
+                .tick-box__label #{label}
                 input(type="checkbox")
                 .tick-box__checkmark

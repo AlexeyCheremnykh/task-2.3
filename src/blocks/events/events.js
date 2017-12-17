@@ -1,17 +1,17 @@
 $(document).ready(function() {
     $(".events .toggle").click(function() {
         if ($(this).hasClass("toggle_on")) {
-            $(".events .location").hide();
+            $(".events .location").slideUp(250);
         } else {
-            $(".events .location").show(); 
+            $(".events .location").slideDown(250); 
         }
     });
 
     $(".events .tick-box").click(function() {        
         if ($("input[type='checkbox']", this).prop("checked")) {
-            $(".events__calendar").show();
+            $(".events__calendar").slideDown(250);
         } else {
-            $(".events__calendar").hide();
+            $(".events__calendar").slideUp(250);
         }
     });
 })

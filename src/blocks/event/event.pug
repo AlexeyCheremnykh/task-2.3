@@ -7,6 +7,6 @@ mixin event(day, month, title, text)
             .event__date
                 .event__day #{day}
                 .event__month #{month}
-            .event__title #{title}
+            a(href="#" class="event__title") #{title}
             .event__content #{text}
             +standard_button("big", "blue", "add to calendar")

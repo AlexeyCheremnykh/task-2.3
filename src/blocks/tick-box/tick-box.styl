@@ -7,16 +7,20 @@
 
     &__container
         cursor: pointer
-        user-select: none
-        position: relative
-        font-size: 17px
-        padding-right: 27px
-        font-family: "Lato"  
+        user-select: none        
+        display: block
+        font-size: 17px        
+        font-family: "Lato"
+
+    &__label
+        display: inline-block
+        vertical-align: top
+        margin-right: 5px  
     
     &__checkmark              
-        position: absolute
-        top: 0
-        right: 0
+        position: relative
+        display: inline-block
+        vertical-align: bottom
         width: 23px
         height: 23px        
         border-radius: 50%

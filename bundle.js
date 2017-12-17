@@ -10811,56 +10811,80 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_js__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_css__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10__node_modules_jquery_ui_slider_pips_dist_jquery_ui_slider_pips_min_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__blocks_layout_layout_styl__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__blocks_layout_layout_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11__blocks_layout_layout_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__blocks_header_header_styl__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__blocks_header_header_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__blocks_header_header_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__blocks_search_search_styl__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__blocks_search_search_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__blocks_search_search_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__blocks_video_video_styl__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__blocks_video_video_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14__blocks_video_video_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__blocks_videos_videos_styl__ = __webpack_require__(60);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__blocks_videos_videos_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15__blocks_videos_videos_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__blocks_videos_videos_js__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__blocks_videos_videos_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16__blocks_videos_videos_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__blocks_standard_button_standard_button_styl__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__blocks_standard_button_standard_button_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17__blocks_standard_button_standard_button_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__blocks_dropdown_dropdown_styl__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__blocks_dropdown_dropdown_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_18__blocks_dropdown_dropdown_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__blocks_dropdown_dropdown_js__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__blocks_dropdown_dropdown_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_19__blocks_dropdown_dropdown_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__blocks_news_news_styl__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__blocks_news_news_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_20__blocks_news_news_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__blocks_news_item_news_item_styl__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__blocks_news_item_news_item_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_21__blocks_news_item_news_item_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__blocks_arrow_button_arrow_button_styl__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__blocks_arrow_button_arrow_button_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_22__blocks_arrow_button_arrow_button_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__blocks_event_event_styl__ = __webpack_require__(75);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__blocks_event_event_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_23__blocks_event_event_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__blocks_tick_box_tick_box_styl__ = __webpack_require__(78);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__blocks_tick_box_tick_box_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_24__blocks_tick_box_tick_box_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__blocks_events_events_styl__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__blocks_events_events_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_25__blocks_events_events_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__blocks_toggle_toggle_styl__ = __webpack_require__(82);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__blocks_toggle_toggle_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_26__blocks_toggle_toggle_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__blocks_toggle_toggle_js__ = __webpack_require__(84);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__blocks_toggle_toggle_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_27__blocks_toggle_toggle_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__blocks_location_location_styl__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__blocks_location_location_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_28__blocks_location_location_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__blocks_location_location_js__ = __webpack_require__(89);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__blocks_location_location_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_29__blocks_location_location_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__blocks_location_img_map_marker_icon_png__ = __webpack_require__(90);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__blocks_location_img_map_marker_icon_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_30__blocks_location_img_map_marker_icon_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__blocks_user_profile_user_profile_styl__ = __webpack_require__(91);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__blocks_user_profile_user_profile_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_31__blocks_user_profile_user_profile_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__blocks_user_profile_img_user_profile_woman_png__ = __webpack_require__(94);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__blocks_user_profile_img_user_profile_woman_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_32__blocks_user_profile_img_user_profile_woman_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__blocks_user_profile_img_user_profile_man_png__ = __webpack_require__(95);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__blocks_user_profile_img_user_profile_man_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_33__blocks_user_profile_img_user_profile_man_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__blocks_slider_slider_styl__ = __webpack_require__(96);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__blocks_slider_slider_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_34__blocks_slider_slider_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__blocks_slider_slider_js__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__blocks_slider_slider_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_35__blocks_slider_slider_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_jquery_circle_progress__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_jquery_circle_progress___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_jquery_circle_progress__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__blocks_layout_layout_styl__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__blocks_layout_layout_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12__blocks_layout_layout_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__blocks_header_header_styl__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__blocks_header_header_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_13__blocks_header_header_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__blocks_search_search_styl__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__blocks_search_search_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14__blocks_search_search_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__blocks_video_video_styl__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__blocks_video_video_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15__blocks_video_video_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__blocks_videos_videos_styl__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__blocks_videos_videos_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16__blocks_videos_videos_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__blocks_videos_videos_js__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__blocks_videos_videos_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17__blocks_videos_videos_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__blocks_standard_button_standard_button_styl__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__blocks_standard_button_standard_button_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_18__blocks_standard_button_standard_button_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__blocks_dropdown_dropdown_styl__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__blocks_dropdown_dropdown_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_19__blocks_dropdown_dropdown_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__blocks_dropdown_dropdown_js__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__blocks_dropdown_dropdown_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_20__blocks_dropdown_dropdown_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__blocks_news_news_styl__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__blocks_news_news_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_21__blocks_news_news_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__blocks_news_item_news_item_styl__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__blocks_news_item_news_item_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_22__blocks_news_item_news_item_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__blocks_arrow_button_arrow_button_styl__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__blocks_arrow_button_arrow_button_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_23__blocks_arrow_button_arrow_button_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__blocks_event_event_styl__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__blocks_event_event_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_24__blocks_event_event_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__blocks_tick_box_tick_box_styl__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__blocks_tick_box_tick_box_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_25__blocks_tick_box_tick_box_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__blocks_events_events_styl__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__blocks_events_events_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_26__blocks_events_events_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__blocks_events_events_js__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__blocks_events_events_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_27__blocks_events_events_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__blocks_toggle_toggle_styl__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__blocks_toggle_toggle_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_28__blocks_toggle_toggle_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__blocks_toggle_toggle_js__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__blocks_toggle_toggle_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_29__blocks_toggle_toggle_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__blocks_location_location_styl__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__blocks_location_location_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_30__blocks_location_location_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__blocks_location_location_js__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__blocks_location_location_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_31__blocks_location_location_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__blocks_location_img_map_marker_icon_png__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__blocks_location_img_map_marker_icon_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_32__blocks_location_img_map_marker_icon_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__blocks_user_profile_user_profile_styl__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__blocks_user_profile_user_profile_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_33__blocks_user_profile_user_profile_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__blocks_user_profile_img_user_profile_woman_png__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__blocks_user_profile_img_user_profile_woman_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_34__blocks_user_profile_img_user_profile_woman_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__blocks_user_profile_img_user_profile_man_png__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__blocks_user_profile_img_user_profile_man_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_35__blocks_user_profile_img_user_profile_man_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__blocks_slider_slider_styl__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__blocks_slider_slider_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_36__blocks_slider_slider_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__blocks_slider_slider_js__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__blocks_slider_slider_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_37__blocks_slider_slider_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__blocks_calendar_calendar_styl__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__blocks_calendar_calendar_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_38__blocks_calendar_calendar_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__blocks_calendar_calendar_js__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__blocks_calendar_calendar_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_39__blocks_calendar_calendar_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__blocks_articles_articles_styl__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__blocks_articles_articles_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_40__blocks_articles_articles_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__blocks_articles_articles_js__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__blocks_articles_articles_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_41__blocks_articles_articles_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__blocks_percentage_percentage_styl__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__blocks_percentage_percentage_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_42__blocks_percentage_percentage_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__blocks_percentage_percentage_js__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__blocks_percentage_percentage_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_43__blocks_percentage_percentage_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__blocks_stages_stages_styl__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__blocks_stages_stages_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_44__blocks_stages_stages_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__blocks_stages_stages_js__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__blocks_stages_stages_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_45__blocks_stages_stages_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__blocks_event_new_event_new_styl__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__blocks_event_new_event_new_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_46__blocks_event_new_event_new_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__blocks_event_new_event_new_js__ = __webpack_require__(115);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__blocks_event_new_event_new_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_47__blocks_event_new_event_new_js__);
 
 
 
@@ -10901,10 +10925,21 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 import "jquery-validation";
 import "chart.js";
-import "jquery-circle-progress";
 import "../node_modules/jquery-steps/build/jquery.steps.min.js";
 
 import "./blocks/main-container/main-container.styl";
@@ -11556,10 +11591,571 @@ exports.push([module.i, "/*! jQuery-ui-Slider-Pips - v1.11.4 - 2016-09-04\n* Cop
 /* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
+ * jquery-circle-progress - jQuery Plugin to draw animated circular progress bars:
+ * {@link http://kottenator.github.io/jquery-circle-progress/}
+ *
+ * @author Rostyslav Bryzgunov <kottenator@gmail.com>
+ * @version 1.2.2
+ * @licence MIT
+ * @preserve
+ */
+// UMD factory - https://github.com/umdjs/umd/blob/d31bb6ee7098715e019f52bdfe27b3e4bfd2b97e/templates/jqueryPlugin.js
+// Uses AMD, CommonJS or browser globals to create a jQuery plugin.
+(function(factory) {
+  if (true) {
+    // AMD - register as an anonymous module
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(2)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+  } else if (typeof module === 'object' && module.exports) {
+    // Node/CommonJS
+    var $ = require('jquery');
+    factory($);
+    module.exports = $;
+  } else {
+    // Browser globals
+    factory(jQuery);
+  }
+})(function($) {
+  /**
+   * Inner implementation of the circle progress bar.
+   * The class is not exposed _yet_ but you can create an instance through jQuery method call.
+   *
+   * @param {object} config - You can customize any class member (property or method).
+   * @class
+   * @alias CircleProgress
+   */
+  function CircleProgress(config) {
+    this.init(config);
+  }
+
+  CircleProgress.prototype = {
+    //--------------------------------------- public options ---------------------------------------
+    /**
+     * This is the only required option. It should be from `0.0` to `1.0`.
+     * @type {number}
+     * @default 0.0
+     */
+    value: 0.0,
+
+    /**
+     * Size of the canvas in pixels.
+     * It's a square so we need only one dimension.
+     * @type {number}
+     * @default 100.0
+     */
+    size: 100.0,
+
+    /**
+     * Initial angle for `0.0` value in radians.
+     * @type {number}
+     * @default -Math.PI
+     */
+    startAngle: -Math.PI,
+
+    /**
+     * Width of the arc in pixels.
+     * If it's `'auto'` - the value is calculated as `[this.size]{@link CircleProgress#size} / 14`.
+     * @type {number|string}
+     * @default 'auto'
+     */
+    thickness: 'auto',
+
+    /**
+     * Fill of the arc. You may set it to:
+     *
+     *   - solid color:
+     *     - `'#3aeabb'`
+     *     - `{ color: '#3aeabb' }`
+     *     - `{ color: 'rgba(255, 255, 255, .3)' }`
+     *   - linear gradient _(left to right)_:
+     *     - `{ gradient: ['#3aeabb', '#fdd250'], gradientAngle: Math.PI / 4 }`
+     *     - `{ gradient: ['red', 'green', 'blue'], gradientDirection: [x0, y0, x1, y1] }`
+     *     - `{ gradient: [["red", .2], ["green", .3], ["blue", .8]] }`
+     *   - image:
+     *     - `{ image: 'http://i.imgur.com/pT0i89v.png' }`
+     *     - `{ image: imageObject }`
+     *     - `{ color: 'lime', image: 'http://i.imgur.com/pT0i89v.png' }` -
+     *       color displayed until the image is loaded
+     *
+     * @default {gradient: ['#3aeabb', '#fdd250']}
+     */
+    fill: {
+      gradient: ['#3aeabb', '#fdd250']
+    },
+
+    /**
+     * Color of the "empty" arc. Only a color fill supported by now.
+     * @type {string}
+     * @default 'rgba(0, 0, 0, .1)'
+     */
+    emptyFill: 'rgba(0, 0, 0, .1)',
+
+    /**
+     * jQuery Animation config.
+     * You can pass `false` to disable the animation.
+     * @see http://api.jquery.com/animate/
+     * @type {object|boolean}
+     * @default {duration: 1200, easing: 'circleProgressEasing'}
+     */
+    animation: {
+      duration: 1200,
+      easing: 'circleProgressEasing'
+    },
+
+    /**
+     * Default animation starts at `0.0` and ends at specified `value`. Let's call this _direct animation_.
+     * If you want to make _reversed animation_ - set `animationStartValue: 1.0`.
+     * Also you may specify any other value from `0.0` to `1.0`.
+     * @type {number}
+     * @default 0.0
+     */
+    animationStartValue: 0.0,
+
+    /**
+     * Reverse animation and arc draw.
+     * By default, the arc is filled from `0.0` to `value`, _clockwise_.
+     * With `reverse: true` the arc is filled from `1.0` to `value`, _counter-clockwise_.
+     * @type {boolean}
+     * @default false
+     */
+    reverse: false,
+
+    /**
+     * Arc line cap: `'butt'`, `'round'` or `'square'` -
+     * [read more]{@link https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D.lineCap}.
+     * @type {string}
+     * @default 'butt'
+     */
+    lineCap: 'butt',
+
+    /**
+     * Canvas insertion mode: append or prepend it into the parent element?
+     * @type {string}
+     * @default 'prepend'
+     */
+    insertMode: 'prepend',
+
+    //------------------------------ protected properties and methods ------------------------------
+    /**
+     * Link to {@link CircleProgress} constructor.
+     * @protected
+     */
+    constructor: CircleProgress,
+
+    /**
+     * Container element. Should be passed into constructor config.
+     * @protected
+     * @type {jQuery}
+     */
+    el: null,
+
+    /**
+     * Canvas element. Automatically generated and prepended to [this.el]{@link CircleProgress#el}.
+     * @protected
+     * @type {HTMLCanvasElement}
+     */
+    canvas: null,
+
+    /**
+     * 2D-context of [this.canvas]{@link CircleProgress#canvas}.
+     * @protected
+     * @type {CanvasRenderingContext2D}
+     */
+    ctx: null,
+
+    /**
+     * Radius of the outer circle. Automatically calculated as `[this.size]{@link CircleProgress#size} / 2`.
+     * @protected
+     * @type {number}
+     */
+    radius: 0.0,
+
+    /**
+     * Fill of the main arc. Automatically calculated, depending on [this.fill]{@link CircleProgress#fill} option.
+     * @protected
+     * @type {string|CanvasGradient|CanvasPattern}
+     */
+    arcFill: null,
+
+    /**
+     * Last rendered frame value.
+     * @protected
+     * @type {number}
+     */
+    lastFrameValue: 0.0,
+
+    /**
+     * Init/re-init the widget.
+     *
+     * Throws a jQuery event:
+     *
+     * - `circle-inited(jqEvent)`
+     *
+     * @param {object} config - You can customize any class member (property or method).
+     */
+    init: function(config) {
+      $.extend(this, config);
+      this.radius = this.size / 2;
+      this.initWidget();
+      this.initFill();
+      this.draw();
+      this.el.trigger('circle-inited');
+    },
+
+    /**
+     * Initialize `<canvas>`.
+     * @protected
+     */
+    initWidget: function() {
+      if (!this.canvas)
+        this.canvas = $('<canvas>')[this.insertMode == 'prepend' ? 'prependTo' : 'appendTo'](this.el)[0];
+
+      var canvas = this.canvas;
+      canvas.width = this.size;
+      canvas.height = this.size;
+      this.ctx = canvas.getContext('2d');
+
+      if (window.devicePixelRatio > 1) {
+        var scaleBy = window.devicePixelRatio;
+        canvas.style.width = canvas.style.height = this.size + 'px';
+        canvas.width = canvas.height = this.size * scaleBy;
+        this.ctx.scale(scaleBy, scaleBy);
+      }
+    },
+
+    /**
+     * This method sets [this.arcFill]{@link CircleProgress#arcFill}.
+     * It could do this async (on image load).
+     * @protected
+     */
+    initFill: function() {
+      var self = this,
+        fill = this.fill,
+        ctx = this.ctx,
+        size = this.size;
+
+      if (!fill)
+        throw Error("The fill is not specified!");
+
+      if (typeof fill == 'string')
+        fill = {color: fill};
+
+      if (fill.color)
+        this.arcFill = fill.color;
+
+      if (fill.gradient) {
+        var gr = fill.gradient;
+
+        if (gr.length == 1) {
+          this.arcFill = gr[0];
+        } else if (gr.length > 1) {
+          var ga = fill.gradientAngle || 0, // gradient direction angle; 0 by default
+            gd = fill.gradientDirection || [
+                size / 2 * (1 - Math.cos(ga)), // x0
+                size / 2 * (1 + Math.sin(ga)), // y0
+                size / 2 * (1 + Math.cos(ga)), // x1
+                size / 2 * (1 - Math.sin(ga))  // y1
+              ];
+
+          var lg = ctx.createLinearGradient.apply(ctx, gd);
+
+          for (var i = 0; i < gr.length; i++) {
+            var color = gr[i],
+              pos = i / (gr.length - 1);
+
+            if ($.isArray(color)) {
+              pos = color[1];
+              color = color[0];
+            }
+
+            lg.addColorStop(pos, color);
+          }
+
+          this.arcFill = lg;
+        }
+      }
+
+      if (fill.image) {
+        var img;
+
+        if (fill.image instanceof Image) {
+          img = fill.image;
+        } else {
+          img = new Image();
+          img.src = fill.image;
+        }
+
+        if (img.complete)
+          setImageFill();
+        else
+          img.onload = setImageFill;
+      }
+
+      function setImageFill() {
+        var bg = $('<canvas>')[0];
+        bg.width = self.size;
+        bg.height = self.size;
+        bg.getContext('2d').drawImage(img, 0, 0, size, size);
+        self.arcFill = self.ctx.createPattern(bg, 'no-repeat');
+        self.drawFrame(self.lastFrameValue);
+      }
+    },
+
+    /**
+     * Draw the circle.
+     * @protected
+     */
+    draw: function() {
+      if (this.animation)
+        this.drawAnimated(this.value);
+      else
+        this.drawFrame(this.value);
+    },
+
+    /**
+     * Draw a single animation frame.
+     * @protected
+     * @param {number} v - Frame value.
+     */
+    drawFrame: function(v) {
+      this.lastFrameValue = v;
+      this.ctx.clearRect(0, 0, this.size, this.size);
+      this.drawEmptyArc(v);
+      this.drawArc(v);
+    },
+
+    /**
+     * Draw the arc (part of the circle).
+     * @protected
+     * @param {number} v - Frame value.
+     */
+    drawArc: function(v) {
+      if (v === 0)
+        return;
+
+      var ctx = this.ctx,
+        r = this.radius,
+        t = this.getThickness(),
+        a = this.startAngle;
+
+      ctx.save();
+      ctx.beginPath();
+
+      if (!this.reverse) {
+        ctx.arc(r, r, r - t / 2, a, a + Math.PI * 2 * v);
+      } else {
+        ctx.arc(r, r, r - t / 2, a - Math.PI * 2 * v, a);
+      }
+
+      ctx.lineWidth = t;
+      ctx.lineCap = this.lineCap;
+      ctx.strokeStyle = this.arcFill;
+      ctx.stroke();
+      ctx.restore();
+    },
+
+    /**
+     * Draw the _empty (background)_ arc (part of the circle).
+     * @protected
+     * @param {number} v - Frame value.
+     */
+    drawEmptyArc: function(v) {
+      var ctx = this.ctx,
+        r = this.radius,
+        t = this.getThickness(),
+        a = this.startAngle;
+
+      if (v < 1) {
+        ctx.save();
+        ctx.beginPath();
+
+        if (v <= 0) {
+          ctx.arc(r, r, r - t / 2, 0, Math.PI * 2);
+        } else {
+          if (!this.reverse) {
+            ctx.arc(r, r, r - t / 2, a + Math.PI * 2 * v, a);
+          } else {
+            ctx.arc(r, r, r - t / 2, a, a - Math.PI * 2 * v);
+          }
+        }
+
+        ctx.lineWidth = t;
+        ctx.strokeStyle = this.emptyFill;
+        ctx.stroke();
+        ctx.restore();
+      }
+    },
+
+    /**
+     * Animate the progress bar.
+     *
+     * Throws 3 jQuery events:
+     *
+     * - `circle-animation-start(jqEvent)`
+     * - `circle-animation-progress(jqEvent, animationProgress, stepValue)` - multiple event
+     *   animationProgress: from `0.0` to `1.0`; stepValue: from `0.0` to `value`
+     * - `circle-animation-end(jqEvent)`
+     *
+     * @protected
+     * @param {number} v - Final value.
+     */
+    drawAnimated: function(v) {
+      var self = this,
+        el = this.el,
+        canvas = $(this.canvas);
+
+      // stop previous animation before new "start" event is triggered
+      canvas.stop(true, false);
+      el.trigger('circle-animation-start');
+
+      canvas
+        .css({animationProgress: 0})
+        .animate({animationProgress: 1}, $.extend({}, this.animation, {
+          step: function(animationProgress) {
+            var stepValue = self.animationStartValue * (1 - animationProgress) + v * animationProgress;
+            self.drawFrame(stepValue);
+            el.trigger('circle-animation-progress', [animationProgress, stepValue]);
+          }
+        }))
+        .promise()
+        .always(function() {
+          // trigger on both successful & failure animation end
+          el.trigger('circle-animation-end');
+        });
+    },
+
+    /**
+     * Get the circle thickness.
+     * @see CircleProgress#thickness
+     * @protected
+     * @returns {number}
+     */
+    getThickness: function() {
+      return $.isNumeric(this.thickness) ? this.thickness : this.size / 14;
+    },
+
+    /**
+     * Get current value.
+     * @protected
+     * @return {number}
+     */
+    getValue: function() {
+      return this.value;
+    },
+
+    /**
+     * Set current value (with smooth animation transition).
+     * @protected
+     * @param {number} newValue
+     */
+    setValue: function(newValue) {
+      if (this.animation)
+        this.animationStartValue = this.lastFrameValue;
+      this.value = newValue;
+      this.draw();
+    }
+  };
+
+  //----------------------------------- Initiating jQuery plugin -----------------------------------
+  $.circleProgress = {
+    // Default options (you may override them)
+    defaults: CircleProgress.prototype
+  };
+
+  // ease-in-out-cubic
+  $.easing.circleProgressEasing = function(x) {
+    if (x < 0.5) {
+      x = 2 * x;
+      return 0.5 * x * x * x;
+    } else {
+      x = 2 - 2 * x;
+      return 1 - 0.5 * x * x * x;
+    }
+  };
+
+  /**
+   * Creates an instance of {@link CircleProgress}.
+   * Produces [init event]{@link CircleProgress#init} and [animation events]{@link CircleProgress#drawAnimated}.
+   *
+   * @param {object} [configOrCommand] - Config object or command name.
+   *
+   * Config example (you can specify any {@link CircleProgress} property):
+   *
+   * ```js
+   * { value: 0.75, size: 50, animation: false }
+   * ```
+   *
+   * Commands:
+   *
+   * ```js
+   * el.circleProgress('widget'); // get the <canvas>
+   * el.circleProgress('value'); // get the value
+   * el.circleProgress('value', newValue); // update the value
+   * el.circleProgress('redraw'); // redraw the circle
+   * el.circleProgress(); // the same as 'redraw'
+   * ```
+   *
+   * @param {string} [commandArgument] - Some commands (like `'value'`) may require an argument.
+   * @see CircleProgress
+   * @alias "$(...).circleProgress"
+   */
+  $.fn.circleProgress = function(configOrCommand, commandArgument) {
+    var dataName = 'circle-progress',
+      firstInstance = this.data(dataName);
+
+    if (configOrCommand == 'widget') {
+      if (!firstInstance)
+        throw Error('Calling "widget" method on not initialized instance is forbidden');
+      return firstInstance.canvas;
+    }
+
+    if (configOrCommand == 'value') {
+      if (!firstInstance)
+        throw Error('Calling "value" method on not initialized instance is forbidden');
+      if (typeof commandArgument == 'undefined') {
+        return firstInstance.getValue();
+      } else {
+        var newValue = arguments[1];
+        return this.each(function() {
+          $(this).data(dataName).setValue(newValue);
+        });
+      }
+    }
+
+    return this.each(function() {
+      var el = $(this),
+        instance = el.data(dataName),
+        config = $.isPlainObject(configOrCommand) ? configOrCommand : {};
+
+      if (instance) {
+        instance.init(config);
+      } else {
+        var initialConfig = $.extend({}, el.data());
+        if (typeof initialConfig.fill == 'string')
+          initialConfig.fill = JSON.parse(initialConfig.fill);
+        if (typeof initialConfig.animation == 'string')
+          initialConfig.animation = JSON.parse(initialConfig.animation);
+        config = $.extend(initialConfig, config);
+        config.el = el;
+        instance = new CircleProgress(config);
+        el.data(dataName, instance);
+      }
+    });
+  };
+});
+
+
+/***/ }),
+/* 52 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(52);
+var content = __webpack_require__(53);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -11584,7 +12180,7 @@ if(false) {
 }
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -11592,19 +12188,19 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n  margin: 0;\n}\nbody .page-content {\n  margin-top: 60px;\n  padding: 20px 0;\n  background-color: #f5f5f5;\n}\n", ""]);
+exports.push([module.i, "body {\n  margin: 0;\n}\nbody .page-content {\n  margin-top: 60px;\n  padding: 20px 0;\n  background-color: #f5f5f5;\n  height: 100%;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(54);
+var content = __webpack_require__(55);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -11629,7 +12225,7 @@ if(false) {
 }
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -11637,25 +12233,25 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".page-header {\n  box-sizing: border-box;\n  width: 100%;\n  height: 60px;\n  background-color: #e75735;\n  position: fixed;\n  top: 0;\n  z-index: 2;\n}\n.page-header__content {\n  margin: 0 auto;\n  width: 976px;\n  height: 100%;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n}\n.page-header__logo {\n  font-family: \"Lato\";\n  font-weight: 900;\n  text-transform: uppercase;\n  font-size: 35px;\n  color: #9c520a;\n}\n.page-header__nav-items {\n  list-style: none;\n  padding: 0;\n}\n.page-header__nav-item {\n  display: inline-block;\n  cursor: pointer;\n  padding-right: 20px;\n}\n.page-header__nav-link {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 15px;\n  color: #fdeaa8;\n  text-transform: uppercase;\n  text-decoration: none;\n}\n.page-header__nav-link:hover {\n  color: #e5c65c;\n}\n.page-header__profile-photo {\n  width: 40px;\n  height: 40px;\n  background: url(" + __webpack_require__(55) + ");\n  background-size: cover;\n  border-radius: 50%;\n  border: 2px solid #ececec;\n}\n.page-header__profile-menu {\n  display: none;\n  overflow: hidden;\n  width: 140px;\n  height: 90px;\n  list-style: none;\n  position: absolute;\n  right: 90px;\n  top: 50px;\n  border-radius: 4px;\n  box-shadow: 3px 3px 7px rgba(0,0,0,0.3);\n  padding: 0;\n  font-family: \"Lato\";\n  font-weight: 400;\n  color: #888;\n}\n.page-header__profile-menu-item {\n  display: block;\n  height: 30px;\n  line-height: 30px;\n  text-align: center;\n  background-color: #f0f0f0;\n}\n.page-header__profile-menu-item:hover {\n  background-color: #e5e5e5;\n}\n.page-header .search__button {\n  background-color: #a52a2a;\n}\n.page-header .search__button:hover {\n  background-color: #8e2525;\n}\n@media (max-width: 1024px) {\n  .page-header .search {\n    width: 250px;\n  }\n}\n", ""]);
+exports.push([module.i, ".page-header {\n  box-sizing: border-box;\n  width: 100%;\n  height: 60px;\n  background-color: #e75735;\n  position: fixed;\n  top: 0;\n  z-index: 3;\n}\n.page-header__content {\n  margin: 0 auto;\n  width: 976px;\n  height: 100%;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n}\n.page-header__logo {\n  font-family: \"Lato\";\n  font-weight: 900;\n  text-transform: uppercase;\n  font-size: 35px;\n  color: #9c520a;\n}\n.page-header__nav-items {\n  list-style: none;\n  padding: 0;\n}\n.page-header__nav-item {\n  display: inline-block;\n  cursor: pointer;\n  padding-right: 20px;\n}\n.page-header__nav-link {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 15px;\n  color: #fdeaa8;\n  text-transform: uppercase;\n  text-decoration: none;\n}\n.page-header__nav-link:hover {\n  color: #e5c65c;\n}\n.page-header__profile-photo {\n  width: 40px;\n  height: 40px;\n  background: url(" + __webpack_require__(56) + ");\n  background-size: cover;\n  border-radius: 50%;\n  border: 2px solid #ececec;\n}\n.page-header__profile-menu {\n  display: none;\n  overflow: hidden;\n  width: 140px;\n  height: 90px;\n  list-style: none;\n  position: absolute;\n  right: 90px;\n  top: 50px;\n  border-radius: 4px;\n  box-shadow: 3px 3px 7px rgba(0,0,0,0.3);\n  padding: 0;\n  font-family: \"Lato\";\n  font-weight: 400;\n  color: #888;\n}\n.page-header__profile-menu-item {\n  display: block;\n  height: 30px;\n  line-height: 30px;\n  text-align: center;\n  background-color: #f0f0f0;\n}\n.page-header__profile-menu-item:hover {\n  background-color: #e5e5e5;\n}\n.page-header .search__button {\n  background-color: #a52a2a;\n}\n.page-header .search__button:hover {\n  background-color: #8e2525;\n}\n@media (max-width: 1024px) {\n  .page-header .search {\n    width: 250px;\n  }\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/profile-photo.png";
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(57);
+var content = __webpack_require__(58);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -11680,7 +12276,7 @@ if(false) {
 }
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -11688,19 +12284,19 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".search {\n  width: 300px;\n}\n.search__field {\n  box-sizing: border-box;\n  outline: none;\n  border: none;\n  height: 28px;\n  width: 85%;\n  background-color: #e5e5e5;\n  border-radius: 3px 0 0 3px;\n  padding-left: 13px;\n  padding-bottom: 4px;\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n  letter-spacing: 0.01em;\n  color: #666;\n}\n.search__field::placeholder {\n  color: #888;\n}\n.search__field_not-found {\n  background-color: #e75735;\n}\n.search__field_not-found::placeholder {\n  color: #fff;\n}\n.search__button {\n  position: absolute;\n  outline: none;\n  border: none;\n  height: 28px;\n  width: 33px;\n  border-radius: 0 3px 3px 0;\n  background-color: #e75735;\n  color: #fff;\n}\n.search__button:hover {\n  background-color: #c94d2f;\n}\n", ""]);
+exports.push([module.i, ".search {\n  width: 288px;\n}\n.search__field {\n  box-sizing: border-box;\n  outline: none;\n  border: none;\n  height: 28px;\n  width: 88.542%;\n  background-color: #e5e5e5;\n  border-radius: 3px 0 0 3px;\n  padding-left: 13px;\n  padding-bottom: 4px;\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n  letter-spacing: 0.01em;\n  color: #666;\n}\n.search__field::placeholder {\n  color: #888;\n}\n.search__field_not-found {\n  background-color: #e75735;\n}\n.search__field_not-found::placeholder {\n  color: #fff;\n}\n.search__button {\n  position: absolute;\n  outline: none;\n  border: none;\n  height: 28px;\n  width: 33px;\n  border-radius: 0 3px 3px 0;\n  background-color: #e75735;\n  color: #fff;\n}\n.search__button:hover {\n  background-color: #c94d2f;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(59);
+var content = __webpack_require__(60);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -11725,7 +12321,7 @@ if(false) {
 }
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -11739,13 +12335,13 @@ exports.push([module.i, ".video {\n  width: 320px;\n  height: 180px;\n  border: 
 
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(61);
+var content = __webpack_require__(62);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -11770,7 +12366,7 @@ if(false) {
 }
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -11778,13 +12374,13 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".videos-wrapper {\n  width: 1040px;\n  margin-left: auto;\n  margin-right: auto;\n  background-color: #fff;\n}\n.videos {\n  position: relative;\n  margin-left: auto;\n  margin-right: auto;\n  padding-top: 20px;\n  width: 976px;\n}\n.videos__header {\n  margin-bottom: 20px;\n  padding-bottom: 20px;\n  border-bottom: 1px solid #e5e5e5;\n}\n.videos__buttons {\n  float: right;\n}\n.videos__buttons .standard-button:first-child {\n  margin-right: 10px;\n}\n.videos .search {\n  display: inline-block;\n  padding-top: 6px;\n}\n.videos__container {\n  padding: 0;\n  border: none !important;\n  background-color: transparent;\n}\n.videos__container .video {\n  margin-top: 8px;\n  margin-right: 8px;\n}\n.videos .ui-tabs .ui-tabs-panel {\n  padding: 0;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: flex-start;\n  margin-right: -8px;\n}\n.videos .ui-tabs .ui-tabs-nav {\n  padding: 0;\n  border: none;\n  background-color: transparent;\n}\n.videos .ui-tabs .ui-tabs-anchor {\n  font-family: \"Lato\";\n  font-weight: 400;\n}\n.videos .ui-tabs .ui-tabs-active {\n  background-color: #4eb7a8;\n  border-color: #4eb7a8;\n}\n.videos .ui-tabs .ui-tabs-anchor:focus {\n  outline: none;\n}\n.videos .dropdown {\n  width: 160px;\n}\n.videos .select2-container {\n  position: absolute;\n  right: 0;\n  top: 100px;\n  z-index: 1;\n}\n.videos .select2-container .selection .select2-selection {\n  width: 160px;\n}\n@media (max-width: 1024px) {\n  .videos-wrapper {\n    width: 770px;\n  }\n  .videos {\n    width: 648px;\n  }\n}\n@media (max-width: 830px) {\n  .videos-wrapper {\n    width: 520px;\n  }\n  .videos {\n    width: 480px;\n  }\n  .videos .video {\n    width: 480px;\n    height: 270px;\n  }\n  .videos .search {\n    width: 200px;\n  }\n}\n", ""]);
+exports.push([module.i, ".videos-wrapper {\n  width: 1040px;\n  margin-left: auto;\n  margin-right: auto;\n  background-color: #fff;\n  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);\n}\n.videos {\n  position: relative;\n  margin-left: auto;\n  margin-right: auto;\n  padding: 20px 0;\n  width: 976px;\n}\n.videos__header {\n  margin-bottom: 20px;\n  padding-bottom: 20px;\n  border-bottom: 1px solid #e5e5e5;\n}\n.videos__buttons {\n  float: right;\n}\n.videos__buttons .standard-button:first-child {\n  margin-right: 10px;\n}\n.videos .search {\n  display: inline-block;\n  padding-top: 6px;\n}\n.videos__container {\n  padding: 0;\n  border: none !important;\n  background-color: transparent;\n}\n.videos__container .video {\n  margin-top: 8px;\n  margin-right: 8px;\n}\n.videos .ui-tabs .ui-tabs-panel {\n  padding: 0;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: flex-start;\n  margin-right: -8px;\n}\n.videos .ui-tabs .ui-tabs-nav {\n  padding: 0;\n  border: none;\n  background-color: transparent;\n}\n.videos .ui-tabs .ui-tabs-anchor {\n  font-family: \"Lato\";\n  font-weight: 400;\n}\n.videos .ui-tabs .ui-tabs-active {\n  background-color: #4eb7a8;\n  border-color: #4eb7a8;\n}\n.videos .ui-tabs .ui-tabs-anchor:focus {\n  outline: none;\n}\n.videos .dropdown {\n  width: 160px;\n}\n.videos .select2-container {\n  position: absolute;\n  right: 0;\n  top: 100px;\n  z-index: 1;\n}\n.videos .select2-container .selection .select2-selection {\n  width: 160px;\n}\n@media (max-width: 1024px) {\n  .videos-wrapper {\n    width: 770px;\n  }\n  .videos {\n    width: 648px;\n  }\n}\n@media (max-width: 830px) {\n  .videos-wrapper {\n    width: 520px;\n  }\n  .videos {\n    width: 480px;\n  }\n  .videos .video {\n    width: 480px;\n    height: 270px;\n  }\n  .videos .search {\n    width: 200px;\n  }\n}\n@media (max-width: 535px) {\n  .videos-wrapper {\n    width: 370px;\n  }\n  .videos {\n    width: 320px;\n  }\n  .videos .search {\n    width: 240px;\n  }\n  .videos__buttons {\n    margin-top: 10px;\n    float: none;\n  }\n  .videos .select2-container {\n    position: relative;\n    display: block;\n    top: -10px;\n  }\n  .videos .video {\n    width: 320px;\n    height: 180px;\n  }\n}\n@media (max-width: 387px) {\n  .videos-wrapper {\n    width: 100%;\n  }\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function(){
@@ -11793,13 +12389,13 @@ exports.push([module.i, ".videos-wrapper {\n  width: 1040px;\n  margin-left: aut
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(64);
+var content = __webpack_require__(65);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -11824,7 +12420,7 @@ if(false) {
 }
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -11838,13 +12434,13 @@ exports.push([module.i, ".standard-button {\n  outline: none;\n  padding: 0;\n  
 
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(66);
+var content = __webpack_require__(67);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -11869,7 +12465,7 @@ if(false) {
 }
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -11877,13 +12473,13 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".dropdown {\n  width: 288px;\n}\n.dropdown__option {\n  background-color: #e5e5e5;\n}\n.select2-container .selection .select2-selection {\n  box-sizing: border-box;\n  outline: none;\n  border: none;\n  height: 28px;\n  width: 288px;\n  padding-left: 6px;\n  padding-right: 33px;\n  background-color: #e5e5e5;\n  border-radius: 2px;\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n}\n.select2-container .selection .select2-selection .select2-selection__placeholder {\n  color: #666;\n}\n.select2-container .selection .select2-selection .select2-selection__rendered {\n  color: #666;\n}\n.select2-container .selection .select2-selection .select2-selection__arrow {\n  width: 33px;\n  height: 28px;\n  border-radius: 0 3px 3px 0;\n  top: 0;\n  right: 0;\n  background-color: #4eb7a8;\n  padding: 0;\n}\n.select2-container .selection .select2-selection .select2-selection__arrow b {\n  width: 8px;\n  height: 8px;\n  border: none;\n  border-left: 2px solid #fff;\n  border-top: 2px solid #fff;\n  transform: rotate(-135deg);\n  top: 9px;\n  left: 15px;\n}\n.select2-container .select2-dropdown {\n  border: none;\n}\n.select2-container .select2-dropdown .select2-results> .select2-results__options {\n  color: #666;\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n  background-color: #e5e5e5;\n}\n.select2-container .select2-dropdown .select2-results .select2-results__option {\n  padding-left: 13px;\n  border-bottom: 1px solid rgba(88,88,88,0.3);\n}\n", ""]);
+exports.push([module.i, ".dropdown {\n  width: 288px;\n}\n.dropdown__option {\n  background-color: #e5e5e5;\n}\n.select2-container .selection .select2-selection {\n  box-sizing: border-box;\n  outline: none;\n  border: none;\n  min-height: 28px;\n  width: 288px;\n  padding-left: 6px;\n  padding-right: 33px;\n  background-color: #e5e5e5;\n  border-radius: 2px;\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n}\n.select2-container .selection .select2-selection .select2-selection__placeholder {\n  color: #666;\n}\n.select2-container .selection .select2-selection .select2-selection__rendered {\n  color: #666;\n}\n.select2-container .selection .select2-selection .select2-selection__arrow {\n  width: 33px;\n  height: 28px;\n  border-radius: 0 3px 3px 0;\n  top: 0;\n  right: 0;\n  background-color: #4eb7a8;\n  padding: 0;\n}\n.select2-container .selection .select2-selection .select2-selection__arrow b {\n  width: 8px;\n  height: 8px;\n  border: none;\n  border-left: 2px solid #fff;\n  border-top: 2px solid #fff;\n  transform: rotate(-135deg);\n  top: 9px;\n  left: 15px;\n}\n.select2-container .select2-dropdown {\n  border: none;\n}\n.select2-container .select2-dropdown .select2-results > .select2-results__options {\n  color: #666;\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n  background-color: #e5e5e5;\n}\n.select2-container .select2-dropdown .select2-results .select2-results__option {\n  padding-left: 13px;\n  border-bottom: 1px solid rgba(88,88,88,0.3);\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
@@ -11895,13 +12491,13 @@ exports.push([module.i, ".dropdown {\n  width: 288px;\n}\n.dropdown__option {\n 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(69);
+var content = __webpack_require__(70);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -11926,7 +12522,7 @@ if(false) {
 }
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -11934,19 +12530,19 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".news {\n  margin-left: auto;\n  margin-right: auto;\n  width: 95%;\n}\n.news::after {\n  display: block;\n  content: \"\";\n  clear: both;\n}\n.news__categories {\n  position: fixed;\n  padding: 0;\n  margin: 0;\n  float: left;\n  list-style: none;\n  width: 200px;\n  height: 290px;\n  text-align: center;\n}\n.news__category {\n  cursor: pointer;\n  display: block;\n  line-height: 40px;\n}\n.news__category-link {\n  text-decoration: none;\n  font-family: \"Lato\";\n  color: #aaa;\n}\n.news__category_selected {\n  background-color: #ddd;\n}\n.news__category_selected > a {\n  color: #444;\n}\n.news__category:hover {\n  background-color: #eee;\n}\n.news__news-block {\n  float: right;\n}\n.news__container-category-wrapper {\n  width: 890px;\n  margin-left: 80px;\n  padding-bottom: 2px;\n  border-bottom: 2px solid #e5e5e5;\n}\n.news__container-category {\n  text-decoration: none;\n  font-family: \"Lato\";\n  font-weight: 900;\n  text-transform: uppercase;\n  color: #aaa;\n  font-size: 20px;\n}\n.news__container-category:hover {\n  color: #888;\n}\n.news__news-container {\n  box-sizing: border-box;\n  position: relative;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 30px;\n  width: 1050px;\n  height: 300px;\n  padding-top: 20px;\n  padding-bottom: 0;\n  background-color: #fff;\n  border-radius: 5px;\n  box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.2);\n}\n.news__button-wrapper {\n  position: absolute;\n  top: 131px;\n}\n.news__button-wrapper_right {\n  right: 20px;\n}\n.news__button-wrapper_left {\n  left: 20px;\n}\n.news__news-items {\n  margin: 10px auto;\n  width: 890px;\n  overflow: hidden;\n  display: flex;\n  justify-content: space-between;\n}\n.news__news-items .news {\n  flex-shrink: 0;\n}\n", ""]);
+exports.push([module.i, ".news {\n  margin-left: auto;\n  margin-right: auto;\n  width: 95%;\n}\n.news::after {\n  display: block;\n  content: \"\";\n  clear: both;\n}\n.news__categories {\n  position: fixed;\n  padding: 0;\n  margin: 0;\n  float: left;\n  list-style: none;\n  width: 200px;\n  height: 290px;\n  text-align: center;\n}\n.news__category {\n  cursor: pointer;\n  display: block;\n  line-height: 40px;\n}\n.news__category-link {\n  text-decoration: none;\n  font-family: \"Lato\";\n  color: #aaa;\n}\n.news__category_selected {\n  background-color: #ddd;\n}\n.news__category_selected > a {\n  color: #444;\n}\n.news__category:hover {\n  background-color: #eee;\n}\n.news__news-block {\n  float: right;\n}\n.news__container-category-wrapper {\n  width: 890px;\n  margin-left: 80px;\n  padding-bottom: 2px;\n  border-bottom: 2px solid #e5e5e5;\n}\n.news__container-category {\n  text-decoration: none;\n  font-family: \"Lato\";\n  font-weight: 900;\n  text-transform: uppercase;\n  color: #aaa;\n  font-size: 20px;\n}\n.news__container-category:hover {\n  color: #888;\n}\n.news__news-container {\n  box-sizing: border-box;\n  position: relative;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 30px;\n  width: 1050px;\n  height: 300px;\n  padding-top: 20px;\n  padding-bottom: 0;\n  background-color: #fff;\n  border-radius: 5px;\n  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);\n}\n.news__button-wrapper {\n  position: absolute;\n  top: 131px;\n}\n.news__button-wrapper_right {\n  right: 20px;\n}\n.news__button-wrapper_left {\n  left: 20px;\n}\n.news__news-items {\n  margin: 10px auto;\n  width: 890px;\n  overflow: hidden;\n  display: flex;\n  justify-content: space-between;\n}\n.news__news-items .news {\n  flex-shrink: 0;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(71);
+var content = __webpack_require__(72);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -11971,7 +12567,7 @@ if(false) {
 }
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -11979,25 +12575,25 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".news-item {\n  width: 288px;\n  height: 212px;\n  border-radius: 3px;\n  overflow: hidden;\n}\n.news-item__image {\n  width: 95px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-image: url(" + __webpack_require__(72) + ");\n}\n.news-item__text {\n  box-sizing: border-box;\n  padding-left: 22px;\n  padding-top: 22px;\n  padding-right: 20px;\n  line-height: 0.9;\n  width: 193px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-color: #e75735;\n  color: #fff;\n}\n.news-item__title {\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 28px;\n  line-height: 26px;\n}\n.news-item__date {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 11px;\n  margin-top: 13px;\n  margin-bottom: 15px;\n  text-transform: uppercase;\n  word-spacing: 5px;\n}\n.news-item__content {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 11px;\n  line-height: 13px;\n  letter-spacing: 0.05em;\n}\n", ""]);
+exports.push([module.i, ".news-item {\n  width: 288px;\n  height: 212px;\n  border-radius: 3px;\n  overflow: hidden;\n}\n.news-item__image {\n  width: 95px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-image: url(" + __webpack_require__(73) + ");\n}\n.news-item__text {\n  box-sizing: border-box;\n  padding-left: 22px;\n  padding-top: 22px;\n  padding-right: 20px;\n  line-height: 0.9;\n  width: 193px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-color: #e75735;\n  color: #fff;\n}\n.news-item__title {\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 28px;\n  line-height: 26px;\n}\n.news-item__date {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 11px;\n  margin-top: 13px;\n  margin-bottom: 15px;\n  text-transform: uppercase;\n  word-spacing: 5px;\n}\n.news-item__content {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 11px;\n  line-height: 13px;\n  letter-spacing: 0.05em;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/news-sample.png";
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(74);
+var content = __webpack_require__(75);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12022,7 +12618,7 @@ if(false) {
 }
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12036,13 +12632,13 @@ exports.push([module.i, ".arrow-button {\n  outline: none;\n  position: relative
 
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(76);
+var content = __webpack_require__(77);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12067,7 +12663,7 @@ if(false) {
 }
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12075,25 +12671,25 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".event {\n  width: 288px;\n  height: 212px;\n  border-radius: 3px;\n  overflow: hidden;\n}\n.event__image {\n  width: 95px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-image: url(" + __webpack_require__(77) + ");\n}\n.event__text {\n  box-sizing: border-box;\n  width: 193px;\n  height: 212px;\n  padding-left: 19px;\n  padding-top: 4px;\n  display: inline-block;\n  vertical-align: top;\n  background-color: #4eb7a8;\n  color: #fff;\n}\n.event__text .standard-button {\n  width: 128px;\n  height: 22px;\n  border: none;\n  font-size: 10px;\n  box-shadow: 0 3px 0 0 #379285;\n  margin-left: 13px;\n  word-spacing: 0.2em;\n}\n.event__date {\n  font-family: \"Lato\";\n  font-weight: 300;\n  word-spacing: 14px;\n  margin-bottom: 8px;\n}\n.event__day {\n  font-size: 73px;\n  letter-spacing: -0.04em;\n  display: inline-block;\n  margin-right: 14px;\n}\n.event__month {\n  font-size: 30px;\n  display: inline-block;\n}\n.event__title {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12.5px;\n  margin-bottom: 3px;\n  letter-spacing: 0.05em;\n  text-transform: uppercase;\n}\n.event__content {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 11px;\n  letter-spacing: 0.05em;\n  margin-bottom: 19px;\n}\n", ""]);
+exports.push([module.i, ".event {\n  width: 288px;\n  height: 212px;\n  border-radius: 3px;\n  overflow: hidden;\n}\n.event__image {\n  width: 95px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-image: url(" + __webpack_require__(78) + ");\n}\n.event__text {\n  box-sizing: border-box;\n  width: 193px;\n  height: 212px;\n  padding-left: 19px;\n  padding-top: 4px;\n  display: inline-block;\n  vertical-align: top;\n  background-color: #4eb7a8;\n  color: #fff;\n}\n.event__text .standard-button {\n  width: 128px;\n  height: 22px;\n  border: none;\n  font-size: 10px;\n  box-shadow: 0 3px 0 0 #379285;\n  margin-left: 13px;\n  word-spacing: 0.2em;\n}\n.event__date {\n  font-family: \"Lato\";\n  font-weight: 300;\n  word-spacing: 14px;\n  margin-bottom: 8px;\n}\n.event__day {\n  font-size: 73px;\n  letter-spacing: -0.04em;\n  display: inline-block;\n  margin-right: 14px;\n}\n.event__month {\n  font-size: 30px;\n  display: inline-block;\n}\n.event__title {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12.5px;\n  text-decoration: none;\n  color: #fff;\n  margin-bottom: 3px;\n  letter-spacing: 0.05em;\n  text-transform: uppercase;\n}\n.event__content {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 11px;\n  letter-spacing: 0.05em;\n  margin-bottom: 19px;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/event-sample.png";
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(79);
+var content = __webpack_require__(80);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12118,7 +12714,7 @@ if(false) {
 }
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12126,19 +12722,19 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".tick-box {\n  display: inline-block;\n  height: 23px;\n}\n.tick-box input {\n  display: none;\n}\n.tick-box__container {\n  cursor: pointer;\n  user-select: none;\n  position: relative;\n  font-size: 17px;\n  padding-left: 27px;\n  font-family: \"Lato\";\n}\n.tick-box__checkmark {\n  position: absolute;\n  top: 0;\n  width: 23px;\n  height: 23px;\n  border-radius: 50%;\n  background-color: #e5e5e5;\n}\n.tick-box__checkmark::after {\n  position: absolute;\n  content: \"\";\n  display: block;\n  width: 9px;\n  height: 4px;\n  transform: rotate(-45deg);\n  top: 7px;\n  right: 6px;\n  border-left: 2px solid #cecece;\n  border-bottom: 2px solid #cecece;\n}\ninput:checked ~ .tick-box__checkmark {\n  background-color: #4eb7a8;\n}\ninput:checked ~ .tick-box__checkmark::after {\n  top: 7px;\n  right: 6px;\n  border-left: 2px solid #fff;\n  border-bottom: 2px solid #fff;\n}\n", ""]);
+exports.push([module.i, ".tick-box {\n  display: inline-block;\n  height: 23px;\n}\n.tick-box input {\n  display: none;\n}\n.tick-box__container {\n  cursor: pointer;\n  user-select: none;\n  display: block;\n  font-size: 17px;\n  font-family: \"Lato\";\n}\n.tick-box__label {\n  display: inline-block;\n  vertical-align: top;\n  margin-right: 5px;\n}\n.tick-box__checkmark {\n  position: relative;\n  display: inline-block;\n  vertical-align: bottom;\n  width: 23px;\n  height: 23px;\n  border-radius: 50%;\n  background-color: #e5e5e5;\n}\n.tick-box__checkmark::after {\n  position: absolute;\n  content: \"\";\n  display: block;\n  width: 9px;\n  height: 4px;\n  transform: rotate(-45deg);\n  top: 7px;\n  right: 6px;\n  border-left: 2px solid #cecece;\n  border-bottom: 2px solid #cecece;\n}\ninput:checked ~ .tick-box__checkmark {\n  background-color: #4eb7a8;\n}\ninput:checked ~ .tick-box__checkmark::after {\n  top: 7px;\n  right: 6px;\n  border-left: 2px solid #fff;\n  border-bottom: 2px solid #fff;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(81);
+var content = __webpack_require__(82);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12163,7 +12759,7 @@ if(false) {
 }
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12171,19 +12767,42 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".events {\n  margin-left: auto;\n  margin-right: auto;\n}\n.events__map-container {\n  padding-top: 20px;\n  width: 593px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.events .location {\n  margin-top: 10px;\n}\n.events__my-events {\n  margin-left: auto;\n  margin-right: auto;\n  width: 909px;\n}\n.events__items {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: flex-start;\n  margin-right: -15px;\n}\n.events__items .event {\n  margin-right: 15px;\n  margin-bottom: 15px;\n}\n.events__items .event .standard-button {\n  display: none;\n}\n", ""]);
+exports.push([module.i, ".events {\n  margin-left: auto;\n  margin-right: auto;\n  width: 1040px;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-start;\n  flex-wrap: wrap;\n}\n.events .event {\n  margin-bottom: 15px;\n}\n.events__title {\n  margin-top: 0;\n  font-family: \"Lato\";\n  font-weight: 900;\n  text-transform: uppercase;\n  color: #aaa;\n  font-size: 20px;\n  padding-bottom: 2px;\n  border-bottom: 2px solid #e5e5e5;\n}\n.events .tick-box {\n  display: inline-block;\n  vertical-align: bottom;\n  float: right;\n}\n.events .toggle {\n  display: inline-block;\n  vertical-align: bottom;\n}\n.events .location {\n  margin-top: 10px;\n}\n.events .location__address {\n  display: none;\n}\n.events__my-events {\n  width: 593px;\n}\n.events__items {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: flex-start;\n  margin-right: -17px;\n  margin-top: 20px;\n}\n.events__items .event {\n  margin-right: 17px;\n}\n.events__items .event .standard-button {\n  display: none;\n}\n.events__arrow-buttons {\n  margin-left: auto;\n  margin-right: auto;\n  width: 115px;\n}\n.events__arrow-buttons .arrow-button:first-child {\n  margin-right: 15px;\n}\n.events__container {\n  margin-bottom: 30px;\n  background-color: #fff;\n  padding: 20px 30px;\n  border-radius: 5px;\n  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);\n}\n.events__right > .events__container:first-child .events__title {\n  width: 279px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.events__right > .events__container:first-child .calendar {\n  margin-left: auto;\n  margin-right: auto;\n}\n.events__new {\n  display: block;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.events__new .standard-button {\n  width: 200px;\n}\n.events__see-more {\n  text-decoration: none;\n  font-family: \"Lato\";\n  color: #4ab7a8;\n  text-transform: uppercase;\n  font-weight: 700;\n}\n.events__see-more:hover {\n  color: #4a9aaf;\n}\n@media (max-width: 1057px) {\n  .events {\n    display: block;\n    width: 653px;\n  }\n  .events__right {\n    width: 653px;\n    display: flex;\n    justify-content: space-between;\n    flex-wrap: wrap;\n  }\n  .events__right .events__container {\n    box-sizing: border-box;\n    padding: 20px 14px;\n    width: 316px;\n  }\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 82 */
+/* 83 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
+    $(".events .toggle").click(function() {
+        if ($(this).hasClass("toggle_on")) {
+            $(".events .location").slideUp(250);
+        } else {
+            $(".events .location").slideDown(250); 
+        }
+    });
+
+    $(".events .tick-box").click(function() {        
+        if ($("input[type='checkbox']", this).prop("checked")) {
+            $(".events__calendar").slideDown(250);
+        } else {
+            $(".events__calendar").slideUp(250);
+        }
+    });
+})
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+
+/***/ }),
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(83);
+var content = __webpack_require__(85);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12208,7 +12827,7 @@ if(false) {
 }
 
 /***/ }),
-/* 83 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12216,13 +12835,13 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".toggle {\n  position: relative;\n  width: 59px;\n  height: 24px;\n  border-radius: 12px;\n}\n.toggle::after {\n  position: absolute;\n  content: \"\";\n  display: block;\n  width: 18px;\n  height: 18px;\n  border-radius: 50%;\n  background-color: #fff;\n}\n.toggle::before {\n  position: absolute;\n  display: block;\n  color: #fff;\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12px;\n  letter-spacing: 0.05em;\n}\n.toggle_off {\n  background-color: #e5e5e5;\n}\n.toggle_off::after {\n  top: 3px;\n  left: 3px;\n}\n.toggle_off::before {\n  content: \"OFF\";\n  left: 26px;\n  top: 4px;\n}\n.toggle_on {\n  background-color: #4eb7a8;\n}\n.toggle_on::after {\n  top: 3px;\n  right: 3px;\n}\n.toggle_on::before {\n  content: \"ON\";\n  right: 29px;\n  top: 4px;\n}\n", ""]);
+exports.push([module.i, ".toggle {\n  cursor: pointer;\n}\n.toggle__label {\n  user-select: none;\n  cursor: pointer;\n  font-size: 17px;\n  font-family: \"Lato\";\n  line-height: 26px;\n}\n.toggle__toggle {\n  position: relative;\n  display: inline-block;\n  vertical-align: bottom;\n  margin-left: 5px;\n  width: 59px;\n  height: 24px;\n  border-radius: 12px;\n}\n.toggle__toggle::after {\n  position: absolute;\n  content: \"\";\n  display: block;\n  width: 18px;\n  height: 18px;\n  border-radius: 50%;\n  background-color: #fff;\n}\n.toggle__toggle::before {\n  position: absolute;\n  display: block;\n  color: #fff;\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12px;\n  letter-spacing: 0.05em;\n}\n.toggle_off > .toggle__toggle {\n  background-color: #e5e5e5;\n}\n.toggle_off > .toggle__toggle::after {\n  top: 3px;\n  left: 3px;\n}\n.toggle_off > .toggle__toggle::before {\n  content: \"OFF\";\n  left: 26px;\n  top: 4px;\n}\n.toggle_on > .toggle__toggle {\n  background-color: #4eb7a8;\n}\n.toggle_on > .toggle__toggle::after {\n  top: 3px;\n  right: 3px;\n}\n.toggle_on > .toggle__toggle::before {\n  content: \"ON\";\n  right: 29px;\n  top: 4px;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 84 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function(){
@@ -12240,13 +12859,13 @@ exports.push([module.i, ".toggle {\n  position: relative;\n  width: 59px;\n  hei
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 85 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(86);
+var content = __webpack_require__(88);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12271,7 +12890,7 @@ if(false) {
 }
 
 /***/ }),
-/* 86 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12279,25 +12898,25 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".location {\n  width: 593px;\n  height: 272px;\n  border-radius: 4px;\n  overflow: hidden;\n}\n.location__map {\n  height: 203px;\n}\n.location__footer {\n  box-sizing: border-box;\n  height: 69px;\n  background-color: #e75735;\n  color: #fff;\n  display: flex;\n  justify-content: space-between;\n}\n.location__footer-text {\n  margin-left: 27px;\n  height: 29px;\n  padding-top: 20px;\n  padding-bottom: 20px;\n  width: 280px;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n}\n.location__meet-us {\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 30px;\n  word-spacing: -0.09em;\n}\n.location__address {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12.5px;\n  letter-spacing: 0.05em;\n  text-transform: uppercase;\n  width: 143px;\n}\n.location__footer-buttons {\n  width: 79px;\n  height: 69px;\n  padding: 20px 13px 20px 0;\n  display: flex;\n  justify-content: space-between;\n}\n.location__footer-button {\n  width: 30px;\n  height: 30px;\n}\n.location__my-location {\n  background: url(" + __webpack_require__(87) + ") no-repeat 0px 1px;\n}\n.location__pin {\n  background: url(" + __webpack_require__(88) + ") no-repeat 0px 2px;\n}\n", ""]);
+exports.push([module.i, ".location {\n  width: 593px;\n  height: 272px;\n  border-radius: 4px;\n  overflow: hidden;\n}\n.location__map {\n  height: 203px;\n}\n.location__footer {\n  box-sizing: border-box;\n  height: 69px;\n  background-color: #e75735;\n  color: #fff;\n  display: flex;\n  justify-content: space-between;\n}\n.location__footer-text {\n  margin-left: 27px;\n  height: 29px;\n  padding-top: 20px;\n  padding-bottom: 20px;\n  width: 280px;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n}\n.location__meet-us {\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 30px;\n  word-spacing: -0.09em;\n}\n.location__address {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12.5px;\n  letter-spacing: 0.05em;\n  text-transform: uppercase;\n  width: 143px;\n}\n.location__footer-buttons {\n  width: 79px;\n  height: 69px;\n  padding: 20px 13px 20px 0;\n  display: flex;\n  justify-content: space-between;\n}\n.location__footer-button {\n  width: 30px;\n  height: 30px;\n}\n.location__my-location {\n  background: url(" + __webpack_require__(89) + ") no-repeat 0px 1px;\n}\n.location__pin {\n  background: url(" + __webpack_require__(90) + ") no-repeat 0px 2px;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 87 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/map-my-location.png";
 
 /***/ }),
-/* 88 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/map-pin.png";
 
 /***/ }),
-/* 89 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
@@ -12308,28 +12927,29 @@ module.exports = __webpack_require__.p + "img/map-pin.png";
         })
         .marker({
             address: $(".location__map").data("address"),
+            draggable: true,
             icon: {
                 url: "img/map-marker-icon.png",                
-                anchor: new google.maps.Point(20, 56)
+                anchor: new google.maps.Point(20, 56),                
             }                      
         })
 });
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 90 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/map-marker-icon.png";
 
 /***/ }),
-/* 91 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(92);
+var content = __webpack_require__(94);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12354,7 +12974,7 @@ if(false) {
 }
 
 /***/ }),
-/* 92 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12362,37 +12982,37 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".user-profile {\n  margin-bottom: 25px;\n}\n.user-profile__photo {\n  display: inline-block;\n  vertical-align: middle;\n  height: 85px;\n  width: 85px;\n  border-radius: 50%;\n  border: 4px solid #e5e5e5;\n  margin-right: 11px;\n  background-size: cover;\n}\n.user-profile__info {\n  display: inline-block;\n  vertical-align: middle;\n  position: relative;\n  width: 163px;\n  height: 93px;\n  border-radius: 6px;\n  margin-top: 2px;\n}\n.user-profile__info::before {\n  position: absolute;\n  left: -6px;\n  top: 40px;\n  content: \"\";\n  display: block;\n  border-style: solid;\n  border-width: 6px 6px 6px 0;\n}\n.user-profile__name {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 18px;\n  text-align: center;\n  margin-top: 8px;\n  word-spacing: -0.05em;\n}\n.user-profile__profession {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 11px;\n  text-transform: uppercase;\n  text-align: center;\n  margin-top: 1px;\n  word-spacing: 2px;\n  letter-spacing: 0.05em;\n}\n.user-profile__social-container {\n  text-align: center;\n}\n.user-profile__social-icon {\n  width: 30px;\n  height: 30px;\n  display: inline-block;\n  background-image: url(" + __webpack_require__(93) + ");\n  margin-top: 6px;\n  margin-left: 5px;\n  margin-right: 5px;\n}\n.user-profile__info_blue {\n  background-color: #4eb7a8;\n}\n.user-profile__info_blue::before {\n  border-color: transparent #4eb7a8 transparent transparent;\n}\n.user-profile__info_blue .user-profile__name {\n  color: #fff;\n}\n.user-profile__info_blue .user-profile__profession {\n  color: #fff;\n}\n.user-profile__info_blue .user-profile__fb {\n  background-position: -89px -4px;\n}\n.user-profile__info_blue .user-profile__twitter {\n  background-position: -7px -2px;\n}\n.user-profile__info_blue .user-profile__dribbble {\n  background-position: -5px -43px;\n}\n.user-profile__info_grey {\n  background-color: #e5e5e5;\n}\n.user-profile__info_grey::before {\n  border-color: transparent #e5e5e5 transparent transparent;\n}\n.user-profile__info_grey .user-profile__name {\n  color: #e75735;\n}\n.user-profile__info_grey .user-profile__profession {\n  color: #4f4f4f;\n}\n.user-profile__info_grey .user-profile__fb {\n  background-position: -119px -4px;\n}\n.user-profile__info_grey .user-profile__twitter {\n  background-position: -52px -2px;\n}\n.user-profile__info_grey .user-profile__dribbble {\n  background-position: -46px -43px;\n}\n", ""]);
+exports.push([module.i, ".user-profile {\n  margin-bottom: 25px;\n}\n.user-profile__photo {\n  display: inline-block;\n  vertical-align: middle;\n  height: 85px;\n  width: 85px;\n  border-radius: 50%;\n  border: 4px solid #e5e5e5;\n  margin-right: 11px;\n  background-size: cover;\n}\n.user-profile__info {\n  display: inline-block;\n  vertical-align: middle;\n  position: relative;\n  width: 163px;\n  height: 93px;\n  border-radius: 6px;\n  margin-top: 2px;\n}\n.user-profile__info::before {\n  position: absolute;\n  left: -6px;\n  top: 40px;\n  content: \"\";\n  display: block;\n  border-style: solid;\n  border-width: 6px 6px 6px 0;\n}\n.user-profile__name {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 18px;\n  text-align: center;\n  margin-top: 8px;\n  word-spacing: -0.05em;\n}\n.user-profile__profession {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 11px;\n  text-transform: uppercase;\n  text-align: center;\n  margin-top: 1px;\n  word-spacing: 2px;\n  letter-spacing: 0.05em;\n}\n.user-profile__social-container {\n  text-align: center;\n}\n.user-profile__social-icon {\n  width: 30px;\n  height: 30px;\n  display: inline-block;\n  background-image: url(" + __webpack_require__(95) + ");\n  margin-top: 6px;\n  margin-left: 5px;\n  margin-right: 5px;\n}\n.user-profile__info_blue {\n  background-color: #4eb7a8;\n}\n.user-profile__info_blue::before {\n  border-color: transparent #4eb7a8 transparent transparent;\n}\n.user-profile__info_blue .user-profile__name {\n  color: #fff;\n}\n.user-profile__info_blue .user-profile__profession {\n  color: #fff;\n}\n.user-profile__info_blue .user-profile__fb {\n  background-position: -89px -4px;\n}\n.user-profile__info_blue .user-profile__twitter {\n  background-position: -7px -2px;\n}\n.user-profile__info_blue .user-profile__dribbble {\n  background-position: -5px -43px;\n}\n.user-profile__info_grey {\n  background-color: #e5e5e5;\n}\n.user-profile__info_grey::before {\n  border-color: transparent #e5e5e5 transparent transparent;\n}\n.user-profile__info_grey .user-profile__name {\n  color: #e75735;\n}\n.user-profile__info_grey .user-profile__profession {\n  color: #4f4f4f;\n}\n.user-profile__info_grey .user-profile__fb {\n  background-position: -119px -4px;\n}\n.user-profile__info_grey .user-profile__twitter {\n  background-position: -52px -2px;\n}\n.user-profile__info_grey .user-profile__dribbble {\n  background-position: -46px -43px;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 93 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/social_icons.png";
 
 /***/ }),
-/* 94 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/user-profile-woman.png";
 
 /***/ }),
-/* 95 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/user-profile-man.png";
 
 /***/ }),
-/* 96 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(97);
+var content = __webpack_require__(99);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12417,7 +13037,7 @@ if(false) {
 }
 
 /***/ }),
-/* 97 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12431,7 +13051,7 @@ exports.push([module.i, ".slider {\n  position: relative;\n  height: 5px;\n  bac
 
 
 /***/ }),
-/* 98 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
@@ -12459,6 +13079,324 @@ exports.push([module.i, ".slider {\n  position: relative;\n  height: 5px;\n  bac
     })
 });
 
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+
+/***/ }),
+/* 101 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(102);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./calendar.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./calendar.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 102 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".calendar {\n  width: 279px;\n}\n.calendar__day {\n  width: 279px;\n  height: 109px;\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 80px;\n  text-align: center;\n  color: #fff;\n  line-height: 110px;\n  letter-spacing: -0.04em;\n  background-color: #e75735;\n  border-radius: 4px 4px 0 0;\n}\n.calendar__datepicker .ui-datepicker {\n  box-sizing: border-box;\n  width: 279px;\n  padding: 0;\n  border: none;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-header {\n  padding: 0;\n  border: none;\n  border-radius: 0;\n  height: 43px;\n  background-color: #d54c2c;\n  color: #fff;\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 24px;\n  letter-spacing: -0.03em;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-year {\n  display: none;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-title {\n  line-height: 1.6em;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-icon {\n  background-image: none;\n  width: 9px;\n  height: 9px;\n  border-left: 2px solid #fff;\n  border-bottom: 2px solid #fff;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-icon-circle-triangle-e {\n  transform: rotate(-135deg);\n  margin-left: -6px;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-icon-circle-triangle-w {\n  transform: rotate(45deg);\n  margin-left: -7px;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-next.ui-state-hover,\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-prev.ui-state-hover {\n  background-color: #d54c2c;\n  border: none;\n  top: 0;\n  border-radius: 0;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-next.ui-state-hover > .ui-icon,\n.calendar__datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-prev.ui-state-hover > .ui-icon {\n  top: 24px;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar {\n  margin: 0;\n  width: 279px;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar th {\n  width: 40px;\n  height: 27px;\n  padding: 0;\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 9px;\n  letter-spacing: 0.05em;\n  color: #fff;\n  background-color: #e75735;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar th:last-child {\n  width: 39px;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar td {\n  width: 39px;\n  height: 39px;\n  border-right: 1px solid #fff;\n  padding: 0;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar td:last-child {\n  border-right: none;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar td .ui-state-default {\n  font-family: \"Source Sans Pro\";\n  font-size: 20px;\n  line-height: 39px;\n  font-weight: 400;\n  background-color: #f2f2f2;\n  border: none;\n  padding: 0;\n  width: 39px;\n  height: 39px;\n  color: #868686;\n  text-align: center;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar td .ui-state-active {\n  background-color: #e75735;\n  color: #fff;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar .ui-datepicker-other-month {\n  background-color: #f2f2f2;\n  opacity: 1;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar .ui-datepicker-other-month .ui-state-default {\n  color: #fff;\n}\n.calendar__datepicker .ui-datepicker .ui-datepicker-calendar tr {\n  border-bottom: 1px solid #fff;\n}\n.calendar__today {\n  box-sizing: border-box;\n  width: 100%;\n  height: 49px;\n  background-color: #e5e5e5;\n  border-radius: 0 0 4px 4px;\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 13px;\n  letter-spacing: 0.05em;\n  line-height: 49px;\n  text-transform: uppercase;\n  color: #868686;\n  padding-left: 20px;\n  text-align: left;\n  outline: none;\n  border: none;\n  cursor: pointer;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 103 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
+    $(".calendar__datepicker").datepicker({
+        dayNamesMin: ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"],        
+        showOtherMonths: true,
+        onSelect: function() {
+            var currentDate = $(".calendar__datepicker").datepicker("getDate");
+            $(".calendar__day").text($.datepicker.formatDate("d", currentDate));
+        },
+        /*onChangeMonthYear: function (year, month, inst) {   
+            $(".calendar__datepicker").datepicker("setDate", month + "/" + "1" +"/" + year);
+            $(".calendar__day").text(1); 
+        }   */        
+    });
+    var currentDate = $(".calendar__datepicker").datepicker("getDate"); //??????
+    $(".calendar__day").text($.datepicker.formatDate("d", currentDate)); 
+    
+    $(".calendar__today").click(function() {
+        $(".calendar__datepicker").datepicker("setDate", currentDate);
+        $(".calendar__day").text($.datepicker.formatDate("d", currentDate)); 
+    });
+})
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+
+/***/ }),
+/* 104 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(105);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./articles.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./articles.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 105 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".articles {\n  display: flex;\n  justify-content: space-between;\n  width: 1160px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.articles__left {\n  width: 350px;\n  margin-right: 15px;\n}\n.articles__container {\n  margin-bottom: 30px;\n  background-color: #fff;\n  padding: 20px 30px;\n  border-radius: 5px;\n  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);\n}\n.articles__categories {\n  position: sticky;\n  top: 70px;\n}\n.articles__category {\n  cursor: pointer;\n  display: block;\n  line-height: 40px;\n}\n.articles__category:last-child {\n  border: none;\n}\n.articles__category-link {\n  text-decoration: none;\n  font-family: \"Lato\";\n  color: #aaa;\n  padding-left: 10px;\n}\n.articles__category_selected {\n  background-color: #eee;\n}\n.articles__category_selected > a {\n  color: #888;\n}\n.articles__category:hover {\n  background-color: #f9f9f9;\n}\n.articles__title {\n  margin-top: 0;\n  text-decoration: none;\n  font-family: \"Lato\";\n  font-weight: 900;\n  text-transform: uppercase;\n  color: #aaa;\n  font-size: 20px;\n  border-bottom: 2px solid #e5e5e5;\n}\n.articles__filter-title {\n  font-family: \"Lato\";\n  font-weight: 400;\n  color: #444;\n  margin: 20px 0;\n}\n.articles__filter-author-field {\n  box-sizing: border-box;\n  outline: none;\n  border: none;\n  width: 288px;\n  height: 28px;\n  background-color: #e5e5e5;\n  padding-left: 13px;\n  padding-bottom: 4px;\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n  letter-spacing: 0.01em;\n  color: #666;\n}\n.articles__filter-tags {\n  margin-bottom: 20px;\n}\n.articles__slider-wrapper {\n  height: 50px;\n  padding-left: 15px;\n}\n.articles__slider-wrapper .slider {\n  top: 38px;\n}\n.articles__popular {\n  width: 61%;\n}\n.articles__article {\n  margin-bottom: 16px;\n  font-family: \"Lato\";\n  position: relative;\n  border-bottom: 1px solid #e5e5e5;\n}\n.articles__article-title {\n  display: inline-block;\n}\n.articles__article-title:hover,\n.articles__article-category:hover,\n.articles__article-link:hover {\n  color: #009;\n}\n.articles__article-category {\n  margin-top: 0;\n  display: inline-block;\n}\n.articles__article-footer {\n  display: flex;\n  justify-content: space-between;\n}\n.articles__article-tags {\n  list-style: none;\n  padding: 0;\n}\n.articles__article-tags-label {\n  display: inline-block;\n  margin-right: 5px;\n}\n.articles__article-tags-item {\n  display: inline-block;\n  cursor: default;\n}\n.articles__article-link {\n  text-decoration: none;\n  color: #000;\n}\n.articles__article-date {\n  position: absolute;\n  top: 18.72px;\n  right: 0;\n}\nbody[data-select2-id=\"19\"] .select2-results__option[aria-selected=\"true\"] {\n  color: #aaa !important;\n}\n@media (max-width: 1175px) {\n  .articles {\n    width: 100%;\n  }\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 106 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
+    $(".articles .articles__filter-form .dropdown").select2({
+        multiple: true
+    });
+    $(".articles .articles__filter-form .dropdown").val("").change();
+})
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+
+/***/ }),
+/* 107 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(108);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./percentage.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./percentage.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 108 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".percentage {\n  position: relative;\n}\n.percentage__value {\n  width: 95px;\n  cursor: default;\n  position: absolute;\n  top: 23px;\n  text-align: center;\n  font-size: 40px;\n  color: #9d9d9d;\n  font-family: \"Lato\";\n  font-weight: 300;\n  letter-spacing: -2px;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 109 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {    
+    $(".percentage").each(function() {       
+        $(this).circleProgress({
+            value: parseInt($(".percentage__value", this).text()) / 100,        
+            size: 95,
+            fill: "#e75735",
+            thickness: 6,
+            emptyFill: "rgba(255, 255, 255, 1)",
+            startAngle: -Math.PI / 2,
+            insertMode: "prepend"
+        })
+    });
+});
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+
+/***/ }),
+/* 110 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(111);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./stages.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./stages.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 111 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".stages {\n  width: 577px;\n}\n.stages__stage {\n  cursor: default;\n  position: relative;\n  display: inline-block;\n  border-radius: 50%;\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 14px;\n  text-align: center;\n  line-height: 29px;\n  width: 29px;\n  height: 29px;\n  margin: 0 0 0 108px;\n}\n.stages__stage::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: 13px;\n  right: 29px;\n  height: 5px;\n  width: 108px;\n}\n.stages__stage:first-child {\n  margin-left: 0;\n}\n.stages__stage:first-child::before {\n  display: none;\n}\n.stages__stage-active {\n  background-color: #e75735;\n  color: #fff;\n}\n.stages__stage-active::before {\n  background-color: #e75735;\n}\n.stages__stage-inactive {\n  background-color: #e5e5e5;\n  color: #888;\n}\n.stages__stage-inactive::before {\n  background-color: #e5e5e5;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 112 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
+    $(".stages").each(function() {
+        var currentStage = $(this);
+        $(".stages__stage", currentStage).click(function() {
+            var i = $(this).index();
+            var lastIndex = $(".stages__stage", currentStage).last().index();
+            for (j = i; j <= lastIndex; j++) {
+                $($(".stages__stage", currentStage).get(j))
+                    .addClass("stages__stage-inactive")
+                    .removeClass("stages__stage-active");
+            }        
+            while (i >= 0) {            
+                $($(".stages__stage", currentStage).get(i))
+                    .addClass("stages__stage-active")
+                    .removeClass("stages__stage-inactive");
+                i = i - 1;    
+            }    
+        });
+    });
+})
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+
+/***/ }),
+/* 113 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(114);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./event-new.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./event-new.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 114 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/***/ }),
+/* 115 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
+    $(".event-new__content").tabs();
+})
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ })

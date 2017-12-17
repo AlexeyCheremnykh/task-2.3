@@ -15,21 +15,6 @@ block content
                 h2.articles__title Search
                 +search("Article search")
 
-            ul.articles__categorier.articles__container
-                h2.articles__title Categories
-                li.articles__category.articles__category-all.articles__category_selected
-                    a(href="#" class="articles__category-link") Popular     
-                li.articles__category.articles__category-cat1
-                    a(href="#" class="articles__category-link") Category1
-                li.articles__category.articles__category-cat2
-                    a(href="#" class="articles__category-link") Category2
-                li.articles__category.articles__category-cat3
-                    a(href="#" class="articles__category-link") Category3
-                li.articles__category.articles__category-cat4
-                    a(href="#" class="articles__category-link") Category4
-                li.articles__category.articles__category-cat5
-                    a(href="#" class="articles__category-link") Category5           
-    
             .articles__filter.articles__container
                 h2.articles__title Filter
                 form.articles__filter-form  
@@ -44,16 +29,32 @@ block content
                         h4.articles__filter-title Tags                
                         +dropdown(["tag1", "tag2", "tag3", "tag4", "tag5", "tag6", "tag7", "tag8", "tag9", "tag10"])
                     +standard_button("big", "red", "Show")
+            
+            ul.articles__categories.articles__container
+                h2.articles__title Categories
+                li.articles__category.articles__category-all.articles__category_selected
+                    a(href="#" class="articles__category-link") Popular     
+                li.articles__category.articles__category-cat1
+                    a(href="#" class="articles__category-link") Category1
+                li.articles__category.articles__category-cat2
+                    a(href="#" class="articles__category-link") Category2
+                li.articles__category.articles__category-cat3
+                    a(href="#" class="articles__category-link") Category3
+                li.articles__category.articles__category-cat4
+                    a(href="#" class="articles__category-link") Category4
+                li.articles__category.articles__category-cat5
+                    a(href="#" class="articles__category-link") Category5           
+    
         .articles__popular.articles__container
             h2.articles__title Popular
             //в отдельный блок унести
             .articles__article
                 header.articles__article-header
                     a(href="#" class="articles__article-link")
-                        h3.articles__article-title Article Title
-                    a(href="#" class="articles__article-link")
-                        h4.articles__article-category Category                    
+                        h3.articles__article-title Article Title                  
                     .articles__article-date 20 Aug 2017
+                a(href="#" class="articles__article-link")
+                    h4.articles__article-category Category 
                 p.articles__article-content
                     | Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     | Mauris euismod non urna malesuada efficitur. Curabitur in 
@@ -90,9 +91,47 @@ block content
                 header.articles__article-header
                     a(href="#" class="articles__article-link")
                         h3.articles__article-title Article Title
-                    a(href="#" class="articles__article-link")
-                        h4.articles__article-category Category                    
                     .articles__article-date 19 Aug 2017
+                a(href="#" class="articles__article-link")
+                        h4.articles__article-category Category 
+                p.articles__article-content
+                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    | Mauris euismod non urna malesuada efficitur. Curabitur in 
+                    | sapien pulvinar, ultrices quam a, dignissim urna. Sed sed dolor 
+                    | nec eros mollis tincidunt. Vestibulum quis felis vehicula, ultrices 
+                    | risus a, tempor dolor. Sed ut libero blandit, fermentum lorem id, placerat sem. 
+                    | Proin vitae tristique nisl. Vivamus quam eros, tincidunt a auctor sed, varius quis 
+                    | metus. 
+                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    | Mauris euismod non urna malesuada efficitur. Curabitur in 
+                    | sapien pulvinar, ultrices quam a, dignissim urna. Sed sed dolor 
+                    | nec eros mollis tincidunt. Vestibulum quis felis vehicula, ultrices 
+                    | risus a, tempor dolor. Sed ut libero blandit, fermentum lorem id, placerat sem. 
+                    | Proin vitae tristique nisl. Vivamus quam eros, tincidunt a auctor sed, varius quis 
+                    | metus.
+                ul.articles__article-tags
+                    h4.articles__article-tags-label Tags:
+                    li.articles__article-tags-item
+                        a(href="#" class="articles__article-link") tag1
+                    li.articles__article-tags-item , 
+                        a(href="#" class="articles__article-link") tag2
+                    li.articles__article-tags-item , 
+                        a(href="#" class="articles__article-link") tag3
+                    li.articles__article-tags-item , 
+                        a(href="#" class="articles__article-link") tag4
+                footer.articles__article-footer
+                    .articles__article-author
+                        +user_profile("grey", "Name", "Profession", "img/user-profile-woman.png")
+                    .articles__article-rating
+                        +percentage(88)   
+            
+            .articles__article
+                header.articles__article-header
+                    a(href="#" class="articles__article-link")
+                        h3.articles__article-title Article Title                                       
+                    .articles__article-date 20 Aug 2017
+                a(href="#" class="articles__article-link")
+                        h4.articles__article-category Category 
                 p.articles__article-content
                     | Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     | Mauris euismod non urna malesuada efficitur. Curabitur in 
@@ -121,8 +160,7 @@ block content
                 footer.articles__article-footer
                     .articles__article-author
                         //h4.artiles__article-author-label Author
-                        +user_profile("grey", "Name", "Profession", "img/user-profile-woman.png")
+                        +user_profile("grey", "Name", "Profession", "img/user-profile-man.png")
                     .articles__article-rating
                         //h4.articles__article-rating-label Article rating
-                        +percentage(88)
-        //.articles__recommended.articles__container        
+                        +percentage(55) 

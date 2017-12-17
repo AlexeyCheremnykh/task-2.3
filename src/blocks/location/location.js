@@ -6,9 +6,10 @@ $(document).ready(function() {
         })
         .marker({
             address: $(".location__map").data("address"),
+            draggable: true,
             icon: {
                 url: "img/map-marker-icon.png",                
-                anchor: new google.maps.Point(20, 56)
+                anchor: new google.maps.Point(20, 56),                
             }                      
         })
 });

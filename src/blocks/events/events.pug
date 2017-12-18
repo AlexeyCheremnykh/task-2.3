@@ -31,14 +31,14 @@ block content
             .events__container.events__calendar
                 h2.events__title Calendar
                 +calendar()
-            .events__container
+            .events__container.events__search
                 h2.events__title Search
                 +search("Events search")
-            .events__container
+            .events__container.events__new-event
                 h2.events__title New event
                 a(href="event-new.html" class="events__new")
                     +standard_button("big", "blue", "create a new  event")            
-            .events__container
+            .events__container.events__recommended
                 h2.events__title Recommended
                 +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
                 +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")

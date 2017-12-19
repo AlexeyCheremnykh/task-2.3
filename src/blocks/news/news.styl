@@ -90,3 +90,30 @@
 
         .news
             flex-shrink: 0
+
+@media (max-width: 1350px)
+    .news
+        width: 1050px
+        margin-left: auto
+        margin-right: auto
+        
+        &__categories
+            position: static
+            width: 1050px
+            height: 50px
+        
+        &__category
+            display: inline-block
+            margin-left: 15px
+            background: none
+
+            &:hover 
+                background: none
+                & .news__category-link                
+                    color: #888888
+        
+        &__news-block
+            margin-left: auto
+            margin-right: auto
+
+//@media (max-width: 1067px)

@@ -83,8 +83,7 @@
  
     &__news-items
         margin: 10px auto
-        width: 890px
-        overflow: hidden        
+        width: 890px  
         display: flex
         justify-content: space-between
 
@@ -116,4 +115,57 @@
             margin-left: auto
             margin-right: auto
 
-//@media (max-width: 1067px)
+@media (max-width: 1067px)
+    .news
+        width: 100%
+
+        &__news-block, &__categories
+            float: none
+            width: 100%
+        
+        &__container-category-wrapper
+            width: 600px
+            margin-left: auto
+            margin-right: auto
+
+        &__news-items
+            width: 600px    
+
+        &__news-container
+            width: 770px
+            .news-item:last-child
+                display: none
+
+@media (max-width: 788px)
+    .news
+        &__news-items, &__container-category-wrapper
+            width: 288px  
+        
+        &__news-container
+            width: 460px
+            .news-item:first-child
+                display: none
+        
+        &__categories
+            display: flex            
+            flex-wrap: wrap
+            height: 85px 
+            width: 300px
+            margin-left: auto
+            margin-right: auto
+            justify-content: center
+
+@media (max-width: 480px)
+    .news
+        &__news-container
+            height: 350px
+            width: 320px
+        
+        &__button-wrapper
+            top: auto
+            bottom: 20px
+
+            &_left
+                left: 100px
+            &_right
+                right: 100px

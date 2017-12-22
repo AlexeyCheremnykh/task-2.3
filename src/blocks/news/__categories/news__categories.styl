@@ -1,0 +1,29 @@
+.news   
+    &__categories
+        position: fixed
+        padding: 0
+        margin: 0
+        float: left
+        list-style: none        
+        width: 200px
+        height: 290px
+        text-align: center       
+
+    &__category
+        cursor: pointer
+        display: block
+        line-height: 40px        
+
+        &-link
+            text-decoration: none
+            font-family: "Lato"
+            color: #aaaaaa
+
+        &_selected
+            background-color: #dddddd
+
+            & > a 
+                color: #444444
+        
+        &:hover
+            background-color: #eeeeee

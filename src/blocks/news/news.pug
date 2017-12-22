@@ -2,52 +2,29 @@ extends ../layout/layout.pug
 include ../news-item/news-item.pug
 include ../event/event.pug
 include ../arrow-button/arrow-button.pug
+include __items-container/news__items-container.pug
 
-mixin news_container(category)
-    .news__news-container
-        .news__container-category-wrapper
-            a(href="#" class="news__container-category") #{category}
-        .news__button-wrapper.news__button-wrapper_left
-            +arrow_button("left")
-        .news__news-items
-            block
-        .news__button-wrapper.news__button-wrapper_right
-            +arrow_button("right")
 
 block content
     .news
-        ul.news__categories 
-            li.news__category.news__category-all.news__category_selected
-                a(href="#" class="news__category-link") All news        
-            li.news__category.news__category-world
-                a(href="#" class="news__category-link") World
-            li.news__category.news__category-russia
-                a(href="#" class="news__category-link") Russia
-            li.news__category.news__category-business
-                a(href="#" class="news__category-link") Business
-            li.news__category.news__category-technologies
-                a(href="#" class="news__category-link") Technologies
-            li.news__category.news__category-entertainment
-                a(href="#" class="news__category-link") Entertainment
-            li.news__category.news__category-sports
-                a(href="#" class="news__category-link") Sports
+        include __categories/news__categories.pug
 
         .news__news-block            
-            +news_container("World")                
+            +news_items_container("World")                
                 - for(var i = 0; i < 3; i++)
                     +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")      
-            +news_container("Russia")
+            +news_items_container("Russia")
                 - for(var i = 0; i < 3; i++)
                     +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")      
-            +news_container("Business")
+            +news_items_container("Business")
                 - for(var i = 0; i < 3; i++)
                     +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")      
-            +news_container("Technologies")
+            +news_items_container("Technologies")
                 - for(var i = 0; i < 3; i++)
                     +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")      
-            +news_container("Entertainment")
+            +news_items_container("Entertainment")
                 - for(var i = 0; i < 3; i++)
                     +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")      
-            +news_container("Sports")
+            +news_items_container("Sports")
                 - for(var i = 0; i < 3; i++)
                     +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")

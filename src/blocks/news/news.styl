@@ -8,87 +8,13 @@
         content: ""
         clear: both
 
-    &__categories
-        position: fixed
-        padding: 0
-        margin: 0
-        float: left
-        list-style: none        
-        width: 200px
-        height: 290px
-        text-align: center       
-
-    &__category
-        cursor: pointer
-        display: block
-        line-height: 40px        
-
-        &-link
-            text-decoration: none
-            font-family: "Lato"
-            color: #aaaaaa
-
-        &_selected
-            background-color: #dddddd
-
-            & > a 
-                color: #444444
-        
-        &:hover
-            background-color: #eeeeee
-
     &__news-block
         float: right
 
-    &__container-category-wrapper
-        width: 890px
-        margin-left: 80px
-        padding-bottom: 2px
-        border-bottom: 2px solid #e5e5e5
+@import ("__categories/news__categories.styl")
     
-    &__container-category
-        text-decoration: none
-        font-family: "Lato"
-        font-weight: 900
-        text-transform: uppercase
-        color: #aaaaaa
-        font-size: 20px
+@import ("__items-container/news__items-container.styl")
 
-        &:hover
-            color: #888888
-  
-    &__news-container
-        box-sizing: border-box      
-        position: relative
-        margin-left: auto
-        margin-right: auto
-        margin-bottom: 30px
-        width: 1050px
-        height: 300px
-        padding-top: 20px
-        padding-bottom: 0
-        background-color: #ffffff
-        border-radius: 5px
-        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)
-
-    &__button-wrapper
-        position: absolute
-        top: 131px
-
-        &_right
-            right: 20px
-
-        &_left
-            left: 20px         
- 
-    &__news-items
-        margin: 10px auto
-        width: 890px  
-        display: flex
-        justify-content: space-between
-
-        .news
-            flex-shrink: 0
 
 @media (max-width: 1350px)
     .news
@@ -128,20 +54,20 @@
             margin-left: auto
             margin-right: auto
 
-        &__news-items
+        &__items
             width: 600px    
 
-        &__news-container
+        &__items-container
             width: 770px
             .news-item:last-child
                 display: none
 
 @media (max-width: 788px)
     .news
-        &__news-items, &__container-category-wrapper
+        &__items, &__container-category-wrapper
             width: 288px  
         
-        &__news-container
+        &__items-container
             width: 460px
             .news-item:first-child
                 display: none
@@ -157,7 +83,7 @@
 
 @media (max-width: 480px)
     .news
-        &__news-container
+        &__items-container
             height: 350px
             width: 320px
         

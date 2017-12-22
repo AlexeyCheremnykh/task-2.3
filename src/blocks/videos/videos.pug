@@ -1,33 +1,12 @@
 extends ../layout/layout.pug
 include ../video/video.pug
-include ../standard-button/standard-button.pug
-include ../search/search.pug
 include ../dropdown/dropdown.pug
 
 block content
     .videos-wrapper
         .videos
-            header.videos__header 
-                +search("Video search")          
-                .videos__buttons
-                    +standard_button("big", "red", "add a video")
-                    +standard_button("big", "red", "new playlist")                            
+            include __header/videos__header.pug                          
                                 
             +dropdown(["by default", "by popularity", "newest first", "oldest first"])
             
-            .videos__container
-                ul
-                    li
-                        a(href="#all") All videos
-                    li
-                        a(href="#playlists") Playlists                         
-                div(class="videos__all" id="all")
-                    +video("k3jlviX88iw")
-                    +video("kKrYAdB8XJ4")            
-                    +video("Ih323XXu_3w")
-                    +video("rioXu6EBN0s")
-                    +video("zhA5LNA3MxE")
-                    +video("eh7lp9umG2I")
-                    +video("9h1UiqBuxO0")            
-                    +video("YPbb2xspJHM")
-                div(class="videos__playlists" id="playlists")           
+            include __content/videos__content.pug         

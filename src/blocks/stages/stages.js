@@ -6,13 +6,13 @@ $(document).ready(function () {
             var lastIndex = $(".stages__stage", currentStage).last().index();
             for (j = i; j <= lastIndex; j++) {
                 $($(".stages__stage", currentStage).get(j))
-                    .addClass("stages__stage-inactive")
-                    .removeClass("stages__stage-active");
+                    .addClass("stages__stage_inactive")
+                    .removeClass("stages__stage_active");
             }        
             while (i >= 0) {            
                 $($(".stages__stage", currentStage).get(i))
-                    .addClass("stages__stage-active")
-                    .removeClass("stages__stage-inactive");
+                    .addClass("stages__stage_active")
+                    .removeClass("stages__stage_inactive");
                 i = i - 1;    
             }    
         });

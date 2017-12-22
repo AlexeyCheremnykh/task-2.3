@@ -1,0 +1,30 @@
+.event-new
+    width: 700px
+    margin-left: auto
+    margin-right: auto
+
+    &__content
+        .ui-tabs-nav 
+            display: none
+        
+        .ui-tabs-panel
+            padding-bottom: 20px
+            padding-top: 10px
+
+    &__title
+        text-align: center
+
+    &__stage        
+        &-map            
+            @import "__stage-map/event-new__stage-map.styl"
+    
+    &__button_left
+        display: inline-block
+
+    &__button_right
+        display: inline-block
+        margin-left: 30px
+    
+    &__buttons
+        text-align: center
+        padding-bottom: 15px

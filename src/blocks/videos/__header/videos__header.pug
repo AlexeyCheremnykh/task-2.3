@@ -1,0 +1,8 @@
+include ../../standard-button/standard-button.pug
+include ../../search/search.pug
+
+header.videos__header 
+    +search("Video search")          
+    .videos__buttons
+        +standard_button("big", "red", "add a video")
+        +standard_button("big", "red", "new playlist") 

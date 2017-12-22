@@ -1,3 +1,1 @@
-$(document).ready(function(){
-    $(".videos__container").tabs();
-})
+import "./__content/videos__content.js";

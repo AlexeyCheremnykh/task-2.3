@@ -14,12 +14,16 @@ block content
         .event-new__content
             ul
                 li
-                    a(href="#stage-first") 1
+                    a(href="#stage-map") 1
                 li
                     a(href="#stage-second") 2
                 li
                     a(href="#stage-third") 3 
-            div(class="event-new__stage-first" id="stage-first")
-                +location("Tomsk")
+            include __stage-map/event-new__stage-map.pug
             div(class="event-new__stage-second" id="stage-second")
             div(class="event-new__stage-third" id="stage-third")
+            .event-new__buttons
+                .event-new__button_left
+                    +arrow_button("left")
+                .event-new__button_right
+                    +arrow_button("right")

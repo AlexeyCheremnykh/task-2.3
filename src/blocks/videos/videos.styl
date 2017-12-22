@@ -12,65 +12,10 @@
     padding: 20px 0
     width: 976px
 
-    &__header
-        margin-bottom: 20px
-        padding-bottom: 20px
-        border-bottom: 1px solid #e5e5e5    
+    @import ("__header/videos__header.styl");
 
-    &__buttons
-        float: right        
+    @import ("__content/videos__content.styl");          
 
-        .standard-button:first-child                    
-            margin-right: 10px       
-     
-    .search      
-        display: inline-block
-        padding-top: 6px  
-
-    &__container 
-        padding: 0        
-        border: none !important
-        background-color: transparent
-
-        .video
-            margin-top: 8px
-            margin-right: 8px            
-
-    .ui-tabs 
-        .ui-tabs-panel
-            padding: 0            
-            display: flex
-            flex-wrap: wrap
-            justify-content: flex-start
-            margin-right: -8px           
-
-        .ui-tabs-nav
-            padding: 0
-            border: none
-            background-color: transparent
-
-        .ui-tabs-anchor
-            font-family: "Lato"
-            font-weight: 400
-        
-        .ui-tabs-active
-            background-color: #4eb7a8
-            border-color: #4eb7a8            
-        
-        .ui-tabs-anchor:focus
-            outline: none
-            
-    .dropdown
-        width: 160px        
-
-    .select2-container
-        position: absolute
-        right: 0
-        top: 100px
-        z-index: 1
-        .selection 
-            .select2-selection
-                width: 160px
 
 @media (max-width: 1024px)
     .videos-wrapper
@@ -118,5 +63,3 @@
 @media (max-width: 387px)
     .videos-wrapper
         width: 100%
-
-

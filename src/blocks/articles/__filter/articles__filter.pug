@@ -1,0 +1,18 @@
+include ../../standard-button/standard-button.pug
+include ../../dropdown/dropdown.pug
+include ../../slider/slider.pug
+
+.articles__filter.articles__container
+    h2.articles__title Filter
+    form.articles__filter-form  
+        .articles__filter-author
+            h4.articles__filter-title Author                             
+            input(type="text" class="articles__filter-author-field" placeholder="Any author")
+        .articles__filter-rating
+            h4.articles__filter-title Minimum rating
+            .articles__slider-wrapper
+                +slider("type-a", 0, 100)
+        .articles__filter-tags 
+            h4.articles__filter-title Tags                
+            +dropdown(["tag1", "tag2", "tag3", "tag4", "tag5", "tag6", "tag7", "tag8", "tag9", "tag10"])
+        +standard_button("big", "red", "Show")

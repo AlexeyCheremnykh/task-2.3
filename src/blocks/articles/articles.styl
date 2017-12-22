@@ -14,34 +14,7 @@
         background-color: #ffffff
         padding: 20px 30px
         border-radius: 5px
-        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)
-
-    &__categories       
-        position: sticky
-        top: 70px                  
-
-    &__category
-        cursor: pointer
-        display: block
-        line-height: 40px
-
-        &:last-child
-            border: none        
-
-        &-link
-            text-decoration: none
-            font-family: "Lato"
-            color: #aaaaaa
-            padding-left: 10px
-
-        &_selected
-            background-color: #eeeeee
-
-            & > a 
-                color: #888888
-        
-        &:hover
-            background-color: #f9f9f9
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)    
     
     &__title
         margin-top: 0
@@ -51,92 +24,20 @@
         text-transform: uppercase
         color: #aaaaaa
         font-size: 20px
-        border-bottom: 2px solid #e5e5e5
-
-    &__filter
-        &-title
-            font-family: "Lato"
-            font-weight: 400
-            color: #444444
-            margin: 20px 0
-        
-        &-author-field
-            box-sizing: border-box
-            outline: none
-            border: none
-            width: 288px
-            height: 28px
-            background-color: #e5e5e5
-            padding-left: 13px
-            padding-bottom: 4px
-            font-family: "Lato"
-            font-weight: 400
-            font-style: normal
-            font-stretch: normal
-            font-size: 14px
-            letter-spacing: 0.01em        
-            color: #666666
-
-        &-tags
-            margin-bottom: 20px       
-
-    &__slider-wrapper
-        height: 50px
-        padding-left: 15px
-
-        & .slider
-            top: 38px
+        border-bottom: 2px solid #e5e5e5   
 
     &__popular
-        width: 61%
-    
-    &__article
-        margin-bottom: 16px
-        font-family: "Lato"
-        position: relative
-        border-bottom: 1px solid #e5e5e5
-
-        &-title
-            display: inline-block
-
-        &-title, &-category, &-link
-            &:hover
-                color: #000099
-
-        &-category
-            margin-top: 0
-            display: inline-block
-
-        &-footer
-            display: flex
-            justify-content: space-between
-
-        &-tags
-            list-style: none
-            padding: 0
-
-            &-label
-                display: inline-block
-                margin-right: 5px
-        
-            &-item
-                display: inline-block
-                cursor: default   
-
-        &-link
-            text-decoration: none
-            color: #000000        
-
-        &-date
-            position: absolute         
-            top: 18.720px
-            right: 0
-
+        width: 61%    
 
 body[data-select2-id="19"]
     .select2-results__option[aria-selected="true"]
         color: #aaaaaa !important
 
+@import ("__filter/articles__filter.styl")
+
+@import ("__categories/articles__categories.styl")
+
+@import ("__article/articles__article.styl")
 
 @media (max-width: 1175px)
     .articles

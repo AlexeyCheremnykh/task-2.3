@@ -1,0 +1,27 @@
+.articles    
+    &__categories       
+        position: sticky
+        top: 70px                  
+
+    &__category
+        cursor: pointer
+        display: block
+        line-height: 40px
+
+        &:last-child
+            border: none        
+
+        &-link
+            text-decoration: none
+            font-family: "Lato"
+            color: #aaaaaa
+            padding-left: 10px
+
+        &_selected
+            background-color: #eeeeee
+
+            & > a 
+                color: #888888
+        
+        &:hover
+            background-color: #f9f9f9

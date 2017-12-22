@@ -18,47 +18,8 @@
         color: #aaaaaa
         font-size: 20px
         padding-bottom: 2px
-        border-bottom: 2px solid #e5e5e5
+        border-bottom: 2px solid #e5e5e5   
     
-    .tick-box
-        display: inline-block
-        vertical-align: bottom
-        float: right
-    
-    .toggle
-        display: inline-block
-        vertical-align: bottom
-    
-    .location
-        margin-top: 10px 
-
-        &__address
-            display: none
-
-    &__my-events
-        width: 593px        
-
-    &__items
-        display: flex
-        flex-wrap: wrap
-        justify-content: flex-start
-        margin-right: -17px
-        margin-top: 20px
-
-        .event
-            margin-right: 17px
-
-            .standard-button
-                display: none
-
-    &__arrow-buttons        
-        margin-left: auto
-        margin-right: auto
-        width: 115px
-
-        .arrow-button:first-child
-            margin-right: 15px
-
     &__container
         margin-bottom: 30px
         background-color: #ffffff
@@ -66,34 +27,9 @@
         border-radius: 5px
         box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)
 
-    &__right > &__container:first-child
-            .events__title
-                width: 279px
-                margin-left: auto
-                margin-right: auto
-            .calendar
-                margin-left: auto
-                margin-right: auto
+@import ("__my-events/events__my-events.styl")
 
-    &__new
-        display: block
-        width: 200px
-        margin-left: auto
-        margin-right: auto
-
-        .standard-button
-            width: 200px
-            
-
-    &__see-more
-        text-decoration: none
-        font-family: "Lato"
-        color: #4ab7a8
-        text-transform: uppercase
-        font-weight: 700
-
-        &:hover
-            color: #4a9aaf
+@import ("__right/events__right.styl")         
 
 @media (max-width: 1057px)
     .events

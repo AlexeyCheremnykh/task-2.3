@@ -1,46 +1,7 @@
 extends ../layout/layout.pug
-include ../location/location.pug
-include ../tick-box/tick-box.pug
-include ../search/search.pug
-include ../toggle/toggle.pug
-include ../event/event.pug
-include ../calendar/calendar.pug
-include ../search/search.pug
-include ../arrow-button/arrow-button.pug
-include ../standard-button/standard-button.pug
 
 block content
     .events    
-        .events__my-events.events__container
-            h2.events__title My Events
-            .events__display-options
-                +toggle("Events map", "on")
-                +tick_box("Show the calendar", "checked")
-            +location("Tomsk", "My events")         
-            .events__items
-                +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.")
-                +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.")
-                +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.")
-                +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.")
-                +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.")
-                +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.")
-            .events__arrow-buttons
-                +arrow_button("left", "disabled")
-                +arrow_button("right")
-        .events__right
-            .events__container.events__calendar
-                h2.events__title Calendar
-                +calendar()
-            .events__container.events__search
-                h2.events__title Search
-                +search("Events search")
-            .events__container.events__new-event
-                h2.events__title New event
-                a(href="event-new.html" class="events__new")
-                    +standard_button("big", "blue", "create a new  event")            
-            .events__container.events__recommended
-                h2.events__title Recommended
-                +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
-                +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
-                a(href="#" class="events__see-more") See more           
+        include __my-events/events__my-events.pug
+        include __right/events__right       
             

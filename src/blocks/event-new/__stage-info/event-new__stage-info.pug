@@ -1,0 +1,28 @@
+include ../../dropdown/dropdown.pug
+include ../../tick-box/tick-box.pug
+include ../../slider/slider.pug
+
+div(class="event-new__stage-info" id="stage-info")
+    h2.event-new__stage-title title
+    .event-new__info
+        h4.event-new__info-title Event title
+        input(type="text" class="event-new__event-title-field" id="event-new__event-title-field")
+    .event-new__info
+        h4.event-new__info-title Event description
+        textarea(class="event-new__event-description-field" id="event-new__event-description-field")  
+    .event-new__info  
+        h4.event-new__info-title Select category
+        .event-new__select-category
+            +dropdown(["category1", "category2", "category3", "category4", "category5"])
+    .event-new__info
+        h4.event-new__info-title Event options
+        .event-new__option.event-new__option_invitations        
+            +tick_box("By invitations only")
+        .event-new__option.event-new__option_attendees
+            +tick_box("Limited attendees")
+            input.event-new__attendees-spinner
+        .event-new__option.event-new__option_admission           
+            +tick_box("Free admission", "checked")
+            input.event-new__admission-spinner
+        .event-new__option.event-new__option_speakers
+            +tick_box("Speakers")

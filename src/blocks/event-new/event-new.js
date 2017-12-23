@@ -1,3 +1,5 @@
+import "./__stage-info/event-new__stage-info.js";
+
 $(document).ready(function () {
     $(".event-new__content").tabs();
   

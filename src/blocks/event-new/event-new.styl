@@ -3,7 +3,20 @@
     margin-left: auto
     margin-right: auto
 
+    &__stages
+        width: 100%
+        text-align: center
+        margin-bottom: 15px
+
+        .stages
+            width: 100%
+
     &__content
+        position: relative
+        border: none !important
+        border-radius: 5px
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)
+        
         .ui-tabs-nav 
             display: none
         
@@ -11,15 +24,19 @@
             padding-bottom: 20px
             padding-top: 10px
 
-    &__title
+    &__stage-title
         text-align: center
 
     &__stage        
         &-map            
             @import "__stage-map/event-new__stage-map.styl"
+        
+        &-calendar
+            @import "__stage-calendar/event-new__stage-calendar.styl"
     
     &__button_left
         display: inline-block
+        
 
     &__button_right
         display: inline-block

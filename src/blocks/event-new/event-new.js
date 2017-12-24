@@ -1,4 +1,5 @@
 import "./__stage-info/event-new__stage-info.js";
+import "./__stage-map/event-new__stage-map.js";
 
 $(document).ready(function () {
     $(".event-new__content").tabs();

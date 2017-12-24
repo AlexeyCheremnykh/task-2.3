@@ -5,8 +5,5 @@ include ../dropdown/dropdown.pug
 block content
     .videos-wrapper
         .videos
-            include __header/videos__header.pug                          
-                                
-            +dropdown(["by default", "by popularity", "newest first", "oldest first"])
-            
+            include __header/videos__header.pug
             include __content/videos__content.pug         

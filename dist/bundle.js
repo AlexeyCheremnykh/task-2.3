@@ -10824,67 +10824,65 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__blocks_videos_videos_styl__ = __webpack_require__(61);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__blocks_videos_videos_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16__blocks_videos_videos_styl__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__blocks_videos_videos_js__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__blocks_videos_videos_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17__blocks_videos_videos_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__blocks_standard_button_standard_button_styl__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__blocks_standard_button_standard_button_styl__ = __webpack_require__(65);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__blocks_standard_button_standard_button_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_18__blocks_standard_button_standard_button_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__blocks_dropdown_dropdown_styl__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__blocks_dropdown_dropdown_styl__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__blocks_dropdown_dropdown_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_19__blocks_dropdown_dropdown_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__blocks_dropdown_dropdown_js__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__blocks_dropdown_dropdown_js__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__blocks_dropdown_dropdown_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_20__blocks_dropdown_dropdown_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__blocks_news_news_styl__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__blocks_news_news_styl__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__blocks_news_news_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_21__blocks_news_news_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__blocks_news_item_news_item_styl__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__blocks_news_item_news_item_styl__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__blocks_news_item_news_item_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_22__blocks_news_item_news_item_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__blocks_arrow_button_arrow_button_styl__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__blocks_arrow_button_arrow_button_styl__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__blocks_arrow_button_arrow_button_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_23__blocks_arrow_button_arrow_button_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__blocks_event_event_styl__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__blocks_event_event_styl__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__blocks_event_event_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_24__blocks_event_event_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__blocks_tick_box_tick_box_styl__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__blocks_tick_box_tick_box_styl__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__blocks_tick_box_tick_box_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_25__blocks_tick_box_tick_box_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__blocks_events_events_styl__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__blocks_events_events_styl__ = __webpack_require__(82);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__blocks_events_events_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_26__blocks_events_events_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__blocks_events_events_js__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__blocks_events_events_js__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__blocks_events_events_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_27__blocks_events_events_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__blocks_toggle_toggle_styl__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__blocks_toggle_toggle_styl__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__blocks_toggle_toggle_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_28__blocks_toggle_toggle_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__blocks_toggle_toggle_js__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__blocks_toggle_toggle_js__ = __webpack_require__(87);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__blocks_toggle_toggle_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_29__blocks_toggle_toggle_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__blocks_location_location_styl__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__blocks_location_location_styl__ = __webpack_require__(88);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__blocks_location_location_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_30__blocks_location_location_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__blocks_location_location_js__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__blocks_location_location_js__ = __webpack_require__(92);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__blocks_location_location_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_31__blocks_location_location_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__blocks_location_img_map_marker_icon_png__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__blocks_location_img_map_marker_icon_png__ = __webpack_require__(93);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__blocks_location_img_map_marker_icon_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_32__blocks_location_img_map_marker_icon_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__blocks_user_profile_user_profile_styl__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__blocks_user_profile_user_profile_styl__ = __webpack_require__(94);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__blocks_user_profile_user_profile_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_33__blocks_user_profile_user_profile_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__blocks_user_profile_img_user_profile_woman_png__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__blocks_user_profile_img_user_profile_woman_png__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__blocks_user_profile_img_user_profile_woman_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_34__blocks_user_profile_img_user_profile_woman_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__blocks_user_profile_img_user_profile_man_png__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__blocks_user_profile_img_user_profile_man_png__ = __webpack_require__(98);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__blocks_user_profile_img_user_profile_man_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_35__blocks_user_profile_img_user_profile_man_png__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__blocks_slider_slider_styl__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__blocks_slider_slider_styl__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__blocks_slider_slider_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_36__blocks_slider_slider_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__blocks_slider_slider_js__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__blocks_slider_slider_js__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__blocks_slider_slider_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_37__blocks_slider_slider_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__blocks_calendar_calendar_styl__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__blocks_calendar_calendar_styl__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__blocks_calendar_calendar_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_38__blocks_calendar_calendar_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__blocks_calendar_calendar_js__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__blocks_calendar_calendar_js__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__blocks_calendar_calendar_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_39__blocks_calendar_calendar_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__blocks_articles_articles_styl__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__blocks_articles_articles_styl__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__blocks_articles_articles_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_40__blocks_articles_articles_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__blocks_articles_articles_js__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__blocks_articles_articles_js__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__blocks_articles_articles_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_41__blocks_articles_articles_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__blocks_percentage_percentage_styl__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__blocks_percentage_percentage_styl__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__blocks_percentage_percentage_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_42__blocks_percentage_percentage_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__blocks_percentage_percentage_js__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__blocks_percentage_percentage_js__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__blocks_percentage_percentage_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_43__blocks_percentage_percentage_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__blocks_stages_stages_styl__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__blocks_stages_stages_styl__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__blocks_stages_stages_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_44__blocks_stages_stages_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__blocks_stages_stages_js__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__blocks_stages_stages_js__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__blocks_stages_stages_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_45__blocks_stages_stages_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__blocks_event_new_event_new_styl__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__blocks_event_new_event_new_styl__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__blocks_event_new_event_new_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_46__blocks_event_new_event_new_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__blocks_event_new_event_new_js__ = __webpack_require__(115);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__blocks_event_new_event_new_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_47__blocks_event_new_event_new_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__blocks_event_new_event_new_js__ = __webpack_require__(116);
 
 
 
@@ -10895,7 +10893,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
- //мб подобные штуки лучше в папке с блоком хранить?
+
+
 
 
 
@@ -12188,7 +12187,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n  margin: 0;\n}\nbody .page-content {\n  margin-top: 60px;\n  padding: 20px 0;\n  background-color: #f5f5f5;\n  height: 100%;\n}\n", ""]);
+exports.push([module.i, "body {\n  margin: 0;\n}\nbody .page-content {\n  margin-top: 60px;\n  padding: 20px 0;\n  background-color: #f5f5f5;\n  min-height: 84vh;\n}\n", ""]);
 
 // exports
 
@@ -12374,28 +12373,37 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".videos-wrapper {\n  width: 1040px;\n  margin-left: auto;\n  margin-right: auto;\n  background-color: #fff;\n  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);\n}\n.videos {\n  position: relative;\n  margin-left: auto;\n  margin-right: auto;\n  padding: 20px 0;\n  width: 976px;\n}\n.videos__header {\n  margin-bottom: 20px;\n  padding-bottom: 20px;\n  border-bottom: 1px solid #e5e5e5;\n}\n.videos__buttons {\n  float: right;\n}\n.videos__buttons .standard-button:first-child {\n  margin-right: 10px;\n}\n.videos .search {\n  display: inline-block;\n  padding-top: 6px;\n}\n.videos__container {\n  padding: 0;\n  border: none !important;\n  background-color: transparent;\n}\n.videos__container .video {\n  margin-top: 8px;\n  margin-right: 8px;\n}\n.videos .ui-tabs .ui-tabs-panel {\n  padding: 0;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: flex-start;\n  margin-right: -8px;\n}\n.videos .ui-tabs .ui-tabs-nav {\n  padding: 0;\n  border: none;\n  background-color: transparent;\n}\n.videos .ui-tabs .ui-tabs-anchor {\n  font-family: \"Lato\";\n  font-weight: 400;\n}\n.videos .ui-tabs .ui-tabs-active {\n  background-color: #4eb7a8;\n  border-color: #4eb7a8;\n}\n.videos .ui-tabs .ui-tabs-anchor:focus {\n  outline: none;\n}\n.videos .dropdown {\n  width: 160px;\n}\n.videos .select2-container {\n  position: absolute;\n  right: 0;\n  top: 100px;\n  z-index: 1;\n}\n.videos .select2-container .selection .select2-selection {\n  width: 160px;\n}\n@media (max-width: 1024px) {\n  .videos-wrapper {\n    width: 770px;\n  }\n  .videos {\n    width: 648px;\n  }\n}\n@media (max-width: 830px) {\n  .videos-wrapper {\n    width: 520px;\n  }\n  .videos {\n    width: 480px;\n  }\n  .videos .video {\n    width: 480px;\n    height: 270px;\n  }\n  .videos .search {\n    width: 200px;\n  }\n}\n@media (max-width: 535px) {\n  .videos-wrapper {\n    width: 370px;\n  }\n  .videos {\n    width: 320px;\n  }\n  .videos .search {\n    width: 240px;\n  }\n  .videos__buttons {\n    margin-top: 10px;\n    float: none;\n  }\n  .videos .select2-container {\n    position: relative;\n    display: block;\n    top: -10px;\n  }\n  .videos .video {\n    width: 320px;\n    height: 180px;\n  }\n}\n@media (max-width: 387px) {\n  .videos-wrapper {\n    width: 100%;\n  }\n}\n", ""]);
+exports.push([module.i, ".videos-wrapper {\n  width: 1040px;\n  margin-left: auto;\n  margin-right: auto;\n  background-color: #fff;\n  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);\n}\n.videos {\n  position: relative;\n  margin-left: auto;\n  margin-right: auto;\n  padding: 20px 0;\n  width: 976px;\n}\n.videos .videos__header {\n  margin-bottom: 20px;\n  padding-bottom: 20px;\n  border-bottom: 1px solid #e5e5e5;\n}\n.videos .videos__buttons {\n  float: right;\n}\n.videos .videos__buttons .standard-button:first-child {\n  margin-right: 10px;\n}\n.videos .search {\n  display: inline-block;\n  padding-top: 6px;\n}\n.videos .dropdown {\n  width: 160px;\n}\n.videos .select2-container {\n  position: absolute;\n  right: 0;\n  top: 100px;\n  z-index: 1;\n}\n.videos .videos__content {\n  padding: 0;\n  border: none !important;\n  background-color: transparent;\n}\n.videos .videos__content .video {\n  margin-top: 8px;\n  margin-right: 8px;\n}\n.videos .ui-tabs .ui-tabs-panel {\n  padding: 0;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: flex-start;\n  margin-right: -8px;\n}\n.videos .ui-tabs .ui-tabs-nav {\n  padding: 0;\n  border: none;\n  background-color: transparent;\n}\n.videos .ui-tabs .ui-tabs-anchor {\n  font-family: \"Lato\";\n  font-weight: 400;\n}\n.videos .ui-tabs .ui-tabs-active {\n  background-color: #4eb7a8;\n  border-color: #4eb7a8;\n}\n.videos .ui-tabs .ui-tabs-anchor:focus {\n  outline: none;\n}\n@media (max-width: 1024px) {\n  .videos-wrapper {\n    width: 770px;\n  }\n  .videos {\n    width: 648px;\n  }\n}\n@media (max-width: 830px) {\n  .videos-wrapper {\n    width: 520px;\n  }\n  .videos {\n    width: 480px;\n  }\n  .videos .video {\n    width: 480px;\n    height: 270px;\n  }\n  .videos .search {\n    width: 200px;\n  }\n}\n@media (max-width: 535px) {\n  .videos-wrapper {\n    width: 370px;\n  }\n  .videos {\n    width: 320px;\n  }\n  .videos .search {\n    width: 240px;\n  }\n  .videos__buttons {\n    margin-top: 10px;\n    float: none;\n  }\n  .videos .select2-container {\n    position: relative;\n    display: block;\n    top: -10px;\n  }\n  .videos .video {\n    width: 320px;\n    height: 180px;\n  }\n}\n@media (max-width: 387px) {\n  .videos-wrapper {\n    width: 100%;\n  }\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 /* 63 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function(){
-    $(".videos__container").tabs();
-})
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__content_videos_content_js__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__content_videos_content_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__content_videos_content_js__);
+
 
 /***/ }),
 /* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
+    $(".videos__content").tabs();
+})
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+
+/***/ }),
+/* 65 */
+/***/ (function(module, exports, __webpack_require__) {
+
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(65);
+var content = __webpack_require__(66);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12420,7 +12428,7 @@ if(false) {
 }
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12434,13 +12442,13 @@ exports.push([module.i, ".standard-button {\n  outline: none;\n  padding: 0;\n  
 
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(67);
+var content = __webpack_require__(68);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12465,7 +12473,7 @@ if(false) {
 }
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12473,13 +12481,13 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".dropdown {\n  width: 288px;\n}\n.dropdown__option {\n  background-color: #e5e5e5;\n}\n.select2-container .selection .select2-selection {\n  box-sizing: border-box;\n  outline: none;\n  border: none;\n  min-height: 28px;\n  width: 288px;\n  padding-left: 6px;\n  padding-right: 33px;\n  background-color: #e5e5e5;\n  border-radius: 2px;\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n}\n.select2-container .selection .select2-selection .select2-selection__placeholder {\n  color: #666;\n}\n.select2-container .selection .select2-selection .select2-selection__rendered {\n  color: #666;\n}\n.select2-container .selection .select2-selection .select2-selection__arrow {\n  width: 33px;\n  height: 28px;\n  border-radius: 0 3px 3px 0;\n  top: 0;\n  right: 0;\n  background-color: #4eb7a8;\n  padding: 0;\n}\n.select2-container .selection .select2-selection .select2-selection__arrow b {\n  width: 8px;\n  height: 8px;\n  border: none;\n  border-left: 2px solid #fff;\n  border-top: 2px solid #fff;\n  transform: rotate(-135deg);\n  top: 9px;\n  left: 15px;\n}\n.select2-container .select2-dropdown {\n  border: none;\n}\n.select2-container .select2-dropdown .select2-results > .select2-results__options {\n  color: #666;\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n  background-color: #e5e5e5;\n}\n.select2-container .select2-dropdown .select2-results .select2-results__option {\n  padding-left: 13px;\n  border-bottom: 1px solid rgba(88,88,88,0.3);\n}\n", ""]);
+exports.push([module.i, ".dropdown {\n  width: 288px;\n}\n.dropdown__option {\n  background-color: #e5e5e5;\n}\n.select2-container .selection .select2-selection {\n  box-sizing: border-box;\n  outline: none;\n  border: none;\n  min-height: 28px;\n  width: 100%;\n  padding-left: 6px;\n  padding-right: 33px;\n  background-color: #e5e5e5;\n  border-radius: 2px;\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n}\n.select2-container .selection .select2-selection .select2-selection__placeholder {\n  color: #666;\n}\n.select2-container .selection .select2-selection .select2-selection__rendered {\n  color: #666;\n}\n.select2-container .selection .select2-selection .select2-selection__arrow {\n  width: 33px;\n  height: 28px;\n  border-radius: 0 3px 3px 0;\n  top: 0;\n  right: 0;\n  background-color: #4eb7a8;\n  padding: 0;\n}\n.select2-container .selection .select2-selection .select2-selection__arrow b {\n  width: 8px;\n  height: 8px;\n  border: none;\n  border-left: 2px solid #fff;\n  border-top: 2px solid #fff;\n  transform: rotate(-135deg);\n  top: 9px;\n  left: 15px;\n}\n.select2-container .select2-dropdown {\n  border: none;\n}\n.select2-container .select2-dropdown .select2-results > .select2-results__options {\n  color: #666;\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n  background-color: #e5e5e5;\n}\n.select2-container .select2-dropdown .select2-results .select2-results__option {\n  padding-left: 13px;\n  border-bottom: 1px solid rgba(88,88,88,0.3);\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
@@ -12491,13 +12499,13 @@ exports.push([module.i, ".dropdown {\n  width: 288px;\n}\n.dropdown__option {\n 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(70);
+var content = __webpack_require__(71);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12522,7 +12530,7 @@ if(false) {
 }
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12530,19 +12538,19 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".news {\n  margin-left: auto;\n  margin-right: auto;\n  width: 95%;\n}\n.news::after {\n  display: block;\n  content: \"\";\n  clear: both;\n}\n.news__categories {\n  position: fixed;\n  padding: 0;\n  margin: 0;\n  float: left;\n  list-style: none;\n  width: 200px;\n  height: 290px;\n  text-align: center;\n}\n.news__category {\n  cursor: pointer;\n  display: block;\n  line-height: 40px;\n}\n.news__category-link {\n  text-decoration: none;\n  font-family: \"Lato\";\n  color: #aaa;\n}\n.news__category_selected {\n  background-color: #ddd;\n}\n.news__category_selected > a {\n  color: #444;\n}\n.news__category:hover {\n  background-color: #eee;\n}\n.news__news-block {\n  float: right;\n}\n.news__container-category-wrapper {\n  width: 890px;\n  margin-left: 80px;\n  padding-bottom: 2px;\n  border-bottom: 2px solid #e5e5e5;\n}\n.news__container-category {\n  text-decoration: none;\n  font-family: \"Lato\";\n  font-weight: 900;\n  text-transform: uppercase;\n  color: #aaa;\n  font-size: 20px;\n}\n.news__container-category:hover {\n  color: #888;\n}\n.news__news-container {\n  box-sizing: border-box;\n  position: relative;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 30px;\n  width: 1050px;\n  height: 300px;\n  padding-top: 20px;\n  padding-bottom: 0;\n  background-color: #fff;\n  border-radius: 5px;\n  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);\n}\n.news__button-wrapper {\n  position: absolute;\n  top: 131px;\n}\n.news__button-wrapper_right {\n  right: 20px;\n}\n.news__button-wrapper_left {\n  left: 20px;\n}\n.news__news-items {\n  margin: 10px auto;\n  width: 890px;\n  display: flex;\n  justify-content: space-between;\n}\n.news__news-items .news {\n  flex-shrink: 0;\n}\n@media (max-width: 1350px) {\n  .news {\n    width: 1050px;\n    margin-left: auto;\n    margin-right: auto;\n  }\n  .news__categories {\n    position: static;\n    width: 1050px;\n    height: 50px;\n  }\n  .news__category {\n    display: inline-block;\n    margin-left: 15px;\n    background: none;\n  }\n  .news__category:hover {\n    background: none;\n  }\n  .news__category:hover .news__category-link {\n    color: #888;\n  }\n  .news__news-block {\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n@media (max-width: 1067px) {\n  .news {\n    width: 100%;\n  }\n  .news__news-block,\n  .news__categories {\n    float: none;\n    width: 100%;\n  }\n  .news__container-category-wrapper {\n    width: 600px;\n    margin-left: auto;\n    margin-right: auto;\n  }\n  .news__news-items {\n    width: 600px;\n  }\n  .news__news-container {\n    width: 770px;\n  }\n  .news__news-container .news-item:last-child {\n    display: none;\n  }\n}\n@media (max-width: 788px) {\n  .news__news-items,\n  .news__container-category-wrapper {\n    width: 288px;\n  }\n  .news__news-container {\n    width: 460px;\n  }\n  .news__news-container .news-item:first-child {\n    display: none;\n  }\n  .news__categories {\n    display: flex;\n    flex-wrap: wrap;\n    height: 85px;\n    width: 300px;\n    margin-left: auto;\n    margin-right: auto;\n    justify-content: center;\n  }\n}\n@media (max-width: 480px) {\n  .news__news-container {\n    height: 350px;\n    width: 320px;\n  }\n  .news__button-wrapper {\n    top: auto;\n    bottom: 20px;\n  }\n  .news__button-wrapper_left {\n    left: 100px;\n  }\n  .news__button-wrapper_right {\n    right: 100px;\n  }\n}\n", ""]);
+exports.push([module.i, ".news {\n  margin-left: auto;\n  margin-right: auto;\n  width: 95%;\n}\n.news::after {\n  display: block;\n  content: \"\";\n  clear: both;\n}\n.news__news-block {\n  float: right;\n}\n.news__categories {\n  position: fixed;\n  padding: 0;\n  margin: 0;\n  float: left;\n  list-style: none;\n  width: 200px;\n  height: 290px;\n  text-align: center;\n}\n.news__category {\n  cursor: pointer;\n  display: block;\n  line-height: 40px;\n}\n.news__category-link {\n  text-decoration: none;\n  font-family: \"Lato\";\n  color: #aaa;\n}\n.news__category_selected {\n  background-color: #ddd;\n}\n.news__category_selected > a {\n  color: #444;\n}\n.news__category:hover {\n  background-color: #eee;\n}\n.news__container-category-wrapper {\n  width: 890px;\n  margin-left: 80px;\n  padding-bottom: 2px;\n  border-bottom: 2px solid #e5e5e5;\n}\n.news__container-category {\n  text-decoration: none;\n  font-family: \"Lato\";\n  font-weight: 900;\n  text-transform: uppercase;\n  color: #aaa;\n  font-size: 20px;\n}\n.news__container-category:hover {\n  color: #888;\n}\n.news__items-container {\n  box-sizing: border-box;\n  position: relative;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 30px;\n  width: 1050px;\n  height: 300px;\n  padding-top: 20px;\n  padding-bottom: 0;\n  background-color: #fff;\n  border-radius: 5px;\n  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);\n}\n.news__button-wrapper {\n  position: absolute;\n  top: 131px;\n}\n.news__button-wrapper_right {\n  right: 20px;\n}\n.news__button-wrapper_left {\n  left: 20px;\n}\n.news__items {\n  margin: 10px auto;\n  width: 890px;\n  display: flex;\n  justify-content: space-between;\n}\n.news__items .news {\n  flex-shrink: 0;\n}\n@media (max-width: 1350px) {\n  .news {\n    width: 1050px;\n    margin-left: auto;\n    margin-right: auto;\n  }\n  .news__categories {\n    position: static;\n    width: 1050px;\n    height: 50px;\n  }\n  .news__category {\n    display: inline-block;\n    margin-left: 15px;\n    background: none;\n  }\n  .news__category:hover {\n    background: none;\n  }\n  .news__category:hover .news__category-link {\n    color: #888;\n  }\n  .news__news-block {\n    margin-left: auto;\n    margin-right: auto;\n  }\n}\n@media (max-width: 1067px) {\n  .news {\n    width: 100%;\n  }\n  .news__news-block,\n  .news__categories {\n    float: none;\n    width: 100%;\n  }\n  .news__container-category-wrapper {\n    width: 600px;\n    margin-left: auto;\n    margin-right: auto;\n  }\n  .news__items {\n    width: 600px;\n  }\n  .news__items-container {\n    width: 770px;\n  }\n  .news__items-container .news-item:last-child {\n    display: none;\n  }\n}\n@media (max-width: 788px) {\n  .news__items,\n  .news__container-category-wrapper {\n    width: 288px;\n  }\n  .news__items-container {\n    width: 460px;\n  }\n  .news__items-container .news-item:first-child {\n    display: none;\n  }\n  .news__categories {\n    display: flex;\n    flex-wrap: wrap;\n    height: 85px;\n    width: 300px;\n    margin-left: auto;\n    margin-right: auto;\n    justify-content: center;\n  }\n}\n@media (max-width: 480px) {\n  .news__items-container {\n    height: 350px;\n    width: 320px;\n  }\n  .news__button-wrapper {\n    top: auto;\n    bottom: 20px;\n  }\n  .news__button-wrapper_left {\n    left: 100px;\n  }\n  .news__button-wrapper_right {\n    right: 100px;\n  }\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(72);
+var content = __webpack_require__(73);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12567,7 +12575,7 @@ if(false) {
 }
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12575,25 +12583,25 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".news-item {\n  width: 288px;\n  height: 212px;\n  border-radius: 3px;\n  overflow: hidden;\n}\n.news-item__image {\n  width: 95px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-image: url(" + __webpack_require__(73) + ");\n}\n.news-item__text {\n  box-sizing: border-box;\n  padding-left: 22px;\n  padding-top: 22px;\n  padding-right: 20px;\n  line-height: 0.9;\n  width: 193px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-color: #e75735;\n  color: #fff;\n}\n.news-item__title {\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 28px;\n  line-height: 26px;\n}\n.news-item__date {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 11px;\n  margin-top: 13px;\n  margin-bottom: 15px;\n  text-transform: uppercase;\n  word-spacing: 5px;\n}\n.news-item__content {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 11px;\n  line-height: 13px;\n  letter-spacing: 0.05em;\n}\n", ""]);
+exports.push([module.i, ".news-item {\n  width: 288px;\n  height: 212px;\n  border-radius: 3px;\n  overflow: hidden;\n}\n.news-item__image {\n  width: 95px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-image: url(" + __webpack_require__(74) + ");\n}\n.news-item__text {\n  box-sizing: border-box;\n  padding-left: 22px;\n  padding-top: 22px;\n  padding-right: 20px;\n  line-height: 0.9;\n  width: 193px;\n  height: 212px;\n  display: inline-block;\n  vertical-align: top;\n  background-color: #e75735;\n  color: #fff;\n}\n.news-item__title {\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 28px;\n  line-height: 26px;\n}\n.news-item__date {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 11px;\n  margin-top: 13px;\n  margin-bottom: 15px;\n  text-transform: uppercase;\n  word-spacing: 5px;\n}\n.news-item__content {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 11px;\n  line-height: 13px;\n  letter-spacing: 0.05em;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/news-sample.png";
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(75);
+var content = __webpack_require__(76);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12618,7 +12626,7 @@ if(false) {
 }
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12632,13 +12640,13 @@ exports.push([module.i, ".arrow-button {\n  outline: none;\n  position: relative
 
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(77);
+var content = __webpack_require__(78);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12663,7 +12671,7 @@ if(false) {
 }
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12671,25 +12679,25 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".event {\n  width: 288px;\n  height: 212px;\n  border-radius: 3px;\n  overflow: hidden;\n}\n.event__image {\n  width: 32.989%;\n  height: 100%;\n  display: inline-block;\n  vertical-align: top;\n  background-image: url(" + __webpack_require__(78) + ");\n  background-size: cover;\n}\n.event__text {\n  box-sizing: border-box;\n  width: 67.014%;\n  height: 100%;\n  padding: 4px 19px 19px 19px;\n  display: inline-block;\n  vertical-align: top;\n  background-color: #4eb7a8;\n  color: #fff;\n}\n.event__text .standard-button {\n  width: 128px;\n  height: 22px;\n  border: none;\n  font-size: 10px;\n  box-shadow: 0 3px 0 0 #379285;\n  margin-left: 13px;\n  word-spacing: 0.2em;\n}\n.event__date {\n  font-family: \"Lato\";\n  font-weight: 300;\n  word-spacing: 14px;\n  margin-bottom: 8px;\n}\n.event__day {\n  font-size: 73px;\n  letter-spacing: -0.04em;\n  display: inline-block;\n  margin-right: 14px;\n}\n.event__month {\n  font-size: 30px;\n  display: inline-block;\n}\n.event__title {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12.5px;\n  text-decoration: none;\n  color: #fff;\n  margin-bottom: 3px;\n  letter-spacing: 0.05em;\n  text-transform: uppercase;\n}\n.event__content {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 11px;\n  letter-spacing: 0.05em;\n  margin-bottom: 19px;\n}\n", ""]);
+exports.push([module.i, ".event {\n  width: 288px;\n  height: 212px;\n  border-radius: 3px;\n  overflow: hidden;\n}\n.event__image {\n  width: 32.989%;\n  height: 100%;\n  display: inline-block;\n  vertical-align: top;\n  background-image: url(" + __webpack_require__(79) + ");\n  background-size: cover;\n}\n.event__text {\n  box-sizing: border-box;\n  width: 67.014%;\n  height: 100%;\n  padding: 4px 19px 19px 19px;\n  display: inline-block;\n  vertical-align: top;\n  background-color: #4eb7a8;\n  color: #fff;\n}\n.event__text .standard-button {\n  width: 128px;\n  height: 22px;\n  border: none;\n  font-size: 10px;\n  box-shadow: 0 3px 0 0 #379285;\n  margin-left: 13px;\n  word-spacing: 0.2em;\n}\n.event__date {\n  font-family: \"Lato\";\n  font-weight: 300;\n  word-spacing: 14px;\n  margin-bottom: 8px;\n}\n.event__day {\n  font-size: 73px;\n  letter-spacing: -0.04em;\n  display: inline-block;\n  margin-right: 14px;\n}\n.event__month {\n  font-size: 30px;\n  display: inline-block;\n}\n.event__title {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12.5px;\n  text-decoration: none;\n  color: #fff;\n  margin-bottom: 3px;\n  letter-spacing: 0.05em;\n  text-transform: uppercase;\n}\n.event__content {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 11px;\n  letter-spacing: 0.05em;\n  margin-bottom: 19px;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/event-sample.png";
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(80);
+var content = __webpack_require__(81);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12714,7 +12722,7 @@ if(false) {
 }
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12722,19 +12730,19 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".tick-box {\n  display: inline-block;\n  height: 23px;\n}\n.tick-box input {\n  display: none;\n}\n.tick-box__container {\n  cursor: pointer;\n  user-select: none;\n  display: block;\n  font-size: 17px;\n  font-family: \"Lato\";\n}\n.tick-box__label {\n  display: inline-block;\n  vertical-align: top;\n  margin-right: 5px;\n}\n.tick-box__checkmark {\n  position: relative;\n  display: inline-block;\n  vertical-align: bottom;\n  width: 23px;\n  height: 23px;\n  border-radius: 50%;\n  background-color: #e5e5e5;\n}\n.tick-box__checkmark::after {\n  position: absolute;\n  content: \"\";\n  display: block;\n  width: 9px;\n  height: 4px;\n  transform: rotate(-45deg);\n  top: 7px;\n  right: 6px;\n  border-left: 2px solid #cecece;\n  border-bottom: 2px solid #cecece;\n}\ninput:checked ~ .tick-box__checkmark {\n  background-color: #4eb7a8;\n}\ninput:checked ~ .tick-box__checkmark::after {\n  top: 7px;\n  right: 6px;\n  border-left: 2px solid #fff;\n  border-bottom: 2px solid #fff;\n}\n", ""]);
+exports.push([module.i, ".tick-box {\n  display: block;\n  height: 23px;\n}\n.tick-box input {\n  display: none;\n}\n.tick-box__container {\n  cursor: pointer;\n  user-select: none;\n  display: block;\n  font-size: 17px;\n  font-family: \"Lato\";\n}\n.tick-box__label {\n  display: inline-block;\n  vertical-align: top;\n  margin-right: 5px;\n}\n.tick-box__checkmark {\n  position: relative;\n  display: inline-block;\n  vertical-align: bottom;\n  width: 23px;\n  height: 23px;\n  border-radius: 50%;\n  background-color: #e5e5e5;\n}\n.tick-box__checkmark::after {\n  position: absolute;\n  content: \"\";\n  display: block;\n  width: 9px;\n  height: 4px;\n  transform: rotate(-45deg);\n  top: 7px;\n  right: 6px;\n  border-left: 2px solid #cecece;\n  border-bottom: 2px solid #cecece;\n}\ninput:checked ~ .tick-box__checkmark {\n  background-color: #4eb7a8;\n}\ninput:checked ~ .tick-box__checkmark::after {\n  top: 7px;\n  right: 6px;\n  border-left: 2px solid #fff;\n  border-bottom: 2px solid #fff;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(82);
+var content = __webpack_require__(83);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12759,7 +12767,7 @@ if(false) {
 }
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12767,13 +12775,13 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".events {\n  margin-left: auto;\n  margin-right: auto;\n  width: 1040px;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-start;\n  flex-wrap: wrap;\n}\n.events .event {\n  margin-bottom: 15px;\n}\n.events__title {\n  margin-top: 0;\n  font-family: \"Lato\";\n  font-weight: 900;\n  text-transform: uppercase;\n  color: #aaa;\n  font-size: 20px;\n  padding-bottom: 2px;\n  border-bottom: 2px solid #e5e5e5;\n}\n.events .tick-box {\n  display: inline-block;\n  vertical-align: bottom;\n  float: right;\n}\n.events .toggle {\n  display: inline-block;\n  vertical-align: bottom;\n}\n.events .location {\n  margin-top: 10px;\n}\n.events .location__address {\n  display: none;\n}\n.events__my-events {\n  width: 593px;\n}\n.events__items {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: flex-start;\n  margin-right: -17px;\n  margin-top: 20px;\n}\n.events__items .event {\n  margin-right: 17px;\n}\n.events__items .event .standard-button {\n  display: none;\n}\n.events__arrow-buttons {\n  margin-left: auto;\n  margin-right: auto;\n  width: 115px;\n}\n.events__arrow-buttons .arrow-button:first-child {\n  margin-right: 15px;\n}\n.events__container {\n  margin-bottom: 30px;\n  background-color: #fff;\n  padding: 20px 30px;\n  border-radius: 5px;\n  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);\n}\n.events__right > .events__container:first-child .events__title {\n  width: 279px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.events__right > .events__container:first-child .calendar {\n  margin-left: auto;\n  margin-right: auto;\n}\n.events__new {\n  display: block;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.events__new .standard-button {\n  width: 200px;\n}\n.events__see-more {\n  text-decoration: none;\n  font-family: \"Lato\";\n  color: #4ab7a8;\n  text-transform: uppercase;\n  font-weight: 700;\n}\n.events__see-more:hover {\n  color: #4a9aaf;\n}\n@media (max-width: 1057px) {\n  .events {\n    display: block;\n    width: 653px;\n  }\n  .events__right {\n    width: 100%;\n    max-height: 736px;\n    display: flex;\n    align-content: space-between;\n    flex-direction: column;\n    flex-wrap: wrap;\n  }\n  .events__right .events__container {\n    box-sizing: border-box;\n    padding: 20px 14px;\n    width: 316px;\n  }\n  .events__right .events__search,\n  .events__right .events__new-event {\n    height: 117px;\n  }\n  .events__right .events__calendar,\n  .events__right .events__recommended {\n    height: 559px;\n  }\n}\n@media (max-width: 700px) {\n  .events {\n    width: 96.173%;\n  }\n  .events__my-events {\n    width: 100%;\n    box-sizing: border-box;\n  }\n  .events__my-events .location {\n    width: 100%;\n  }\n  .events__items {\n    justify-content: center;\n  }\n  .events .event {\n    width: 100%;\n    position: relative;\n  }\n  .events .event__image {\n    position: absolute;\n    width: 95px;\n    background-size: contain;\n  }\n  .events .event__text {\n    width: 100%;\n    padding-left: 114px;\n  }\n}\n@media (max-width: 680px) {\n  .events__right {\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    width: 316px;\n    max-height: none;\n  }\n}\n@media (max-width: 430px) {\n  .events .tick-box {\n    float: none;\n    margin-top: 10px;\n    display: block;\n  }\n  .events__container {\n    padding: 20px 14px;\n  }\n}\n", ""]);
+exports.push([module.i, ".events {\n  margin-left: auto;\n  margin-right: auto;\n  width: 1040px;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-start;\n  flex-wrap: wrap;\n}\n.events .event {\n  margin-bottom: 15px;\n}\n.events__title {\n  margin-top: 0;\n  font-family: \"Lato\";\n  font-weight: 900;\n  text-transform: uppercase;\n  color: #aaa;\n  font-size: 20px;\n  padding-bottom: 2px;\n  border-bottom: 2px solid #e5e5e5;\n}\n.events__container {\n  margin-bottom: 30px;\n  background-color: #fff;\n  padding: 20px 30px;\n  border-radius: 5px;\n  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);\n}\n.events .tick-box {\n  display: inline-block;\n  vertical-align: bottom;\n  float: right;\n}\n.events .toggle {\n  display: inline-block;\n  vertical-align: bottom;\n}\n.events .location {\n  margin-top: 10px;\n}\n.events .location__address {\n  display: none;\n}\n.events__my-events {\n  width: 593px;\n}\n.events__items {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: flex-start;\n  margin-right: -17px;\n  margin-top: 20px;\n}\n.events__items .event {\n  margin-right: 17px;\n}\n.events__items .event .standard-button {\n  display: none;\n}\n.events__arrow-buttons {\n  margin-left: auto;\n  margin-right: auto;\n  width: 115px;\n}\n.events__arrow-buttons .arrow-button:first-child {\n  margin-right: 15px;\n}\n.events__right > .events__container:first-child .events__title {\n  width: 279px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.events__right > .events__container:first-child .calendar {\n  margin-left: auto;\n  margin-right: auto;\n}\n.events__new {\n  display: block;\n  width: 200px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.events__new .standard-button {\n  width: 200px;\n}\n.events__see-more {\n  text-decoration: none;\n  font-family: \"Lato\";\n  color: #4ab7a8;\n  text-transform: uppercase;\n  font-weight: 700;\n}\n.events__see-more:hover {\n  color: #4a9aaf;\n}\n@media (max-width: 1057px) {\n  .events {\n    display: block;\n    width: 653px;\n  }\n  .events__right {\n    width: 100%;\n    max-height: 736px;\n    display: flex;\n    align-content: space-between;\n    flex-direction: column;\n    flex-wrap: wrap;\n  }\n  .events__right .events__container {\n    box-sizing: border-box;\n    padding: 20px 14px;\n    width: 316px;\n  }\n  .events__right .events__search,\n  .events__right .events__new-event {\n    height: 117px;\n  }\n  .events__right .events__calendar,\n  .events__right .events__recommended {\n    height: 559px;\n  }\n}\n@media (max-width: 700px) {\n  .events {\n    width: 96.173%;\n  }\n  .events__my-events {\n    width: 100%;\n    box-sizing: border-box;\n  }\n  .events__my-events .location {\n    width: 100%;\n  }\n  .events__items {\n    justify-content: center;\n  }\n  .events .event {\n    width: 100%;\n    position: relative;\n  }\n  .events .event__image {\n    position: absolute;\n    width: 95px;\n    background-size: contain;\n  }\n  .events .event__text {\n    width: 100%;\n    padding-left: 114px;\n  }\n}\n@media (max-width: 680px) {\n  .events__right {\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n    width: 316px;\n    max-height: none;\n  }\n}\n@media (max-width: 430px) {\n  .events .tick-box {\n    float: none;\n    margin-top: 10px;\n    display: block;\n  }\n  .events__container {\n    padding: 20px 14px;\n  }\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
@@ -12796,13 +12804,13 @@ exports.push([module.i, ".events {\n  margin-left: auto;\n  margin-right: auto;\
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(85);
+var content = __webpack_require__(86);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12827,7 +12835,7 @@ if(false) {
 }
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12841,7 +12849,7 @@ exports.push([module.i, ".toggle {\n  cursor: pointer;\n}\n.toggle__label {\n  u
 
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function(){
@@ -12859,13 +12867,13 @@ exports.push([module.i, ".toggle {\n  cursor: pointer;\n}\n.toggle__label {\n  u
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(88);
+var content = __webpack_require__(89);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12890,7 +12898,7 @@ if(false) {
 }
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12898,25 +12906,25 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".location {\n  width: 593px;\n  height: 272px;\n  border-radius: 4px;\n  overflow: hidden;\n}\n.location__map {\n  height: 203px;\n}\n.location__footer {\n  box-sizing: border-box;\n  height: 69px;\n  background-color: #e75735;\n  color: #fff;\n  display: flex;\n  justify-content: space-between;\n}\n.location__footer-text {\n  margin-left: 27px;\n  height: 29px;\n  padding-top: 20px;\n  padding-bottom: 20px;\n  width: 280px;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n}\n.location__meet-us {\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 30px;\n  word-spacing: -0.09em;\n}\n.location__address {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12.5px;\n  letter-spacing: 0.05em;\n  text-transform: uppercase;\n  width: 143px;\n}\n.location__footer-buttons {\n  width: 79px;\n  height: 69px;\n  padding: 20px 13px 20px 0;\n  display: flex;\n  justify-content: space-between;\n}\n.location__footer-button {\n  width: 30px;\n  height: 30px;\n}\n.location__my-location {\n  background: url(" + __webpack_require__(89) + ") no-repeat 0px 1px;\n}\n.location__pin {\n  background: url(" + __webpack_require__(90) + ") no-repeat 0px 2px;\n}\n", ""]);
+exports.push([module.i, ".location {\n  width: 593px;\n  height: 272px;\n  border-radius: 4px;\n  overflow: hidden;\n}\n.location__map {\n  height: 203px;\n}\n.location__footer {\n  box-sizing: border-box;\n  height: 69px;\n  background-color: #e75735;\n  color: #fff;\n  display: flex;\n  justify-content: space-between;\n}\n.location__footer-text {\n  margin-left: 27px;\n  height: 29px;\n  padding-top: 20px;\n  padding-bottom: 20px;\n  width: 280px;\n  display: flex;\n  justify-content: space-between;\n  align-items: flex-end;\n}\n.location__meet-us {\n  font-family: \"Lato\";\n  font-weight: 300;\n  font-size: 30px;\n  word-spacing: -0.09em;\n}\n.location__address {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 12.5px;\n  letter-spacing: 0.05em;\n  text-transform: uppercase;\n  width: 143px;\n}\n.location__footer-buttons {\n  width: 79px;\n  height: 69px;\n  padding: 20px 13px 20px 0;\n  display: flex;\n  justify-content: space-between;\n}\n.location__footer-button {\n  width: 30px;\n  height: 30px;\n}\n.location__my-location {\n  background: url(" + __webpack_require__(90) + ") no-repeat 0px 1px;\n}\n.location__pin {\n  background: url(" + __webpack_require__(91) + ") no-repeat 0px 2px;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/map-my-location.png";
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/map-pin.png";
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
@@ -12937,19 +12945,19 @@ module.exports = __webpack_require__.p + "img/map-pin.png";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/map-marker-icon.png";
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(94);
+var content = __webpack_require__(95);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -12974,7 +12982,7 @@ if(false) {
 }
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -12982,37 +12990,37 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".user-profile {\n  margin-bottom: 25px;\n}\n.user-profile__photo {\n  display: inline-block;\n  vertical-align: middle;\n  height: 85px;\n  width: 85px;\n  border-radius: 50%;\n  border: 4px solid #e5e5e5;\n  margin-right: 11px;\n  background-size: cover;\n}\n.user-profile__info {\n  display: inline-block;\n  vertical-align: middle;\n  position: relative;\n  width: 163px;\n  height: 93px;\n  border-radius: 6px;\n  margin-top: 2px;\n}\n.user-profile__info::before {\n  position: absolute;\n  left: -6px;\n  top: 40px;\n  content: \"\";\n  display: block;\n  border-style: solid;\n  border-width: 6px 6px 6px 0;\n}\n.user-profile__name {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 18px;\n  text-align: center;\n  margin-top: 8px;\n  word-spacing: -0.05em;\n}\n.user-profile__profession {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 11px;\n  text-transform: uppercase;\n  text-align: center;\n  margin-top: 1px;\n  word-spacing: 2px;\n  letter-spacing: 0.05em;\n}\n.user-profile__social-container {\n  text-align: center;\n}\n.user-profile__social-icon {\n  width: 30px;\n  height: 30px;\n  display: inline-block;\n  background-image: url(" + __webpack_require__(95) + ");\n  margin-top: 6px;\n  margin-left: 5px;\n  margin-right: 5px;\n}\n.user-profile__info_blue {\n  background-color: #4eb7a8;\n}\n.user-profile__info_blue::before {\n  border-color: transparent #4eb7a8 transparent transparent;\n}\n.user-profile__info_blue .user-profile__name {\n  color: #fff;\n}\n.user-profile__info_blue .user-profile__profession {\n  color: #fff;\n}\n.user-profile__info_blue .user-profile__fb {\n  background-position: -89px -4px;\n}\n.user-profile__info_blue .user-profile__twitter {\n  background-position: -7px -2px;\n}\n.user-profile__info_blue .user-profile__dribbble {\n  background-position: -5px -43px;\n}\n.user-profile__info_grey {\n  background-color: #e5e5e5;\n}\n.user-profile__info_grey::before {\n  border-color: transparent #e5e5e5 transparent transparent;\n}\n.user-profile__info_grey .user-profile__name {\n  color: #e75735;\n}\n.user-profile__info_grey .user-profile__profession {\n  color: #4f4f4f;\n}\n.user-profile__info_grey .user-profile__fb {\n  background-position: -119px -4px;\n}\n.user-profile__info_grey .user-profile__twitter {\n  background-position: -52px -2px;\n}\n.user-profile__info_grey .user-profile__dribbble {\n  background-position: -46px -43px;\n}\n", ""]);
+exports.push([module.i, ".user-profile {\n  margin-bottom: 25px;\n}\n.user-profile__photo {\n  display: inline-block;\n  vertical-align: middle;\n  height: 85px;\n  width: 85px;\n  border-radius: 50%;\n  border: 4px solid #e5e5e5;\n  margin-right: 11px;\n  background-size: cover;\n}\n.user-profile__info {\n  display: inline-block;\n  vertical-align: middle;\n  position: relative;\n  width: 163px;\n  height: 93px;\n  border-radius: 6px;\n  margin-top: 2px;\n}\n.user-profile__info::before {\n  position: absolute;\n  left: -6px;\n  top: 40px;\n  content: \"\";\n  display: block;\n  border-style: solid;\n  border-width: 6px 6px 6px 0;\n}\n.user-profile__name {\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-size: 18px;\n  text-align: center;\n  margin-top: 8px;\n  word-spacing: -0.05em;\n}\n.user-profile__profession {\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 11px;\n  text-transform: uppercase;\n  text-align: center;\n  margin-top: 1px;\n  word-spacing: 2px;\n  letter-spacing: 0.05em;\n}\n.user-profile__social-container {\n  text-align: center;\n}\n.user-profile__social-icon {\n  width: 30px;\n  height: 30px;\n  display: inline-block;\n  background-image: url(" + __webpack_require__(96) + ");\n  margin-top: 6px;\n  margin-left: 5px;\n  margin-right: 5px;\n}\n.user-profile__info_blue {\n  background-color: #4eb7a8;\n}\n.user-profile__info_blue::before {\n  border-color: transparent #4eb7a8 transparent transparent;\n}\n.user-profile__info_blue .user-profile__name {\n  color: #fff;\n}\n.user-profile__info_blue .user-profile__profession {\n  color: #fff;\n}\n.user-profile__info_blue .user-profile__fb {\n  background-position: -89px -4px;\n}\n.user-profile__info_blue .user-profile__twitter {\n  background-position: -7px -2px;\n}\n.user-profile__info_blue .user-profile__dribbble {\n  background-position: -5px -43px;\n}\n.user-profile__info_grey {\n  background-color: #e5e5e5;\n}\n.user-profile__info_grey::before {\n  border-color: transparent #e5e5e5 transparent transparent;\n}\n.user-profile__info_grey .user-profile__name {\n  color: #e75735;\n}\n.user-profile__info_grey .user-profile__profession {\n  color: #4f4f4f;\n}\n.user-profile__info_grey .user-profile__fb {\n  background-position: -119px -4px;\n}\n.user-profile__info_grey .user-profile__twitter {\n  background-position: -52px -2px;\n}\n.user-profile__info_grey .user-profile__dribbble {\n  background-position: -46px -43px;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/social_icons.png";
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/user-profile-woman.png";
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/user-profile-man.png";
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(99);
+var content = __webpack_require__(100);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -13037,7 +13045,7 @@ if(false) {
 }
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -13051,7 +13059,7 @@ exports.push([module.i, ".slider {\n  position: relative;\n  height: 5px;\n  bac
 
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
@@ -13082,13 +13090,13 @@ exports.push([module.i, ".slider {\n  position: relative;\n  height: 5px;\n  bac
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(102);
+var content = __webpack_require__(103);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -13113,7 +13121,7 @@ if(false) {
 }
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -13127,7 +13135,7 @@ exports.push([module.i, ".calendar {\n  width: 279px;\n}\n.calendar__day {\n  wi
 
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
@@ -13154,13 +13162,13 @@ exports.push([module.i, ".calendar {\n  width: 279px;\n}\n.calendar__day {\n  wi
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(105);
+var content = __webpack_require__(106);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -13185,7 +13193,7 @@ if(false) {
 }
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -13193,13 +13201,13 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".articles {\n  display: flex;\n  justify-content: space-between;\n  width: 1160px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.articles__left {\n  width: 30.172%;\n  margin-right: 15px;\n}\n.articles__container {\n  margin-bottom: 30px;\n  background-color: #fff;\n  padding: 20px 30px;\n  border-radius: 5px;\n  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);\n}\n.articles__categories {\n  position: sticky;\n  top: 70px;\n}\n.articles__category {\n  cursor: pointer;\n  display: block;\n  line-height: 40px;\n}\n.articles__category:last-child {\n  border: none;\n}\n.articles__category-link {\n  text-decoration: none;\n  font-family: \"Lato\";\n  color: #aaa;\n  padding-left: 10px;\n}\n.articles__category_selected {\n  background-color: #eee;\n}\n.articles__category_selected > a {\n  color: #888;\n}\n.articles__category:hover {\n  background-color: #f9f9f9;\n}\n.articles__title {\n  margin-top: 0;\n  text-decoration: none;\n  font-family: \"Lato\";\n  font-weight: 900;\n  text-transform: uppercase;\n  color: #aaa;\n  font-size: 20px;\n  border-bottom: 2px solid #e5e5e5;\n}\n.articles__filter-title {\n  font-family: \"Lato\";\n  font-weight: 400;\n  color: #444;\n  margin: 20px 0;\n}\n.articles__filter-author-field {\n  box-sizing: border-box;\n  outline: none;\n  border: none;\n  width: 288px;\n  height: 28px;\n  background-color: #e5e5e5;\n  padding-left: 13px;\n  padding-bottom: 4px;\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n  letter-spacing: 0.01em;\n  color: #666;\n}\n.articles__filter-tags {\n  margin-bottom: 20px;\n}\n.articles__slider-wrapper {\n  height: 50px;\n  padding-left: 15px;\n}\n.articles__slider-wrapper .slider {\n  top: 38px;\n}\n.articles__popular {\n  width: 61%;\n}\n.articles__article {\n  margin-bottom: 16px;\n  font-family: \"Lato\";\n  position: relative;\n  border-bottom: 1px solid #e5e5e5;\n}\n.articles__article-title {\n  display: inline-block;\n}\n.articles__article-title:hover,\n.articles__article-category:hover,\n.articles__article-link:hover {\n  color: #009;\n}\n.articles__article-category {\n  margin-top: 0;\n  display: inline-block;\n}\n.articles__article-footer {\n  display: flex;\n  justify-content: space-between;\n}\n.articles__article-tags {\n  list-style: none;\n  padding: 0;\n}\n.articles__article-tags-label {\n  display: inline-block;\n  margin-right: 5px;\n}\n.articles__article-tags-item {\n  display: inline-block;\n  cursor: default;\n}\n.articles__article-link {\n  text-decoration: none;\n  color: #000;\n}\n.articles__article-date {\n  position: absolute;\n  top: 18.72px;\n  right: 0;\n}\nbody[data-select2-id=\"19\"] .select2-results__option[aria-selected=\"true\"] {\n  color: #aaa !important;\n}\n@media (max-width: 1175px) {\n  .articles {\n    width: 100%;\n  }\n  .articles .search {\n    display: flex;\n    justify-content: flex-end;\n    width: 100%;\n  }\n  .articles .search__field {\n    padding-right: 33px;\n    flex-grow: 1;\n  }\n  .articles__filter-author-field {\n    width: 100%;\n  }\n  .articles__filter-tags .select2-container {\n    width: 100% !important;\n  }\n  .articles__filter-tags .select2-container .selection .select2-selection {\n    width: 100%;\n  }\n  .articles__slider-wrapper {\n    padding-left: 5.208%;\n  }\n  .articles__slider-wrapper .slider {\n    width: 100%;\n  }\n}\n@media (max-width: 725px) {\n  .articles {\n    display: block;\n  }\n  .articles__left {\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    align-content: space-between;\n    max-height: 415px;\n    flex-wrap: wrap;\n  }\n  .articles__categories {\n    position: static;\n    box-sizing: border-box;\n    width: 49.6%;\n    margin: 0;\n  }\n  .articles__filter {\n    width: 49.6%;\n    box-sizing: border-box;\n  }\n  .articles__search {\n    box-sizing: border-box;\n    order: 1;\n    margin-top: 4px;\n    margin-bottom: 0;\n    width: 49.6%;\n  }\n  .articles__popular {\n    box-sizing: border-box;\n    width: 100%;\n  }\n  .articles__category {\n    line-height: 33px;\n  }\n}\n@media (max-width: 500px) {\n  .articles__left {\n    display: block;\n    max-height: none;\n  }\n  .articles__filter,\n  .articles__search,\n  .articles__categories {\n    width: 350px;\n    margin-bottom: 30px;\n    margin-left: auto;\n    margin-right: auto;\n  }\n  .articles__category {\n    line-height: 40px;\n  }\n}\n@media (max-width: 450px) {\n  .articles__popular {\n    padding: 20px 15px;\n  }\n  .articles__article-footer .user-profile__info {\n    height: 73px;\n    width: 143px;\n  }\n  .articles__article-footer .user-profile__info::before {\n    top: 30px;\n  }\n  .articles__article-footer .user-profile__photo {\n    height: 65px;\n    width: 65px;\n  }\n  .articles__article-footer .user-profile__name {\n    font-size: 16px;\n    margin-top: 4px;\n  }\n  .articles__article-footer .user-profile__profession {\n    font-size: 10px;\n  }\n  .articles__article-footer .user-profile__social-icon {\n    margin-top: 0;\n  }\n  .articles__article-footer .percentage {\n    margin-left: 8px;\n  }\n  .articles__article-footer .percentage canvas {\n    width: 75px;\n    height: 75px;\n  }\n  .articles__article-footer .percentage__value {\n    top: 17px;\n    font-size: 33px;\n    width: 75px;\n  }\n}\n", ""]);
+exports.push([module.i, ".articles {\n  display: flex;\n  justify-content: space-between;\n  width: 1160px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.articles__left {\n  width: 30.172%;\n  margin-right: 15px;\n}\n.articles__container {\n  margin-bottom: 30px;\n  background-color: #fff;\n  padding: 20px 30px;\n  border-radius: 5px;\n  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);\n}\n.articles__title {\n  margin-top: 0;\n  text-decoration: none;\n  font-family: \"Lato\";\n  font-weight: 900;\n  text-transform: uppercase;\n  color: #aaa;\n  font-size: 20px;\n  border-bottom: 2px solid #e5e5e5;\n}\n.articles__popular {\n  width: 61%;\n}\nbody[data-select2-id=\"19\"] .select2-results__option[aria-selected=\"true\"] {\n  color: #aaa !important;\n}\n.articles__filter-title {\n  font-family: \"Lato\";\n  font-weight: 400;\n  color: #444;\n  margin: 20px 0;\n}\n.articles__filter-author-field {\n  box-sizing: border-box;\n  outline: none;\n  border: none;\n  width: 288px;\n  height: 28px;\n  background-color: #e5e5e5;\n  padding-left: 13px;\n  padding-bottom: 4px;\n  font-family: \"Lato\";\n  font-weight: 400;\n  font-style: normal;\n  font-stretch: normal;\n  font-size: 14px;\n  letter-spacing: 0.01em;\n  color: #666;\n}\n.articles__filter-tags {\n  margin-bottom: 20px;\n}\n.articles__slider-wrapper {\n  height: 50px;\n  padding-left: 15px;\n}\n.articles__slider-wrapper .slider {\n  top: 38px;\n}\n.articles__categories {\n  position: sticky;\n  top: 70px;\n}\n.articles__category {\n  cursor: pointer;\n  display: block;\n  line-height: 40px;\n}\n.articles__category:last-child {\n  border: none;\n}\n.articles__category-link {\n  text-decoration: none;\n  font-family: \"Lato\";\n  color: #aaa;\n  padding-left: 10px;\n}\n.articles__category_selected {\n  background-color: #eee;\n}\n.articles__category_selected > a {\n  color: #888;\n}\n.articles__category:hover {\n  background-color: #f9f9f9;\n}\n.articles__article {\n  margin-bottom: 16px;\n  font-family: \"Lato\";\n  position: relative;\n  border-bottom: 1px solid #e5e5e5;\n}\n.articles__article-title {\n  display: inline-block;\n}\n.articles__article-title:hover,\n.articles__article-category:hover,\n.articles__article-link:hover {\n  color: #009;\n}\n.articles__article-category {\n  margin-top: 0;\n  display: inline-block;\n}\n.articles__article-footer {\n  display: flex;\n  justify-content: space-between;\n}\n.articles__article-tags {\n  list-style: none;\n  padding: 0;\n}\n.articles__article-tags-label {\n  display: inline-block;\n  margin-right: 5px;\n}\n.articles__article-tags-item {\n  display: inline-block;\n  cursor: default;\n}\n.articles__article-link {\n  text-decoration: none;\n  color: #000;\n}\n.articles__article-date {\n  position: absolute;\n  top: 18.72px;\n  right: 0;\n}\n@media (max-width: 1175px) {\n  .articles {\n    width: 100%;\n  }\n  .articles .search {\n    display: flex;\n    justify-content: flex-end;\n    width: 100%;\n  }\n  .articles .search__field {\n    padding-right: 33px;\n    flex-grow: 1;\n  }\n  .articles__filter-author-field {\n    width: 100%;\n  }\n  .articles__filter-tags .select2-container {\n    width: 100% !important;\n  }\n  .articles__filter-tags .select2-container .selection .select2-selection {\n    width: 100%;\n  }\n  .articles__slider-wrapper {\n    padding-left: 5.208%;\n  }\n  .articles__slider-wrapper .slider {\n    width: 100%;\n  }\n}\n@media (max-width: 725px) {\n  .articles {\n    display: block;\n  }\n  .articles__left {\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    align-content: space-between;\n    max-height: 415px;\n    flex-wrap: wrap;\n  }\n  .articles__categories {\n    position: static;\n    box-sizing: border-box;\n    width: 49.6%;\n    margin: 0;\n  }\n  .articles__filter {\n    width: 49.6%;\n    box-sizing: border-box;\n  }\n  .articles__search {\n    box-sizing: border-box;\n    order: 1;\n    margin-top: 4px;\n    margin-bottom: 0;\n    width: 49.6%;\n  }\n  .articles__popular {\n    box-sizing: border-box;\n    width: 100%;\n  }\n  .articles__category {\n    line-height: 33px;\n  }\n}\n@media (max-width: 500px) {\n  .articles__left {\n    display: block;\n    max-height: none;\n  }\n  .articles__filter,\n  .articles__search,\n  .articles__categories {\n    width: 350px;\n    margin-bottom: 30px;\n    margin-left: auto;\n    margin-right: auto;\n  }\n  .articles__category {\n    line-height: 40px;\n  }\n}\n@media (max-width: 450px) {\n  .articles__popular {\n    padding: 20px 15px;\n  }\n  .articles__article-footer .user-profile__info {\n    height: 73px;\n    width: 143px;\n  }\n  .articles__article-footer .user-profile__info::before {\n    top: 30px;\n  }\n  .articles__article-footer .user-profile__photo {\n    height: 65px;\n    width: 65px;\n  }\n  .articles__article-footer .user-profile__name {\n    font-size: 16px;\n    margin-top: 4px;\n  }\n  .articles__article-footer .user-profile__profession {\n    font-size: 10px;\n  }\n  .articles__article-footer .user-profile__social-icon {\n    margin-top: 0;\n  }\n  .articles__article-footer .percentage {\n    margin-left: 8px;\n  }\n  .articles__article-footer .percentage canvas {\n    width: 75px;\n    height: 75px;\n  }\n  .articles__article-footer .percentage__value {\n    top: 17px;\n    font-size: 33px;\n    width: 75px;\n  }\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
@@ -13211,13 +13219,13 @@ exports.push([module.i, ".articles {\n  display: flex;\n  justify-content: space
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(108);
+var content = __webpack_require__(109);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -13242,7 +13250,7 @@ if(false) {
 }
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -13256,7 +13264,7 @@ exports.push([module.i, ".percentage {\n  position: relative;\n}\n.percentage__v
 
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {    
@@ -13275,13 +13283,13 @@ exports.push([module.i, ".percentage {\n  position: relative;\n}\n.percentage__v
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(111);
+var content = __webpack_require__(112);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -13306,7 +13314,7 @@ if(false) {
 }
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -13314,13 +13322,13 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".stages {\n  width: 577px;\n}\n.stages__stage {\n  cursor: default;\n  position: relative;\n  display: inline-block;\n  border-radius: 50%;\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 14px;\n  text-align: center;\n  line-height: 29px;\n  width: 29px;\n  height: 29px;\n  margin: 0 0 0 108px;\n}\n.stages__stage::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: 13px;\n  right: 29px;\n  height: 5px;\n  width: 108px;\n}\n.stages__stage:first-child {\n  margin-left: 0;\n}\n.stages__stage:first-child::before {\n  display: none;\n}\n.stages__stage-active {\n  background-color: #e75735;\n  color: #fff;\n}\n.stages__stage-active::before {\n  background-color: #e75735;\n}\n.stages__stage-inactive {\n  background-color: #e5e5e5;\n  color: #888;\n}\n.stages__stage-inactive::before {\n  background-color: #e5e5e5;\n}\n", ""]);
+exports.push([module.i, ".stages {\n  width: 577px;\n}\n.stages__stage {\n  cursor: default;\n  position: relative;\n  display: inline-block;\n  border-radius: 50%;\n  font-family: \"Lato\";\n  font-weight: 900;\n  font-size: 14px;\n  text-align: center;\n  line-height: 29px;\n  width: 29px;\n  height: 29px;\n  margin: 0 0 0 108px;\n}\n.stages__stage::before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  top: 13px;\n  right: 29px;\n  height: 5px;\n  width: 108px;\n}\n.stages__stage:first-child {\n  margin-left: 0;\n}\n.stages__stage:first-child::before {\n  display: none;\n}\n.stages__stage_active {\n  background-color: #e75735;\n  color: #fff;\n}\n.stages__stage_active::before {\n  background-color: #e75735;\n}\n.stages__stage_inactive {\n  background-color: #e5e5e5;\n  color: #888;\n}\n.stages__stage_inactive::before {\n  background-color: #e5e5e5;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
@@ -13331,13 +13339,13 @@ exports.push([module.i, ".stages {\n  width: 577px;\n}\n.stages__stage {\n  curs
             var lastIndex = $(".stages__stage", currentStage).last().index();
             for (j = i; j <= lastIndex; j++) {
                 $($(".stages__stage", currentStage).get(j))
-                    .addClass("stages__stage-inactive")
-                    .removeClass("stages__stage-active");
+                    .addClass("stages__stage_inactive")
+                    .removeClass("stages__stage_active");
             }        
             while (i >= 0) {            
                 $($(".stages__stage", currentStage).get(i))
-                    .addClass("stages__stage-active")
-                    .removeClass("stages__stage-inactive");
+                    .addClass("stages__stage_active")
+                    .removeClass("stages__stage_inactive");
                 i = i - 1;    
             }    
         });
@@ -13346,13 +13354,13 @@ exports.push([module.i, ".stages {\n  width: 577px;\n}\n.stages__stage {\n  curs
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(114);
+var content = __webpack_require__(115);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -13377,7 +13385,7 @@ if(false) {
 }
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
@@ -13385,17 +13393,89 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".event-new {\n  width: 700px;\n  margin-left: auto;\n  margin-right: auto;\n}\n.event-new__stages {\n  width: 100%;\n  text-align: center;\n  margin-bottom: 15px;\n}\n.event-new__stages .stages {\n  width: 100%;\n}\n.event-new__content {\n  position: relative;\n  border: none !important;\n  border-radius: 5px;\n  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);\n}\n.event-new__content .ui-tabs-nav {\n  display: none;\n}\n.event-new__content .ui-tabs-panel {\n  padding-bottom: 20px;\n  padding-top: 10px;\n}\n.event-new__stage-title {\n  text-align: center;\n}\n.event-new__stage-map .location {\n  margin-left: auto;\n  margin-right: auto;\n}\n.event-new__stage-calendar .event-new__calendar {\n  text-align: center;\n}\n.event-new__stage-calendar .event-new__calendar .calendar {\n  display: inline-block;\n}\n.event-new__stage-info .event-new__event-title-field,\n.event-new__stage-info .event-new__event-description-field,\n.event-new__stage-info .event-new__attendees-spinner,\n.event-new__stage-info .event-new__admission-spinner {\n  background-color: #e5e5e5;\n  outline: none;\n  border: none;\n  border-radius: 4px;\n  color: #666;\n  font-size: 14px;\n  padding-left: 13px;\n  padding-right: 10px;\n  font-family: \"Lato\";\n  font-weight: 400;\n  letter-spacing: 0.01em;\n}\n.event-new__stage-info .event-new__event-title-field {\n  height: 25px;\n}\n.event-new__stage-info .event-new__event-description-field {\n  height: 90px;\n  width: 270px;\n  padding-top: 7px;\n  padding-bottom: 7px;\n  resize: none;\n}\n.event-new__stage-info .event-new__select-category .dropdown {\n  width: 182px;\n}\n.event-new__stage-info .event-new__option {\n  margin-bottom: 15px;\n}\n.event-new__stage-info .event-new__option .tick-box {\n  margin-bottom: 10px;\n}\n.event-new__stage-info .event-new__option .ui-spinner {\n  border: none;\n  height: 25px;\n  width: 100px;\n}\n.event-new__stage-info .event-new__option .ui-spinner .ui-spinner-input {\n  margin: 0;\n  height: 100%;\n  box-sizing: border-box;\n}\n.event-new__stage-info .event-new__option .ui-spinner .ui-spinner-button:active {\n  border: none;\n  background: #888;\n}\n.event-new__button_left {\n  display: inline-block;\n}\n.event-new__button_right {\n  display: inline-block;\n  margin-left: 30px;\n}\n.event-new__buttons {\n  text-align: center;\n  padding-bottom: 15px;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 115 */
+/* 116 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__stage_info_event_new_stage_info_js__ = __webpack_require__(117);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__stage_info_event_new_stage_info_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__stage_info_event_new_stage_info_js__);
+
+
+$(document).ready(function () {
+    $(".event-new__content").tabs();
+  
+    var currentStage = 0;
+    var stage = $(".event-new .stages__stage");
+    var buttonNext = $(".event-new .arrow-button_right");
+    var buttonPrev = $(".event-new .arrow-button_left");
+
+    // 1st stage init
+    $(stage[currentStage]).removeClass("stages__stage_inactive").addClass("stages__stage_active");    
+
+    buttonNext.click(function() {
+        if (currentStage < 2) {
+            currentStage++;
+            
+            // stage paint
+            $(stage[currentStage]).removeClass("stages__stage_inactive").addClass("stages__stage_active");
+
+            // goto next tab
+            $(".event-new__content").tabs(
+                "option",
+                "active",
+                $(".event-new__content").tabs('option', 'active') + 1);
+        }
+
+        if (currentStage == 2) {
+            $(this).attr("disabled", "disabled");
+        }
+
+        if (currentStage == 1) {
+            buttonPrev.removeAttr("disabled");
+        }
+    });
+
+    buttonPrev.click(function () {
+        if (currentStage > 0) {
+            // stage paint    
+            $(stage[currentStage]).removeClass("stages__stage_active").addClass("stages__stage_inactive");
+            currentStage--;
+
+            // goto prev tab
+            $(".event-new__content").tabs(
+                "option",
+                "active",
+                $(".event-new__content").tabs('option', 'active') - 1);
+        }
+        
+        if (currentStage == 0) {
+            $(this).attr("disabled", "disabled");            
+        }
+
+        if (currentStage == 1) {
+            buttonNext.removeAttr("disabled");
+        }
+    });
+})
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(2)))
+
+/***/ }),
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function () {
-    $(".event-new__content").tabs();
+/* WEBPACK VAR INJECTION */(function($) {$(document).ready(function() {
+    $(".event-new__attendees-spinner").spinner({
+        min: 0
+    });
+    $(".event-new__admission-spinner").spinner({
+        numberFormat: "C"        
+    });
 })
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 

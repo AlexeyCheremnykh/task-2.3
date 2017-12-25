@@ -1,7 +1,16 @@
+.event-new-wrapper
+    text-align: center
+
 .event-new
-    width: 700px
+    display: inline-block
+    min-width: 510px
     margin-left: auto
     margin-right: auto
+
+    &__main-title
+        font-family: "Lato"
+        margin-top: 0
+        color: #555555
 
     &__stages
         width: 100%
@@ -13,7 +22,6 @@
             width: 100%
 
     &__content
-        position: relative
         border: none !important
         border-radius: 5px
         box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)
@@ -26,21 +34,12 @@
             padding-top: 10px
 
     &__stage-title
+        font-family: "Lato"
         text-align: center
-
-    &__stage        
-        &-map            
-            @import "__stage-map/event-new__stage-map.styl"
-        
-        &-calendar
-            @import "__stage-calendar/event-new__stage-calendar.styl"
+        color: #555555      
          
-        &-info
-            @import "__stage-info/event-new__stage-info.styl"
-    
     &__button_left
-        display: inline-block
-        
+        display: inline-block        
 
     &__button_right
         display: inline-block
@@ -49,3 +48,13 @@
     &__buttons
         text-align: center
         padding-bottom: 15px
+    
+    &__exit-buttons
+        margin-top: 10px
+        display: flex
+        justify-content: space-between       
+
+@import "__place/event-new__place.styl"        
+@import "__date/event-new__date.styl"
+@import "__title-description/event-new__title-description.styl"
+@import "__options/event-new__options.styl"

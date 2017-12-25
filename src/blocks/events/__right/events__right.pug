@@ -12,7 +12,7 @@ include ../../event/event.pug
         +search("Events search")
     .events__container.events__new-event
         h2.events__title New event
-        a(href="event-new.html" class="events__new")
+        form(action="event-new.html" class="events__new")
             +standard_button("big", "blue", "create new  event")            
     .events__container.events__recommended
         h2.events__title Recommended

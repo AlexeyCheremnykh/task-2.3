@@ -1,10 +1,11 @@
-import "./__stage-info/event-new__stage-info.js";
-import "./__stage-map/event-new__stage-map.js";
+import "./__place/event-new__place.js";
+import "./__options/event-new__options.js";
 
 $(document).ready(function () {
     $(".event-new__content").tabs();
   
-    var currentStage = 0;
+    var NUM_OF_STAGES = 4;
+    var currentStage = 0;    
     var stage = $(".event-new .stages__stage");
     var buttonNext = $(".event-new .arrow-button_right");
     var buttonPrev = $(".event-new .arrow-button_left");
@@ -12,8 +13,11 @@ $(document).ready(function () {
     // 1st stage init
     $(stage[currentStage]).removeClass("stages__stage_inactive").addClass("stages__stage_active");    
 
+    // Hide finish button
+    $(".event-new__finish").hide();
+    
     buttonNext.click(function() {
-        if (currentStage < 2) {
+        if (currentStage < NUM_OF_STAGES - 1) {
             currentStage++;
             
             // stage paint
@@ -26,12 +30,14 @@ $(document).ready(function () {
                 $(".event-new__content").tabs('option', 'active') + 1);
         }
 
-        if (currentStage == 2) {
+        if (currentStage == NUM_OF_STAGES - 1) {
             $(this).attr("disabled", "disabled");
+            $(".event-new__finish").show();
         }
 
         if (currentStage == 1) {
             buttonPrev.removeAttr("disabled");
+
         }
     });
 
@@ -52,8 +58,9 @@ $(document).ready(function () {
             $(this).attr("disabled", "disabled");            
         }
 
-        if (currentStage == 1) {
+        if (currentStage == NUM_OF_STAGES - 2) {
             buttonNext.removeAttr("disabled");
+            $(".event-new__finish").hide();
         }
     });
 })

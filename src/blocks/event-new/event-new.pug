@@ -7,6 +7,10 @@ include ../tick-box/tick-box.pug
 include ../slider/slider.pug
 include ../standard-button/standard-button.pug
 
+
+block head
+    title New event
+
 block content
     .event-new-wrapper
         .event-new
@@ -38,4 +42,5 @@ block content
                     +standard_button("big", "blue", "cancel")
                 form(action="events.html" class="event-new__finish")
                     +standard_button("big", "blue", "finish")               
-    
+
+    script(src="https://maps.google.com/maps/api/js?key=AIzaSyAOCIrJxKv-dWFvk6Ki9Wix-mJPiKKBKHc")

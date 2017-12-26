@@ -14,8 +14,10 @@ import "../node_modules/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.css
 import "jquery-circle-progress";
 
 
+import "./blocks/index/index.styl";
 import "./blocks/layout/layout.styl";
 import "./blocks/header/header.styl";
+import "./blocks/header/header.js";
 import "./blocks/search/search.styl";
 import "./blocks/video/video.styl";
 import "./blocks/videos/videos.styl";

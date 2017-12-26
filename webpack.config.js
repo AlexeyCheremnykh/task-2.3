@@ -61,7 +61,7 @@ module.exports = {
             "window.$": "jquery"
         }),
         new HtmlWebpackPlugin({
-            template: "src/blocks/index.pug",
+            template: "src/blocks/index/index.pug",
             filename: "index.html"
         }),
         new HtmlWebpackPlugin({

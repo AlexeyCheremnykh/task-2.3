@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+    head
+        title Index
+    body
+        .index
+            include __button/index__button.pug
+            .index__buttons
+                +index_button("News", "news.html")
+                +index_button("Events", "events.html")
+                +index_button("New Event", "event-new.html")
+                +index_button("Articles", "articles.html")
+                +index_button("Videos", "videos.html")

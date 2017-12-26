@@ -4,8 +4,6 @@
 .event-new
     display: inline-block
     min-width: 510px
-    margin-left: auto
-    margin-right: auto
 
     &__main-title
         font-family: "Lato"
@@ -23,8 +21,7 @@
 
     &__content
         border: none !important
-        border-radius: 5px
-        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)        
         
         .ui-tabs-nav 
             display: none
@@ -58,3 +55,103 @@
 @import "__date/event-new__date.styl"
 @import "__title-description/event-new__title-description.styl"
 @import "__options/event-new__options.styl"
+    
+@media (max-width: 661px)
+    .event-new
+        width: 510px
+
+        &__place
+            .location
+                width: 100%
+
+
+@media (max-width: 527px)
+    .event-new
+        width: 100%
+        min-width: 0
+    
+        &__speaker
+            display: block
+            height: auto
+            box-sizing: border-box
+            width: 100%
+            margin-left: auto
+            margin-right: auto
+
+            .user-profile
+                margin-bottom: 0
+
+            &-profile
+                margin-left: auto
+                margin-right: auto
+                width: 270px
+
+            &-info
+                margin-left: auto
+                margin-right: auto
+                display: flex
+                flex-wrap: wrap
+                width: 265px
+                justify-content: space-between
+            
+            &-topic
+                margin-bottom: 0
+
+
+@media (max-width: 457px)
+    .event-new
+        &__stages
+            .stages__stage
+                margin-left: 65px
+
+                &:first-child
+                    margin-left: 0
+                
+                &::before
+                    width: 65px
+        
+        &__content &__place
+            padding: 10px 10px 20px 10px
+        
+        &__place .location__meet-us
+            font-size: 25px
+
+
+@media (max-width: 424px)
+    .event-new
+        &__event-title-field,
+        &__event-description-field
+            width: 93.875%
+
+
+@media (max-width: 384px)
+    .event-new
+        &__speaker           
+            .user-profile
+                &__info
+                    height: 73px
+                    width: 143px
+
+                    &::before
+                        top: 30px
+                
+                &__photo
+                    height: 65px
+                    width: 65px
+
+                &__name
+                    font-size: 16px
+                    margin-top: 4px
+                
+                &__profession
+                    font-size: 10px
+                
+                &__social-icon
+                    margin-top: 0
+            
+            &-profile
+                width: 227px
+
+            &-info
+                width: 225px
+                    

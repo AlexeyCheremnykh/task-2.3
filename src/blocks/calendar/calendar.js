@@ -5,11 +5,7 @@ $(document).ready(function() {
         onSelect: function() {
             var currentDate = $(".calendar__datepicker").datepicker("getDate");
             $(".calendar__day").text($.datepicker.formatDate("d", currentDate));
-        },
-        /*onChangeMonthYear: function (year, month, inst) {   
-            $(".calendar__datepicker").datepicker("setDate", month + "/" + "1" +"/" + year);
-            $(".calendar__day").text(1); 
-        }   */        
+        },   
     });
     var currentDate = $(".calendar__datepicker").datepicker("getDate"); //??????
     $(".calendar__day").text($.datepicker.formatDate("d", currentDate)); 

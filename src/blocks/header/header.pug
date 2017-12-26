@@ -2,29 +2,23 @@ include ../search/search.pug
 
 header.page-header
     .page-header__content
-        .page-header__logo logo
-        nav.page-header__nav
+        .page-header__menu
+            .page-header__menu-part
+            .page-header__menu-part
+            .page-header__menu-part
+        a(href="index.html" class="page-header__logo") logo
+        nav.page-header__nav.page-header__nav_default
             ul.page-header__nav-items
                 li.page-header__nav-item
-                    a(href="event-new.html" class="page-header__nav-link header__profile") Profile
+                    a(href="news.html" class="page-header__nav-link") News 
                 li.page-header__nav-item
-                    a(href="news.html" class="page-header__nav-link header__news") News 
+                    a(href="events.html" class="page-header__nav-link") Events             
                 li.page-header__nav-item
-                    a(href="events.html" class="page-header__nav-link header__events") Events             
+                    a(href="event-new.html" class="page-header__nav-link") New event
                 li.page-header__nav-item
-                    a.page-header__nav-link.page-header__messages Messages
+                    a(href="articles.html" class="page-header__nav-link") Articles
                 li.page-header__nav-item
-                    a(href="articles.html" class="page-header__nav-link page-header__articles") Articles
-                li.page-header__nav-item
-                    a(href="videos.html" class="page-header__nav-link page-header__videos") Videos
+                    a(href="videos.html" class="page-header__nav-link") Videos
+
         +search("Search")
-        .page-header__profile-photo  
-        ul.page-header__profile-menu
-            li.page-header__profile-menu-item
-                a.page-header__profile-menu-link.page-header__settings Settings            
-            li.page-header__profile-menu-item
-                a.page-header__profile-menu-link.page-header__support Support
-            li.page-header__profile-menu-item
-                a.page-header__profile-menu-link.page-header__logout Log out
-        
-    
+        .page-header__profile-photo

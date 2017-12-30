@@ -1,0 +1,19 @@
+include ../standard-button/standard-button.pug
+
+.sign-up
+    form.sign-up__form    
+        label.sign-up__label Email
+            input.sign-up__field
+
+        label.sign-up__label First name
+            input.sign-up__field
+
+        label.sign-up__label Second name
+            input.sign-up__field
+
+        label.sign-up__label Password
+            input(type="password" class="sign-up__field")
+    
+        +standard_button("big", "blue", "Create account")
+
+        

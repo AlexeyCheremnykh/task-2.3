@@ -84,6 +84,14 @@ module.exports = {
             template: "src/blocks/event-new/event-new.pug",
             filename: "event-new.html"
         }),
+        new HtmlWebpackPlugin({
+            template: "src/blocks/sign-in/sign-in.pug",
+            filename: "sign-in.html"
+        }),
+        new HtmlWebpackPlugin({
+            template: "src/blocks/sign-up/sign-up.pug",
+            filename: "sign-up.html"
+        }),
     ]
 }      
         

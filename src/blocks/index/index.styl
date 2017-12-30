@@ -10,25 +10,34 @@ body
 
 @import "__button/index__button.styl"
 
-@media (max-width: 1085px)
+@media (max-width: 1290px)
     .index
         &__buttons
             width: 630px
 
         &__button-wrapper     
-            margin-bottom: 15px
+            margin-bottom: 7.5px
+            margin-top: 7.5px
 
             &:nth-child(3)
                 margin-right: 0
 
-@media (max-width: 650px)
+@media (max-width: 646px)
+    .index
+        &__button-wrapper
+            margin-right: 15px
+        
+            &:nth-child(3)
+                margin-right: 15px
+
+            &:nth-child(2n)
+                margin-right: 0
+
+@media (max-width: 448px)
     .index
         &__buttons
-            width: 290px
-
-        &__button
-            width: 290px
-            height: 100px
+            width: 200px
 
         &__button-wrapper
-            margin-right: 0
+            &:nth-child(2n - 1)
+                margin-right: 0

@@ -1,6 +1,7 @@
 include ../standard-button/standard-button.pug
 
 .sign-up
+    h1.sign-up__page-title Sign up
     form.sign-up__form    
         label.sign-up__label Email
             input.sign-up__field
@@ -14,6 +15,6 @@ include ../standard-button/standard-button.pug
         label.sign-up__label Password
             input(type="password" class="sign-up__field")
     
-        +standard_button("big", "blue", "Create account")
+        +standard_button("big", "blue", "Create account")(class="sign-up__button")
 
         

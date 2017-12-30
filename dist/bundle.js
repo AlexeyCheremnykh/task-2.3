@@ -10887,6 +10887,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__blocks_event_new_event_new_styl__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__blocks_event_new_event_new_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_48__blocks_event_new_event_new_styl__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__blocks_event_new_event_new_js__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__blocks_sign_in_sign_in_styl__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__blocks_sign_in_sign_in_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_50__blocks_sign_in_sign_in_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__blocks_sign_up_sign_up_styl__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__blocks_sign_up_sign_up_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_51__blocks_sign_up_sign_up_styl__);
 
 
 
@@ -10942,59 +10946,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-/*
-import "jquery-validation";
-import "chart.js";
-import "../node_modules/jquery-steps/build/jquery.steps.min.js";
 
-import "./blocks/main-container/main-container.styl";
-import "./blocks/standard-buttons-container/standard-buttons-container.styl";
-import "./blocks/standard-button/standard-button.styl";
-import "./blocks/arrow-buttons-container/arrow-buttons-container.styl";
-import "./blocks/arrow-buttons-container/arrow-buttons-container.js";
-import "./blocks/arrow-button/arrow-button.styl";
-import "./blocks/percentages-pie-chart-container/percentages-pie-chart-container.styl";
-import "./blocks/percentage/percentage.styl";
-import "./blocks/percentage/percentage.js";
-import "./blocks/pie-chart/pie-chart.js";
-import "./blocks/pie-chart/pie-chart.styl";
-import "./blocks/sliders-container/sliders-container.styl";
-import "./blocks/slider/slider.styl";
-import "./blocks/slider/slider.js";
-import "./blocks/stages-container/stages-container.styl";
-import "./blocks/stages/stages.styl";
-import "./blocks/stages/stages.js";
-import "./blocks/toggles-container/toggles-container.styl";
-import "./blocks/toggle/toggle.styl";
-import "./blocks/toggle/toggle.js";
-import "./blocks/tick-box-container/tick-box-container.styl";
-import "./blocks/tick-box/tick-box.styl";
-import "./blocks/tick-box/tick-box.js";
-import "./blocks/form-elements-container/form-elements-container.styl";
-import "./blocks/send-message/send-message.styl";
-import "./blocks/send-message/send-message.js";
-import "./blocks/search-dropdown-container/search-dropdown-container.js";
-import "./blocks/search-dropdown-container/search-dropdown-container.styl";
-import "./blocks/search/search.styl";
-import "./blocks/dropdown/dropdown.styl";
-import "./blocks/dropdown/dropdown.js";
-import "./blocks/user-profile-container/user-profile-container.styl";
-import "./blocks/user-profile/user-profile.styl";
-import "./blocks/user-profile/img/user-profile-man.png";
-import "./blocks/user-profile/img/user-profile-woman.png";
-import "./blocks/news-events-container/news-events-container.styl";
-import "./blocks/news/news.styl";
-import "./blocks/event/event.styl";
-import "./blocks/location-container/location-container.styl";
-import "./blocks/location/location.styl";
-import "./blocks/location/location.js";
-import "./blocks/location/img/map-marker-icon.png";
-import "./blocks/calendar-messaging-container/calendar-messaging-container.styl";
-import "./blocks/calendar/calendar.styl";
-import "./blocks/calendar/calendar.js";
-import "./blocks/messaging/messaging.styl";
-import "./blocks/video-container/video-container.styl";
-import "./blocks/video/video.styl";*/
 
 /***/ }),
 /* 5 */
@@ -12193,7 +12145,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n  background-color: #f5f5f5;\n}\n.index {\n  width: 100%;\n  min-height: 100vh;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.index__buttons {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n}\n.index__button {\n  height: 200px;\n  width: 200px;\n  background-color: #fff;\n  border: none;\n  outline: none;\n  font-family: \"Lato\";\n  font-size: 26px;\n  font-weight: 900;\n  color: #888;\n  text-transform: uppercase;\n  box-shadow: 0 0 10px 0px rgba(0,0,0,0.2);\n  transition: transform 0.2s ease-in-out;\n  cursor: pointer;\n}\n.index__button:hover {\n  transform: scale(1.1);\n}\n.index__button-wrapper {\n  margin-right: 15px;\n}\n.index__button-wrapper:last-child {\n  margin-right: 0;\n}\n@media (max-width: 1085px) {\n  .index__buttons {\n    width: 630px;\n  }\n  .index__button-wrapper {\n    margin-bottom: 15px;\n  }\n  .index__button-wrapper:nth-child(3) {\n    margin-right: 0;\n  }\n}\n@media (max-width: 650px) {\n  .index__buttons {\n    width: 290px;\n  }\n  .index__button {\n    width: 290px;\n    height: 100px;\n  }\n  .index__button-wrapper {\n    margin-right: 0;\n  }\n}\n", ""]);
+exports.push([module.i, "body {\n  background-color: #f5f5f5;\n}\n.index {\n  width: 100%;\n  min-height: 100vh;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.index__buttons {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n}\n.index__button {\n  height: 200px;\n  width: 200px;\n  background-color: #fff;\n  border: none;\n  outline: none;\n  font-family: \"Lato\";\n  font-size: 26px;\n  font-weight: 900;\n  color: #888;\n  text-transform: uppercase;\n  box-shadow: 0 0 10px 0px rgba(0,0,0,0.2);\n  transition: transform 0.2s ease-in-out;\n  cursor: pointer;\n}\n.index__button:hover {\n  transform: scale(1.1);\n}\n.index__button-wrapper {\n  margin-right: 15px;\n}\n.index__button-wrapper:last-child {\n  margin-right: 0;\n}\n@media (max-width: 1290px) {\n  .index__buttons {\n    width: 630px;\n  }\n  .index__button-wrapper {\n    margin-bottom: 7.5px;\n    margin-top: 7.5px;\n  }\n  .index__button-wrapper:nth-child(3) {\n    margin-right: 0;\n  }\n}\n@media (max-width: 646px) {\n  .index__button-wrapper {\n    margin-right: 15px;\n  }\n  .index__button-wrapper:nth-child(3) {\n    margin-right: 15px;\n  }\n  .index__button-wrapper:nth-child(2n) {\n    margin-right: 0;\n  }\n}\n@media (max-width: 448px) {\n  .index__buttons {\n    width: 200px;\n  }\n  .index__button-wrapper:nth-child(2n - 1) {\n    margin-right: 0;\n  }\n}\n", ""]);
 
 // exports
 
@@ -13629,6 +13581,96 @@ $(document).ready(function () {
     });
 })
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+
+/***/ }),
+/* 122 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(123);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./sign-in.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./sign-in.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 123 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".sign-in {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: center;\n  height: 100%;\n  width: 420px;\n  margin: 0 auto;\n}\n.sign-in__page-title {\n  font-family: \"Lato\";\n  color: #555;\n}\n.sign-in__form {\n  background-color: #fff;\n  width: 350px;\n  padding: 20px 35px;\n  margin-bottom: 0;\n  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);\n}\n.sign-in__email {\n  margin-bottom: 20px;\n}\n.sign-in__field {\n  display: block;\n  width: 350px;\n  height: 35px;\n  border-radius: 4px;\n  outline: none;\n  border: 1px solid #bbb;\n  background-color: #fafafa;\n  color: #666;\n  font-family: \"Lato\";\n  padding: 0 10px;\n  font-size: 16px;\n  margin: 5px 0;\n}\n.sign-in__label {\n  font-family: \"Lato\";\n  font-size: 14px;\n}\n.sign-in__forgot-password {\n  float: right;\n  text-decoration: none;\n  color: #11f;\n}\n.sign-in__forgot-password:visited {\n  color: #11f;\n}\n.sign-in__button {\n  display: block;\n  width: 100%;\n  margin: 20px 0;\n}\n.sign-in__no-account {\n  display: table;\n  font-family: \"Lato\";\n  font-size: 14px;\n  margin-left: auto;\n  margin-right: auto;\n  margin-bottom: 0;\n}\n.sign-in__sign-up {\n  color: #11f;\n  text-decoration: none;\n}\n.sign-in__sign-up:visited {\n  color: #11f;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 124 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(125);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./sign-up.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js!./sign-up.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 125 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".sign-up {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: center;\n  height: 100%;\n  width: 420px;\n  margin: 0 auto;\n}\n.sign-up__page-title {\n  font-family: \"Lato\";\n  color: #555;\n}\n.sign-up__form {\n  background-color: #fff;\n  width: 350px;\n  padding: 20px 35px;\n  margin-bottom: 0;\n  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);\n}\n.sign-up__email {\n  margin-bottom: 20px;\n}\n.sign-up__field {\n  display: block;\n  width: 350px;\n  height: 35px;\n  border-radius: 4px;\n  outline: none;\n  border: 1px solid #bbb;\n  background-color: #fafafa;\n  color: #666;\n  font-family: \"Lato\";\n  padding: 0 10px;\n  font-size: 16px;\n  margin-top: 5px;\n  margin-bottom: 20px;\n}\n.sign-up__label {\n  font-family: \"Lato\";\n  font-size: 14px;\n}\n.sign-up__button {\n  display: block;\n  width: 100%;\n  margin: 10px 0;\n}\n", ""]);
+
+// exports
+
 
 /***/ })
 /******/ ]);

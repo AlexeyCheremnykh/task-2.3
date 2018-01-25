@@ -1,14 +1,16 @@
 doctype html
 html(lang="en")
     head
+        meta(charset="utf-8")
+        meta(name="viewport" content="initial-scale=1.0, width=device-width")
         title Index
     body
-        .index
-            include __button/index__button.pug
-            .index__buttons
-                +index_button("News", "news.html")
-                +index_button("Events", "events.html")
-                +index_button("New Event", "event-new.html")
-                +index_button("Articles", "articles.html")
-                +index_button("Videos", "videos.html")
-                +index_button("Sign in", "sign-in.html")
+        main.index
+            include __navigation-button/index__navigation-button.pug
+            nav.index__navigation
+                +navigation_button("News", "news.html")
+                +navigation_button("Events", "events.html")
+                +navigation_button("New Event", "event-new.html")
+                +navigation_button("Articles", "articles.html")
+                +navigation_button("Videos", "videos.html")
+                +navigation_button("Sign in", "sign-in.html")

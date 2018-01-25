@@ -1,43 +1,25 @@
-body
-    background-color: #f5f5f5
+@import "__navigation-button/index__navigation-button.styl"
+
+html
+  background-color: #f5f5f5
+  color: #888888
+  font-size: 16px
+  font-family: "Lato", "Arial", sans-serif
 
 .index
-    width: 100%
-    min-height: 100vh
+  width: 100%
+  min-height: 100vh
+  display: flex
+  align-items: center
+  justify-content: center
+
+  &__navigation
     display: flex
-    align-items: center
     justify-content: center
+    flex-wrap: wrap
 
-@import "__button/index__button.styl"
+    @media (max-width: 1290px)
+      width: 630px
 
-@media (max-width: 1290px)
-    .index
-        &__buttons
-            width: 630px
-
-        &__button-wrapper     
-            margin-bottom: 7.5px
-            margin-top: 7.5px
-
-            &:nth-child(3)
-                margin-right: 0
-
-@media (max-width: 646px)
-    .index
-        &__button-wrapper
-            margin-right: 15px
-        
-            &:nth-child(3)
-                margin-right: 15px
-
-            &:nth-child(2n)
-                margin-right: 0
-
-@media (max-width: 448px)
-    .index
-        &__buttons
-            width: 200px
-
-        &__button-wrapper
-            &:nth-child(2n - 1)
-                margin-right: 0
+    @media (max-width: 448px)
+      width: 200px

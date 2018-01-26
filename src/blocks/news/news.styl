@@ -1,97 +1,69 @@
 .news
+  margin-left: auto
+  margin-right: auto
+  width: 95%
+
+  @media (max-width: 1350px)
+    width: 1050px
     margin-left: auto
     margin-right: auto
-    width: 95%
 
-    &::after
-        display: block
-        content: ""
-        clear: both
+  @media (max-width: 1067px)
+    width: 100%
 
-    &__news-block
-        float: right
+  &::after
+    display: block
+    content: ""
+    clear: both
+
+  &__content
+    float: right
+
+    @media (max-width: 1067px)
+      float: none
+      width: 100%
 
 @import ("__categories/news__categories.styl")
-    
+
 @import ("__items-container/news__items-container.styl")
 
 
-@media (max-width: 1350px)
-    .news
-        width: 1050px
-        margin-left: auto
-        margin-right: auto
-        
-        &__categories
-            position: static
-            width: 1050px
-            height: 50px
-        
-        &__category
-            display: inline-block
-            margin-left: 15px
-            background: none
-
-            &:hover 
-                background: none
-                & .news__category-link                
-                    color: #888888
-        
-        &__news-block
-            margin-left: auto
-            margin-right: auto
-
 @media (max-width: 1067px)
-    .news
-        width: 100%
+  .news
+    &__container-category-wrapper
+      width: 600px
+      margin-left: auto
+      margin-right: auto
 
-        &__news-block, &__categories
-            float: none
-            width: 100%
-        
-        &__container-category-wrapper
-            width: 600px
-            margin-left: auto
-            margin-right: auto
+    &__items
+      width: 600px
 
-        &__items
-            width: 600px    
-
-        &__items-container
-            width: 770px
-            .news-item:last-child
-                display: none
+    &__items-container
+      width: 770px
+      .news-item:last-child
+        display: none
 
 @media (max-width: 788px)
-    .news
-        &__items, &__container-category-wrapper
-            width: 288px  
-        
-        &__items-container
-            width: 460px
-            .news-item:first-child
-                display: none
-        
-        &__categories
-            display: flex            
-            flex-wrap: wrap
-            height: 85px 
-            width: 300px
-            margin-left: auto
-            margin-right: auto
-            justify-content: center
+  .news
+    &__items, &__container-category-wrapper
+        width: 288px
+
+    &__items-container
+        width: 460px
+        .news-item:first-child
+            display: none
 
 @media (max-width: 480px)
-    .news
-        &__items-container
-            height: 350px
-            width: 320px
-        
-        &__button-wrapper
-            top: auto
-            bottom: 20px
+  .news
+    &__items-container
+      height: 350px
+      width: 320px
 
-            &_left
-                left: 100px
-            &_right
-                right: 100px
+    &__button-wrapper
+      top: auto
+      bottom: 20px
+
+      &_left
+        left: 100px
+      &_right
+        right: 100px

@@ -1,10 +1,10 @@
 mixin news_items_container(category)
-    .news__items-container
-        .news__container-category-wrapper
-            a(href="#" class="news__container-category") #{category}
-        .news__button-wrapper.news__button-wrapper_left
-            +arrow_button("left")
+    section.news__items-container
+        header.news__container-category-wrapper
+            a(href="/mock-address/" class="news__container-category") #{category}
         .news__items
             block
+        .news__button-wrapper.news__button-wrapper_left
+            +arrow_button("left")
         .news__button-wrapper.news__button-wrapper_right
             +arrow_button("right")

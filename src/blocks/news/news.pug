@@ -4,30 +4,29 @@ include ../event/event.pug
 include ../arrow-button/arrow-button.pug
 include __items-container/news__items-container.pug
 
-
 block head
     title News
 
 block content
-    .news
+   .news
         include __categories/news__categories.pug
 
-        .news__news-block            
-            +news_items_container("World")                
+        main.news__content
+            +news_items_container("World")
                 - for(var i = 0; i < 3; i++)
-                    +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")      
+                    +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")
             +news_items_container("Russia")
                 - for(var i = 0; i < 3; i++)
-                    +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")      
+                    +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")
             +news_items_container("Business")
                 - for(var i = 0; i < 3; i++)
-                    +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")      
+                    +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")
             +news_items_container("Technologies")
                 - for(var i = 0; i < 3; i++)
-                    +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")      
+                    +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")
             +news_items_container("Entertainment")
                 - for(var i = 0; i < 3; i++)
-                    +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")      
+                    +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")
             +news_items_container("Sports")
                 - for(var i = 0; i < 3; i++)
                     +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")

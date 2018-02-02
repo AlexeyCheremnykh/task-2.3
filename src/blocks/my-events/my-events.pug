@@ -1,0 +1,20 @@
+include ../page-section/page-section.pug
+include ../toggle/toggle.pug
+include ../location/location.pug
+include ../tick-box/tick-box.pug
+include ../event/event.pug
+include ../arrow-button/arrow-button.pug
+
+mixin my-events(mixClass="")
+    - mixClass= mixClass ? " " + mixClass : "";
+    +page-section("My events", "my-events")
+        .my-events__display-options
+            +toggle("Events map", "on")
+            +tick_box("Show the calendar", "checked")
+        +location("Tomsk", "My events")
+        .my-events__items
+            - for (i = 0; i < 6; i++)
+                +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.")
+        .my-events__arrow-buttons
+            +arrow_button("left", "disabled")
+            +arrow_button("right")

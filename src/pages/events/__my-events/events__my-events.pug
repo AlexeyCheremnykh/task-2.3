@@ -1,18 +1,3 @@
-include ../../../blocks/toggle/toggle.pug
-include ../../../blocks/location/location.pug
-include ../../../blocks/tick-box/tick-box.pug
-include ../../../blocks/event/event.pug
-include ../../../blocks/arrow-button/arrow-button.pug
+include ../../../blocks/my-events/my-events.pug
 
-.events__my-events.events__container
-    h2.events__title My Events
-    .events__display-options
-        +toggle("Events map", "on")
-        +tick_box("Show the calendar", "checked")
-    +location("Tomsk", "My events")
-    .events__items
-        - for (i = 0; i < 6; i++)
-            +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.")
-    .events__arrow-buttons
-        +arrow_button("left", "disabled")
-        +arrow_button("right")
++my-events("events__my-events")

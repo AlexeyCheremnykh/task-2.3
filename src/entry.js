@@ -58,3 +58,4 @@ import "./blocks/categories-navigation/categories-navigation.styl";
 import "./blocks/horizontal-preview-section/horizontal-preview-section.styl";
 import "./blocks/section-title/section-title.styl";
 import "./blocks/page-section/page-section.styl";
+import "./blocks/article-preview/article-preview.styl";

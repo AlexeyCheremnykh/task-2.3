@@ -1,0 +1,23 @@
+include ../user-profile/user-profile.pug
+include ../percentage/percentage.pug
+
+mixin article-preview({title, address, date, category, text, tags, author, rating})
+    article.article-preview
+        header.article-preview__header
+            h3.article-preview__title
+                a(href=address class="article-preview__link")=title
+            .article-preview__date=date
+            .article-preview__category
+                a(href=category.address class="article-preview__link")=category.name
+
+        .article-preview__text=text
+        ul.article-preview__tags
+            - for (let tag in tags)
+                li.article-preview__tag
+                    a(href=tags[tag] class="article-preview__link")=tag
+
+        footer.article-preview__footer
+            .article-preview__author
+                +user_profile("grey", author.name, author.profession, author.photo)
+            .article-preview__rating
+                +percentage(rating)

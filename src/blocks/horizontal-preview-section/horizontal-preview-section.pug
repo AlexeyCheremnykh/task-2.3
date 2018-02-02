@@ -1,8 +1,9 @@
+include ../section-title/section-title.pug
+
 mixin horizontal-preview-section({title, address, mixClass = ""})
     - mixClass = mixClass ? " " + mixClass : "";
     section(class="horizontal-preview-section" + mixClass)
-        h2.horizontal-preview-section__title
-            a(href=address class="horizontal-preview-section__link")=title
+        +section-title(title, address)
         .horizontal-preview-section__content
             block
         .horizontal-preview-section__button-wrapper.horizontal-preview-section__button-wrapper_left

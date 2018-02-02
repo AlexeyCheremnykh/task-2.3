@@ -1,0 +1,6 @@
+mixin section-title(title, address="")
+    if (address)
+        h2.section-title
+            a(href=address class="section-title__link")=title
+    else
+        h2.section-title=title

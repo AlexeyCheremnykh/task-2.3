@@ -1,21 +1,10 @@
-include ../../search/search.pug
-include ../../calendar/calendar.pug
-include ../../standard-button/standard-button.pug
-include ../../event/event.pug
+include ../../../blocks/calendar-section/calendar-section.pug
+include ../../../blocks/search-section/search-section.pug
+include ../../../blocks/new-event-section/new-event-section.pug
+include ../../../blocks/recommended-events/recommended-events.pug
 
 .events__right
-    .events__container.events__calendar
-        h2.events__title Calendar
-        +calendar()
-    .events__container.events__search
-        h2.events__title Search
-        +search("Events search")
-    .events__container.events__new-event
-        h2.events__title New event
-        form(action="event-new.html" class="events__new")
-            +standard_button("big", "blue", "create new  event")            
-    .events__container.events__recommended
-        h2.events__title Recommended
-        +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
-        +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
-        a(href="#" class="events__see-more") See more   
+    +calendar-section("events__calendar")
+    +search-section("Events search", "events__search")
+    +new-event-section("events__new")
+    +recommended-events("events__recommended")

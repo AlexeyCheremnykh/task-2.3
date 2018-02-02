@@ -1,0 +1,7 @@
+include ../standard-button/standard-button.pug
+include ../page-section/page-section.pug
+
+mixin new-event-section(mixClass="")
+    - mixClass = mixClass ? " " + mixClass : "";
+    +page-section("New Event", "new-event-section" + mixClass)
+       // +standard-button()

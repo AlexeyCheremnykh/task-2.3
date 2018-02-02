@@ -1,0 +1,7 @@
+include ../search/search.pug
+include ../page-section/page-section.pug
+
+mixin search-section(placeholder="Search", mixClass="")
+    - mixClass = mixClass ? " " + mixClass : "";
+    +page-section("Search", "search-section" + mixClass)
+        +search(placeholder)

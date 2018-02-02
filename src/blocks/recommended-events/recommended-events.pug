@@ -1,0 +1,9 @@
+include ../event/event.pug
+include ../page-section/page-section.pug
+
+mixin recommended-events(mixClass="")
+    - mixClass = mixClass ? " " + mixClass : "";
+    +page-section("Recommended", "recommended-events" + mixClass)
+        +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
+        +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
+        a(href="#" class="recommended-events__see-more") See more

@@ -61,37 +61,36 @@ module.exports = {
             "window.$": "jquery"
         }),
         new HtmlWebpackPlugin({
-            template: "src/blocks/index/index.pug",
+            template: "src/pages/index/index.pug",
             filename: "index.html"
         }),
         new HtmlWebpackPlugin({
-            template: "src/blocks/videos/videos.pug",
+            template: "src/pages/videos/videos.pug",
             filename: "videos.html"
         }),
         new HtmlWebpackPlugin({
-            template: "src/blocks/news/news.pug",
+            template: "src/pages/news/news.pug",
             filename: "news.html"
         }),
         new HtmlWebpackPlugin({
-            template: "src/blocks/events/events.pug",
+            template: "src/pages/events/events.pug",
             filename: "events.html"
         }),
         new HtmlWebpackPlugin({
-            template: "src/blocks/articles/articles.pug",
+            template: "src/pages/articles/articles.pug",
             filename: "articles.html"
         }),
         new HtmlWebpackPlugin({
-            template: "src/blocks/event-new/event-new.pug",
+            template: "src/pages/event-new/event-new.pug",
             filename: "event-new.html"
         }),
         new HtmlWebpackPlugin({
-            template: "src/blocks/sign-in/sign-in.pug",
+            template: "src/pages/sign-in/sign-in.pug",
             filename: "sign-in.html"
         }),
         new HtmlWebpackPlugin({
-            template: "src/blocks/sign-up/sign-up.pug",
+            template: "src/pages/sign-up/sign-up.pug",
             filename: "sign-up.html"
         }),
     ]
-}      
-        
+}

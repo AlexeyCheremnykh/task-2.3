@@ -1,12 +1,12 @@
-extends ../layout/layout.pug
+extends ../page-template/page-template.pug
 
 
-block head
+block page-title
     title Events
 
-block content
-    .events    
+block page-content
+    .events
         include __my-events/events__my-events.pug
-        include __right/events__right       
-            
+        include __right/events__right
+
     script(src="https://maps.google.com/maps/api/js?key=AIzaSyAOCIrJxKv-dWFvk6Ki9Wix-mJPiKKBKHc")

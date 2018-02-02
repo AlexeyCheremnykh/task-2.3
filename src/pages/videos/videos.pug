@@ -1,13 +1,13 @@
-extends ../layout/layout.pug
+extends ../page-template/page-template.pug
 include ../video/video.pug
 include ../dropdown/dropdown.pug
 
 
-block head
+block page-title
     title Videos
 
-block content
+block page-content
     .videos-wrapper
         .videos
             include __header/videos__header.pug
-            include __content/videos__content.pug         
+            include __content/videos__content.pug

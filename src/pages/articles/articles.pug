@@ -1,0 +1,17 @@
+extends ../page-template/page-template.pug
+
+
+block page-title
+    title Articles
+
+block page-content
+    .articles
+        include __left/articles__left.pug
+
+        .articles__popular.articles__container
+            h2.articles__title Popular
+            include __article/articles__article.pug
+            +article("Article title", "15 Aug 2017", "Category", 55, "img/user-profile-man.png")
+            +article("Article title", "12 Aug 2017", "Category", 15, "img/user-profile-woman.png")
+            +article("Article title", "11 Aug 2017", "Category", 55, "img/user-profile-man.png")
+            +article("Article title", "10 Aug 2017", "Category", 75, "img/user-profile-woman.png")

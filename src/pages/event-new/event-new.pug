@@ -1,4 +1,4 @@
-extends ../layout/layout.pug
+extends ../page-template/page-template.pug
 
 include ../stages/stages.pug
 include ../location/location.pug
@@ -8,10 +8,10 @@ include ../slider/slider.pug
 include ../standard-button/standard-button.pug
 
 
-block head
+block page-title
     title New event
 
-block content
+block page-content
     .event-new-wrapper
         .event-new
             h1.event-new__main-title Create an event
@@ -35,12 +35,12 @@ block content
                     .event-new__button_left
                         +arrow_button("left", "disabled")
                     .event-new__button_right
-                        +arrow_button("right")        
-            
+                        +arrow_button("right")
+
             .event-new__exit-buttons
                 form(action="events.html" class="event-new__cancel")
                     +standard_button("big", "blue", "cancel")
                 form(action="events.html" class="event-new__finish")
-                    +standard_button("big", "blue", "finish")               
+                    +standard_button("big", "blue", "finish")
 
     script(src="https://maps.google.com/maps/api/js?key=AIzaSyAOCIrJxKv-dWFvk6Ki9Wix-mJPiKKBKHc")

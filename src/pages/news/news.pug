@@ -1,13 +1,13 @@
-extends ../layout/layout.pug
+extends ../page-template/page-template.pug
 include ../news-item/news-item.pug
 include ../event/event.pug
 include ../arrow-button/arrow-button.pug
 include __items-container/news__items-container.pug
 
-block head
+block page-title
     title News
 
-block content
+block page-content
    .news
         include __categories/news__categories.pug
 

@@ -14,7 +14,7 @@ import "../node_modules/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.css
 import "jquery-circle-progress";
 
 
-import "./pages/home/home.styl";
+import "./pages/index/index.styl";
 import "./pages/page-template/page-template.styl";
 import "./blocks/header/header.styl";
 import "./blocks/header/header.js";
@@ -54,3 +54,5 @@ import "./pages/event-new/event-new.styl";
 import "./pages/event-new/event-new.js";
 import "./pages/sign-in/sign-in.styl";
 import "./pages/sign-up/sign-up.styl";
+import "./blocks/categories-navigation/categories-navigation.styl";
+import "./blocks/horizontal-preview-section/horizontal-preview-section.styl";

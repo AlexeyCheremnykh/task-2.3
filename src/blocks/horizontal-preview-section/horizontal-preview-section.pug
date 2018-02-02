@@ -1,0 +1,11 @@
+mixin horizontal-preview-section({title, address, mixClass = ""})
+    - mixClass = mixClass ? " " + mixClass : "";
+    section(class="horizontal-preview-section" + mixClass)
+        h2.horizontal-preview-section__title
+            a(href=address class="horizontal-preview-section__link")=title
+        .horizontal-preview-section__content
+            block
+        .horizontal-preview-section__button-wrapper.horizontal-preview-section__button-wrapper_left
+            +arrow_button("left")
+        .horizontal-preview-section__button-wrapper.horizontal-preview-section__button-wrapper_right
+            +arrow_button("right")

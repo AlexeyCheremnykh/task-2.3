@@ -1,32 +1,40 @@
 extends ../page-template/page-template.pug
-include ../news-item/news-item.pug
-include ../event/event.pug
-include ../arrow-button/arrow-button.pug
-include __items-container/news__items-container.pug
+include ../../blocks/news-item/news-item.pug
+include ../../blocks/arrow-button/arrow-button.pug
+include ../../blocks/categories-navigation/categories-navigation.pug
+include ../../blocks/horizontal-preview-section/horizontal-preview-section.pug
 
 block page-title
     title News
 
 block page-content
    .news
-        include __categories/news__categories.pug
-
-        main.news__content
-            +news_items_container("World")
-                - for(var i = 0; i < 3; i++)
+        - const newsCategories = {
+        -    'All news': '/mock-address/',
+        -    'World': '/mock-address/',
+        -    'Russia': '/mock-address/',
+        -    'Business': '/mock-address/',
+        -    'Technologies': '/mock-address/',
+        -    'Entertainment': '/mock-address/',
+        -    'Sports': '/mock-address/',
+        - };
+        +categories-navigation({categories: newsCategories, selectedCategory: "All news", mixClass: "news__categories-navigation"})
+        main.news__categories-preview
+            +horizontal-preview-section({title: "World", address: "/mock-address/", mixClass: "news__preview"})
+                - for (let i = 0; i < 3; i++)
                     +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")
-            +news_items_container("Russia")
-                - for(var i = 0; i < 3; i++)
+            +horizontal-preview-section({title: "Russia", address: "/mock-address/", mixClass: "news__preview"})
+                - for (let i = 0; i < 3; i++)
                     +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")
-            +news_items_container("Business")
-                - for(var i = 0; i < 3; i++)
+            +horizontal-preview-section({title: "Business", address: "/mock-address/", mixClass: "news__preview"})
+                - for (let i = 0; i < 3; i++)
                     +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")
-            +news_items_container("Technologies")
-                - for(var i = 0; i < 3; i++)
+            +horizontal-preview-section({title: "Technologies", address: "/mock-address/", mixClass: "news__preview"})
+                - for (let i = 0; i < 3; i++)
                     +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")
-            +news_items_container("Entertainment")
-                - for(var i = 0; i < 3; i++)
+            +horizontal-preview-section({title: "Entertainment", address: "/mock-address/", mixClass: "news__preview"})
+                - for (let i = 0; i < 3; i++)
                     +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")
-            +news_items_container("Sports")
-                - for(var i = 0; i < 3; i++)
+            +horizontal-preview-section({title: "Sports", address: "/mock-address/", mixClass: "news__preview"})
+                - for (let i = 0; i < 3; i++)
                     +news_item("Title", "20 Aug 2017", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.")

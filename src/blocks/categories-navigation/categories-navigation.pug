@@ -1,0 +1,11 @@
+mixin categories-navigation({categories, selectedCategory, mixClass=""})
+    - mixClass = mixClass ? " " + mixClass : "";
+    nav(class="categories-navigation" + mixClass)
+        ul.categories-navigation__list
+            - for (let categoryName in categories)
+                if (categoryName !== selectedCategory)
+                    li.categories-navigation__category
+                        a(href=categories[categoryName] class="categories-navigation__link")=categoryName
+                else
+                    li.categories-navigation__category.categories-navigation__category_selected
+                        a(href=categories[categoryName] class="categories-navigation__link")=categoryName

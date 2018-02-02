@@ -64,15 +64,15 @@ module.exports = {
             template: "src/pages/index/index.pug",
             filename: "index.html"
         }),
-        new HtmlWebpackPlugin({
+        /*new HtmlWebpackPlugin({
             template: "src/pages/videos/videos.pug",
             filename: "videos.html"
-        }),
+        }),*/
         new HtmlWebpackPlugin({
             template: "src/pages/news/news.pug",
             filename: "news.html"
         }),
-        new HtmlWebpackPlugin({
+        /*new HtmlWebpackPlugin({
             template: "src/pages/events/events.pug",
             filename: "events.html"
         }),
@@ -91,6 +91,6 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: "src/pages/sign-up/sign-up.pug",
             filename: "sign-up.html"
-        }),
+        }),*/
     ]
 }

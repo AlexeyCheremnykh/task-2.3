@@ -1,14 +1,11 @@
 .news
-  margin-left: auto
-  margin-right: auto
+  margin: 0 auto
   width: 95%
 
   @media (max-width: 1350px)
     width: 1050px
-    margin-left: auto
-    margin-right: auto
 
-  @media (max-width: 1067px)
+  @media (max-width: 1090px)
     width: 100%
 
   &::after
@@ -16,54 +13,94 @@
     content: ""
     clear: both
 
-  &__content
+  &__categories-navigation
+    position: fixed
+    float: left
+
+    @media (max-width: 1350px)
+      position: static
+      margin-bottom: 10px
+
+    @media (max-width: 1090px)
+      float: none
+
+  &__categories-preview
     float: right
 
-    @media (max-width: 1067px)
+    @media (max-width: 1090px)
       float: none
       width: 100%
 
-@import ("__categories/news__categories.styl")
+  &__preview
+    margin: 0 auto 30px
 
-@import ("__items-container/news__items-container.styl")
-
-
-@media (max-width: 1067px)
-  .news
-    &__container-category-wrapper
-      width: 600px
-      margin-left: auto
-      margin-right: auto
-
-    &__items
-      width: 600px
-
-    &__items-container
+  .horizontal-preview-section
+    @media (max-width: 1090px)
       width: 770px
       .news-item:last-child
         display: none
 
-@media (max-width: 788px)
-  .news
-    &__items, &__container-category-wrapper
+    @media (max-width: 788px)
+      width: 460px
+      .news-item:first-child
+        display: none
+
+    @media (max-width: 480px)
+      width: 320px
+      padding-bottom: 70px
+
+    &__title
+      @media (max-width: 1090px)
+        width: 600px
+
+      @media (max-width: 788px)
         width: 288px
 
-    &__items-container
-        width: 460px
-        .news-item:first-child
-            display: none
+    &__content
+      @media (max-width: 1090px)
+        width: 600px
 
-@media (max-width: 480px)
-  .news
-    &__items-container
-      height: 350px
-      width: 320px
+      @media (max-width: 788px)
+        width: 288px
 
     &__button-wrapper
-      top: auto
-      bottom: 20px
+      @media (max-width: 480px)
+        top: 88%
+        &_left
+          left: 100px
+        &_right
+          right: 100px
 
-      &_left
-        left: 100px
-      &_right
-        right: 100px
+  .categories-navigation
+    @media (max-width: 1350px)
+      width: 1050px
+
+    @media (max-width: 1090px)
+      width: 100%
+
+    &__list
+      @media (max-width: 788px)
+        display: flex
+        flex-wrap: wrap
+        width: 300px
+        margin-left: auto
+        margin-right: auto
+        justify-content: center
+
+    &__category
+      @media (max-width: 1350px)
+        display: inline-block
+        margin-left: 15px
+        background: none
+
+      &_selected
+        @media (max-width: 1350px)
+          background: none
+
+      &:hover
+        @media (max-width: 1350px)
+          background: none
+
+        & .categories-navigation__link
+          @media (max-width: 1350px)
+            color: #888888

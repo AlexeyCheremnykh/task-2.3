@@ -1,3 +1,5 @@
-mixin slider(type, min, max, step)
-    div(data-min=min data-max=max data-step=step class="slider slider_" + type)       
-        .slider__handle.ui-slider-handle            
+mixin slider({type, min, max, step=1, mixClass = ""})
+    - mixClass = mixClass ? " " + mixClass : mixClass;
+    div(data-min=min data-max=max data-step=step class=`slider js-slider slider_type_${type}` + mixClass)
+        .slider__line.js-slider__line
+            .slider__handle.ui-slider-handle

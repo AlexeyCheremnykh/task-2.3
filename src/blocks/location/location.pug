@@ -1,10 +1,11 @@
-mixin location(address, title)
-    .location
-        div(class="location__map" data-address=address)
+mixin location({address, title, mixClass=""})
+    - mixClass = mixClass ? " " + mixClass : mixClass;
+    div(class="location" + mixClass)
+        div(class="location__map js-location__map" data-address=address)
         .location__footer
-            .location__footer-text
-                .location__meet-us #{title}
-                .location__address #{address}                    
+            .location__footer-info
+                .location__title=title
+                .location__address=address
             .location__footer-buttons
                 .location__my-location.location__footer-button
                 .location__pin.location__footer-button

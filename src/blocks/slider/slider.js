@@ -1,24 +1,39 @@
-$(document).ready(function() {
-    $(".slider").each(function() {
-        $(".slider_type-a")
-            .slider({
-                min: $(this).data("min"),
-                max: $(this).data("max"),            
-            })
-            .slider("float");
+class Slider {
+  constructor(elem, id) {
+    this._id = id;
+    this._$slider = $(elem);
+    this._$sliderLine = $(elem).children('.js-slider__line');
+  }
 
-        $(".slider_type-b")
-            .slider({
-                range: "min",            
-                min: $(this).data("min"),
-                max: $(this).data("max"),
-                step: $(this).data("step"),            
-                slide: function () {            
-                    $(".ui-slider-range", this).css("background", "#4eb7a8");         
-                }
-            })
-            .slider("pips", {
-                rest: "label"              
-            });
-    })
+  initElement() {
+    if (this._$slider.hasClass('slider_type_red')) {
+      this._$sliderLine
+        .slider({
+          min: this._$slider.data('min'),
+          max: this._$slider.data('max'),
+        })
+        .slider('float');
+    } else {
+      this._$sliderLine
+        .slider({
+          range: 'min',
+          min: this._$slider.data('min'),
+          max: this._$slider.data('max'),
+          step: this._$slider.data('step'),
+        })
+        .slider('pips', {
+          rest: 'label',
+        });
+    }
+
+    return this;
+  }
+}
+
+const $slider = $('.js-slider');
+let id = 0;
+$slider.each((index, elem) => {
+  const slider = new Slider(elem, id);
+  slider.initElement();
+  id += 1;
 });

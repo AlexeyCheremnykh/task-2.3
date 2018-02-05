@@ -1,0 +1,14 @@
+mixin news-article-preview({title, articleAddress, dateString, content, mixClass = ""})
+    - const newsDate = new Date(dateString);
+    - const newsMonth = newsDate.toLocaleString("en", { month: "long" });
+    - const newsDay = newsDate.toLocaleString("en", { day: "numeric" });
+    - const newsYear = newsDate.toLocaleString("en", { year: "numeric" });
+    - mixClass = mixClass ? " " + mixClass : mixClass;
+    article(class="news-article-preview" + mixClass)
+        .news-article-preview__image
+        .news-article-preview__main
+            header.news-article-preview__header
+                h2.news-article-preview__title
+                    a(href=articleAddress class="news-article-preview__link")=title
+                time(date=dateString class="news-article-preview__date")=`${newsDay} ${newsMonth} ${newsYear}`
+            p.news-article-preview__content=content

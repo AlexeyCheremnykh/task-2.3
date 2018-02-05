@@ -1,46 +1,73 @@
-.stages    
-    width: 577px
-    user-select: none
+.stages
+  width: 577px
 
-    &__stage
-        cursor: default
-        position: relative
-        display: inline-block
-        border-radius: 50%
-        font-family: "Lato"
-        font-weight: 900
-        font-size: 14px
-        text-align: center
-        line-height: 29px        
-        width: 29px
-        height: 29px
-        margin: 0 0 0 108px        
+  @media (max-width: 600px)
+    width: 465px
 
-        &::before
-            content: ""
-            display: block
-            position: absolute
-            top: 13px
-            right: 29px
-            height: 5px
-            width: 108px            
-        
-        &:first-child
-            margin-left: 0
-            
-            &::before
-                display: none 
+  @media (max-width: 490px)
+    width: 365px
 
-        &_active
-            background-color: #e75735
-            color: #ffffff
+  @media (max-width: 385px)
+    width: 305px
 
-            &::before
-                background-color: #e75735  
+  &__stage
+    cursor: default
+    position: relative
+    display: inline-block
+    border-radius: 50%
+    font-family: "Lato", "Arial", sans-serif
+    font-weight: 900
+    font-size: 14px
+    text-align: center
+    line-height: 29px
+    width: 29px
+    height: 29px
+    margin-left: 108px
+    cursor: pointer
 
-        &_inactive
-            background-color: #e5e5e5
-            color: #888888
+    @media (max-width: 600px)
+      margin-left: 80px
 
-            &::before
-                background-color: #e5e5e5    
+    @media (max-width: 490px)
+      margin-left: 55px
+
+    @media (max-width: 385px)
+      margin-left: 40px
+
+    &::before
+      content: ""
+      display: block
+      position: absolute
+      top: 13px
+      right: 29px
+      height: 5px
+      width: 108px
+
+      @media (max-width: 600px)
+        width: 80px
+
+      @media (max-width: 490px)
+        width: 55px
+
+      @media (max-width: 385px)
+        width: 40px
+
+    &:first-child
+      margin-left: 0
+
+      &::before
+        display: none
+
+    &_active
+      background-color: #e75735
+      color: white
+
+      &::before
+        background-color: #e75735
+
+    &_inactive
+      background-color: #e5e5e5
+      color: #888888
+
+      &::before
+        background-color: #e5e5e5

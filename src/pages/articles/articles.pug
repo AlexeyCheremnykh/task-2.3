@@ -1,12 +1,24 @@
 extends ../page-template/page-template.pug
 include ../../blocks/article-preview/article-preview.pug
+include ../../blocks/search-section/search-section.pug
+include ../../blocks/categories-section/categories-section.pug
 
 block page-title
     title Articles
 
 block page-content
     .articles
-        //include __left/articles__left.pug
+        +search-section("Article search", "articles__search")
+
+        - const articleCategories = {
+        -   Popular: "/mock-address/",
+        -   Category1: "/mock-address/",
+        -   Category2: "/mock-address/",
+        -   Category3: "/mock-address/",
+        -   Category4: "/mock-address/",
+        -   Category5: "/mock-address/",
+        - }
+        +categories-section({categories: articleCategories, selectedCategory: "Popular"})
 
         .articles__popular.articles__container
             h2.articles__title Popular

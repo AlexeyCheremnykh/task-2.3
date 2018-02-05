@@ -13,8 +13,8 @@
         margin-bottom: 30px
         background-color: #ffffff
         padding: 20px 30px
-        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)    
-    
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)
+
     &__title
         margin-top: 0
         text-decoration: none
@@ -23,10 +23,10 @@
         text-transform: uppercase
         color: #aaaaaa
         font-size: 20px
-        border-bottom: 2px solid #e5e5e5   
+        border-bottom: 2px solid #e5e5e5
 
     &__popular
-        width: 61%    
+        width: 61%
 
 body[data-select2-id="19"]
     .select2-results__option[aria-selected="true"]
@@ -36,7 +36,6 @@ body[data-select2-id="19"]
 
 @import ("__categories/articles__categories.styl")
 
-@import ("__article/articles__article.styl")
 
 @media (max-width: 1175px)
     .articles
@@ -46,45 +45,45 @@ body[data-select2-id="19"]
             display: flex
             justify-content: flex-end
             width: 100%
-            
+
             &__field
                 padding-right: 33px
                 flex-grow: 1
                 border-radius: 0 3px 3px 0
-        
+
         &__filter
             &-author-field
                 width: 100%
             &-tags
                 .select2-container
                     width: 100% !important
-                    .selection 
+                    .selection
                         .select2-selection
                             width: 100%
 
         &__slider-wrapper
             padding-left: 5.208%
             .slider
-                width: 100%                
+                width: 100%
 
 @media (max-width: 725px)
     .articles
         display: block
 
         &__left
-            width: 100%      
+            width: 100%
             display: flex
             flex-direction: column
             align-content: space-between
             max-height: 415px
             flex-wrap: wrap
-        
+
         &__categories
             position: static
             box-sizing: border-box
             width: 49.6%
             margin: 0
-        
+
         &__filter
             width: 49.6%
             box-sizing: border-box
@@ -95,11 +94,11 @@ body[data-select2-id="19"]
             margin-top: 4px
             margin-bottom: 0
             width: 49.6%
-        
+
         &__popular
             box-sizing: border-box
             width: 100%
-        
+
         &__category
             line-height: 33px
 
@@ -108,21 +107,21 @@ body[data-select2-id="19"]
         &__left
             display: block
             max-height: none
-        
+
         &__filter, &__search, &__categories
             width: 350px
             margin-bottom: 30px
             margin-left: auto
             margin-right: auto
-        
+
         &__category
             line-height: 40px
-        
+
 @media(max-width: 450px)
     .articles
         &__popular
             padding: 20px 15px
-            
+
         &__article-footer
             .user-profile
                 &__info
@@ -131,7 +130,7 @@ body[data-select2-id="19"]
 
                     &::before
                         top: 30px
-                
+
                 &__photo
                     height: 65px
                     width: 65px
@@ -139,19 +138,19 @@ body[data-select2-id="19"]
                 &__name
                     font-size: 16px
                     margin-top: 4px
-                
+
                 &__profession
                     font-size: 10px
-                
+
                 &__social-icon
                     margin-top: 0
 
             .percentage
                 margin-left: 8px
                 canvas
-                    width: 75px 
+                    width: 75px
                     height: 75px
-                
+
                 &__value
                     top: 17px
                     font-size: 33px

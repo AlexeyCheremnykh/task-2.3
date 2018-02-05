@@ -1,4 +1,5 @@
-mixin stages(numOfStages)
-    .stages
+mixin stages(numOfStages, mixClass = "")
+    - mixClass = mixClass ? " " + mixClass : mixClass;
+    div(class="stages" + mixClass)
         - for (var i = 1; i <= numOfStages; i++)
-            h3.stages__stage.stages__stage_inactive #{i}
+            .stages__stage.stages__stage_inactive=i

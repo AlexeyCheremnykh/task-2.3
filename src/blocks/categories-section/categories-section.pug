@@ -1,0 +1,7 @@
+include ../categories-navigation/categories-navigation.pug
+include ../page-section/page-section.pug
+
+mixin categories-section({categories, selectedCategory, mixClass=""})
+    - mixClass = mixClass ? " " + mixClass : "";
+    +page-section("Categories", "categories-section" + mixClass)
+        +categories-navigation({categories: categories, selectedCategory: selectedCategory})

@@ -1,36 +1,34 @@
-$(document).ready(function() {
-    /*var geocoder = new google.maps.Geocoder;
-    var infowindow = new google.maps.InfoWindow;*/
+/* global google */
 
-    $(".location__map")
-        .gmap3({            
-            address: $(".location__map").data("address"),
-            zoom: 14            
-        })
-        .marker({
-            address: $(".location__map").data("address"),
-            draggable: true,
-            icon: {
-                url: "img/map-marker-icon.png",                
-                anchor: new google.maps.Point(20, 56),                
-            }                   
-        })
-        /*.on({    // Плохо определяет
-            dragend: function(marker, event) {
-                marker.getPosition();                
-                geocoder.geocode({ 'location': marker.getPosition()}, function (results, status) {
-                    if (status === 'OK') {
-                        if (results[1]) {                            
-                            infowindow.setContent(results[1].formatted_address);
-                            infowindow.open(this, marker);
-                        } else {
-                            window.alert('No results found');
-                        }
-                    } else {
-                        window.alert('Geocoder failed due to: ' + status);
-                    }
-                });
-                $(".location__address").text();
-            } 
-        });*/
+class Map {
+  constructor(elem, id) {
+    this._id = id;
+    this._$map = $(elem);
+  }
+
+  initElement() {
+    this._$map
+      .gmap3({
+        address: this._$map.data('address'),
+        zoom: 14,
+      })
+      .marker({
+        address: this._$map.data('address'),
+        icon: {
+          url: 'img/map-marker-icon.png',
+          anchor: new google.maps.Point(20, 56),
+        },
+        draggable: true,
+      });
+
+    return this;
+  }
+}
+
+const $map = $('.js-location__map');
+let id = 0;
+$map.each((index, elem) => {
+  const map = new Map(elem, id);
+  map.initElement();
+  id += 1;
 });

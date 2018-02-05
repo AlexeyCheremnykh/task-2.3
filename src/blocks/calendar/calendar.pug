@@ -1,5 +1,6 @@
-mixin calendar()
-    .calendar
-        .calendar__day
-        .calendar__datepicker
-        button.calendar__today today
+mixin calendar(mixClass = "")
+    - mixClass = mixClass ? " " + mixClass : mixClass;
+    div(class="calendar js-calendar" + mixClass)
+        .calendar__day.js-calendar__day
+        .calendar__datepicker.js-calendar__datepicker
+        button.calendar__today.js-calendar__today today

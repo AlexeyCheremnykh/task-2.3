@@ -1,52 +1,44 @@
 .tick-box
-    display: block
-    height: 23px    
+  cursor: pointer
+  display: block
+  padding-left: 28px
+  height: 23px
+  line-height: 23px
+  position: relative
+  font-size: 15px
+  font-family: "Lato", "Arial", sans-serif
+  font-weight: 400
 
-    input
-        display: none
+  &_not-labeled
+    padding-left: 23px
 
-    &__container
-        cursor: pointer
-        user-select: none        
-        display: block
-        font-size: 17px        
-        font-family: "Lato"
+  &__auxiliary-checkbox
+    display: none
 
-    &__label
-        display: inline-block
-        vertical-align: top
-        margin-right: 5px  
-    
-    &__checkmark              
-        position: relative
-        display: inline-block
-        vertical-align: bottom
-        width: 23px
-        height: 23px        
-        border-radius: 50%
-        background-color: #e5e5e5
-            
-        &::after
-            position: absolute
-            content: ""
-            display: block
-            width: 9px
-            height: 4px
-            transform: rotate(-45deg)
-            top: 7px
-            right: 6px
-            border-left: 2px solid #cecece
-            border-bottom: 2px solid #cecece     
-    
-    input:checked ~ &__checkmark
-        background-color: #4eb7a8
-            
-        &::after
-            top: 7px
-            right: 6px
-            border-left: 2px solid #ffffff
-            border-bottom: 2px solid #ffffff
+  &__checkmark
+    position: absolute
+    left: 0
+    top: 0
+    width: 23px
+    height: 23px
+    border-radius: 50%
+    background-color: #e5e5e5
 
-            
-        
+    &::after
+      position: absolute
+      content: ""
+      display: block
+      width: 9px
+      height: 4px
+      transform: rotate(-45deg)
+      top: 7px
+      right: 6px
+      border-left: 2px solid #cecece
+      border-bottom: 2px solid #cecece
 
+  &__auxiliary-checkbox:checked + &__checkmark
+    background-color: #4eb7a8
+
+    &::after
+      border-left: 2px solid #ffffff
+      border-bottom: 2px solid #ffffff

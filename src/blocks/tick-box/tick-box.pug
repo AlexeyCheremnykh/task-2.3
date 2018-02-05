@@ -1,12 +1,10 @@
-mixin tick_box(label, status)    
-    .tick-box
-        if (status=="checked")
-            label(class="tick-box__container") 
-                .tick-box__label #{label}
-                input(type="checkbox" checked)
-                .tick-box__checkmark
+mixin tick-box({checked=false, label="", mixClass = ""})
+    - mixClass = mixClass ? " " + mixClass : mixClass;
+    - const tickboxClass = label ? "tick-box" : "tick-box tick-box_not-labeled";
+    label(class=tickboxClass + mixClass)=label
+        if (checked)
+            input(type="checkbox" class="tick-box__auxiliary-checkbox" checked)
+            .tick-box__checkmark
         else
-            label(class="tick-box__container") 
-                .tick-box__label #{label}
-                input(type="checkbox")
-                .tick-box__checkmark
+            input(type="checkbox" class="tick-box__auxiliary-checkbox")
+            .tick-box__checkmark

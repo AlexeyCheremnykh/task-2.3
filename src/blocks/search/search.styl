@@ -1,43 +1,48 @@
 .search
-    width: 288px
+  width: 288px
 
-    &__field   
-        box-sizing: border-box
-        outline: none
-        border: none
-        height: 28px
-        width: 88.542%      
-        background-color: #e5e5e5
-        border-radius: 3px 0 0 3px        
-        padding-left: 13px
-        padding-bottom: 4px
-        font-family: "Lato"
-        font-weight: 400
-        font-style: normal
-        font-stretch: normal
-        font-size: 14px
-        letter-spacing: 0.01em        
-        color: #666666
-        
-        &::placeholder
-            color: #888888
+  &__field
+    box-sizing: border-box
+    outline: none
+    border: none
+    height: 28px
+    width: 88.542%
+    background-color: #e5e5e5
+    border-radius: 3px 0 0 3px
+    padding-left: 13px
+    padding-bottom: 4px
+    font-family: "Source Sans Pro", "Arial", sans-serif
+    font-weight: 400
+    font-style: normal
+    font-stretch: normal
+    font-size: 14px
+    letter-spacing: 0.01em
+    color: #666666
 
-    &__field_not-found
-        background-color: #e75735
-        
-        &::placeholder
-            color: #ffffff
+    &:focus
+      border: 2px solid #888888
+      padding-left: 11px
 
-    &__button
-        position: absolute       
-        outline: none        
-        border: none
-        height: 28px
-        width: 33px
-        border-radius: 0 3px 3px 0
-        background-color: #e75735
+    &::placeholder
+      color: #888888
+
+    &_not-found
+      background-color: #e75735
+
+      &::placeholder
         color: #ffffff
 
-        &:hover
-            cursor: pointer
-            background-color: #c94d2f       
+  &__button
+    vertical-align: top
+    outline: none
+    border: none
+    height: 28px
+    width: 33px
+    border-radius: 0 3px 3px 0
+    background-color: #e75735
+    color: #ffffff
+    cursor: pointer
+
+    &:hover,
+    &:focus
+      background-color: #c94d2f

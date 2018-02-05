@@ -1,68 +1,63 @@
 .event
-    width: 288px
+  width: 288px
+  height: 212px
+  border-radius: 3px
+  overflow: hidden
+
+  &__image
+    width: 95px
     height: 212px
-    border-radius: 3px
+    display: inline-block
+    background-image: url("img/event-sample.jpg")
+    background-size: cover
+
+  &__main
+    font-family: "Lato", "Arial", sans-serif
+    box-sizing: border-box
+    width: 193px
+    height: 212px
+    padding-left: 19px
+    padding-top: 4px
+    display: inline-block
+    vertical-align: top
+    background-color: #4eb7a8
+    color: #ffffff
+    padding-right: 15px
+
+  &__date
+    font-weight: 300
+    word-spacing: 14px
+    max-height: 88px
     overflow: hidden
 
-    &__image
-        width: 32.989%        
-        height: 100%
-        display: inline-block
-        vertical-align: top
-        background-image: url("img/event-sample.png")
-        background-size: cover
-    
-     &__text
-        box-sizing: border-box      
-        width: 67.014%
-        height: 100%
-        padding: 4px 19px 19px 19px
-        //padding-left: 19px 
-        //padding-top: 4px
-        font-size: 16px
-        display: inline-block
-        vertical-align: top
-        background-color: #4eb7a8
-        color: #ffffff
+  &__day
+    font-size: 73px
+    letter-spacing: -0.04em
+    display: inline-block
+    margin-right: 14px
 
-        .standard-button
-            width: 128px
-            height: 22px
-            border: none
-            font-size: 10px
-            box-shadow: 0 3px 0 0 #379285
-            margin-left: 13px
-            word-spacing: 0.2em          
-    
-    &__date
-        font-family: "Lato"
-        font-weight: 300        
-        word-spacing: 14px
-        margin-bottom: 8px     
+  &__month
+    font-size: 30px
+    display: inline-block
 
-    &__day
-        font-size: 4.5625em
-        letter-spacing: -0.04em
-        display: inline-block
-        margin-right: 14px
+  &__title
+    font-weight: 900
+    font-size: 12.5px
+    margin-top: 8px
+    margin-bottom: 3px
+    letter-spacing: 0.05em
+    text-transform: uppercase
+    max-height: 15px
+    overflow: hidden
 
-    &__month
-        font-size: 1.875em
-        display: inline-block
+  &__content
+    font-weight: 400
+    font-size: 11px
+    letter-spacing: 0.05em
+    margin-top: 0
+    margin-bottom: 18px
+    max-height: 28px
+    overflow: hidden
 
-    &__title
-        font-family: "Lato"
-        font-weight: 900
-        font-size: 0.78125em
-        text-decoration: none
-        color: #ffffff
-        margin-bottom: 3px
-        letter-spacing: 0.05em
-        text-transform: uppercase
-
-    &__content
-        font-family: "Lato"
-        font-weight: 400
-        font-size: 0.6875em
-        letter-spacing: 0.05em
-        margin-bottom: 19px
+  &__add-btn
+    margin-left: 13px

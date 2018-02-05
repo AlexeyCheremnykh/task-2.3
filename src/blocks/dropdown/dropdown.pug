@@ -1,5 +1,7 @@
-mixin dropdown(options)
-    select(class="dropdown")
-        each opt in options            
-            option(class="dropdown__option" value=opt) #{opt} 
+mixin dropdown(options, mixClass = "")
+    - mixClass = mixClass ? " " + mixClass : mixClass;
+    select(class="dropdown js-dropdown" + mixClass)
+        option(value="")
+        each opt in options
+            option(class="dropdown__option" value=opt)=opt
 

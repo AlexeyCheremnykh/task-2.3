@@ -1,108 +1,109 @@
 .user-profile
-    margin-bottom: 25px
+  width: 267px
+  height: 94px
 
-    &__photo
-        display: inline-block
-        vertical-align: middle               
-        height: 85px
-        width: 85px
-        border-radius: 50%
-        border: 4px solid #e5e5e5
-        margin-right: 11px
-        background-size: cover                
+  &::before
+    content: "";
+    display: inline-block
+    vertical-align: middle
+    height: 100%
 
-    &__info
-        display: inline-block
-        vertical-align: middle
-        position: relative
-        width: 163px
-        height: 93px
-        border-radius: 6px
-        margin-top: 2px     
-        
-        &::before
-            position: absolute
-            left: -6px
-            top: 40px
-            content: ""
-            display: block
-            border-style: solid
-            border-width: 6px 6px 6px 0                    
+  &__photo
+    display: inline-block
+    vertical-align: top
+    height: 84px
+    width: 84px
+    border-radius: 50%
+    border: 4px solid #e5e5e5
+    margin-right: 12px
+    background-size: cover
 
-    &__name
-        font-family: "Lato"
-        font-weight: 400
-        font-size: 18px        
-        text-align: center
-        margin-top: 8px
-        word-spacing: -0.05em       
-    
-    &__profession
-        font-family: "Lato"
-        font-weight: 900
-        font-size: 11px        
-        text-transform: uppercase
-        text-align: center
-        margin-top: 1px
-        word-spacing: 2px
-        letter-spacing: 0.05em
+  &__info
+    display: inline-block
+    vertical-align: bottom
+    position: relative
+    width: 163px
+    height: 93px
+    border-radius: 8px
 
-    &__social-container
-        text-align: center
-    
-    &__social-icon
-        width: 30px
-        height: 30px
-        display: inline-block
-        background-image: url("img/social_icons.png")
-        margin-top: 6px
-        margin-left: 5px
-        margin-right: 5px
+    &::before
+      position: absolute
+      left: -6px
+      top: 40px
+      content: ""
+      display: block
+      border-style: solid
+      border-width: 6px 6px 6px 0
 
-    
-    &__info_blue
-        background-color: #4eb7a8
-        
-        &::before
-            border-color: transparent #4eb7a8 transparent transparent
-        
-        & ^[0]__name
-            color: #ffffff
-        
-        & ^[0]__profession
-            color: #ffffff
+  &__name
+    font-family: "Lato", "Arial", sans-serif
+    font-weight: 400
+    font-size: 18px
+    text-align: center
+    margin-top: 8px
+    word-spacing: -0.05em
 
-        & ^[0]__fb
-            background-position: -89px -4px
-        
-        & ^[0]__twitter
-            background-position: -7px -2px
-        
-        & ^[0]__dribbble
-            background-position: -5px -43px
+  &__profession
+    font-family: "Lato", "Arial", sans-serif
+    font-weight: 900
+    font-size: 11px
+    text-transform: uppercase
+    text-align: center
+    margin-top: 1px
+    word-spacing: 2px
+    letter-spacing: 0.05em
 
-    &__info_grey
-        background-color: #e5e5e5
+  &__social-container
+    text-align: center
 
-        &::before
-            border-color: transparent #e5e5e5 transparent transparent
-        
-        & ^[0]__name
-            color: #e75735
-        
-        & ^[0]__profession
-            color: #4f4f4f
-        
-        & ^[0]__fb
-            background-position: -119px -4px
-       
-        & ^[0]__twitter
-            background-position: -52px -2px
-        
-        & ^[0]__dribbble
-            background-position: -46px -43px
+  &__social
+    width: 30px
+    height: 30px
+    display: inline-block
+    background-image: url("img/social_icons.png")
+    margin-top: 6px
+    margin-left: 5px
+    margin-right: 5px
 
 
-          
+  &__info_blue
+    background-color: #4eb7a8
 
-              
+    &::before
+      border-color: transparent #4eb7a8 transparent transparent
+
+    & ^[0]__name
+      color: #ffffff
+
+    & ^[0]__profession
+      color: #ffffff
+
+    & ^[0]__social_fb
+      background-position: -89px -4px
+
+    & ^[0]__social_twitter
+      background-position: -7px -2px
+
+    & ^[0]__social_dribbble
+      background-position: -5px -43px
+
+  &__info_grey
+    background-color: #e5e5e5
+
+    &::before
+      border-color: transparent #e5e5e5 transparent transparent
+
+    & ^[0]__name
+      color: #e75735
+
+    & ^[0]__profession
+      color: #4f4f4f
+
+    & ^[0]__social_fb
+      background-position: -119px -4px
+
+    & ^[0]__social_twitter
+      background-position: -52px -2px
+
+    & ^[0]__social_dribbble
+      background-position: -46px -43px

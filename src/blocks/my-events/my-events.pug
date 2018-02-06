@@ -17,7 +17,7 @@ mixin my-events(mixClass="")
             +location({address: "Tomsk", title: "My events", mixClass: "my-events__location"})
         .my-events__events
             - for (i = 0; i < 6; i++)
-                +event({dateString: "2018-05-15", title: "Title", mixClass: "my-events__event", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit."})
+                +event({dateString: "2018-05-15", added: true, title: "Title", mixClass: "my-events__event", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit."})
         .my-events__next-prev-buttons
             +arrow-button({direction: "left", disabled: true, mixClass: "my-events__prev-button"})
             +arrow-button({direction: "right"})

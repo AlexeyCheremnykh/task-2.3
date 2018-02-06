@@ -72,11 +72,11 @@ module.exports = {
             template: "src/pages/news/news.pug",
             filename: "news.html"
         }),
-        /*new HtmlWebpackPlugin({
+        new HtmlWebpackPlugin({
             template: "src/pages/events/events.pug",
             filename: "events.html"
         }),
-        new HtmlWebpackPlugin({
+        /*new HtmlWebpackPlugin({
             template: "src/pages/articles/articles.pug",
             filename: "articles.html"
         }),

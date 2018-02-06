@@ -14,6 +14,9 @@ import '../node_modules/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.css
 import 'jquery-circle-progress';
 
 
+import './blocks/location/location.styl';
+import './blocks/location/location';
+import './blocks/location/img/map-marker-icon.png';
 import './pages/index/index.styl';
 import './pages/page-template/page-template.styl';
 import './blocks/header/header.styl';
@@ -33,13 +36,11 @@ import './blocks/event/event.styl';
 import './blocks/tick-box/tick-box.styl';
 import './blocks/events-my-events/events-my-events.styl';
 import './blocks/events-recommended/events-recommended.styl';
+import './blocks/events-new-event/events-new-event.styl';
 import './pages/events/events.styl';
 import './pages/events/events';
 import './blocks/toggle/toggle.styl';
 import './blocks/toggle/toggle';
-import './blocks/location/location.styl';
-import './blocks/location/location';
-import './blocks/location/img/map-marker-icon.png';
 import './blocks/user-profile/user-profile.styl';
 import './blocks/user-profile/img/user-profile-woman.jpg';
 import './blocks/user-profile/img/user-profile-man.jpg';

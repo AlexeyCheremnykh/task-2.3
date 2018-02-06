@@ -2,15 +2,23 @@
   width: 593px
   float: left
 
+  @media (max-width: 1085px)
+    float: none
+
+  @media (max-width: 705px)
+    width: 62%
+    margin: 0 auto
+
   &__search
     margin-bottom: 20px
-    width: 593px
+    width: 100%
 
   &__map
     clear: both
 
   &__location
     margin-top: 10px
+    width: 100%
 
   &__events
     display: flex
@@ -22,6 +30,9 @@
   &__event
     margin-right: 17px
     margin-bottom: 15px
+
+    @media (max-width: 705px)
+      width: 100%
 
   &__next-prev-buttons
     margin-left: auto

@@ -3,108 +3,13 @@
   margin-right: auto
   width: 1040px
 
-@media (max-width: 1057px)
-    .events
-        display: block
-        width: 653px
+  @media (max-width: 1085px)
+    width: 653px
 
-        &__right
-            width: 100%
-            max-height: 736px
-            display: flex
-            align-content: space-between
-            flex-direction: column
-            flex-wrap: wrap
+  @media (max-width: 670px)
+    width: 100%
 
-            .events
-                &__container
-                    box-sizing: border-box
-                    padding: 20px 14px
-                    width: 316px
-
-                &__search, &__new-event
-                    height: 117px
-
-                &__calendar, &__recommended
-                    height: 559px
-
-
-@media (min-width: 471px) and (max-width: 700px)
-    .events
-        width: 96.173%
-
-        &__events-my-events
-            width: 100%
-            box-sizing: border-box
-
-            .location
-                width: 100%
-
-        &__items
-            justify-content: center
-            width: 102.9%
-
-            .event
-                width: 47.1%
-                margin-right: 2.77%
-
-                &__image
-                    display: none
-
-                &__text
-                    width: 100%
-
-
-@media (max-width: 680px)
-    .events
-        &__right
-            display: block
-            margin-left: auto
-            margin-right: auto
-            width: 316px
-            max-height: none
-
-
-@media (max-width: 600px)
-    .events
-        &__items
-            .event
-                &__text
-                    font-size: 15px
-
-
-@media (max-width: 470px)
-    .events
-        width: 96.173%
-
-        &__events-my-events
-            width: 100%
-            box-sizing: border-box
-
-            .location
-                width: 100%
-
-        &__items
-            .event
-                position: relative
-                width: 100%
-
-                &__text
-                    width: 100%
-                    padding-left: 114px
-
-                &__image
-                    position: absolute
-                    background-size: contain
-                    width: 95px
-
-
-@media (max-width: 430px)
-    .events
-        .tick-box
-            float: none
-            margin-top: 10px
-            display: block
-
-        &__container
-            padding: 20px 14px
+  &::after
+    content: ""
+    display: block
+    clear: both

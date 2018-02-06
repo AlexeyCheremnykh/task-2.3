@@ -4,6 +4,6 @@ include ../page-section/page-section.pug
 mixin recommended-events(mixClass="")
     - mixClass = mixClass ? " " + mixClass : "";
     +page-section("Recommended", "recommended-events" + mixClass)
-        +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
-        +event("15", "May", "Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
-        a(href="#" class="recommended-events__see-more") See more
+        +event({dateString: "2018-05-15", title: "Title", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."})
+        +event({dateString: "2018-05-15", title: "Title", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."})
+        a(href="/mock-address/" class="recommended-events__see-more") See more

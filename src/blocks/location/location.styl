@@ -17,13 +17,8 @@
   &__footer-info
     font-family: "Lato", "Arial", sans-serif
     margin-left: 27px
-    height: 29px
-    padding-top: 20px
-    padding-bottom: 20px
-    width: 280px
     display: flex
-    justify-content: space-between
-    align-items: flex-end
+    align-items: center
 
     @media (max-width: 450px)
       margin-left: 23px
@@ -32,6 +27,9 @@
     font-weight: 300
     font-size: 30px
     word-spacing: -0.09em
+    display: inline-block
+    margin-right: 26px
+    padding-bottom: 10px
 
     @media (max-width: 450px)
       font-size: 25px
@@ -41,13 +39,22 @@
     font-size: 12.5px
     letter-spacing: 0.05em
     text-transform: uppercase
-    width: 143px
+    display: inline-block
+    max-width: 300px
 
     @media (max-width: 450px)
       font-size: 11px
 
     @media (max-width: 390px)
       display: none
+
+  &__address-local
+    max-height: 30px
+    overflow: hidden
+
+  &__address-global
+    max-height: 30px
+    overflow: hidden
 
   &__footer-buttons
     width: 79px

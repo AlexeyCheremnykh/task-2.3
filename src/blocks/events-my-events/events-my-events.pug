@@ -10,7 +10,7 @@ mixin events-my-events()
         +search({placeholder: "Event search", mixClass: "events-my-events__search"})
         .events-my-events__map
             +toggle({enabled: true, label: "Events map", mixClass: "events-my-events__map-option"})
-            +location({address: "Tomsk", title: "My events", mixClass: "events-my-events__location"})
+            +location({localAddress: "Lenina Street 14", globalAddress: "Tomsk, Russia", title: "My events", mixClass: "events-my-events__location"})
         .events-my-events__events
             - for (i = 0; i < 6; i++)
                 +event({dateString: "2018-05-15", added: true, title: "Title", mixClass: "events-my-events__event", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit."})

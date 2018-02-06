@@ -1,13 +1,14 @@
 extends ../page-template/page-template.pug
-include ../../blocks/my-events/my-events.pug
-include ../../blocks/recommended-events/recommended-events.pug
+include ../../blocks/events-my-events/events-my-events.pug
+include ../../blocks/events-recommended/events-recommended.pug
+include ../../blocks/events-new-event/events-new-event.pug
 
 block page-title
     title Events
 
 block page-content
     .events
-        +my-events("events__my-events")
-        +recommended-events("events__recommended")
-
+        +events-my-events()
+        +events-recommended()
+        +events-new-event()
     script(src="https://maps.google.com/maps/api/js?key=AIzaSyAOCIrJxKv-dWFvk6Ki9Wix-mJPiKKBKHc")

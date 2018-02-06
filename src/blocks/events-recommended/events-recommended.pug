@@ -1,0 +1,8 @@
+include ../event/event.pug
+include ../page-section/page-section.pug
+
+mixin events-recommended()
+    +page-section("Recommended", "events-recommended")
+        +event({dateString: "2018-05-15", title: "Title", mixClass: "events-recommended__event", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."})
+        +event({dateString: "2018-05-15", title: "Title", mixClass: "events-recommended__event", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."})
+        a(href="/mock-address/" class="events-recommended__see-more") See more

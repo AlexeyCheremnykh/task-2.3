@@ -1,0 +1,14 @@
+include ../section-title/section-title.pug
+include ../arrow-button/arrow-button.pug
+include ../news-article-preview/news-article-preview.pug
+
+mixin news-category-preview({categoryTitle, categoryAddress = "/mock-address/", articles = [], mixClass = ""})
+    - mixClass = mixClass ? " " + mixClass : "";
+    section(class="news-category-preview" + mixClass)
+        +section-title(categoryTitle, categoryAddress)
+        .news-category-preview__content
+            - for (let article of articles)
+                - article.mixClass = "news-category-preview__article-preview";
+                +news-article-preview(article)
+        +arrow-button({direction: "left", mixClass: "news-category-preview__scroll-btn news-category-preview__scroll-btn_left"})
+        +arrow-button({direction: "right", mixClass: "news-category-preview__scroll-btn news-category-preview__scroll-btn_right"})

@@ -6,7 +6,7 @@ block page-title
     title News
 
 block page-content
-   .news
+   main.news
         - const newsCategories = {
         -   "All news": "/mock-address/",
         -   World: "/mock-address/",
@@ -24,7 +24,7 @@ block page-content
         -   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.",
         - };
         - const newsArticles = [newsArticle, newsArticle, newsArticle];
-        main.news__categories-preview
+        .news__categories-preview
             +news-category-preview({categoryTitle: "World", articles: newsArticles, mixClass: "news__preview"})
             +news-category-preview({categoryTitle: "Russia", articles: newsArticles, mixClass: "news__preview"})
             +news-category-preview({categoryTitle: "Business", articles: newsArticles, mixClass: "news__preview"})

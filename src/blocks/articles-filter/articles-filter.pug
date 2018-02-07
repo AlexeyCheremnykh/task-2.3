@@ -14,7 +14,7 @@ mixin articles-filter
                 +slider({type: "red", min: 0, max: 100})
             .articles-filter__tags
                 .articles-filter__option-title Tags
-                +dropdown({options: ["tag1", "tag2", "tag3"]})
+                +dropdown({options: ["tag1", "tag2", "tag3"], multiple: true, hasDefault: true})
             .articles-filter__category
                 .articles-filter__option-title Category
                 +dropdown({options: ["popular", "category1", "category2", "category3"], hasDefault: true})

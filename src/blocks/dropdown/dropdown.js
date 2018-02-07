@@ -5,10 +5,17 @@ class Dropdown {
   }
 
   initElement() {
-    this._$dropdown.select2({
-      placeholder: 'Choose An Option',
-      minimumResultsForSearch: -1,
-    });
+    if (this._$dropdown.hasClass('js-dropdown-multiple')) {
+      this._$dropdown.select2({
+        multiple: true,
+      });
+      this._$dropdown.val('').change();
+    } else {
+      this._$dropdown.select2({
+        placeholder: 'Choose An Option',
+        minimumResultsForSearch: -1,
+      });
+    }
 
     return this;
   }

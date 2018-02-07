@@ -1,16 +1,35 @@
 .articles-filter
-  width: 288px
+  margin-bottom: 25px
+  position: sticky
+
+  &__form
+    @media (max-width: 900px)
+      margin: 0 auto
+      max-width: 420px
+
+    @media (max-width: 600px)
+      width: 288px
+
+  &__option
+    margin-bottom: 25px
+
+    @media (max-width: 900px)
+      display: flex
+      justify-content: space-between
+
+    @media (max-width: 600px)
+      display: block
 
   &__option-title
     font-family: "Lato", "Arial", sans-serif
     font-size: 17px
     color: #444444
-    margin: 25px 0 15px
+    margin-bottom: 15px
 
   &__author-field
     box-sizing: border-box
     border: none
-    width: 100%
+    width: 288px
     height: 28px
     background-color: #e5e5e5
     padding-left: 13px
@@ -22,5 +41,6 @@
     &:focus
       outline: 2px solid #888888
 
-  &__show-btn
-    margin-top: 20px
+  &__rating
+    @media (max-width: 900px)
+      align-items: flex-end

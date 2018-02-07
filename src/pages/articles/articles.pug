@@ -1,59 +1,15 @@
 extends ../page-template/page-template.pug
-include ../../blocks/article-preview/article-preview.pug
-include ../../blocks/search-section/search-section.pug
-include ../../blocks/page-section/page-section.pug
+include ../../blocks/articles-search/articles-search.pug
 include ../../blocks/articles-filter/articles-filter.pug
+include ../../blocks/articles-popular/articles-popular.pug
 
 block page-title
     title Articles
 
 block page-content
-    .articles
-        - const articleCategories = {
-        -   Popular: "/mock-address/",
-        -   Category1: "/mock-address/",
-        -   Category2: "/mock-address/",
-        -   Category3: "/mock-address/",
-        -   Category4: "/mock-address/",
-        -   Category5: "/mock-address/",
-        - }
-        +page-section("Popular", "articles__popular")
-            - const articleOptions = {
-            -   title: "Article title",
-            -   articleAddress: "/mock-address/",
-            -   dateString: "2017-08-15",
-            -   category: {
-            -     name: "Category",
-            -     address: "/mock-address/",
-            -   },
-            -   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod non urna" +
-            -   " malesuada efficitur. Curabitur in sapien pulvinar, ultrices quam a, dignissim urna. " +
-            -   "Sed sed dolor nec eros mollis tincidunt. Vestibulum quis felis vehicula, ultrices risus" +
-            -   " a, tempor dolor. Sed ut libero blandit, fermentum lorem id, placerat sem. Proin vitae" +
-            -   " tristique nisl. Vivamus quam eros, tincidunt a auctor sed, varius quis metus. Lorem" +
-            -   " ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod non urna malesuada" +
-            -   " efficitur. Curabitur in sapien pulvinar, ultrices quam a, dignissim urna. Sed sed dolor" +
-            -   " nec eros mollis tincidunt. Vestibulum quis felis vehicula, ultrices risus a, tempor" +
-            -   " dolor. Sed ut libero blandit, fermentum lorem id, placerat sem. Proin vitae tristique" +
-            -   " nisl. Vivamus quam eros, tincidunt a auctor sed, varius quis metus.",
-            -   tags: {
-            -     tag1: "/mock-address/",
-            -     tag2: "/mock-address/",
-            -     tag3: "/mock-address/",
-            -   },
-            -   author: {
-            -     name: "Article Author",
-            -     profession: "Article writer",
-            -     photo: "img/user-profile-man.jpg",
-            -   },
-            -   rating: 66,
-            - }
-            +article-preview(articleOptions)
-            +article-preview(articleOptions)
-            +article-preview(articleOptions)
-            +article-preview(articleOptions)
-
-        aside
-            +search-section("Article search", "articles__search")
-            +articles-filter()
+    main.articles
+        .articles__search-filter
+            +articles-search
+            +articles-filter
+        +articles-popular
 

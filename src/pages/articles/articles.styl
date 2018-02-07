@@ -1,41 +1,28 @@
 .articles
-    display: flex
-    justify-content: space-between
-    width: 1160px
-    margin-left: auto
-    margin-right: auto
+  width: 1160px
+  margin-left: auto
+  margin-right: auto
 
-    &__left
-        width: 30.172%
-        margin-right: 15px
+  @media (max-width: 1220px)
+    width: 95%
 
-    &__container
-        margin-bottom: 30px
-        background-color: #ffffff
-        padding: 20px 30px
-        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)
+  @media (max-width: 900px)
+    width: 80%
 
-    &__title
-        margin-top: 0
-        text-decoration: none
-        font-family: "Lato"
-        font-weight: 900
-        text-transform: uppercase
-        color: #aaaaaa
-        font-size: 20px
-        border-bottom: 2px solid #e5e5e5
+  &__search-filter
+    float: right
 
-    &__popular
-        width: 61%
+    @media (max-width: 900px)
+      float: none
+      width: 100%
 
-body[data-select2-id="19"]
-    .select2-results__option[aria-selected="true"]
-        color: #aaaaaa !important
+  &::after
+    display: block
+    content: ""
+    clear: both
 
+@media (max-width: 1220px)
 
-@media (max-width: 1175px)
-    .articles
-        width: 100%
 
         .search
             display: flex

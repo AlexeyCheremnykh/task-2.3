@@ -1,0 +1,6 @@
+include ../search/search.pug
+include ../page-section/page-section.pug
+
+mixin articles-search
+    +page-section("Search", "articles-search")
+        +search({placeholder: "Aticles search"})

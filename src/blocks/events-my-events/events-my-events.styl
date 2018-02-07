@@ -6,7 +6,8 @@
     float: none
 
   @media (max-width: 705px)
-    width: 62%
+    box-sizing: border-box
+    width: 100%
     margin: 0 auto
 
   &__search
@@ -21,18 +22,16 @@
     width: 100%
 
   &__events
+    margin-top: 20px
     display: flex
     flex-wrap: wrap
-    justify-content: flex-start
-    margin-right: -17px
-    margin-top: 20px
+    justify-content: space-between
 
   &__event
-    margin-right: 17px
     margin-bottom: 15px
 
     @media (max-width: 705px)
-      width: 100%
+      width: 48.563%
 
   &__next-prev-buttons
     margin-left: auto

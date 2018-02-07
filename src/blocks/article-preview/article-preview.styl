@@ -1,23 +1,30 @@
 .article-preview
-  margin-bottom: 16px
   font-family: "Lato", "Arial", sans-serif
-  position: relative
-  border-bottom: 1px solid #e5e5e5
 
   &__title
     display: inline-block
+    font-size: 22px
+    font-weight: 700
+    max-width: 70%
 
   &__link
     text-decoration: none
-    color: #000000
+    color: #111111
+
+    &:hover
+      color: #4e6ea3
 
   &__date
-    position: absolute
-    top: 18.720px
-    right: 0
+    float: right
+    margin-top: 27px
+    color: #555555
 
   &__category
-    margin-bottom: 10px
+    font-weight: 700
+
+  &__text
+    color: #222222
+    margin: 20px 0
 
   &__tags
     list-style: none
@@ -25,11 +32,22 @@
 
   &__tag
     display: inline-block
-    border: 1px solid #bbbbbb
     padding: 3px
-    border-radius: 5px
-    margin-right: 5px
+
+    &:not(:last-child)::after
+      display: inline
+      content: ","
 
   &__footer
-    display: flex
-    justify-content: space-between
+    margin-top: 25px
+
+    &::after
+      display: block
+      content: ""
+      clear: both
+
+  &__author
+    float: left
+
+  &__rating
+    float: right

@@ -1,23 +1,25 @@
 include ../user-profile/user-profile.pug
 include ../percentage/percentage.pug
 
-mixin article-preview({title, address, date, category, text, tags, author, rating})
+mixin article-preview({title, articleAddress, dateString, category, text, tags, author, rating})
+    - let articleDate = new Date(dateString);
+    - const articleMonth = articleDate.toLocaleString("en", { month: "short" });
+    - const articleDay = articleDate.toLocaleString("en", { day: "numeric" });
+    - const articleYear = articleDate.toLocaleString("en", { year: "numeric" });
+    - articleDate = `${articleDay} ${articleMonth} ${articleYear}`;
     article.article-preview
         header.article-preview__header
             h3.article-preview__title
-                a(href=address class="article-preview__link")=title
-            .article-preview__date=date
+                a(href=articleAddress class="article-preview__link")=title
+            time(datetime=dateString class="article-preview__date")=articleDate
             .article-preview__category
                 a(href=category.address class="article-preview__link")=category.name
 
         .article-preview__text=text
-        ul.article-preview__tags
-            - for (let tag in tags)
-                li.article-preview__tag
-                    a(href=tags[tag] class="article-preview__link")=tag
-
         footer.article-preview__footer
-            .article-preview__author
-                +user_profile("grey", author.name, author.profession, author.photo)
-            .article-preview__rating
-                +percentage(rating)
+            ul.article-preview__tags
+                - for (let tag in tags)
+                    li.article-preview__tag
+                        a(href=tags[tag] class="article-preview__link")=tag
+            +user-profile({color: "grey", name: author.name, profession: author.profession, photo: author.photo, mixClass: "article-preview__author"})
+            +percentage(rating, "article-preview__rating")

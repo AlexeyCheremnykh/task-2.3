@@ -24,8 +24,8 @@ block page-content
             h2.articles__title Popular
             - const articleOptions = {
             -   title: "Article title",
-            -   address: "/mock-address/",
-            -   date: "15 Aug 2017",
+            -   articleAddress: "/mock-address/",
+            -   dateString: "2017-08-15",
             -   category: {
             -     name: "Category",
             -     address: "/mock-address/",
@@ -48,9 +48,9 @@ block page-content
             -   author: {
             -     name: "Article Author",
             -     profession: "Article writer",
-            -     photo: "img/user-profile-man.png",
+            -     photo: "img/user-profile-man.jpg",
             -   },
-            -   rating: 33,
+            -   rating: 66,
             - }
             +article-preview(articleOptions)
             +article-preview(articleOptions)

@@ -10,5 +10,5 @@ block page-content
     main.videos
         include __header/videos__header.pug
         - const orderOptions = ["by default", "by popularity", "newest first", "oldest first"];
-        +dropdown({options: orderOptions, hasDefault: true, mixClass: "videos__order"})
+        +dropdown({options: orderOptions, hasDefault: true, small: true, mixClass: "videos__display-order"})
         include __content/videos__content.pug

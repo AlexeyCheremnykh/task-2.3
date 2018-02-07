@@ -1,6 +1,7 @@
-mixin dropdown({options, hasDefault = false, mixClass = ""})
+mixin dropdown({options, hasDefault = false, small = false, mixClass = ""})
     - mixClass = mixClass ? " " + mixClass : mixClass;
-    select(class="dropdown js-dropdown" + mixClass)
+    - const dropdownClass = small ? "dropdown js-dropdown dropdown_small" : "dropdown js-dropdown";
+    select(class=dropdownClass + mixClass)
         if (!hasDefault)
             option(value="")
         each opt in options

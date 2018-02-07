@@ -1,7 +1,4 @@
 extends ../page-template/page-template.pug
-include ../../blocks/video/video.pug
-include ../../blocks/dropdown/dropdown.pug
-
 
 block page-title
     title Videos
@@ -9,6 +6,4 @@ block page-title
 block page-content
     main.videos
         include __header/videos__header.pug
-        - const orderOptions = ["by default", "by popularity", "newest first", "oldest first"];
-        +dropdown({options: orderOptions, hasDefault: true, small: true, mixClass: "videos__display-order"})
         include __content/videos__content.pug

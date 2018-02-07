@@ -1,11 +1,14 @@
 include ../../../blocks/video/video.pug
+include ../../../blocks/dropdown/dropdown.pug
 
 .videos__content
-    ul
-        li
-            a(href="#all") All videos
-        li
-            a(href="#playlists") Playlists
+    - const orderOptions = ["by default", "by popularity", "newest first", "oldest first"];
+    +dropdown({options: orderOptions, hasDefault: true, small: true, mixClass: "videos__display-order"})
+    ul.videos__tabs
+        li.videos__tab
+            a(href="#all" class="videos__tab-link") All videos
+        li.videos__tab
+            a(href="#playlists" class="videos__tab-link") Playlists
     div(class="videos__all" id="all")
         +video("k3jlviX88iw", "videos__video")
         +video("kKrYAdB8XJ4", "videos__video")

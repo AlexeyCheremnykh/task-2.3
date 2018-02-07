@@ -1,16 +1,16 @@
 .videos
   &__content
-    padding: 0
-    border: none !important
-    background-color: transparent
+    position: relative
 
   &__video
     width: 320px
     height: 180px
     margin-top: 8px
     margin-right: 8px
+    display: inline-block
 
     @media (max-width: 750px)
+      margin-right: 0
       width: 480px
       height: 270px
 
@@ -18,26 +18,43 @@
       width: 320px
       height: 180px
 
-.ui-tabs
-    .ui-tabs-panel
-        padding: 0
-        display: flex
-        flex-wrap: wrap
-        justify-content: flex-start
-        margin-right: -8px
+    &:nth-child(3n)
+      @media (min-width: 1081px)
+        margin-right: 0
 
-    .ui-tabs-nav
-        padding: 0
-        border: none
-        background-color: transparent
+    &:nth-child(2n)
+      @media (max-width: 1080px)
+        margin-right: 0
 
-    .ui-tabs-anchor
-        font-family: "Lato"
-        font-weight: 400
+  .ui-tabs
+    padding: 0
+    border: none
 
-    .ui-tabs-active
-        background-color: #4eb7a8
-        border-color: #4eb7a8
+    &-panel
+      padding: 0
 
-    .ui-tabs-anchor:focus
-        outline: none
+    &-nav
+      padding: 0
+      border: none
+      background-color: transparent
+
+    &-anchor
+      font-family: "Lato", "Arial", sans-serif
+      font-weight: 400
+
+    &-active
+      background-color: #4eb7a8
+      border-color: #4eb7a8
+
+    &-anchor:focus
+      outline: none
+
+  .select2-container
+    position: absolute
+    right: 0
+    top: 10px
+
+    @media (max-width: 600px)
+      position: relative
+      top: 0
+      margin-bottom: 10px

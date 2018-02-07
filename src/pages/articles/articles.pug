@@ -1,15 +1,14 @@
 extends ../page-template/page-template.pug
 include ../../blocks/article-preview/article-preview.pug
 include ../../blocks/search-section/search-section.pug
-include ../../blocks/categories-section/categories-section.pug
+include ../../blocks/page-section/page-section.pug
+include ../../blocks/articles-filter/articles-filter.pug
 
 block page-title
     title Articles
 
 block page-content
     .articles
-        +search-section("Article search", "articles__search")
-
         - const articleCategories = {
         -   Popular: "/mock-address/",
         -   Category1: "/mock-address/",
@@ -18,10 +17,7 @@ block page-content
         -   Category4: "/mock-address/",
         -   Category5: "/mock-address/",
         - }
-        +categories-section({categories: articleCategories, selectedCategory: "Popular"})
-
-        .articles__popular.articles__container
-            h2.articles__title Popular
+        +page-section("Popular", "articles__popular")
             - const articleOptions = {
             -   title: "Article title",
             -   articleAddress: "/mock-address/",
@@ -56,4 +52,8 @@ block page-content
             +article-preview(articleOptions)
             +article-preview(articleOptions)
             +article-preview(articleOptions)
+
+        aside
+            +search-section("Article search", "articles__search")
+            +articles-filter()
 

@@ -48,6 +48,7 @@ import './blocks/slider/slider.styl';
 import './blocks/slider/slider';
 import './blocks/calendar/calendar.styl';
 import './blocks/calendar/calendar';
+import './blocks/articles-filter/articles-filter.styl';
 import './pages/articles/articles.styl';
 import './pages/articles/articles';
 import './blocks/percentage/percentage.styl';

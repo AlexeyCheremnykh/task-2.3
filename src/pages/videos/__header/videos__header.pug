@@ -1,10 +1,8 @@
-include ../../standard-button/standard-button.pug
-include ../../search/search.pug
-include ../../dropdown/dropdown.pug
+include ../../../blocks/standard-button/standard-button.pug
+include ../../../blocks/search/search.pug
 
-header.videos__header 
-    +search("Video search")          
+header.videos__header
+    +search({placeholder: "Video search", mixClass: "videos__search"})
     .videos__buttons
-        +standard_button("big", "red", "add a video")
-        +standard_button("big", "red", "new playlist")
-    +dropdown(["by default", "by popularity", "newest first", "oldest first"])
+        +standard-button({size: "big", color: "red", label: "add a video", mixClass: "videos__add-video"})
+        +standard-button({size: "big", color: "red", label: "new playlist"})

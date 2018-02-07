@@ -64,10 +64,10 @@ module.exports = {
             template: "src/pages/index/index.pug",
             filename: "index.html"
         }),
-        /*new HtmlWebpackPlugin({
+        new HtmlWebpackPlugin({
             template: "src/pages/videos/videos.pug",
             filename: "videos.html"
-        }),*/
+        }),
         new HtmlWebpackPlugin({
             template: "src/pages/news/news.pug",
             filename: "news.html"

@@ -1,67 +1,38 @@
-.videos-wrapper
-    width: 1040px
-    margin-left: auto
-    margin-right: auto
-    background-color: #ffffff
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)
-
 .videos
-    position: relative
-    margin-left: auto
-    margin-right: auto
-    padding: 20px 0
-    width: 976px
+  position: relative
+  margin-left: auto
+  margin-right: auto
+  padding: 20px 32px
+  background-color: #ffffff
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)
+  width: 976px
 
-    @import ("__header/videos__header.styl");
+  @media (max-width: 1080px)
+    width: 648px
 
-    @import ("__content/videos__content.styl");          
+  @media (max-width: 750px)
+    width: 480px
 
+  @media (max-width: 600px)
+    width: 320px
 
-@media (max-width: 1057px)
-    .videos-wrapper
-        width: 710px
-    
-    .videos
-        width: 648px
+  @import ("__header/videos__header.styl");
 
-@media (max-width: 730px)
-    .videos-wrapper
-        width: 520px
-    
-    .videos
-        width: 480px
+  @import ("__content/videos__content.styl");
 
-        .video
-            width: 480px
-            height: 270px
-        
-        .search
-            width: 200px
+.dropdown
+  width: 160px !important
+
+.select2-container
+  position: absolute
+  right: 0
+  top: 100px
+  z-index: 1
 
 @media (max-width: 538px)
-    .videos-wrapper
-        width: 370px
 
-    .videos
-        width: 320px
-
-        .search
-            width: 240px
-
-        & &__buttons
-            margin-top: 10px
-            float: none
-
-        .select2-container
+       .select2-container
             position: relative
             display: block
             top: 10px
             margin-top: 10px
-            
-        .video
-            width: 320px
-            height: 180px
-
-@media (max-width: 387px)
-    .videos-wrapper
-        width: 100%

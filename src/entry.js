@@ -49,7 +49,7 @@ import './blocks/calendar/calendar';
 import './blocks/articles-popular/articles-popular.styl';
 import './blocks/articles-search/articles-search.styl';
 import './blocks/articles-filter/articles-filter.styl';
-import './pages/articles/articles.styl';
+import './blocks/articles/articles.styl';
 import './blocks/percentage/percentage.styl';
 import './blocks/percentage/percentage';
 import './blocks/stages/stages.styl';

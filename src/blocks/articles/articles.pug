@@ -1,0 +1,9 @@
+include ../articles-search/articles-search.pug
+include ../articles-filter/articles-filter.pug
+include ../articles-popular/articles-popular.pug
+
+main.articles
+    .articles__search-filter
+        +articles-search
+        +articles-filter
+    +articles-popular

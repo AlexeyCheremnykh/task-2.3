@@ -1,15 +1,8 @@
 extends ../page-template/page-template.pug
-include ../../blocks/articles-search/articles-search.pug
-include ../../blocks/articles-filter/articles-filter.pug
-include ../../blocks/articles-popular/articles-popular.pug
 
 block page-title
     title Articles
 
 block page-content
-    main.articles
-        .articles__search-filter
-            +articles-search
-            +articles-filter
-        +articles-popular
+    include ../../blocks/articles/articles.pug
 

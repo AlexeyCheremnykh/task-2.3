@@ -2,9 +2,20 @@
   &__content
     position: relative
 
+  &__display-order
+    width: 160px
+    position: absolute
+    right: 0
+    top: 10px
+
+    @media (max-width: 600px)
+      position: static
+      margin-bottom: 10px
+
   &__video
     width: 320px
-    height: 180px
+    padding-bottom: 180px
+    position: relative
     margin-top: 8px
     margin-right: 8px
     display: inline-block
@@ -12,11 +23,11 @@
     @media (max-width: 750px)
       margin-right: 0
       width: 480px
-      height: 270px
+      padding-bottom: 270px
 
     @media (max-width: 600px)
       width: 320px
-      height: 180px
+      padding-bottom: 180px
 
     &:nth-child(3n)
       @media (min-width: 1081px)
@@ -40,7 +51,6 @@
 
     &-anchor
       font-family: "Lato", "Arial", sans-serif
-      font-weight: 400
 
     &-active
       background-color: #4eb7a8
@@ -48,13 +58,3 @@
 
     &-anchor:focus
       outline: none
-
-  .select2-container
-    position: absolute
-    right: 0
-    top: 10px
-
-    @media (max-width: 600px)
-      position: relative
-      top: 0
-      margin-bottom: 10px

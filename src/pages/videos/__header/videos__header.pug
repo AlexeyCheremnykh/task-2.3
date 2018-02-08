@@ -2,7 +2,9 @@ include ../../../blocks/standard-button/standard-button.pug
 include ../../../blocks/search/search.pug
 
 header.videos__header
-    +search({placeholder: "Video search", mixClass: "videos__search"})
+    .videos__search
+        +search({placeholder: "Video search"})
     .videos__buttons
-        +standard-button({size: "big", color: "red", label: "add a video", mixClass: "videos__add-video"})
+        .videos__add-video
+            +standard-button({size: "big", color: "red", label: "add a video"})
         +standard-button({size: "big", color: "red", label: "new playlist"})

@@ -1,5 +1,4 @@
 .event
-  width: 288px
   height: 212px
   border-radius: 3px
   overflow: hidden
@@ -11,16 +10,22 @@
     background-image: url("img/event-sample.jpg")
     background-size: cover
 
+    @media (max-width: 705px)
+      display: none
+
   &__main
     font-family: "Lato", "Arial", sans-serif
     box-sizing: border-box
-    width: 193px
+    width: calc(100% - 95px)
     height: 212px
     padding: 4px 19px 0
     display: inline-block
     vertical-align: top
     background-color: #4eb7a8
     color: #ffffff
+
+    @media (max-width: 705px)
+      width: 100%
 
   &__date
     font-weight: 300
@@ -34,9 +39,15 @@
     display: inline-block
     margin-right: 14px
 
+    @media (max-width: 490px)
+      font-size: 60px
+
   &__month
     font-size: 30px
     display: inline-block
+
+    @media (max-width: 490px)
+      font-size: 20px
 
   &__title
     font-weight: 900
@@ -49,7 +60,6 @@
     overflow: hidden
 
   &__content
-    font-weight: 400
     font-size: 11px
     letter-spacing: 0.05em
     margin-top: 0
@@ -59,3 +69,9 @@
 
   &__add-btn
     text-align: center
+
+  &_added &__content
+    max-height: 65px
+
+  &_added &__add-btn
+    display: none

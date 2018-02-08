@@ -1,7 +1,7 @@
 include ../page-section/page-section.pug
 include ../standard-button/standard-button.pug
 
-mixin events-new-event()
+mixin events-new-event
     +page-section("New event", "events-new-event")
         form(action="event-new.html" class="events-new-event__new-btn")
             +standard-button({size: "big", color: "blue", long: true, label: "create event"})

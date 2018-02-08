@@ -1,10 +1,11 @@
 include ../standard-button/standard-button.pug
 
-mixin event({dateString, title, content})
+mixin event({dateString, title, content, added = false})
     - const eventDate = new Date(dateString);
     - const eventMonth = eventDate.toLocaleString("en", { month: "short" });
     - const eventDay = eventDate.toLocaleString("en", { day: "numeric" });
-    article.event
+    - const eventClass = added ? "event event_added" : "event";
+    article(class=eventClass)
         .event__image
         .event__main
             header.event__header

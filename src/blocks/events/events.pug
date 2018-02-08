@@ -1,4 +1,8 @@
+include ../events-my-events/events-my-events.pug
+include ../events-recommended/events-recommended.pug
+include ../events-new-event/events-new-event.pug
+
 main.events
-    include ../events-my-events/events-my-events.pug
-    include ../events-recommended/events-recommended.pug
-    include ../events-new-event/events-new-event.pug
+    +events-my-events
+    +events-recommended
+    +events-new-event

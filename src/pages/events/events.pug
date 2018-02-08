@@ -7,8 +7,5 @@ block page-title
     title Events
 
 block page-content
-    main.events
-        +events-my-events()
-        +events-recommended()
-        +events-new-event()
+    include ../../blocks/events/events.pug
     script(src="https://maps.google.com/maps/api/js?key=AIzaSyAOCIrJxKv-dWFvk6Ki9Wix-mJPiKKBKHc")

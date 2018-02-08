@@ -28,7 +28,7 @@ import './blocks/videos/videos.styl';
 import './blocks/videos/videos';
 import './blocks/dropdown/dropdown';
 import './blocks/standard-button/standard-button.styl';
-import './pages/news/news.styl';
+import './blocks/news/news.styl';
 import './blocks/news-article-preview/news-article-preview.styl';
 import './blocks/news-article-preview/img/news-article-preview-sample.jpg';
 import './blocks/arrow-button/arrow-button.styl';

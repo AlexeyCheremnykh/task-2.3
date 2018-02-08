@@ -1,0 +1,28 @@
+include ../categories-navigation/categories-navigation.pug
+include ../news-category-preview/news-category-preview.pug
+
+main.news
+    - const newsCategories = {
+    -   "All news": "/mock-address/",
+    -   World: "/mock-address/",
+    -   Russia: "/mock-address/",
+    -   Business: "/mock-address/",
+    -   Technologies: "/mock-address/",
+    -   Entertainment: "/mock-address/",
+    -   Sports: "/mock-address/",
+    - };
+    +categories-navigation({categories: newsCategories, selectedCategory: "All news", mixClass: "news__categories-navigation"})
+    - const newsArticle = {
+    -   title: "Title",
+    -   articleAddress: "/mock-address/",
+    -   dateString: "2018-05-05",
+    -   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.",
+    - };
+    - const newsArticles = [newsArticle, newsArticle, newsArticle];
+    .news__categories-preview
+        +news-category-preview({categoryTitle: "World", articles: newsArticles, mixClass: "news__preview"})
+        +news-category-preview({categoryTitle: "Russia", articles: newsArticles, mixClass: "news__preview"})
+        +news-category-preview({categoryTitle: "Business", articles: newsArticles, mixClass: "news__preview"})
+        +news-category-preview({categoryTitle: "Technologies", articles: newsArticles, mixClass: "news__preview"})
+        +news-category-preview({categoryTitle: "Entertainment", articles: newsArticles, mixClass: "news__preview"})
+        +news-category-preview({categoryTitle: "Sports", articles: newsArticles, mixClass: "news__preview"})

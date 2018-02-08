@@ -21,5 +21,7 @@ mixin article-preview({title, articleAddress, dateString, category, text, tags, 
                 - for (let tag in tags)
                     li.article-preview__tag
                         a(href=tags[tag] class="article-preview__link")=tag
-            +user-profile({color: "grey", name: author.name, profession: author.profession, photo: author.photo, mixClass: "article-preview__author"})
-            +percentage(rating, "article-preview__rating")
+            .article-preview__author
+                +user-profile({color: "grey", name: author.name, profession: author.profession, photo: author.photo})
+            .article-preview__rating
+                +percentage(rating)

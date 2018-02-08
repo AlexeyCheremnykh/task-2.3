@@ -6,20 +6,22 @@ include ../slider/slider.pug
 mixin articles-filter
     +page-section("Filter", "articles-filter")
         form.articles-filter__form
-            .articles-filter__option
-                .articles-filter__option-title Author
-                input(type="text" class="articles-filter__author-field" placeholder="Any author")
+            dl.articles-filter__options
+                dt.articles-filter__option-title Author
+                dd.articles-filter__option-value
+                    input(type="text" class="articles-filter__author-field" placeholder="Any author")
 
-            .articles-filter__option
-                .articles-filter__option-title Tags
-                +dropdown({options: ["tag1", "tag2", "tag3", "tag4", "tag5"], multiple: true, hasDefault: true})
+                dt.articles-filter__option-title Tags
+                dd.articles-filter__option-value
+                    +dropdown({options: ["tag1", "tag2", "tag3", "tag4", "tag5"], multiple: true, hasDefault: true})
 
-            .articles-filter__option
-                .articles-filter__option-title Category
-                +dropdown({options: ["popular", "category1", "category2", "category3"], hasDefault: true})
+                dt.articles-filter__option-title Category
+                dd.articles-filter__option-value
+                    +dropdown({options: ["popular", "category1", "category2", "category3"], hasDefault: true})
 
-            .articles-filter__option.articles-filter__rating
-                .articles-filter__option-title Minimum rating
-                +slider({type: "red", min: 0, max: 100})
+                dt.articles-filter__option-title Minimum rating
+                dd.articles-filter__option-value
+                    +slider({type: "red", min: 0, max: 100})
 
-            +standard-button({size: "big", color: "red", label: "Show", mixClass: "articles-filter__show-btn"})
+            .articles-filter__show-btn
+                +standard-button({size: "big", color: "red", label: "Show"})

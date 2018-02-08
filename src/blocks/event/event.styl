@@ -11,24 +11,16 @@
     background-image: url("img/event-sample.jpg")
     background-size: cover
 
-    @media (max-width: 705px)
-      display: none
-
   &__main
     font-family: "Lato", "Arial", sans-serif
     box-sizing: border-box
-    width: calc(100% - 95px)
+    width: 193px
     height: 212px
-    padding-left: 19px
-    padding-top: 4px
+    padding: 4px 19px 0
     display: inline-block
     vertical-align: top
     background-color: #4eb7a8
     color: #ffffff
-    padding-right: 15px
-
-    @media (max-width: 705px)
-      width: 100%
 
   &__date
     font-weight: 300
@@ -66,10 +58,4 @@
     overflow: hidden
 
   &__add-btn
-    margin-left: 13px
-
-  &_added &__content
-    max-height: 65px
-
-  &_added &__add-btn
-    display: none
+    text-align: center

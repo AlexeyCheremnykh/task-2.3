@@ -1,7 +1,6 @@
-mixin location({localAddress, globalAddress, title, mixClass=""})
-    - mixClass = mixClass ? " " + mixClass : mixClass;
+mixin location({localAddress, globalAddress, title})
     - const address = `${localAddress} ${globalAddress}`;
-    div(class="location" + mixClass)
+    .location
         div(class="location__map js-location__map" data-address=address)
         .location__footer
             .location__footer-info

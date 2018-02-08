@@ -1,6 +1,5 @@
-mixin search({placeholder, notFound = false, mixClass = ""})
-	- mixClass = mixClass ? " " + mixClass : mixClass;
-	form(class="search" + mixClass)
+mixin search({placeholder, notFound = false})
+	form.search
 		if (notFound)
 			input(type="text" placeholder=placeholder class="search__field search__field_not-found")
 		else

@@ -1,3 +1,2 @@
-mixin video(id, mixClass = "")
-    - mixClass = mixClass ? " " + mixClass : mixClass;
-    iframe(class="video" + mixClass src="https://www.youtube.com/embed/" + id +"?rel=0")
+mixin video(id)
+    iframe(class="video" src=`https://www.youtube.com/embed/${id}?rel=0`)

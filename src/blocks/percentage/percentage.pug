@@ -1,4 +1,3 @@
-mixin percentage(value, mixClass = "")
-    - mixClass = mixClass ? " " + mixClass : mixClass;
-    div(class="percentage js-percentage" + mixClass)
+mixin percentage(value)
+    div(class="percentage js-percentage")
         .percentage__value.js-percentage__value=value

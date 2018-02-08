@@ -1,10 +1,9 @@
-mixin user-profile({color, name, profession, photo, mixClass = ""})
-    - mixClass = mixClass ? " " + mixClass : mixClass;
-    div(class="user-profile" + mixClass)
-        div(class="user-profile__photo" style=`background-image: url(${photo})`)
+mixin user-profile({color, name, profession, photo})
+    .user-profile
+        div(class="user-profile__photo" style=`background: url(${photo})`)
         div(class="user-profile__info user-profile__info_" + color)
-            .user-profile__name=name
-            .user-profile__profession=profession
+            .user-profile__name #{name}
+            .user-profile__profession #{profession}
             .user-profile__social-container
                 a(class="user-profile__social user-profile__social_fb" href="/mock-address/" target="_blank" rel="noopener noreferrer")
                 a(class="user-profile__social user-profile__social_twitter" href="/mock-address/" target="_blank" rel="noopener noreferrer")

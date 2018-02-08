@@ -1,7 +1,6 @@
-mixin tick-box({checked=false, label="", mixClass = ""})
-    - mixClass = mixClass ? " " + mixClass : mixClass;
+mixin tick-box({checked, label = ""})
     - const tickboxClass = label ? "tick-box" : "tick-box tick-box_not-labeled";
-    label(class=tickboxClass + mixClass)=label
+    label(class=tickboxClass)=label
         if (checked)
             input(type="checkbox" class="tick-box__auxiliary-checkbox" checked)
             .tick-box__checkmark

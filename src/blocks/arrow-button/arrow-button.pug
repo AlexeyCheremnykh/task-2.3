@@ -1,6 +1,5 @@
-mixin arrow-button({direction, disabled = false, mixClass = ""})
-    - mixClass = mixClass ? " " + mixClass : mixClass;
+mixin arrow-button({direction, disabled = false})
     if (!disabled)
-        button(class=`arrow-button arrow-button_${direction}` + mixClass)
+        button(class=`arrow-button arrow-button_${direction}`)
     else
-        button(class=`arrow-button arrow-button_${direction}` + mixClass disabled)
+        button(class=`arrow-button arrow-button_${direction}` disabled)

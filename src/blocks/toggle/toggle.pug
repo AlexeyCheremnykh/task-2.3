@@ -1,7 +1,6 @@
-mixin toggle({enabled = false, label = "", mixClass = ""})
-    - mixClass = mixClass ? " " + mixClass : mixClass;
+mixin toggle({enabled, label = ""})
     - const toggleClass = label ? "toggle" : "toggle toggle_not-labeled";
-    label(class=toggleClass + mixClass)=label
+    label(class=toggleClass)=label
         if (enabled)
             input(type="checkbox" class="toggle__auxiliary-checkbox" checked)
             .toggle__switch

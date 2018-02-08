@@ -1,19 +1,11 @@
-.dropdown
-  width: 288px
-
-  &_small
-    width: 160px
-
-  &__option
-    background-color: #e5e5e5
-
 .select2-container
+  width: 100% !important
   .selection
     .select2-selection
       box-sizing: border-box
       outline: none
       border: none
-      min-height: 28px
+      height: 28px
       width: 100%
       padding-left: 6px
       padding-right: 33px
@@ -28,10 +20,10 @@
       &:focus
         background-color: #d5d5d5
 
-      .select2-selection__placeholder
+      &__placeholder
         color: #888888
 
-      .select2-selection__rendered
+      &__rendered
         color: #666666
 
       .select2-selection__arrow
@@ -55,20 +47,24 @@
 
   .select2-dropdown
     border: none
+    .select2-results
+      &__options
+        color: #ffffff
+        font-family: "Source Sans Pro", "Arial", sans-serif
+        font-weight: 400
+        font-style: normal
+        font-stretch: normal
+        font-size: 14px
+        background-color: #4eb7a8
+        border-radius: 2px
+        max-height: 132px
 
-    .select2-results__options
-      color: #ffffff
-      font-family: "Source Sans Pro", "Arial", sans-serif
-      font-weight: 400
-      font-style: normal
-      font-stretch: normal
-      font-size: 14px
-      background-color: #4eb7a8
-      border-radius: 2px
-      max-height: 132px
+      &__option
+        padding-left: 13px
 
-    .select2-results__option
-      padding-left: 13px
+        &[aria-selected="true"]
+          background-color: #b3f2e9
+          color: #666666
 
-      &--highlighted
-        background-color: #5bc6b6
+        &--highlighted
+          background-color: #5bc6b6

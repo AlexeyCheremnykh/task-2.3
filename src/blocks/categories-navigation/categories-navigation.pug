@@ -1,6 +1,5 @@
-mixin categories-navigation({categories, selectedCategory, mixClass=""})
-    - mixClass = mixClass ? " " + mixClass : "";
-    nav(class="categories-navigation" + mixClass)
+mixin categories-navigation({categories, selectedCategory})
+    nav.categories-navigation
         ul.categories-navigation__list
             - for (let categoryName in categories)
                 if (categoryName !== selectedCategory)

@@ -1,14 +1,8 @@
 extends ../page-template/page-template.pug
 
 include __stage/event-new__stage.pug
-include ../../blocks/location/location.pug
-include ../../blocks/calendar/calendar.pug
-include ../../blocks/dropdown/dropdown.pug
-include ../../blocks/tick-box/tick-box.pug
-include ../../blocks/spinner/spinner.pug
-include ../../blocks/user-profile/user-profile.pug
+include ../../blocks/event-options/event-options.pug
 include ../../blocks/standard-button/standard-button.pug
-
 
 block page-title
     title New event
@@ -16,33 +10,14 @@ block page-title
 block page-content
     .event-new
         h1.event-new__page-title Create an event
-        +event-new__stage({title: "Choose a place"})
-            +location({title: "Choose a place", localAddress: "Lenina 12", globalAddress: "Tomsk, Russia"})
+        include __place/event-new__place.pug
 
         .event-new__container
-            +event-new__stage({title: "Pick a date", narrow: true})
-                .event-new__calendar
-                    +calendar
-
+            include __date/event-new__date.pug
             +event-new__stage({title: "Set the event options", narrow: true})
-                ul.event-new__options
-                    li.event-new__option
-                        +dropdown({options: ["","category1", "category2", "category3", "category4", "category5"]})
-                    li.event-new__option
-                        +spinner("Start time")
-                    li.event-new__option
-                        +tick-box({label: "By invitations only"})
-                    li.event-new__option
-                        +tick-box({label: "Event image"})
-                    li.event-new__option
-                        +standard-button({size: "big", color: "blue", label: "Add image"})
-                    li.event-new__option
-                        +tick-box({label: "Limited attendees number"})
-                        input.event-new__attendees-number
+                +event-options
 
-        +event-new__stage({title: "Add a title and a description"})
-            input(type="text" class="event-new__event-title" placeholder="Event title")
-            textarea(class="event-new__event-description" placeholder="Event description")
+        include __main-info/event-new__main-info.pug
 
 
                 //li.event-new__option

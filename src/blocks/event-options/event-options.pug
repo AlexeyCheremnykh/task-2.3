@@ -1,0 +1,23 @@
+include ../dropdown/dropdown.pug
+include ../standard-button/standard-button.pug
+include ../tick-box/tick-box.pug
+include ../dropdown/dropdown.pug
+include ../spinner/spinner.pug
+
+mixin event-options
+    ul.event-options
+        li.event-options__option
+            +dropdown({options: ["category1", "category2", "category3", "category4", "category5"], hasDefault: true})
+        li.event-options__option
+            label.event-options__event-start Start Time
+                input(type="time" class="event-options__event-start-picker")
+        li.event-options__option
+            +tick-box({label: "By invitations only"})
+        li.event-options__option
+            +tick-box({label: "Event image", checked: true})
+            .event-options__add-image-btn
+                +standard-button({size: "big", color: "blue", label: "Add image"})
+        li.event-options__option
+            +tick-box({label: "Limited attendees number", checked: true})
+            .event-options__attendees-spinner
+                +spinner

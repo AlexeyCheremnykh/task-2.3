@@ -1,11 +1,11 @@
-mixin location({localAddress, globalAddress, title})
+mixin location({localAddress, globalAddress, title, hideAddress = false})
     - const address = `${localAddress} ${globalAddress}`;
     .location
         div(class="location__map js-location__map" data-address=address)
         .location__footer
             .location__footer-info
                 .location__title=title
-                .location__address
+                div(class=hideAddress ? "location__address location__address_hidden" : "location__address")
                     .location__address-local=localAddress
                     .location__address-global=globalAddress
             .location__footer-buttons

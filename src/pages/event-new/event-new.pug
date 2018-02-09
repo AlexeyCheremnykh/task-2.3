@@ -5,6 +5,7 @@ include ../../blocks/location/location.pug
 include ../../blocks/calendar/calendar.pug
 include ../../blocks/dropdown/dropdown.pug
 include ../../blocks/tick-box/tick-box.pug
+include ../../blocks/spinner/spinner.pug
 include ../../blocks/user-profile/user-profile.pug
 include ../../blocks/standard-button/standard-button.pug
 
@@ -28,8 +29,7 @@ block page-content
                     li.event-new__option
                         +dropdown({options: ["","category1", "category2", "category3", "category4", "category5"]})
                     li.event-new__option
-                        label.event-new__event-start Start time
-                            input(type="time" class="event-new__event-start-picker")
+                        +spinner("Start time")
                     li.event-new__option
                         +tick-box({label: "By invitations only"})
                     li.event-new__option

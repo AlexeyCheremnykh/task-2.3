@@ -2,17 +2,17 @@ include ../search/search.pug
 
 header.page-header
     .page-header__content
-        .page-header__menu
-            .page-header__menu-part
-            .page-header__menu-part
-            .page-header__menu-part
+        .page-header__menu-icon
+            .page-header__menu-bar
+            .page-header__menu-bar
+            .page-header__menu-bar
         a(href="index.html" class="page-header__logo") logo
         nav.page-header__nav.page-header__nav_default
             ul.page-header__nav-items
                 li.page-header__nav-item
-                    a(href="news.html" class="page-header__nav-link") News 
+                    a(href="news.html" class="page-header__nav-link") News
                 li.page-header__nav-item
-                    a(href="events.html" class="page-header__nav-link") Events             
+                    a(href="events.html" class="page-header__nav-link") Events
                 li.page-header__nav-item
                     a(href="event-new.html" class="page-header__nav-link") New event
                 li.page-header__nav-item
@@ -20,5 +20,6 @@ header.page-header
                 li.page-header__nav-item
                     a(href="videos.html" class="page-header__nav-link") Videos
 
-        +search("Search")
+        .page-header__search
+            +search("Search")
         .page-header__profile-photo

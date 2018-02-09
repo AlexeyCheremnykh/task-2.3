@@ -1,25 +1,25 @@
-import "./__place/event-new__place.js";
+/*mport "./__place/event-new__place.js";
 import "./__options/event-new__options.js";
 
 $(document).ready(function () {
     $(".event-new__content").tabs();
-  
+
     var NUM_OF_STAGES = 4;
-    var currentStage = 0;    
+    var currentStage = 0;
     var stage = $(".event-new .stages__stage");
     var buttonNext = $(".event-new .arrow-button_right");
     var buttonPrev = $(".event-new .arrow-button_left");
 
     // 1st stage init
-    $(stage[currentStage]).removeClass("stages__stage_inactive").addClass("stages__stage_active");    
+    $(stage[currentStage]).removeClass("stages__stage_inactive").addClass("stages__stage_active");
 
     // Hide finish button
     $(".event-new__finish").hide();
-    
+
     buttonNext.click(function() {
         if (currentStage < NUM_OF_STAGES - 1) {
             currentStage++;
-            
+
             // stage paint
             $(stage[currentStage]).removeClass("stages__stage_inactive").addClass("stages__stage_active");
 
@@ -43,7 +43,7 @@ $(document).ready(function () {
 
     buttonPrev.click(function () {
         if (currentStage > 0) {
-            // stage paint    
+            // stage paint
             $(stage[currentStage]).removeClass("stages__stage_active").addClass("stages__stage_inactive");
             currentStage--;
 
@@ -53,9 +53,9 @@ $(document).ready(function () {
                 "active",
                 $(".event-new__content").tabs('option', 'active') - 1);
         }
-        
+
         if (currentStage == 0) {
-            $(this).attr("disabled", "disabled");            
+            $(this).attr("disabled", "disabled");
         }
 
         if (currentStage == NUM_OF_STAGES - 2) {
@@ -63,4 +63,4 @@ $(document).ready(function () {
             $(".event-new__finish").hide();
         }
     });
-})
+})*/

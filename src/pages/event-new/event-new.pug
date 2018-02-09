@@ -1,46 +1,72 @@
 extends ../page-template/page-template.pug
 
-include ../stages/stages.pug
-include ../location/location.pug
-include ../arrow-button/arrow-button.pug
-include ../tick-box/tick-box.pug
-include ../slider/slider.pug
-include ../standard-button/standard-button.pug
+include __stage/event-new__stage.pug
+include ../../blocks/location/location.pug
+include ../../blocks/calendar/calendar.pug
+include ../../blocks/dropdown/dropdown.pug
+include ../../blocks/tick-box/tick-box.pug
+include ../../blocks/user-profile/user-profile.pug
+include ../../blocks/standard-button/standard-button.pug
 
 
 block page-title
     title New event
 
 block page-content
-    .event-new-wrapper
-        .event-new
-            h1.event-new__main-title Create an event
-            .event-new__stages
-                +stages(4)
-            .event-new__content
-                ul
-                    li
-                        a(href="#place")
-                    li
-                        a(href="#date")
-                    li
-                        a(href="#title-description")
-                    li
-                        a(href="#options")
-                include __place/event-new__place.pug
-                include __date/event-new__date.pug
-                include __title-description/event-new__title-description.pug
-                include __options/event-new__options.pug
-                .event-new__buttons
-                    .event-new__button_left
-                        +arrow_button("left", "disabled")
-                    .event-new__button_right
-                        +arrow_button("right")
+    .event-new
+        h1.event-new__page-title Create an event
+        +event-new__stage({title: "Choose a place"})
+            +location({title: "Choose a place", localAddress: "Lenina 12", globalAddress: "Tomsk, Russia"})
 
-            .event-new__exit-buttons
-                form(action="events.html" class="event-new__cancel")
-                    +standard_button("big", "blue", "cancel")
-                form(action="events.html" class="event-new__finish")
-                    +standard_button("big", "blue", "finish")
+        .event-new__container
+            +event-new__stage({title: "Pick a date", narrow: true})
+                .event-new__calendar
+                    +calendar
+
+            +event-new__stage({title: "Set the event options", narrow: true})
+                ul.event-new__options
+                    li.event-new__option
+                        +dropdown({options: ["","category1", "category2", "category3", "category4", "category5"]})
+                    li.event-new__option
+                        label.event-new__event-start Start time
+                            input(type="time" class="event-new__event-start-picker")
+                    li.event-new__option
+                        +tick-box({label: "By invitations only"})
+                    li.event-new__option
+                        +tick-box({label: "Event image"})
+                    li.event-new__option
+                        +standard-button({size: "big", color: "blue", label: "Add image"})
+                    li.event-new__option
+                        +tick-box({label: "Limited attendees number"})
+                        input.event-new__attendees-number
+
+        +event-new__stage({title: "Add a title and a description"})
+            input(type="text" class="event-new__event-title" placeholder="Event title")
+            textarea(class="event-new__event-description" placeholder="Event description")
+
+
+                //li.event-new__option
+                    +tick-box({label: "Speakers"})
+                    .event-new__speakers
+                        .event-new__added-speakers
+                            - for (let i = 0; i < 3; i++)
+                                div(class="event-new__speaker" tabindex=i)
+                                    .event-new__speaker-profile
+                                        +user-profile({color: "grey", name: "Speaker", profession: "Profession", photo: "img/user-profile-man.png"})
+                                    .event-new__speaker-info
+                                        h4.event-new__speaker-topic Topic:
+                                            span.event-new__speaker-topic-title Topic title
+                                        h4.event-new__speaker-start Start:
+                                            span.event-new__speaker-start-time Time
+
+                    .event-new__speakers-buttons
+                        +standard-button({size: "big", color: "blue", label: "add speaker"})
+                        +standard-button({size: "big", color: "blue", label: "remove speaker"})
+
+        .event-new__exit-buttons
+            form(action="events.html" class="event-new__cancel")
+                +standard-button({size: "big", color: "blue", label: "cancel"})
+            form(action="events.html" class="event-new__finish")
+                +standard-button({size: "big", color: "blue", label: "finish"})
 
     script(src="https://maps.google.com/maps/api/js?key=AIzaSyAOCIrJxKv-dWFvk6Ki9Wix-mJPiKKBKHc")

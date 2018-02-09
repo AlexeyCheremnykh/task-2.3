@@ -1,61 +1,84 @@
-.event-new-wrapper
-    text-align: center
+@import "__stage/event-new__stage.styl"
 
 .event-new
-    display: inline-block
-    min-width: 510px
+  text-align: center
+  width: 700px
+  margin: 0 auto
 
-    &__main-title
-        font-family: "Lato"
-        margin-top: 0
-        color: #555555
+  &__page-title
+    margin-top: 0
 
-    &__stages
+  &__container
+    display: flex
+    justify-content: space-between
+
+  &__calendar
+    margin: 0 auto
+    width: 279px
+
+  &__options
+    list-style: none
+    padding: 0
+
+  &__option
+    margin-bottom: 15px
+
+  &__event-start-picker
+    background-color: #e5e5e5
+    outline-color: #555555
+    border: none
+    color: #666666
+    border-radius: 4px
+    margin-left: 5px
+
+
+
+  /*&__stages
+    width: 100%
+    text-align: center
+    margin-bottom: 15px
+    pointer-events: none
+
+    .stages
         width: 100%
-        text-align: center
-        margin-bottom: 15px
-        pointer-events: none
 
-        .stages
-            width: 100%
+  &__content
+      border: none !important
+      box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)
 
-    &__content
-        border: none !important
-        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)        
-        
-        .ui-tabs-nav 
-            display: none
-        
-        .ui-tabs-panel
-            padding-bottom: 20px
-            padding-top: 10px
+      .ui-tabs-nav
+          display: none
 
-    &__stage-title
-        font-family: "Lato"
-        text-align: center
-        color: #555555      
-         
-    &__button_left
-        display: inline-block        
+      .ui-tabs-panel
+          padding-bottom: 20px
+          padding-top: 10px
 
-    &__button_right
-        display: inline-block
-        margin-left: 30px
-    
-    &__buttons
-        text-align: center
-        padding-bottom: 15px
-    
-    &__exit-buttons
-        margin-top: 10px
-        display: flex
-        justify-content: space-between       
+  &__stage-title
+      font-family: "Lato"
+      text-align: center
+      color: #555555
 
-@import "__place/event-new__place.styl"        
+  &__button_left
+      display: inline-block
+
+  &__button_right
+      display: inline-block
+      margin-left: 30px
+
+  &__buttons
+      text-align: center
+      padding-bottom: 15px
+
+  &__exit-buttons
+      margin-top: 10px
+      display: flex
+      justify-content: space-between
+
+/*@import "__place/event-new__place.styl"
 @import "__date/event-new__date.styl"
 @import "__title-description/event-new__title-description.styl"
 @import "__options/event-new__options.styl"
-    
+
 @media (max-width: 661px)
     .event-new
         width: 510px
@@ -69,7 +92,7 @@
     .event-new
         width: 100%
         min-width: 0
-    
+
         &__speaker
             display: block
             height: auto
@@ -93,12 +116,12 @@
                 flex-wrap: wrap
                 width: 265px
                 justify-content: space-between
-            
+
             &-topic
                 margin-bottom: 0
 
 
-@media (max-width: 457px)
+/*@media (max-width: 457px)
     .event-new
         &__stages
             .stages__stage
@@ -106,13 +129,13 @@
 
                 &:first-child
                     margin-left: 0
-                
+
                 &::before
                     width: 65px
-        
+
         &__content &__place
             padding: 10px 10px 20px 10px
-        
+
         &__place .location__meet-us
             font-size: 25px
 
@@ -126,7 +149,7 @@
 
 @media (max-width: 384px)
     .event-new
-        &__speaker           
+        &__speaker
             .user-profile
                 &__info
                     height: 73px
@@ -134,7 +157,7 @@
 
                     &::before
                         top: 30px
-                
+
                 &__photo
                     height: 65px
                     width: 65px
@@ -142,16 +165,15 @@
                 &__name
                     font-size: 16px
                     margin-top: 4px
-                
+
                 &__profession
                     font-size: 10px
-                
+
                 &__social-icon
                     margin-top: 0
-            
+
             &-profile
                 width: 227px
 
             &-info
-                width: 225px
-                    
+                width: 225px*/

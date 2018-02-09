@@ -1,3 +1,5 @@
-div(class="event-new__place" id="place")
+include ../../../blocks/location/location.pug
+
+section.event-new__stage
     h2.event-new__stage-title Choose a place
-    +location("Tomsk", "Choose a place")
+    +location({title: "Choose a place", localAddress: "Lenina 12", globalAddress: "Tomsk, Russia"})

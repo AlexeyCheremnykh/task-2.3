@@ -1,0 +1,23 @@
+include __stage/event-new__stage.pug
+include ../event-options/event-options.pug
+include ../event-speakers/event-speakers.pug
+include ../standard-button/standard-button.pug
+
+.event-new
+    h1.event-new__page-title Create an event
+    include __main-info/event-new__main-info.pug
+    include __place/event-new__place.pug
+
+    .event-new__container
+        include __date/event-new__date.pug
+        +event-new__stage({title: "Set the event options", narrow: true})
+            +event-options
+
+    +event-new__stage({title: "Add speakers"})
+        +event-speakers
+
+    .event-new__exit-buttons
+        form(action="events.html" class="event-new__cancel")
+            +standard-button({size: "big", color: "blue", label: "cancel"})
+        form(action="events.html" class="event-new__finish")
+            +standard-button({size: "big", color: "blue", label: "finish"})

@@ -9,12 +9,12 @@ mixin event-speakers
                     .event-speakers__profile
                         +user-profile({color: "grey", name: "Speaker", profession: "Profession", photo: "img/user-profile-man.jpg"})
                     dl.event-speakers__speaker-info
-                        dd.event-speakers__topic Topic:
-                        dt.event-speakers__topic-title Topic title
-                        dd.event-speakers__start Start:
-                        dt.event-speakers__start-time 00:00
+                        dd.event-speakers__info-name Topic:
+                        dt.event-speakers__info-value Topic title
+                        dd.event-speakers__info-name Start:
+                        dt.event-speakers__info-value 00:00
 
         .event-speakers__buttons
             .event-speakers__add-speaker
-                +standard-button({size: "big", color: "blue", label: "add speaker", long: true})
-            +standard-button({size: "big", color: "blue", label: "remove speaker", long: true})
+                +standard-button({size: "big", color: "blue", label: "add"})
+            +standard-button({size: "big", color: "blue", label: "remove"})

@@ -3,6 +3,7 @@ extends ../page-template/page-template.pug
 include __stage/event-new__stage.pug
 include ../../blocks/event-options/event-options.pug
 include ../../blocks/standard-button/standard-button.pug
+include ../../blocks/event-speakers/event-speakers.pug
 
 block page-title
     title New event
@@ -10,6 +11,7 @@ block page-title
 block page-content
     .event-new
         h1.event-new__page-title Create an event
+        include __main-info/event-new__main-info.pug
         include __place/event-new__place.pug
 
         .event-new__container
@@ -17,26 +19,8 @@ block page-content
             +event-new__stage({title: "Set the event options", narrow: true})
                 +event-options
 
-        include __main-info/event-new__main-info.pug
-
-
-                //li.event-new__option
-                    +tick-box({label: "Speakers"})
-                    .event-new__speakers
-                        .event-new__added-speakers
-                            - for (let i = 0; i < 3; i++)
-                                div(class="event-new__speaker" tabindex=i)
-                                    .event-new__speaker-profile
-                                        +user-profile({color: "grey", name: "Speaker", profession: "Profession", photo: "img/user-profile-man.png"})
-                                    .event-new__speaker-info
-                                        h4.event-new__speaker-topic Topic:
-                                            span.event-new__speaker-topic-title Topic title
-                                        h4.event-new__speaker-start Start:
-                                            span.event-new__speaker-start-time Time
-
-                    .event-new__speakers-buttons
-                        +standard-button({size: "big", color: "blue", label: "add speaker"})
-                        +standard-button({size: "big", color: "blue", label: "remove speaker"})
+        +event-new__stage({title: "Add speakers"})
+            +event-speakers
 
         .event-new__exit-buttons
             form(action="events.html" class="event-new__cancel")

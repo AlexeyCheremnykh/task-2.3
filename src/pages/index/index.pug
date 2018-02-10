@@ -5,12 +5,4 @@ html(lang="en")
         meta(name="viewport" content="initial-scale=1.0, width=device-width")
         title Home
     body
-        main.home
-            include __navigation-button/home__navigation-button.pug
-            nav.home__navigation
-                +navigation_button("News", "news.html")
-                +navigation_button("Events", "events.html")
-                +navigation_button("New Event", "event-new.html")
-                +navigation_button("Articles", "articles.html")
-                +navigation_button("Videos", "videos.html")
-                +navigation_button("Sign in", "sign-in.html")
+        include ../../blocks/home/home.pug

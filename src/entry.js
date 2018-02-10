@@ -13,7 +13,7 @@ import '../node_modules/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min';
 import '../node_modules/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.css';
 import 'jquery-circle-progress';
 
-
+import './blocks/home/home.styl';
 import './blocks/location/location.styl';
 import './blocks/location/location';
 import './blocks/location/img/map-marker-icon.png';

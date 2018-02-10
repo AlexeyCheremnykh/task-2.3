@@ -58,7 +58,7 @@ import './blocks/event-options/event-options.styl';
 import './blocks/event-speakers/event-speakers.styl';
 import './blocks/event-new/event-new.styl';
 import './blocks/sign-in/sign-in.styl';
-import './pages/sign-up/sign-up.styl';
+import './blocks/sign-up/sign-up.styl';
 import './blocks/categories-navigation/categories-navigation.styl';
 import './blocks/news-category-preview/news-category-preview.styl';
 import './blocks/section-title/section-title.styl';

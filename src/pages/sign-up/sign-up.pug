@@ -1,26 +1,8 @@
-include ../standard-button/standard-button.pug
-
 doctype html
 html(lang="en")
     head
+        meta(charset="utf-8")
+        meta(name="viewport" content="initial-scale=1.0, width=device-width")
         title Sign up
     body
-        .sign-up
-            a(href="index.html" class="sign-up__logo") LOGO
-            h1.sign-up__page-title Sign up
-            form.sign-up__form    
-                label.sign-up__label Email
-                    input.sign-up__field
-
-                label.sign-up__label First name
-                    input.sign-up__field
-
-                label.sign-up__label Second name
-                    input.sign-up__field
-
-                label.sign-up__label Password
-                    input(type="password" class="sign-up__field")
-            
-                +standard_button("big", "blue", "Create account")(class="sign-up__button")
-
-        
+        include ../../blocks/sign-up/sign-up.pug

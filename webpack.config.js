@@ -88,9 +88,9 @@ module.exports = {
             template: "src/pages/sign-in/sign-in.pug",
             filename: "sign-in.html"
         }),
-        /*new HtmlWebpackPlugin({
+        new HtmlWebpackPlugin({
             template: "src/pages/sign-up/sign-up.pug",
             filename: "sign-up.html"
-        }),*/
+        }),
     ]
 }

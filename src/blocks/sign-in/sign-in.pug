@@ -1,0 +1,20 @@
+include ../standard-button/standard-button.pug
+
+.sign-in
+    a(href="index.html" class="sign-in__logo") Logo
+    h1.sign-in__page-title Sign in
+    form.sign-in__form
+        .sign-in__email
+            label.sign-in__label Email
+                input.sign-in__field
+
+        .sign-in__password
+            label.sign-in__label Password
+                a(href="/mock-address/" class="sign-in__forgot-password") Forgot your password?
+                input(type="password" class="sign-in__field")
+
+        .sign-in__button
+            +standard-button({size: "big", color: "blue", label: "Sign in"})
+
+        p.sign-in__no-account Don't have an account?
+            a(href="sign-up.html" class="sign-in__sign-up") Sign up

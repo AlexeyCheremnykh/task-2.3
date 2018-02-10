@@ -1,8 +1,7 @@
-doctype html
-html(lang="en")
-    head
-        meta(charset="utf-8")
-        meta(name="viewport" content="initial-scale=1.0, width=device-width")
-        title Sign up
-    body
-        include ../../blocks/sign-up/sign-up.pug
+extends ../page-template-logged-out/page-template-logged-out.pug
+
+block page-title
+    title Sign up
+
+block page-content
+    include ../../blocks/sign-up/sign-up.pug

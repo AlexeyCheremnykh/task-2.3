@@ -18,7 +18,6 @@ import './blocks/location/location.styl';
 import './blocks/location/location';
 import './blocks/location/img/map-marker-icon.png';
 import './blocks/dropdown/dropdown.styl';
-import './pages/index/index.styl';
 import './pages/page-template-logged-out/page-template-logged-out.styl';
 import './pages/page-template-logged-in/page-template-logged-in.styl';
 import './blocks/page-header/page-header.styl';

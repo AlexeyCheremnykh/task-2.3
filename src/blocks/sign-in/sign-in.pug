@@ -6,15 +6,15 @@ include ../standard-button/standard-button.pug
     form.sign-in__form
         .sign-in__email
             label.sign-in__label Email
-                input.sign-in__field
+                input.sign-in__input-field
 
         .sign-in__password
             label.sign-in__label Password
                 a(href="/mock-address/" class="sign-in__forgot-password") Forgot your password?
-                input(type="password" class="sign-in__field")
+                input(type="password" class="sign-in__input-field")
 
         .sign-in__button
-            +standard-button({size: "big", color: "blue", label: "Sign in"})
+            +standard-button({size: "big", color: "blue", label: "Sign in", long: true})
 
-        p.sign-in__no-account Don't have an account?
-            a(href="sign-up.html" class="sign-in__sign-up") Sign up
+        .sign-in__no-account Don't have an account?
+            a(href="sign-up.html" class="sign-in__sign-up")  Sign up

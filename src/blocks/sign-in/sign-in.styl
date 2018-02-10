@@ -1,39 +1,38 @@
 .sign-in
-  display: flex
-  flex-direction: column
-  justify-content: flex-start
-  align-items: center
+  text-align: center
   height: 100%
   width: 420px
-  margin: 0 auto
+  margin: 20px auto
+  font-family: "Lato", "Arial", sans-serif
+
+  &__page-title
+    color: #555555
 
   &__logo
-    font-family: "Lato"
     font-weight: 900
-    margin-top: 20px
     font-size: 55px
     color: #555555
+    display: block
     text-decoration: none
     text-transform: uppercase
 
     &:active
       transform: translateY(1px)
 
-  &__page-title
-    font-family: "Lato"
-    color: #555555
-
   &__form
     background-color: #ffffff
-    width: 83%
     padding: 20px 35px
-    margin-bottom: 0
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)
 
   &__email
     margin-bottom: 20px
+    text-align: start
 
-  &__field
+  &__label
+    font-size: 14px
+
+  &__input-field
+    font-family: "Lato", "Arial", sans-serif
     box-sizing: border-box
     display: block
     width: 100%
@@ -43,14 +42,15 @@
     border: 1px solid #bbbbbb
     background-color: #fafafa
     color: #666666
-    font-family: "Lato"
     padding: 0 10px
     font-size: 16px
     margin: 5px 0
 
-  &__label
-    font-family: "Lato"
-    font-size: 14px
+    &:focus
+      border: 2px solid #999999
+
+  &__password
+    text-align: start
 
   &__forgot-password
     float: right
@@ -62,16 +62,11 @@
 
   &__button
     display: block
-    width: 100%
     margin: 20px 0
+    text-align: center
 
   &__no-account
-    display: table
-    font-family: "Lato"
     font-size: 14px
-    margin-left: auto
-    margin-right: auto
-    margin-bottom: 0
 
   &__sign-up
     color: #1111ff
@@ -79,7 +74,3 @@
 
     &:visited
       color: #1111ff
-
-@media (max-width: 437px)
-    .sign-in
-        width: 100%

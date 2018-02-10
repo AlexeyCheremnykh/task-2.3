@@ -1,16 +1,15 @@
-import './fonts/Lato/lato.css';
-import '../node_modules/font-awesome/css/font-awesome.min.css';
-
+import './fonts/fonts.styl';
+import 'font-awesome/css/font-awesome.min.css';
 
 import 'jquery';
-import '../scripts/jquery-ui-1.12.1.custom/jquery-ui.min';
-import '../scripts/jquery-ui-1.12.1.custom/jquery-ui.min.css';
-import '../node_modules/css-ripple-effect/dist/ripple.min.css';
-import '../node_modules/select2/dist/js/select2.min';
-import '../node_modules/select2/dist/css/select2.min.css';
-import '../node_modules/gmap3/dist/gmap3.min';
-import '../node_modules/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min';
-import '../node_modules/jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.css';
+import 'jquery-ui-dist/jquery-ui.min';
+import 'jquery-ui-dist/jquery-ui.min.css';
+import 'css-ripple-effect/dist/ripple.min.css';
+import 'select2';
+import 'select2/dist/css/select2.min.css';
+import 'gmap3';
+import 'jquery-ui-slider-pips';
+import 'jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.css';
 import 'jquery-circle-progress';
 
 import './blocks/home/home.styl';
@@ -18,8 +17,6 @@ import './blocks/location/location.styl';
 import './blocks/location/location';
 import './blocks/location/img/map-marker-icon.png';
 import './blocks/dropdown/dropdown.styl';
-import './pages/page-template-logged-out/page-template-logged-out.styl';
-import './pages/page-template-logged-in/page-template-logged-in.styl';
 import './blocks/page-header/page-header.styl';
 import './blocks/page-header/page-header';
 import './blocks/search/search.styl';
@@ -64,3 +61,6 @@ import './blocks/news-category-preview/news-category-preview.styl';
 import './blocks/section-title/section-title.styl';
 import './blocks/page-section/page-section.styl';
 import './blocks/article-preview/article-preview.styl';
+
+import './pages/page-template-logged-out/page-template-logged-out.styl';
+import './pages/page-template-logged-in/page-template-logged-in.styl';

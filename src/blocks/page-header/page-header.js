@@ -23,9 +23,11 @@ class PageHeader {
 
     const hideNavMedia = window.matchMedia('(max-width: 765px)');
     hideNavMedia.addListener(hideNav);
+    hideNav(hideNavMedia);
 
     const showNavMedia = window.matchMedia('(min-width: 765px)');
     showNavMedia.addListener(showNav);
+    showNav(showNavMedia);
 
     const toggleNav = function showOrHideSiteNavigation() {
       if (self._$nav.hasClass('page-header__nav_closed')) {
@@ -35,7 +37,7 @@ class PageHeader {
       }
     };
 
-    this._$menuIcon.on('click', toggleNav);
+    this._$menuIcon.on(`click.page-header:${this._id}.menu`, toggleNav);
   }
 }
 

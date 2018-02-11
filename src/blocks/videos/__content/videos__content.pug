@@ -1,7 +1,7 @@
 include ../../video/video.pug
 include ../../dropdown/dropdown.pug
 
-.videos__content
+.videos__content.js-videos__content
     - const orderOptions = ["by default", "by popularity", "newest first", "oldest first"];
     .videos__display-order
         +dropdown({options: orderOptions, hasDefault: true})

@@ -2,7 +2,6 @@
   width: 279px
 
   &__day
-    width: 279px
     height: 109px
     font-family: "Lato", "Arial", sans-serif
     font-weight: 300
@@ -16,8 +15,7 @@
 
   &__datepicker
     .ui-datepicker
-      box-sizing: border-box
-      width: 279px
+      width: 100%
       padding: 0
       border: none
 
@@ -36,18 +34,17 @@
       &-year
         display: none
 
-      &-title
-        line-height: 1.6em
-
       &-prev
         position: relative
         float: left
+        height: 100%
         top: 0
         left: 0
 
       &-next
         position: relative
         float: right
+        height: 100%
         top: 0
         right: 0
 
@@ -75,23 +72,25 @@
           transform: rotate(45deg)
           left: 50% + 9px
 
+      &-title
+        line-height: 1.6em
+
       &-calendar
         margin: 0
-        width: 279px
 
         th
-          width: 39px
           height: 27px
           padding: 0
           font-family: "Lato", "Arial", sans-serif
-          font-weight: 900
           font-size: 9px
           letter-spacing: 0.05em
           color: #ffffff
           background-color: #e75735
 
         td
-          border-right: 1px solid #ffffff
+          border-right: 1px solid #fff
+          border-bottom: 1px solid #fff
+          width: 39px
           padding: 0
 
           &:last-child
@@ -100,7 +99,6 @@
           .ui-state-default
             font-family: "Source Sans Pro", "Arial", sans-serif
             font-size: 20px
-            font-weight: 400
             border: none
             padding: 0
             color: #868686
@@ -119,9 +117,6 @@
           .ui-state-default
             color: #ffffff
 
-        tr
-          border-bottom: 1px solid #ffffff
-
   &__today
     box-sizing: border-box
     width: 100%
@@ -137,9 +132,14 @@
     color: #868686
     padding-left: 20px
     text-align: left
-    outline-color: #868686
+    outline: none
     border: none
     cursor: pointer
 
     &:hover
       background-color: #dedede
+
+    &:focus
+      border: 2px solid #868686
+      padding-left: 18px
+      line-height: 45px

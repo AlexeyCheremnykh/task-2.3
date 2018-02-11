@@ -11,7 +11,7 @@ class SpinnerInput {
   }
 }
 
-const $spinnerInput = $('.spinner__input');
+const $spinnerInput = $('.js-spinner__input');
 let id = 0;
 $spinnerInput.each((index, elem) => {
   const spinnerInput = new SpinnerInput(elem, id);

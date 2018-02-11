@@ -9,7 +9,7 @@ class VideosContainer {
   }
 }
 
-const $videosContainer = $('.videos__content');
+const $videosContainer = $('.js-videos__content');
 let id = 0;
 $videosContainer.each((index, elem) => {
   const videosContainer = new VideosContainer(elem, id);

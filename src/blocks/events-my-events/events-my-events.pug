@@ -5,7 +5,7 @@ include ../search/search.pug
 include ../event/event.pug
 include ../arrow-button/arrow-button.pug
 
-mixin events-my-events
+mixin events-my-events(eventList)
     +page-section("My events", "events-my-events")
         .events-my-events__search
             +search({placeholder: "Event search"})
@@ -15,9 +15,9 @@ mixin events-my-events
             .events-my-events__location
                 +location({localAddress: "Lenina Street 14", globalAddress: "Tomsk, Russia", title: "My events"})
         .events-my-events__events
-            - for (i = 0; i < 6; i++)
+            - for (let event of eventList)
                 .events-my-events__event
-                    +event({dateString: "2018-05-15", added: true, title: "Title", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit."})
+                    +event(event)
         .events-my-events__next-prev-buttons
             .events-my-events__prev-button
                 +arrow-button({direction: "left", disabled: true})

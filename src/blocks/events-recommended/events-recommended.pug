@@ -1,11 +1,10 @@
 include ../event/event.pug
 include ../page-section/page-section.pug
 
-mixin events-recommended
+mixin events-recommended(eventList)
     +page-section("Recommended", "events-recommended")
         .events-recommended__events
-            .events-recommended__event
-                +event({dateString: "2018-05-15", title: "Title", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."})
-            .events-recommended__event
-                +event({dateString: "2018-05-15", title: "Title", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."})
+            - for (let event of eventList)
+                .events-recommended__event
+                    +event(event)
         a.events-recommended__see-more(href="/mock-address/") See more

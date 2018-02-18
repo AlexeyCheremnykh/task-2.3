@@ -3,6 +3,8 @@ include ../events-recommended/events-recommended.pug
 include ../events-new-event/events-new-event.pug
 
 main.events
-    +events-my-events
-    +events-recommended
+    - const myEvent = {dateString: "2018-05-15", added: true, title: "Title", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit."};
+    +events-my-events(Array(6).fill(myEvent))
+    - const recommendedEvent = {dateString: "2018-05-15", title: "Title", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."};
+    +events-recommended(Array(2).fill(recommendedEvent))
     +events-new-event

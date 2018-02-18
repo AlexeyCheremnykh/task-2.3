@@ -10,17 +10,17 @@ mixin article-preview({title, articleAddress, dateString, category, text, tags, 
     article.article-preview
         header.article-preview__header
             h3.article-preview__title
-                a(href=articleAddress class="article-preview__link")=title
-            time(datetime=dateString class="article-preview__date")=articleDate
+                a.article-preview__link(href=articleAddress)=title
+            time.article-preview__date(datetime=dateString)=articleDate
             .article-preview__category
-                a(href=category.address class="article-preview__link")=category.name
+                a.article-preview__link(href=category.address)=category.name
 
         .article-preview__text=text
         footer.article-preview__footer
             ul.article-preview__tags
                 - for (let tag in tags)
                     li.article-preview__tag
-                        a(href=tags[tag] class="article-preview__link")=tag
+                        a.article-preview__link(href=tags[tag])=tag
             .article-preview__author
                 +user-profile({color: "grey", name: author.name, profession: author.profession, photo: author.photo})
             .article-preview__rating

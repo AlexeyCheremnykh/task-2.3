@@ -19384,7 +19384,7 @@ $videosContainer.each((index, elem) => {
   }
 
   initElement() {
-    if (this._$dropdown.hasClass('js-dropdown-multiple')) {
+    if (this._$dropdown.hasClass('js-dropdown_multiple')) {
       this._$dropdown.select2({
         multiple: true,
       });

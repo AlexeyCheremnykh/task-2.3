@@ -2,8 +2,8 @@ mixin toggle({enabled, label = ""})
     - const toggleClass = label ? "toggle" : "toggle toggle_not-labeled";
     label(class=toggleClass)=label
         if (enabled)
-            input(type="checkbox" class="toggle__auxiliary-checkbox" checked)
+            input.tick-box__auxiliary-checkbox(type="checkbox" checked)
             .toggle__switch
         else
-            input(type="checkbox" class="toggle__auxiliary-checkbox")
+            input.tick-box__auxiliary-checkbox(type="checkbox")
             .toggle__switch

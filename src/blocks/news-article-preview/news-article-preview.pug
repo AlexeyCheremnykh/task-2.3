@@ -8,6 +8,6 @@ mixin news-article-preview({title, articleAddress, dateString, content})
         .news-article-preview__main
             header.news-article-preview__header
                 h2.news-article-preview__title
-                    a(href=articleAddress class="news-article-preview__link")=title
-                time(date=dateString class="news-article-preview__date")=`${newsDay} ${newsMonth} ${newsYear}`
+                    a.news-article-preview__link(href=articleAddress)=title
+                time.news-article-preview__date(date=dateString)=`${newsDay} ${newsMonth} ${newsYear}`
             p.news-article-preview__content=content

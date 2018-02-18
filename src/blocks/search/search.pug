@@ -1,8 +1,8 @@
 mixin search({placeholder, notFound = false, buttonColor = "red"})
 	form.search
 		if (notFound)
-			input(type="text" placeholder=placeholder class="search__field search__field_not-found")
+			input.search__field.search__field_not-found(type="text" placeholder=placeholder)
 		else
-			input(type="text" placeholder=placeholder class="search__field")
+			input.search__field(type="text" placeholder=placeholder)
 		button(class=`search__button search__button_color_${buttonColor}`)
-			i(class="fa fa-search search__icon" aria-hidden="true")
+			i.fa.fa-search.search__icon(aria-hidden="true")

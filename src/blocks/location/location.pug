@@ -1,7 +1,7 @@
 mixin location({localAddress, globalAddress, title, hideAddress = false})
     - const address = `${localAddress} ${globalAddress}`;
     .location
-        div(class="location__map js-location__map" data-address=address)
+        .location__map.js-location__map(data-address=address)
         .location__footer
             .location__footer-info
                 .location__title=title

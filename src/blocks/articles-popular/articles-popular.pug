@@ -1,7 +1,7 @@
 include ../../blocks/page-section/page-section.pug
 include ../../blocks/article-preview/article-preview.pug
 
-mixin articles-popular
+mixin articles-popular({numOfArticles})
     +page-section("Popular", "articles-popular")
         - const articleOptions = {
         -   title: "Article title",
@@ -33,6 +33,6 @@ mixin articles-popular
         -   },
         -   rating: 66,
         - }
-        - for (let i = 0; i < 4; i++)
+        - for (let i = 0; i < numOfArticles; i++)
             .articles-popular__article
                 +article-preview(articleOptions)

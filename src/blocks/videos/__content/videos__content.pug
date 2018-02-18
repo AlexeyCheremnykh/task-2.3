@@ -7,10 +7,10 @@ include ../../dropdown/dropdown.pug
         +dropdown({options: orderOptions, hasDefault: true})
     ul.videos__tabs
         li.videos__tab
-            a(href="#all" class="videos__tab-link") All videos
+            a.videos__tab-link(href="#all") All videos
         li.videos__tab
-            a(href="#playlists" class="videos__tab-link") Playlists
-    div(class="videos__all" id="all")
+            a.videos__tab-link(href="#playlists") Playlists
+    .videos__all(id="all")
         .videos__video
             +video("k3jlviX88iw")
         .videos__video
@@ -27,4 +27,4 @@ include ../../dropdown/dropdown.pug
             +video("9h1UiqBuxO0")
         .videos__video
             +video("YPbb2xspJHM")
-    div(class="videos__playlists" id="playlists")
+    .videos__playlists(id="playlists")

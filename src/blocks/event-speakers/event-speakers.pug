@@ -5,7 +5,7 @@ mixin event-speakers
     .event-speakers
         ul.event-speakers__added-speakers
             - for (let i = 0; i < 7; i++)
-                li(class="event-speakers__speaker" tabindex=0)
+                li.event-speakers__speaker(tabindex=0)
                     .event-speakers__profile
                         +user-profile({color: "grey", name: "Speaker", profession: "Profession", photo: "img/user-profile-man.jpg"})
                     dl.event-speakers__speaker-info

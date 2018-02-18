@@ -4,7 +4,7 @@ mixin categories-navigation({categories, selectedCategory})
             - for (let categoryName in categories)
                 if (categoryName !== selectedCategory)
                     li.categories-navigation__category
-                        a(href=categories[categoryName] class="categories-navigation__link")=categoryName
+                        a.categories-navigation__link(href=categories[categoryName])=categoryName
                 else
                     li.categories-navigation__category.categories-navigation__category_selected
-                        a(href=categories[categoryName] class="categories-navigation__link")=categoryName
+                        a.categories-navigation__link(href=categories[categoryName])=categoryName

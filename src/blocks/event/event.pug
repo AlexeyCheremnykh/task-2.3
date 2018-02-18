@@ -9,7 +9,7 @@ mixin event({dateString, title, content, added = false})
         .event__image
         .event__main
             header.event__header
-                time(date=dateString class="event__date")
+                time.event__date(date=dateString)
                     span.event__day=eventDay
                     span.event__month=eventMonth
                 h2.event__title=title

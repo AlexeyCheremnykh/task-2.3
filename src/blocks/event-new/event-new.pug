@@ -17,7 +17,7 @@ include ../standard-button/standard-button.pug
         +event-speakers
 
     .event-new__exit-buttons
-        form(action="events.html" class="event-new__cancel")
+        form.event-new__cancel(action="events.html")
             +standard-button({size: "big", color: "blue", label: "cancel"})
-        form(action="events.html" class="event-new__finish")
+        form.event-new__finish(action="events.html")
             +standard-button({size: "big", color: "blue", label: "finish"})

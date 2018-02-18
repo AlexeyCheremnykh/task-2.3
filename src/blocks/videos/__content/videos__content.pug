@@ -1,30 +1,18 @@
 include ../../video/video.pug
 include ../../dropdown/dropdown.pug
 
-.videos__content.js-videos__content
-    - const orderOptions = ["by default", "by popularity", "newest first", "oldest first"];
-    .videos__display-order
-        +dropdown({options: orderOptions, hasDefault: true})
-    ul.videos__tabs
-        li.videos__tab
-            a.videos__tab-link(href="#all") All videos
-        li.videos__tab
-            a.videos__tab-link(href="#playlists") Playlists
-    .videos__all(id="all")
-        .videos__video
-            +video("k3jlviX88iw")
-        .videos__video
-            +video("kKrYAdB8XJ4")
-        .videos__video
-            +video("Ih323XXu_3w")
-        .videos__video
-            +video("rioXu6EBN0s")
-        .videos__video
-            +video("zhA5LNA3MxE")
-        .videos__video
-            +video("eh7lp9umG2I")
-        .videos__video
-            +video("9h1UiqBuxO0")
-        .videos__video
-            +video("YPbb2xspJHM")
-    .videos__playlists(id="playlists")
+mixin videos__content(videoIdList)
+    .videos__content.js-videos__content
+        - const orderOptions = ["by default", "by popularity", "newest first", "oldest first"];
+        .videos__display-order
+            +dropdown({options: orderOptions, hasDefault: true})
+        ul.videos__tabs
+            li.videos__tab
+                a.videos__tab-link(href="#all") All videos
+            li.videos__tab
+                a.videos__tab-link(href="#playlists") Playlists
+        .videos__all(id="all")
+            - for (let id of videoIdList)
+                .videos__video
+                    +video(id)
+        .videos__playlists(id="playlists")

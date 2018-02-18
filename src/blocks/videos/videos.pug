@@ -1,3 +1,6 @@
-main.videos
-    include __header/videos__header.pug
-    include __content/videos__content.pug
+include __content/videos__content.pug
+
+mixin videos(videoIdList)
+    main.videos
+        include __header/videos__header.pug
+        +videos__content(videoIdList)

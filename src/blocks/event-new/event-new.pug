@@ -14,7 +14,9 @@ include ../standard-button/standard-button.pug
             +event-options
 
     +event-new__stage({title: "Add speakers"})
-        +event-speakers
+        - const speakerProfile = {color: "grey", name: "Speaker", profession: "Profession", photo: "img/user-profile-man.jpg"};
+        - const speaker = {profile: speakerProfile, topicTitle: "Topic title", startTime: "00:01"};
+        +event-speakers(Array(10).fill(speaker))
 
     .event-new__exit-buttons
         form.event-new__cancel(action="events.html")

@@ -25,9 +25,11 @@
     &:nth-child(2n - 1)
       border-right: 1px solid #dddddd
 
+      @media (max-width: 760px)
+        border-right: none
+
     @media (max-width: 760px)
       display: block
-      border: none
 
     &:focus
       background-color: #cccccc

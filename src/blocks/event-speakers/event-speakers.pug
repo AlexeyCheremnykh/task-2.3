@@ -1,18 +1,18 @@
 include ../standard-button/standard-button.pug
 include ../user-profile/user-profile.pug
 
-mixin event-speakers
+mixin event-speakers(speakersList)
     .event-speakers
         ul.event-speakers__added-speakers
-            - for (let i = 0; i < 7; i++)
+            - for (let speaker of speakersList)
                 li.event-speakers__speaker(tabindex=0)
                     .event-speakers__profile
-                        +user-profile({color: "grey", name: "Speaker", profession: "Profession", photo: "img/user-profile-man.jpg"})
+                        +user-profile(speaker.profile)
                     dl.event-speakers__speaker-info
                         dd.event-speakers__info-name Topic:
-                        dt.event-speakers__info-value Topic title
+                        dt.event-speakers__info-value=speaker.topicTitle
                         dd.event-speakers__info-name Start:
-                        dt.event-speakers__info-value 00:00
+                        dt.event-speakers__info-value=speaker.startTime
 
         .event-speakers__buttons
             .event-speakers__add-speaker

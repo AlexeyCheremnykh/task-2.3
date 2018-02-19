@@ -11,7 +11,7 @@ mixin events-my-events(eventList)
             +search({placeholder: "Event search"})
         .events-my-events__map
             .events-my-events__map-toggle
-                +toggle({enabled: true, label: "Events map"})
+                +toggle({enabled: true, label: "Events map", color: "red", shape: "square"})
             .events-my-events__location
                 +location({localAddress: "Lenina Street 14", globalAddress: "Tomsk, Russia", title: "My events"})
         .events-my-events__events

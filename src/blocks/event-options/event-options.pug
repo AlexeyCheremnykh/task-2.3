@@ -12,12 +12,12 @@ mixin event-options
             label.event-options__event-start Start Time
                 input.event-options__event-start-picker(type="time")
         li.event-options__option
-            +tick-box({label: "By invitations only"})
+            +tick-box({label: "By invitations only", shape: "square"})
         li.event-options__option
-            +tick-box({label: "Event image", checked: true})
+            +tick-box({label: "Event image", checked: true, shape: "square"})
             .event-options__add-image-btn
                 +standard-button({size: "big", color: "blue", label: "Add image"})
         li.event-options__option
-            +tick-box({label: "Limited attendees number", checked: true})
+            +tick-box({label: "Limited attendees number", checked: true, shape: "square"})
             .event-options__attendees-spinner
                 +spinner

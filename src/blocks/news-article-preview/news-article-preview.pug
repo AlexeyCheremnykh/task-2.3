@@ -1,9 +1,9 @@
-mixin news-article-preview({title, articleAddress, dateString, content})
+mixin news-article-preview({title, articleAddress, dateString, content, color})
     - const newsDate = new Date(dateString);
     - const newsMonth = newsDate.toLocaleString("en", { month: "long" });
     - const newsDay = newsDate.toLocaleString("en", { day: "numeric" });
     - const newsYear = newsDate.toLocaleString("en", { year: "numeric" });
-    article.news-article-preview
+    article(class=`news-article-preview news-article-preview_color_${color}`)
         .news-article-preview__image
         .news-article-preview__main
             header.news-article-preview__header

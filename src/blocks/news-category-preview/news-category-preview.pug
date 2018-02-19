@@ -10,6 +10,6 @@ mixin news-category-preview({categoryTitle, categoryAddress = "/mock-address/", 
                 .news-category-preview__article-preview
                     +news-article-preview(article)
         .news-category-preview__scroll-btn.news-category-preview__scroll-btn_left
-            +arrow-button({direction: "left"})
+            +arrow-button({direction: "left", long: true})
         .news-category-preview__scroll-btn.news-category-preview__scroll-btn_right
-            +arrow-button({direction: "right"})
+            +arrow-button({direction: "right", long: true})

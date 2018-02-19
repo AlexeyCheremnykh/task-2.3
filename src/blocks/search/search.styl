@@ -1,3 +1,5 @@
+@import "../../colors"
+
 .search
   &__field
     box-sizing: border-box
@@ -5,7 +7,7 @@
     border: none
     height: 28px
     width: calc(100% - 33px)
-    background-color: #e5e5e5
+    background-color: $grey-e5
     border-radius: 3px 0 0 3px
     padding-left: 13px
     padding-bottom: 4px
@@ -15,20 +17,20 @@
     font-stretch: normal
     font-size: 14px
     letter-spacing: 0.01em
-    color: #666666
+    color: $grey-66
 
     &:focus
-      border: 2px solid #888888
+      border: 2px solid $grey-88
       padding-left: 11px
 
     &::placeholder
-      color: #888888
+      color: $grey-88
 
     &_not-found
-      background-color: #e75735
+      background-color: $main-red
 
       &::placeholder
-        color: #ffffff
+        color: $white
 
   &__button
     vertical-align: top
@@ -37,17 +39,17 @@
     height: 28px
     width: 33px
     border-radius: 0 3px 3px 0
-    color: #ffffff
+    color: $white
     cursor: pointer
 
     &_color_red
-      background-color: #e75735
+      background-color: $main-red
       &:hover,
       &:focus
-        background-color: #c94d2f
+        background-color: $dark-red
 
     &_color_grey
-      background-color: #999999
+      background-color: $grey-9d
       &:hover,
       &:focus
-        background-color: #888888
+        background-color: $grey-88

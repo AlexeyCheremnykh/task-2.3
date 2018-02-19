@@ -1,13 +1,15 @@
+@import "../../colors"
+
 .news-article-preview
   width: 288px
   border-radius: 3px
   overflow: hidden
 
   &_color_red &__main
-    background-color: #e75735
+    background-color: $main-red
 
-  &_color_blue &__main
-    background-color: #4eb7a8
+  &_color_cyan &__main
+    background-color: $main-cyan
 
   &__image
     width: 95px
@@ -26,7 +28,7 @@
     width: 193px
     height: 212px
     float: right
-    color: #ffffff
+    color: $white
 
   &__title
     margin: 0
@@ -38,11 +40,11 @@
 
   &__link
     text-decoration: none
-    color: #ffffff
+    color: $white
     outline: none
 
     &:hover, &:focus
-      color: #dddddd
+      color: $grey-d5
 
   &__date
     display: block

@@ -1,3 +1,5 @@
+@import "../../colors"
+
 .select2-container
   width: 100% !important
   .selection
@@ -9,7 +11,7 @@
       width: 100%
       padding-left: 6px
       padding-right: 33px
-      background-color: #e5e5e5
+      background-color: $grey-e5
       border-radius: 2px
       font-family: "Source Sans Pro", "Arial", sans-serif
       font-weight: 400
@@ -21,13 +23,13 @@
         padding-right: 6px
 
       &:focus
-        background-color: #d5d5d5
+        background-color: $grey-d5
 
       &__placeholder
-        color: #888888
+        color: $grey-88
 
       &__rendered
-        color: #666666
+        color: $grey-66
 
       .select2-selection__arrow
         width: 33px
@@ -35,15 +37,15 @@
         border-radius: 0 3px 3px 0
         top: 0
         right: 0
-        background-color: #4eb7a8
+        background-color: $main-cyan
         padding: 0
 
         b
           width: 8px
           height: 8px
           border: none
-          border-left: 2px solid #ffffff
-          border-top: 2px solid #ffffff
+          border-left: 2px solid $white
+          border-top: 2px solid $white
           transform: rotate(-135deg)
           top: 9px
           left: 15px
@@ -52,13 +54,13 @@
     border: none
     .select2-results
       &__options
-        color: #ffffff
+        color: $white
         font-family: "Source Sans Pro", "Arial", sans-serif
         font-weight: 400
         font-style: normal
         font-stretch: normal
         font-size: 14px
-        background-color: #4eb7a8
+        background-color: $main-cyan
         border-radius: 2px
         max-height: 132px
 
@@ -66,8 +68,8 @@
         padding-left: 13px
 
         &[aria-selected="true"]
-          background-color: #b3f2e9
-          color: #666666
+          background-color: $light-cyan
+          color: $grey-66
 
         &--highlighted
-          background-color: #5bc6b6
+          background-color: $cyan

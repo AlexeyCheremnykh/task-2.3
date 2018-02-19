@@ -1,3 +1,5 @@
+@import "../../colors"
+
 .tick-box
   cursor: pointer
   display: block
@@ -21,7 +23,7 @@
     top: 0
     width: 23px
     height: 23px
-    background-color: #e5e5e5
+    background-color: $grey-e5
 
     &::after
       position: absolute
@@ -32,15 +34,15 @@
       transform: rotate(-45deg)
       top: 7px
       right: 6px
-      border-left: 2px solid #cecece
-      border-bottom: 2px solid #cecece
+      border-left: 2px solid $grey-ce
+      border-bottom: 2px solid $grey-ce
 
   &__auxiliary-checkbox:checked + &__checkmark
-    background-color: #4eb7a8
+    background-color: $main-cyan
 
     &::after
-      border-left: 2px solid #ffffff
-      border-bottom: 2px solid #ffffff
+      border-left: 2px solid $white
+      border-bottom: 2px solid $white
 
   &_shape_round &__checkmark
     border-radius: 50%

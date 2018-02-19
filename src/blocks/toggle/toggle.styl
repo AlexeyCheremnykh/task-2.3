@@ -1,3 +1,5 @@
+@import "../../colors"
+
 .toggle
   cursor: pointer
   position: relative
@@ -19,14 +21,14 @@
     position: absolute
     top: 0
     left: 0
-    background-color: #e5e5e5
+    background-color: $grey-e5
     width: 59px
     height: 24px
 
     &::before
       position: absolute
       display: block
-      color: #ffffff
+      color: $white
       font-family: "Lato", "Arial", sans-serif
       font-weight: 900
       font-size: 12px
@@ -43,7 +45,7 @@
       left: 3px
       width: 18px
       height: 18px
-      background-color: #ffffff
+      background-color: $white
 
   &__auxiliary-checkbox:checked + &__switch
     &::before
@@ -56,11 +58,11 @@
       left: auto
       right: 3px
 
-  &_color_blue &__auxiliary-checkbox:checked + &__switch
-    background-color: #4eb7a8
+  &_color_cyan &__auxiliary-checkbox:checked + &__switch
+    background-color: $main-cyan
 
   &_color_red &__auxiliary-checkbox:checked + &__switch
-    background-color: #e75735
+    background-color: $main-red
 
   &_shape_round &__switch
     border-radius: 12px

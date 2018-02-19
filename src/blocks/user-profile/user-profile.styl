@@ -1,3 +1,5 @@
+@import "../../colors"
+
 .user-profile
   width: 267px
   height: 94px
@@ -7,7 +9,7 @@
     width: 235px
 
   &::before
-    content: "";
+    content: ""
     display: inline-block
     vertical-align: middle
     height: 100%
@@ -18,7 +20,7 @@
     height: 84px
     width: 84px
     border-radius: 50%
-    border: 4px solid #e5e5e5
+    border: 4px solid $grey-e5
     margin-right: 12px
     background-size: cover
 
@@ -90,17 +92,18 @@
     @media (max-width: 600px)
       margin-top: 2px
 
-  &__info_blue
-    background-color: #4eb7a8
+
+  &__info_cyan
+    background-color: $main-cyan
 
     &::before
-      border-color: transparent #4eb7a8 transparent transparent
+      border-color: transparent $main-cyan transparent transparent
 
     & ^[0]__name
-      color: #ffffff
+      color: $white
 
     & ^[0]__profession
-      color: #ffffff
+      color: $white
 
     & ^[0]__social_fb
       background-position: -89px -4px
@@ -112,16 +115,16 @@
       background-position: -5px -43px
 
   &__info_grey
-    background-color: #e5e5e5
+    background-color: $grey-e5
 
     &::before
-      border-color: transparent #e5e5e5 transparent transparent
+      border-color: transparent $grey-e5 transparent transparent
 
     & ^[0]__name
-      color: #e75735
+      color: $main-red
 
     & ^[0]__profession
-      color: #4f4f4f
+      color: $grey-4f
 
     & ^[0]__social_fb
       background-position: -119px -4px

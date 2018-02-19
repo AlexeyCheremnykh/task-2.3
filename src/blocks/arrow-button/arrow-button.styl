@@ -1,11 +1,13 @@
+@import "../../colors"
+
 .arrow-button
   outline: none
   position: relative
   width: 50px
   height: 50px
   border-radius: 50%
-  border: 3px solid #4eb7a8
-  background-color: #ffffff
+  border: 3px solid $main-cyan
+  background-color: $white
   cursor: pointer
 
   &_long
@@ -21,23 +23,23 @@
     left: 16px
 
   &:hover
-    background-color: #4eb7a8
+    background-color: $main-cyan
 
     &::after
-      border-color: #ffffff
-      background-color: #4eb7a8
+      border-color: $white
+      background-color: $main-cyan
 
   &:disabled
-    background-color: #e5e5e5
-    border-color: #e5e5e5
+    background-color: $grey-e5
+    border-color: $grey-e5
     cursor: default
 
     &::after
-      border-color: #ffffff
-      background-color: #e5e5e5
+      border-color: $white
+      background-color: $grey-e5
 
   &:focus
-    outline: 2px solid #e5e5e5
+    outline: 2px solid $grey-e5
 
   &::after
     content: ""
@@ -45,5 +47,5 @@
     top: 50%
     width: 13px
     height: 13px
-    border-top: 4px solid #4eb7a8
-    border-right: 4px solid #4eb7a8
+    border-top: 4px solid $main-cyan
+    border-right: 4px solid $main-cyan

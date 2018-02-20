@@ -3,20 +3,14 @@
 .user-profile
   width: 267px
   height: 94px
+  display: flex
 
   @media (max-width: 600px)
     height: auto
     width: 235px
 
-  &::before
-    content: ""
-    display: inline-block
-    vertical-align: middle
-    height: 100%
-
   &__photo
-    display: inline-block
-    vertical-align: top
+    align-self: flex-start
     height: 84px
     width: 84px
     border-radius: 50%
@@ -30,8 +24,7 @@
       vertical-align: middle
 
   &__info
-    display: inline-block
-    vertical-align: bottom
+    align-self: flex-end
     position: relative
     width: 163px
     height: 93px

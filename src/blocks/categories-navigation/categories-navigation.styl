@@ -1,3 +1,5 @@
+@import "../../colors"
+
 .categories-navigation
   width: 200px
 
@@ -28,13 +30,13 @@
       background: none
 
     &_selected
-      background-color: #dddddd
+      background-color: $grey-de
 
       @media (max-width: 1350px)
         background: none
 
     &:hover
-      background-color: #eeeeee
+      background-color: $grey-e5
 
       @media (max-width: 1350px)
         background: none
@@ -43,11 +45,11 @@
     text-decoration: none
     display: block
     font-family: "Lato", "Arial", sans-serif
-    color: #aaaaaa
+    color: $grey-aa
 
     &:hover
       @media (max-width: 1350px)
-        color: #888888
+        color: $grey-88
 
   &__category_selected &__link
-    color: #444444
+    color: $grey-44

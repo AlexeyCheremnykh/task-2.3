@@ -1,3 +1,5 @@
+@import "../../colors"
+
 .sign-in
   text-align: center
   height: 100%
@@ -6,12 +8,12 @@
   font-family: "Lato", "Arial", sans-serif
 
   &__page-title
-    color: #555555
+    color: $grey-55
 
   &__logo
     font-weight: 900
     font-size: 55px
-    color: #555555
+    color: $grey-55
     display: block
     text-decoration: none
     text-transform: uppercase
@@ -20,9 +22,9 @@
       transform: translateY(1px)
 
   &__form
-    background-color: #ffffff
+    background-color: $white
     padding: 20px 35px
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2)
+    box-shadow: 0 0 10px 0 $black-shadow
 
   &__email
     margin-bottom: 20px
@@ -39,15 +41,15 @@
     height: 35px
     border-radius: 4px
     outline: none
-    border: 1px solid #bbbbbb
-    background-color: #fafafa
-    color: #666666
+    border: 1px solid $grey-aa
+    background-color: $white
+    color: $grey-66
     padding: 0 10px
     font-size: 16px
     margin: 5px 0
 
     &:focus
-      border: 2px solid #999999
+      border: 2px solid $grey-9d
 
   &__password
     text-align: start
@@ -55,10 +57,10 @@
   &__forgot-password
     float: right
     text-decoration: none
-    color: #1111ff
+    color: $blue
 
     &:visited
-      color: #1111ff
+      color: $blue
 
   &__button
     display: block
@@ -69,8 +71,8 @@
     font-size: 14px
 
   &__sign-up
-    color: #1111ff
+    color: $blue
     text-decoration: none
 
     &:visited
-      color: #1111ff
+      color: $blue

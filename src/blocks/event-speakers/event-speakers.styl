@@ -1,3 +1,5 @@
+@import "../../colors"
+
 .event-speakers
   &__added-speakers
     padding: 0
@@ -5,13 +7,13 @@
     text-align: start
     height: 285px
     overflow: auto
-    background-color: #f5f5f5
+    background-color: $grey-f2
 
   &__speaker
     display: inline-block
     text-align: center
     box-sizing: border-box
-    border-bottom: 1px solid #dddddd
+    border-bottom: 1px solid $grey-de
     padding: 26px 26px 10px
     width: 50%
     cursor: pointer
@@ -23,7 +25,7 @@
       width: 100%
 
     &:nth-child(2n - 1)
-      border-right: 1px solid #dddddd
+      border-right: 1px solid $grey-de
 
       @media (max-width: 760px)
         border-right: none
@@ -32,7 +34,7 @@
       display: block
 
     &:focus
-      background-color: #cccccc
+      background-color: $grey-ce
 
   &__profile
     display: inline-block

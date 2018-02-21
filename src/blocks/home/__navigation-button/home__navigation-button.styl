@@ -1,15 +1,17 @@
+@import "../../../colors"
+
 .home__navigation-button
   height: 200px
   width: 200px
-  background-color: #ffffff
+  background-color: $white
   border: none
   outline: none
   font-family: "Lato", "Arial", sans-serif
   font-size: 26px
   font-weight: 900
-  color: #888888
+  color: $grey-88
   text-transform: uppercase
-  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2)
+  box-shadow: 0 0 10px 0px $black-shadow
   transition: transform .2s ease-in-out
   cursor: pointer
 
@@ -17,7 +19,7 @@
     transform: scale(1.1)
 
   &:focus
-    background-color: #efefef
+    background-color: $grey-ec
 
   &-wrapper
     margin-right: 15px

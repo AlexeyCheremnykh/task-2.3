@@ -1,3 +1,5 @@
+@import "../../../colors"
+
 .event-new
   &__main-info
     max-width: 500px
@@ -5,24 +7,24 @@
 
   &__text-field
     width: 100%
-    background-color: #e5e5e5
+    background-color: $grey-e5
     outline: none
     border: none
     display: block
     border-radius: 4px
     font-family: "Lato", "Arial", sans-serif
-    color: #666666
+    color: $grey-66
     font-size: 14px
     padding-left: 13px
     padding-right: 10px
     box-sizing: border-box
 
     &:focus
-      border: 2px solid #888888
+      border: 2px solid $grey-88
       padding-left: 11px
 
     &::placeholder
-      color: #888888
+      color: $grey-88
       font-family: "Lato", "Arial", sans-serif
 
   &__event-title
@@ -38,4 +40,3 @@
 
     &:focus
       padding-top: 5px
-

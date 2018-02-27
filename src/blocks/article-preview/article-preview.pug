@@ -1,7 +1,10 @@
 include ../user-profile/user-profile.pug
 include ../percentage/percentage.pug
 
-mixin article-preview({title, articleAddress, dateString, category, text, tags, author, rating})
+mixin article-preview({title = "Title", articleAddress = "/mock-address", dateString = "2018-06-06", text = "Article Text", rating = "100", tags, author, category} = {})
+    - if (tags === undefined) tags = { tag: "/mock-address/" };
+    - if (author === undefined) author = { name: "Article Author", profession: "Profession", photo: "img/user-profile-man.jpg" };
+    - if (category === undefined) category = { name: "A category", address: "/mock-address/" };
     - let articleDate = new Date(dateString);
     - const articleMonth = articleDate.toLocaleString("en", { month: "short" });
     - const articleDay = articleDate.toLocaleString("en", { day: "numeric" });

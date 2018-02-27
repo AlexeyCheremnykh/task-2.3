@@ -1,15 +1,13 @@
 @import "../../colors"
 
 .event
-  height: 212px
-  border-radius: 3px
+  border-radius: 0.1875rem
   overflow: hidden
 
   &__image
-    width: 95px
-    height: 212px
+    width: 5.9375rem
+    height: 13.25rem
     display: inline-block
-    background-image: url("img/event-sample.jpg")
     background-size: cover
 
     @media (max-width: 705px)
@@ -18,9 +16,9 @@
   &__main
     font-family: "Lato", "Arial", sans-serif
     box-sizing: border-box
-    width: calc(100% - 95px)
-    height: 212px
-    padding: 4px 19px 0
+    width: 12.0625rem
+    height: 13.25rem
+    padding: 0.25rem 1.1875rem 0
     display: inline-block
     vertical-align: top
     background-color: $main-cyan
@@ -31,49 +29,50 @@
 
   &__date
     font-weight: 300
-    word-spacing: 14px
-    max-height: 88px
+    word-spacing: 0.875rem
+    max-height: 5.5rem
     overflow: hidden
 
   &__day
-    font-size: 73px
-    letter-spacing: -0.04em
+    font-size: 4.5625rem
+    letter-spacing: -0.1825rem
     display: inline-block
-    margin-right: 14px
+    margin-right: 0.875rem
 
     @media (max-width: 490px)
-      font-size: 60px
+      font-size: 3.75rem
 
   &__month
-    font-size: 30px
+    font-size: 1.875rem
     display: inline-block
 
     @media (max-width: 490px)
-      font-size: 20px
+      font-size: 1.25rem
 
   &__title
     font-weight: 900
-    font-size: 12.5px
-    margin-top: 8px
-    margin-bottom: 3px
-    letter-spacing: 0.05em
+    font-size: 0.7813rem
+    margin-top: 0.5rem
+    margin-bottom: 0.1875rem
+    letter-spacing: 0.0391rem
     text-transform: uppercase
-    max-height: 15px
+    max-height: 0.9375rem
     overflow: hidden
 
   &__content
-    font-size: 11px
-    letter-spacing: 0.05em
+    font-weight: 400
+    font-size: 0.6875rem
+    letter-spacing: 0.0391rem
     margin-top: 0
-    margin-bottom: 18px
-    max-height: 28px
+    margin-bottom: 1.125rem
+    max-height: 1.75rem
     overflow: hidden
 
   &__add-btn
     text-align: center
 
   &_added &__content
-    max-height: 65px
+    max-height: 4.0625rem
 
   &_added &__add-btn
     display: none

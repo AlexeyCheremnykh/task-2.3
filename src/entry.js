@@ -31,6 +31,7 @@ import './blocks/news-article-preview/news-article-preview.styl';
 import './blocks/news-article-preview/img/news-article-preview-sample.jpg';
 import './blocks/arrow-button/arrow-button.styl';
 import './blocks/event/event.styl';
+import './blocks/event/img/event-sample.jpg';
 import './blocks/tick-box/tick-box.styl';
 import './blocks/events-my-events/events-my-events.styl';
 import './blocks/events-recommended/events-recommended.styl';

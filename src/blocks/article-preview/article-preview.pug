@@ -27,4 +27,4 @@ mixin article-preview({title = "Title", articleAddress = "/mock-address", dateSt
             .article-preview__author
                 +user-profile({color: "grey", name: author.name, profession: author.profession, photo: author.photo})
             .article-preview__rating
-                +percentage(rating)
+                +percentage({value: rating})

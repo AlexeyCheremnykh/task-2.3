@@ -1,10 +1,21 @@
-mixin user-profile({color, name, profession, photo})
+mixin user-profile({color = "grey", name = "Name", profession = "Profession", photo = "img/user-profile-man.jpg", social} = {})
+    - if (typeof(social) !== "object") {
+    -   social = {
+    -     facebook: "/mock-address/",
+    -     twitter: "/mock-address/",
+    -     dribbble: "/mock-address/",
+    -   };
+    - } else {
+    -   if (social.facebook === undefined) social.facebook = "/mock-address/";
+    -   if (social.twitter === undefined) social.twitter = "/mock-address/";
+    -   if (social.dribbble === undefined) social.dribbble = "/mock-address/";
+    - }
     .user-profile
         .user-profile__photo(style=`background-image: url(${photo})`)
         div(class="user-profile__info user-profile__info_" + color)
             .user-profile__name=name
             .user-profile__profession=profession
             .user-profile__social-container
-                a.user-profile__social.user-profile__social_fb(href="/mock-address/" target="_blank" rel="noopener noreferrer")
-                a.user-profile__social.user-profile__social_twitter(href="/mock-address/" target="_blank" rel="noopener noreferrer")
-                a.user-profile__social.user-profile__social_dribbble(href="/mock-address/" target="_blank" rel="noopener noreferrer")
+                a.user-profile__social.user-profile__social_fb(href=social.facebook target="_blank" rel="noopener noreferrer")
+                a.user-profile__social.user-profile__social_twitter(href=social.twitter target="_blank" rel="noopener noreferrer")
+                a.user-profile__social.user-profile__social_dribbble(href=social.dribbble target="_blank" rel="noopener noreferrer")

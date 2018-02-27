@@ -1,4 +1,4 @@
-mixin arrow-button({direction, disabled = false, long = false})
+mixin arrow-button({direction = "left", disabled = false, long = false} = {})
     - let arrowBtnClass = `arrow-button arrow-button_${direction}`;
     - arrowBtnClass += long ? " arrow-button_long" : "";
     if (!disabled)

@@ -1,10 +1,10 @@
-mixin news-article-preview({title, articleAddress, dateString, content, color})
+mixin news-article-preview({title = "Title", articleAddress = "/mock-address/", dateString = "2018-06-06", content = "content", image = "img/news-article-preview-sample.jpg", color = "red"} = {})
     - const newsDate = new Date(dateString);
     - const newsMonth = newsDate.toLocaleString("en", { month: "long" });
     - const newsDay = newsDate.toLocaleString("en", { day: "numeric" });
     - const newsYear = newsDate.toLocaleString("en", { year: "numeric" });
     article(class=`news-article-preview news-article-preview_color_${color}`)
-        .news-article-preview__image
+        .news-article-preview__image(style=`background-image: url(${image})`)
         .news-article-preview__main
             header.news-article-preview__header
                 h2.news-article-preview__title

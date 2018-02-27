@@ -1,4 +1,4 @@
-mixin location({localAddress, globalAddress, title, hideAddress = false})
+mixin location({localAddress = "1259 California ST", globalAddress = "San Francisco, CA", title = "Title", hideAddress = false} = {})
     - const address = `${localAddress} ${globalAddress}`;
     .location
         .location__map.js-location__map(data-address=address)

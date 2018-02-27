@@ -1,5 +1,5 @@
-mixin dropdown({options, hasDefault = false, multiple = false})
-    - const modClass = multiple ? " dropdown_multiple js-dropdown_multiple" : "";
+mixin dropdown({options = [], hasDefault = false, multiple = false} = {})
+ - const modClass = multiple ? " dropdown_multiple js-dropdown_multiple" : "";
     select(class="dropdown js-dropdown" + modClass)
         if (!hasDefault)
             option(value="")

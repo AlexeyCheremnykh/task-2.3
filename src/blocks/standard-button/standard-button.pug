@@ -1,4 +1,4 @@
-mixin standard-button({size, color, label, filled, darkShadow = false, thin = false, long = false})
+mixin standard-button({size = "big", color = "red", label = "button", filled = false, darkShadow = false, thin = false, long = false} = {})
     - let btnClass = `ripple standard-button standard-button_size_${size} standard-button_color_${color}`;
     - btnClass = filled ? btnClass + " standard-button_filled" : btnClass;
     - btnClass = darkShadow ? btnClass + " standard-button_shadow_dark" : btnClass;

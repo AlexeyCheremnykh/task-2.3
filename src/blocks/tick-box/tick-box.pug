@@ -1,4 +1,4 @@
-mixin tick-box({checked, label = "", shape = "round"})
+mixin tick-box({checked = true, label = "", shape = "round"} = {})
     - let tickboxClass = label ? "tick-box" : "tick-box tick-box_not-labeled";
     - tickboxClass += ` tick-box_shape_${shape}`;
     label(class=tickboxClass)=label

@@ -14,5 +14,5 @@ mixin videos__content(videoIdList)
         .videos__all(id="all")
             - for (let id of videoIdList)
                 .videos__video
-                    +video(id)
+                    +video({id: id})
         .videos__playlists(id="playlists")

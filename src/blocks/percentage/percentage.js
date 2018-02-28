@@ -6,6 +6,7 @@ class Percentage {
   constructor(elem, id) {
     this._id = id;
     this._$percentage = $(elem);
+    this._$circleProgress = $(elem).children('.js-percentage__circle-progress');
     this._$value = $(elem).children('.js-percentage__value');
   }
 
@@ -15,6 +16,7 @@ class Percentage {
     const percentageThickness = percentageSize / constants.SIZE_THICKNESS_RATIO;
 
     this._$percentage.circleProgress({
+      canvas: this._$circleProgress[0],
       value: percentageValue,
       size: percentageSize,
       fill: '#e75735',

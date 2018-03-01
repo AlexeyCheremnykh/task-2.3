@@ -1,6 +1,6 @@
 include ../section-title/section-title.pug
 
-mixin page-section(title, mixClass)
-    section(class="page-section " + mixClass)
+mixin page-section(title, addedClass)
+    section(class="page-section " + addedClass)
         +section-title(title)
         block

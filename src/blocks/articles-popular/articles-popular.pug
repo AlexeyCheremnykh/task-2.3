@@ -1,8 +1,8 @@
 include ../../blocks/page-section/page-section.pug
 include ../../blocks/article-preview/article-preview.pug
 
-mixin articles-popular(articleInfoList)
+mixin articles-popular(articleList)
     +page-section("Popular", "articles-popular")
-        - for (let articleInfo of articleInfoList)
+        each article in articleList
             .articles-popular__article
-                +article-preview(articleInfo)
+                +article-preview(article)

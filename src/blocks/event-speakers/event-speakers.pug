@@ -4,7 +4,7 @@ include ../user-profile/user-profile.pug
 mixin event-speakers(speakersList)
     .event-speakers
         ul.event-speakers__added-speakers
-            - for (let speaker of speakersList)
+            each speaker in speakersList
                 li.event-speakers__speaker(tabindex=0)
                     .event-speakers__profile
                         +user-profile(speaker.profile)

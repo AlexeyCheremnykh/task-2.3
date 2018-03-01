@@ -12,7 +12,7 @@ mixin videos__content(videoIdList)
             li.videos__tab
                 a.videos__tab-link(href="#playlists") Playlists
         .videos__all(id="all")
-            - for (let id of videoIdList)
+            each id in videoIdList
                 .videos__video
                     +video({id: id})
         .videos__playlists(id="playlists")

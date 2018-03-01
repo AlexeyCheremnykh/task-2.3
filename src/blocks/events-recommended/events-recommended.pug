@@ -4,7 +4,7 @@ include ../page-section/page-section.pug
 mixin events-recommended(eventList)
     +page-section("Recommended", "events-recommended")
         .events-recommended__events
-            - for (let event of eventList)
+            each event in eventList
                 .events-recommended__event
                     +event(event)
         a.events-recommended__see-more(href="/mock-address/") See more

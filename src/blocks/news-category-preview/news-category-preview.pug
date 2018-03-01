@@ -6,7 +6,7 @@ mixin news-category-preview({categoryTitle, categoryAddress = "/mock-address/", 
     section.news-category-preview
         +section-title(categoryTitle, categoryAddress)
         .news-category-preview__content
-            - for (let article of articles)
+            each article in articles
                 .news-category-preview__article-preview
                     +news-article-preview(article)
         .news-category-preview__scroll-btn.news-category-preview__scroll-btn_left

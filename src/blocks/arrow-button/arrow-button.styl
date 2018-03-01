@@ -1,51 +1,51 @@
 @import "../../colors"
 
 .arrow-button
-  outline: none
-  position: relative
-  width: 3.125rem
-  height: 3.125rem
-  border-radius: 50%
-  border: 0.1875rem solid $main-cyan
-  background-color: $white
-  cursor: pointer
+  outline none
+  position relative
+  width 3.125rem
+  height 3.125rem
+  border-radius 50%
+  border 0.1875rem solid $main-cyan
+  background-color $white
+  cursor pointer
 
   &_long
-    height: 100%
-    border-radius: 0
+    height 100%
+    border-radius 0
 
   &_right::after
-    transform: translateY(-50%) rotate(45deg)
-    right: 1rem
+    transform translateY(-50%) rotate(45deg)
+    right 1rem
 
   &_left::after
-    transform: translateY(-50%) rotate(-135deg)
-    left: 1rem
+    transform translateY(-50%) rotate(-135deg)
+    left 1rem
 
   &:hover
-    background-color: $main-cyan
+    background-color $main-cyan
 
     &::after
-      border-color: $white
-      background-color: $main-cyan
+      border-color $white
+      background-color $main-cyan
 
   &:disabled
-    background-color: $grey-e5
-    border-color: $grey-e5
-    cursor: default
+    background-color $grey-e5
+    border-color $grey-e5
+    cursor default
 
     &::after
-      border-color: $white
-      background-color: $grey-e5
+      border-color $white
+      background-color $grey-e5
 
   &:focus
-    box-shadow: 0 0 4px 2px $main-cyan
+    box-shadow 0 0 4px 2px $main-cyan
 
   &::after
-    content: ""
-    position: absolute
-    top: 50%
-    width: 0.8125rem
-    height: 0.8125rem
-    border-top: 0.25rem solid $main-cyan
-    border-right: 0.25rem solid $main-cyan
+    content ""
+    position absolute
+    top 50%
+    width 0.8125rem
+    height 0.8125rem
+    border-top 0.25rem solid $main-cyan
+    border-right 0.25rem solid $main-cyan

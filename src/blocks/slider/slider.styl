@@ -1,85 +1,85 @@
 @import "../../colors"
 
 .slider
-  height: 4.0625rem
-  padding-left: 1.25rem
+  height 4.0625rem
+  padding-left 1.25rem
 
   & &__line
-    border: none
+    border none
 
   &__line
-    cursor: pointer
-    position: relative
-    top: 60%
-    height: 0.3125rem
-    background-color: $grey-e5
-    border-radius: 0.1875rem
+    cursor pointer
+    position relative
+    top 60%
+    height 0.3125rem
+    background-color $grey-e5
+    border-radius 0.1875rem
 
   &__handle.ui-slider-handle
-    cursor: pointer
-    outline: none
-    border: none
-    top: -0.4375rem
-    width: 1.1875rem
-    height: 1.1875rem
-    border-radius: 50%
+    cursor pointer
+    outline none
+    border none
+    top -0.4375rem
+    width 1.1875rem
+    height 1.1875rem
+    border-radius 50%
 
   &_type_red
-    box-sizing: border-box
+    box-sizing border-box
 
     .slider__handle.ui-slider-handle
-      background-color: $main-red
+      background-color $main-red
 
     .ui-slider-tip
-      visibility: visible
-      opacity: 1
-      top: -2rem
-      left: 0.5625rem
-      width: 2.1875rem
-      height: 1.5rem
-      background-color: $main-red
-      border-radius: 0.3125rem
-      border: none
-      font-family: "Lato", "Arial", sans-serif
-      font-weight: 900
-      font-size: 0.8125rem
-      color: $white
-      text-align: center
-      line-height: 1.5rem
+      visibility visible
+      opacity 1
+      top -2rem
+      left 0.5625rem
+      width 2.1875rem
+      height 1.5rem
+      background-color $main-red
+      border-radius 0.3125rem
+      border none
+      font-family "Lato", "Arial", sans-serif
+      font-weight 900
+      font-size 0.8125rem
+      color $white
+      text-align center
+      line-height 1.5rem
 
       &:after
-        content: ""
-        display: block
-        width: 0
-        height: 0
-        top: 1.5rem
-        left: 1.125rem
-        border-style: solid
-        border-width: 0.25rem 0.3125rem 0 0.3125rem
-        border-color: $main-red transparent transparent transparent
+        content ""
+        display block
+        width 0
+        height 0
+        top 1.5rem
+        left 1.125rem
+        border-style solid
+        border-width 0.25rem 0.3125rem 0 0.3125rem
+        border-color $main-red transparent transparent transparent
 
       &:before
-        border: none
+        border none
 
     & .slider__handle:hover .ui-slider-tip,
     & .slider__handle:focus .ui-slider-tip
-      top: -2rem
+      top -2rem
 
   &_type_cyan
-    box-sizing: border-box
+    box-sizing border-box
 
     .slider__handle.ui-slider-handle,
     .ui-slider-range
-      background-color: $main-cyan
+      background-color $main-cyan
 
     .ui-slider-line
-      display: none
+      display none
 
     .ui-slider-pip
-      font-size: 0.6875rem
-      color: $grey-d1
-      font-family: "Lato", "Arial", sans-serif
-      font-weight: 900
+      font-size 0.6875rem
+      color $grey-d1
+      font-family "Lato", "Arial", sans-serif
+      font-weight 900
 
     .ui-slider-label
-      top: -0.3125rem
+      top -0.3125rem

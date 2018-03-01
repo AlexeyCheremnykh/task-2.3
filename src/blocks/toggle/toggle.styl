@@ -1,76 +1,76 @@
 @import "../../colors"
 
 .toggle
-  cursor: pointer
-  position: relative
-  display: block
-  padding-left: 4rem
-  line-height: 1.5rem
-  height: 1.5rem
-  font-family: "Lato", "Arial", sans-serif
-  font-size: 0.9375rem
-  font-weight: 400
+  cursor pointer
+  position relative
+  display block
+  padding-left 4rem
+  line-height 1.5rem
+  height 1.5rem
+  font-family "Lato", "Arial", sans-serif
+  font-size 0.9375rem
+  font-weight 400
 
   &_not-labeled
-    padding-left: 3.6875rem
+    padding-left 3.6875rem
 
   &__auxiliary-checkbox
-    display: none
+    display none
 
   &__switch
-    position: absolute
-    top: 0
-    left: 0
-    background-color: $grey-e5
-    width: 3.6875rem
-    height: 1.5rem
+    position absolute
+    top 0
+    left 0
+    background-color $grey-e5
+    width 3.6875rem
+    height 1.5rem
 
     &::before
-      position: absolute
-      display: block
-      color: $white
-      font-family: "Lato", "Arial", sans-serif
-      font-weight: 900
-      font-size: 0.75rem
-      letter-spacing: 0.05em
-      content: "off"
-      text-transform: uppercase
-      left: 1.625rem
+      position absolute
+      display block
+      color $white
+      font-family "Lato", "Arial", sans-serif
+      font-weight 900
+      font-size 0.75rem
+      letter-spacing 0.05em
+      content "off"
+      text-transform uppercase
+      left 1.625rem
 
     &::after
-      position: absolute
-      content: ""
-      display: block
-      top: 0.1875rem
-      left: 0.1875rem
-      width: 1.125rem
-      height: 1.125rem
-      border-radius: 50%
-      background-color: $white
+      position absolute
+      content ""
+      display block
+      top 0.1875rem
+      left 0.1875rem
+      width 1.125rem
+      height 1.125rem
+      border-radius 50%
+      background-color $white
 
   &__auxiliary-checkbox:checked + &__switch
     &::before
-      content: "on"
-      text-transform: uppercase
-      left: auto
-      right: 1.75rem
+      content "on"
+      text-transform uppercase
+      left auto
+      right 1.75rem
 
     &::after
-      left: auto
-      right: 0.1875rem
+      left auto
+      right 0.1875rem
 
   &_color_cyan &__auxiliary-checkbox:checked + &__switch
-    background-color: $main-cyan
+    background-color $main-cyan
 
   &_color_red &__auxiliary-checkbox:checked + &__switch
-    background-color: $main-red
+    background-color $main-red
 
   &_shape_round &__switch
-    border-radius: 0.75rem
+    border-radius 0.75rem
     &::after
-      border-radius: 50%
+      border-radius 50%
 
   &_shape_square &__switch
-    border-radius: 0.25rem
+    border-radius 0.25rem
     &::after
-      border-radius: 0.25rem
+      border-radius 0.25rem

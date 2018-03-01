@@ -1,56 +1,56 @@
 @import "../../colors"
 
 .categories-navigation
-  font-size: 1rem
-  width: 12.5em
+  font-size 1rem
+  width 12.5em
 
-  @media (max-width: 1350px)
-    width: 100%
+  @media (max-width 1350px)
+    width 100%
 
   &__list
-    text-align: center
-    list-style: none
-    margin: 0
-    padding: 0
+    text-align center
+    list-style none
+    margin 0
+    padding 0
 
-    @media (max-width: 788px)
-      display: flex
-      flex-wrap: wrap
-      width: 18.75em
-      margin-left: auto
-      margin-right: auto
-      justify-content: center
+    @media (max-width 788px)
+      display flex
+      flex-wrap wrap
+      width 18.75em
+      margin-left auto
+      margin-right auto
+      justify-content center
 
   &__category
-    cursor: pointer
-    line-height: 2.5em
+    cursor pointer
+    line-height 2.5em
 
-    @media (max-width: 1350px)
-      display: inline-block
-      margin-left: 0.9375em
-      background: none
+    @media (max-width 1350px)
+      display inline-block
+      margin-left 0.9375em
+      background none
 
     &_selected
-      background-color: $grey-de
+      background-color $grey-de
 
-      @media (max-width: 1350px)
-        background: none
+      @media (max-width 1350px)
+        background none
 
     &:hover
-      background-color: $grey-e5
+      background-color $grey-e5
 
-      @media (max-width: 1350px)
-        background: none
+      @media (max-width 1350px)
+        background none
 
   &__link
-    text-decoration: none
-    display: block
-    font-family: "Lato", "Arial", sans-serif
-    color: $grey-aa
+    text-decoration none
+    display block
+    font-family "Lato", "Arial", sans-serif
+    color $grey-aa
 
     &:hover
-      @media (max-width: 1350px)
-        color: $grey-88
+      @media (max-width 1350px)
+        color $grey-88
 
   &__category_selected &__link
-    color: $grey-44
+    color $grey-44

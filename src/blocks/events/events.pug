@@ -3,8 +3,9 @@ include ../events-recommended/events-recommended.pug
 include ../events-new-event/events-new-event.pug
 
 main.events
-    - const myEvent = {dateString: "2018-05-15", added: true, title: "Title", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit."};
-    +events-my-events(Array(6).fill(myEvent))
-    - const recommendedEvent = {dateString: "2018-05-15", title: "Title", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."};
-    +events-recommended(Array(2).fill(recommendedEvent))
+    - const eventsDataPath = "src/blocks/events/block-data/";
+    - const myEvents = JSON.parse(fs.readFileSync(`${eventsDataPath}my-events.json`, "utf8"));
+    - const recommendedEvents = JSON.parse(fs.readFileSync(`${eventsDataPath}recommended-events.json`, "utf8"));
+    +events-my-events(myEvents)
+    +events-recommended(recommendedEvents)
     +events-new-event

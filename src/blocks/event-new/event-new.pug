@@ -14,9 +14,8 @@ include ../standard-button/standard-button.pug
             +event-options
 
     +event-new__stage({title: "Add speakers"})
-        - const speakerProfile = {color: "grey", name: "Speaker", profession: "Profession", photo: "img/user-profile-man.jpg"};
-        - const speaker = {profile: speakerProfile, topicTitle: "Topic title", startTime: "00:01"};
-        +event-speakers(Array(10).fill(speaker))
+        - const speakers = JSON.parse(fs.readFileSync("src/blocks/event-new/block-data/speakers.json", "utf8"));
+        +event-speakers(speakers)
 
     .event-new__exit-buttons
         form.event-new__cancel(action="events.html")

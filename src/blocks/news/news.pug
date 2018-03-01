@@ -13,14 +13,7 @@ main.news
     - };
     .news__categories-navigation
         +categories-navigation({categories: newsCategories, selectedCategory: "All news"})
-    - const newsArticle = {
-    -   color: "cyan",
-    -   title: "Title",
-    -   articleAddress: "/mock-address/",
-    -   dateString: "2018-05-05",
-    -   content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.",
-    - };
-    - const newsArticles = [newsArticle, newsArticle, newsArticle];
+    - const newsArticles = JSON.parse(fs.readFileSync("src/blocks/news/block-data/news-articles.json", "utf8"));
     .news__categories-preview
         +news-category-preview({categoryTitle: "World", articles: newsArticles})
         +news-category-preview({categoryTitle: "Russia", articles: newsArticles})

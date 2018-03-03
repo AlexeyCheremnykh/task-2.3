@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "All news": "/mock-address/",
+        "World": "/mock-address/",
+        "Russia": "/mock-address/",
+        "Business": "/mock-address/",
+        "Technologies": "/mock-address/",
+        "Entertainment": "/mock-address/",
+        "Sports": "/mock-address/"
+    },
+    "selected": "All news"
+}

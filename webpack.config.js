@@ -90,8 +90,8 @@ module.exports = {
       filename: 'articles.html',
     }),
     new HtmlWebpackPlugin({
-      template: 'src/pages/event-new/event-new.pug',
-      filename: 'event-new.html',
+      template: 'src/pages/new-event/new-event.pug',
+      filename: 'new-event.html',
     }),
     new HtmlWebpackPlugin({
       template: 'src/pages/sign-in/sign-in.pug',

@@ -2,9 +2,10 @@ include ../articles-search/articles-search.pug
 include ../articles-filter/articles-filter.pug
 include ../articles-popular/articles-popular.pug
 
-main.articles
-    .articles__search-filter-container
-        +articles-search
-        +articles-filter
-    - const popularArticles = JSON.parse(fs.readFileSync("src/blocks/articles/block-data/popular-articles.json", "utf8"));
-    +articles-popular(popularArticles)
+mixin articles
+    main.articles
+        .articles__search-filter-container
+            +articles-search
+            +articles-filter
+        - const popularArticles = JSON.parse(fs.readFileSync("src/blocks/articles/block-data/popular-articles.json", "utf8"));
+        +articles-popular(popularArticles)

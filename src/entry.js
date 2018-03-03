@@ -56,7 +56,7 @@ import './blocks/spinner/spinner.styl';
 import './blocks/spinner/spinner';
 import './blocks/event-options/event-options.styl';
 import './blocks/event-speakers/event-speakers.styl';
-import './blocks/event-new/event-new.styl';
+import './blocks/new-event/new-event.styl';
 import './blocks/sign-in/sign-in.styl';
 import './blocks/sign-up/sign-up.styl';
 import './blocks/categories-navigation/categories-navigation.styl';

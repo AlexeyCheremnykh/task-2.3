@@ -1,4 +1,5 @@
 extends ../page-template-logged-in/page-template-logged-in.pug
+include ../../blocks/articles/articles.pug
 
 block head
     meta(name="description" content="Looking for the best articles to read? Browse this list of interesting articles and essays on topics like health, happiness, productivity and more.")
@@ -6,5 +7,4 @@ block head
     title Articles
 
 block page-content
-    include ../../blocks/articles/articles.pug
-
+    +articles

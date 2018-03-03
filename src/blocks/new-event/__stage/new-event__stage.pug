@@ -1,0 +1,4 @@
+mixin new-event__stage({title, narrow = false})
+    section(class=narrow ? "new-event__stage new-event__stage_narrow" : "new-event__stage")
+        h2.new-event__stage-title=title
+        block

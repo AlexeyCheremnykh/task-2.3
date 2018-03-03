@@ -1,4 +1,5 @@
 extends ../page-template-logged-in/page-template-logged-in.pug
+include ../../blocks/news/news.pug
 
 block head
     meta(name="description" content="Find latest news coverage of breaking news events, trending topics, and compelling articles, photos and videos of US and international news stories.")
@@ -6,4 +7,4 @@ block head
     title News
 
 block page-content
-    include ../../blocks/news/news.pug
+    +news

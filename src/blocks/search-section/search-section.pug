@@ -1,0 +1,6 @@
+include ../search/search.pug
+include ../page-section/page-section.pug
+
+mixin search-section({searchPlaceholder = "Search"} = {})
+    +page-section({sectionTitle: "Search", addedClass: "search-section"})
+        +search({placeholder: searchPlaceholder})

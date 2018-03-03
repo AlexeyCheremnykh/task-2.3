@@ -1,6 +1,7 @@
 include ../__stage/new-event__stage.pug
 include ../../calendar/calendar.pug
 
-+new-event__stage({title: "Pick a date", narrow: true})
-    .new-event__calendar
-        +calendar
+mixin new-event__date
+    +new-event__stage({title: "Pick a date", narrow: true})
+        .new-event__calendar
+            +calendar

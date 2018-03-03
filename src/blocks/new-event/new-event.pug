@@ -1,4 +1,7 @@
 include __stage/new-event__stage.pug
+include __main-info/new-event__main-info.pug
+include __place/new-event__place.pug
+include __date/new-event__date.pug
 include ../event-options/event-options.pug
 include ../event-speakers/event-speakers.pug
 include ../standard-button/standard-button.pug
@@ -6,11 +9,11 @@ include ../standard-button/standard-button.pug
 mixin new-event
     main.new-event
         h1.new-event__page-title Create an event
-        include __main-info/new-event__main-info.pug
-        include __place/new-event__place.pug
+        +new-event__main-info
+        +new-event__place
 
         .new-event__container
-            include __date/new-event__date.pug
+            +new-event__date
             +new-event__stage({title: "Set the event options", narrow: true})
                 +event-options
 

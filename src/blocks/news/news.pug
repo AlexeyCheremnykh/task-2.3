@@ -8,9 +8,7 @@ mixin news
         .news__categories-navigation
             +categories-navigation({categories: newsCategories.categories, selectedCategory: newsCategories.selected})
         .news__categories-preview
-            +category-preview({categoryTitle: "World", articles: newsArticles})
-            +category-preview({categoryTitle: "Russia", articles: newsArticles})
-            +category-preview({categoryTitle: "Business", articles: newsArticles})
-            +category-preview({categoryTitle: "Technologies", articles: newsArticles})
-            +category-preview({categoryTitle: "Entertainment", articles: newsArticles})
-            +category-preview({categoryTitle: "Sports", articles: newsArticles})
+            each categoryAddress, categoryName in newsCategories.categories
+                if (categoryName !== "All news")
+                    .news__category-preview
+                        +category-preview({categoryTitle: categoryName, articles: newsArticles})

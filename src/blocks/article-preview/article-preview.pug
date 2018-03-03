@@ -21,9 +21,9 @@ mixin article-preview({title = "Title", articleAddress = "/mock-address", dateSt
         .article-preview__text=text
         footer.article-preview__footer
             ul.article-preview__tags
-                - for (let tag in tags)
+                each tagAddress, tagName in tags
                     li.article-preview__tag
-                        a.article-preview__link(href=tags[tag])=tag
+                        a.article-preview__link(href=tagAddress)=tagName
             .article-preview__author
                 +user-profile({color: "grey", name: author.name, profession: author.profession, photo: author.photo})
             .article-preview__rating

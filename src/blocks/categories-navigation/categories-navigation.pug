@@ -1,10 +1,10 @@
 mixin categories-navigation({categories, selectedCategory})
     nav.categories-navigation
         ul.categories-navigation__list
-            - for (let categoryName in categories)
+            each categoryAddress, categoryName in categories
                 if (categoryName !== selectedCategory)
                     li.categories-navigation__category
-                        a.categories-navigation__link(href=categories[categoryName])=categoryName
+                        a.categories-navigation__link(href=categoryAddress)=categoryName
                 else
                     li.categories-navigation__category.categories-navigation__category_selected
-                        a.categories-navigation__link(href=categories[categoryName])=categoryName
+                        a.categories-navigation__link(href=categoryAddress)=categoryName

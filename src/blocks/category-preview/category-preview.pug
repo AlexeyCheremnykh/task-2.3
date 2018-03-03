@@ -7,7 +7,7 @@ mixin category-preview({categoryTitle = "Title", categoryAddress = "/mock-addres
         +section-title({title: categoryTitle, address: categoryAddress})
         .category-preview__content
             each article in articles
-                .category-preview__article-preview
+                .category-preview__article
                     +news-article-preview(article)
         .category-preview__scroll-btn.category-preview__scroll-btn_left
             +arrow-button({direction: "left", long: true})

@@ -16,17 +16,27 @@
     width 28rem
 
   &__content
-    display flex
-    justify-content space-between
-    min-height 13.25rem
+    height 13.25rem
+    overflow hidden
 
-  &__article-preview
+  &__article
+    display inline-block
+    margin-left 0.8125rem
+
     @media (max-width 1090px)
-      &:last-child
-        display none
+      margin-left 2.125rem
 
     @media (max-width 788px)
-      &:first-child
+      margin 0 auto
+
+    &:first-child
+      margin-left 0
+
+      @media (max-width 788px)
+        display none
+
+    &:last-child
+      @media (max-width 1090px)
         display none
 
   &__scroll-btn

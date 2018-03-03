@@ -6,7 +6,7 @@ include ../event/event.pug
 include ../arrow-button/arrow-button.pug
 
 mixin events-my-events(eventList)
-    +page-section("My events", "events-my-events")
+    +page-section({sectionTitle: "My events", addedClass: "events-my-events"})
         .events-my-events__search
             +search({placeholder: "Event search"})
         .events-my-events__map

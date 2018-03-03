@@ -1,4 +1,4 @@
-mixin section-title(title, address="")
+mixin section-title({title, address=""} = {})
     if (address)
         h2.section-title
             a.section-title__link(href=address)=title

@@ -2,7 +2,7 @@ include ../event/event.pug
 include ../page-section/page-section.pug
 
 mixin events-recommended(eventList)
-    +page-section("Recommended", "events-recommended")
+    +page-section({sectionTitle: "Recommended", addedClass: "events-recommended"})
         .events-recommended__events
             each event in eventList
                 .events-recommended__event

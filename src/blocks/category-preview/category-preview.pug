@@ -4,7 +4,7 @@ include ../news-article-preview/news-article-preview.pug
 
 mixin category-preview({categoryTitle = "Title", categoryAddress = "/mock-address/", articles = []} = {})
     section.category-preview
-        +section-title(categoryTitle, categoryAddress)
+        +section-title({title: categoryTitle, address: categoryAddress})
         .category-preview__content
             each article in articles
                 .category-preview__article-preview

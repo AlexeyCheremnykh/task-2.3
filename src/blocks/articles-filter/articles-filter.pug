@@ -4,7 +4,7 @@ include ../dropdown/dropdown.pug
 include ../slider/slider.pug
 
 mixin articles-filter
-    +page-section("Filter", "articles-filter")
+    +page-section({sectionTitle: "Filter", addedClass: "articles-filter"})
         form.articles-filter__form
             ul.articles-filter__options
                 li.articles-filter__option

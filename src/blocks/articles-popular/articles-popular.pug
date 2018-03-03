@@ -2,7 +2,7 @@ include ../../blocks/page-section/page-section.pug
 include ../../blocks/article-preview/article-preview.pug
 
 mixin articles-popular(articleList)
-    +page-section("Popular", "articles-popular")
+    +page-section({sectionTitle: "Popular", addedClass: "articles-popular"})
         each article in articleList
             .articles-popular__article
                 +article-preview(article)

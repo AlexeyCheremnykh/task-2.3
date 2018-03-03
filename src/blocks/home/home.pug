@@ -1,16 +1,17 @@
 include ../navigation-button/navigation-button.pug
 
-.home
-    nav.home__navigation
-        .home__navigation-button
-            +navigation-button({label: "news", address: "news.html"})
-        .home__navigation-button
-            +navigation-button({label: "events", address: "events.html"})
-        .home__navigation-button
-            +navigation-button({label: "new event", address: "event-new.html"})
-        .home__navigation-button
-            +navigation-button({label: "articles", address: "articles.html"})
-        .home__navigation-button
-            +navigation-button({label: "videos", address: "videos.html"})
-        .home__navigation-button
-            +navigation-button({label: "sign in", address: "sign-in.html"})
+mixin home
+    .home
+        nav.home__navigation
+            .home__navigation-button
+                +navigation-button({label: "news", address: "news.html"})
+            .home__navigation-button
+                +navigation-button({label: "events", address: "events.html"})
+            .home__navigation-button
+                +navigation-button({label: "new event", address: "event-new.html"})
+            .home__navigation-button
+                +navigation-button({label: "articles", address: "articles.html"})
+            .home__navigation-button
+                +navigation-button({label: "videos", address: "videos.html"})
+            .home__navigation-button
+                +navigation-button({label: "sign in", address: "sign-in.html"})

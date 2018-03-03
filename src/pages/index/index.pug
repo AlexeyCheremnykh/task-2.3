@@ -1,9 +1,10 @@
 extends ../page-template-logged-out/page-template-logged-out.pug
+include ../../blocks/home/home.pug
 
 block head
-    meta(name="description" content="Browse thorugh the website.")
+    meta(name="description" content="Browse through the website.")
     meta(name="keywords" content="articles, events, new event, sign in, videos, news")
     title Home
 
 block page-content
-    include ../../blocks/home/home.pug
+    +home

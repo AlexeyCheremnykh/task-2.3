@@ -1,18 +1,17 @@
-.events-my-events
+.my-events
   width 37.0625rem
-  float left
-
-  @media (max-width 1085px)
-    float none
 
   @media (max-width 705px)
     box-sizing border-box
     width 100%
-    margin 0 auto
 
   &__search
     margin-bottom 1.25rem
-    width 100%
+    display inline-block
+    width calc(100% - 12rem)
+
+  &__new-event
+    float right
 
   &__location
     margin-top 0.625rem

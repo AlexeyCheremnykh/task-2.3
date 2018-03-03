@@ -1,0 +1,27 @@
+include ../page-section/page-section.pug
+include ../toggle/toggle.pug
+include ../location/location.pug
+include ../search/search.pug
+include ../event/event.pug
+include ../arrow-button/arrow-button.pug
+include ../standard-button/standard-button.pug
+
+mixin my-events({mapTitle, mapAddress = {}, events = []} = {})
+    +page-section({sectionTitle: "My events", addedClass: "my-events"})
+        .my-events__search
+            +search({placeholder: "Event search"})
+        form.my-events__new-event(action="new-event.html")
+            +standard-button({label: "new event", thin: true})
+        .my-events__map
+            .my-events__map-toggle
+                +toggle({enabled: true, label: "Events map", color: "red", shape: "square"})
+            .my-events__location
+                +location({localAddress: mapAddress.local, globalAddress: mapAddress.global, title: mapTitle})
+        .my-events__events
+            each eventData in events
+                .my-events__event
+                    +event(eventData)
+        .my-events__next-prev-buttons
+            .my-events__prev-button
+                +arrow-button({direction: "left", disabled: true})
+            +arrow-button({direction: "right"})

@@ -1,11 +1,10 @@
-include ../events-my-events/events-my-events.pug
-include ../events-recommended/events-recommended.pug
-include ../events-new-event/events-new-event.pug
+include ../my-events/my-events.pug
+include ../recommended-events/recommended-events.pug
 
 mixin events
     main.events
         - const myEvents = require("../../blocks/events/block-data/my-events.json");
         - const recommendedEvents = require("../../blocks/events/block-data/recommended-events.json");
-        +events-my-events(myEvents)
-        +events-recommended(recommendedEvents)
-        +events-new-event
+        .events__my-events
+            +my-events(myEvents)
+        +recommended-events(recommendedEvents)

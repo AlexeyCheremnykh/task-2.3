@@ -14,7 +14,7 @@ mixin news
         - };
         .news__categories-navigation
             +categories-navigation({categories: newsCategories, selectedCategory: "All news"})
-        - const newsArticles = JSON.parse(fs.readFileSync("src/blocks/news/block-data/news-articles.json", "utf8"));
+        - const newsArticles = require("../../blocks/news/block-data/news-articles.json");
         .news__categories-preview
             +category-preview({categoryTitle: "World", articles: newsArticles})
             +category-preview({categoryTitle: "Russia", articles: newsArticles})

@@ -7,5 +7,5 @@ mixin articles
         .articles__search-filter-container
             +articles-search
             +articles-filter
-        - const popularArticles = JSON.parse(fs.readFileSync("src/blocks/articles/block-data/popular-articles.json", "utf8"));
+        - const popularArticles = require("../../blocks/articles/block-data/popular-articles.json");
         +articles-popular(popularArticles)

@@ -1,4 +1,4 @@
-mixin categories-navigation({categories, selectedCategory})
+mixin categories-navigation({categories = {}, selectedCategory} = {})
     nav.categories-navigation
         ul.categories-navigation__list
             each categoryAddress, categoryName in categories

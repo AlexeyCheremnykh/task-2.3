@@ -15,7 +15,7 @@ mixin new-event
                 +event-options
 
         +new-event__stage({title: "Add speakers"})
-            - const speakers = JSON.parse(fs.readFileSync("src/blocks/new-event/block-data/speakers.json", "utf8"));
+            - const speakers = require("../../blocks/new-event/block-data/speakers.json")
             +event-speakers(speakers)
 
         .new-event__exit-buttons

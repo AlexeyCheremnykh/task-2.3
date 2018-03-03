@@ -4,9 +4,8 @@ include ../events-new-event/events-new-event.pug
 
 mixin events
     main.events
-        - const eventsDataPath = "src/blocks/events/block-data/";
-        - const myEvents = JSON.parse(fs.readFileSync(`${eventsDataPath}my-events.json`, "utf8"));
-        - const recommendedEvents = JSON.parse(fs.readFileSync(`${eventsDataPath}recommended-events.json`, "utf8"));
+        - const myEvents = require("../../blocks/events/block-data/my-events.json");
+        - const recommendedEvents = require("../../blocks/events/block-data/recommended-events.json");
         +events-my-events(myEvents)
         +events-recommended(recommendedEvents)
         +events-new-event

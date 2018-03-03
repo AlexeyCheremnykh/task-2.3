@@ -1,5 +1,5 @@
 include ../categories-navigation/categories-navigation.pug
-include ../news-category-preview/news-category-preview.pug
+include ../category-preview/category-preview.pug
 
 main.news
     - const newsCategories = {
@@ -15,9 +15,9 @@ main.news
         +categories-navigation({categories: newsCategories, selectedCategory: "All news"})
     - const newsArticles = JSON.parse(fs.readFileSync("src/blocks/news/block-data/news-articles.json", "utf8"));
     .news__categories-preview
-        +news-category-preview({categoryTitle: "World", articles: newsArticles})
-        +news-category-preview({categoryTitle: "Russia", articles: newsArticles})
-        +news-category-preview({categoryTitle: "Business", articles: newsArticles})
-        +news-category-preview({categoryTitle: "Technologies", articles: newsArticles})
-        +news-category-preview({categoryTitle: "Entertainment", articles: newsArticles})
-        +news-category-preview({categoryTitle: "Sports", articles: newsArticles})
+        +category-preview({categoryTitle: "World", articles: newsArticles})
+        +category-preview({categoryTitle: "Russia", articles: newsArticles})
+        +category-preview({categoryTitle: "Business", articles: newsArticles})
+        +category-preview({categoryTitle: "Technologies", articles: newsArticles})
+        +category-preview({categoryTitle: "Entertainment", articles: newsArticles})
+        +category-preview({categoryTitle: "Sports", articles: newsArticles})

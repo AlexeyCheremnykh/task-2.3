@@ -60,7 +60,7 @@ import './blocks/event-new/event-new.styl';
 import './blocks/sign-in/sign-in.styl';
 import './blocks/sign-up/sign-up.styl';
 import './blocks/categories-navigation/categories-navigation.styl';
-import './blocks/news-category-preview/news-category-preview.styl';
+import './blocks/category-preview/category-preview.styl';
 import './blocks/section-title/section-title.styl';
 import './blocks/page-section/page-section.styl';
 import './blocks/article-preview/article-preview.styl';

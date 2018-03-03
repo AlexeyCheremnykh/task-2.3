@@ -2,14 +2,14 @@ include ../section-title/section-title.pug
 include ../arrow-button/arrow-button.pug
 include ../news-article-preview/news-article-preview.pug
 
-mixin news-category-preview({categoryTitle, categoryAddress = "/mock-address/", articles = []})
-    section.news-category-preview
+mixin category-preview({categoryTitle = "Title", categoryAddress = "/mock-address/", articles = []} = {})
+    section.category-preview
         +section-title(categoryTitle, categoryAddress)
-        .news-category-preview__content
+        .category-preview__content
             each article in articles
-                .news-category-preview__article-preview
+                .category-preview__article-preview
                     +news-article-preview(article)
-        .news-category-preview__scroll-btn.news-category-preview__scroll-btn_left
+        .category-preview__scroll-btn.category-preview__scroll-btn_left
             +arrow-button({direction: "left", long: true})
-        .news-category-preview__scroll-btn.news-category-preview__scroll-btn_right
+        .category-preview__scroll-btn.category-preview__scroll-btn_right
             +arrow-button({direction: "right", long: true})

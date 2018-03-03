@@ -1,23 +1,11 @@
 @import "../../colors"
 
 .recommended-events
-  float right
-
-  @media (max-width 1085px)
-    float none
-    box-sizing border-box
-    width 100%
-    margin-top 1.25rem
-
-  @media (max-width 705px)
-    box-sizing border-box
-    width 100%
-    margin 1.25rem auto 0
-
   &__events
     @media (max-width 1085px)
       display flex
       justify-content space-between
+      flex-wrap wrap
 
   &__event
     margin-bottom 0.9375rem

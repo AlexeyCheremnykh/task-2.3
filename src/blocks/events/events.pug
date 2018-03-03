@@ -7,4 +7,5 @@ mixin events
         - const recommendedEvents = require("../../blocks/events/block-data/recommended-events.json");
         .events__my-events
             +my-events(myEvents)
-        +recommended-events(recommendedEvents)
+        .events__recommended
+            +recommended-events(recommendedEvents)

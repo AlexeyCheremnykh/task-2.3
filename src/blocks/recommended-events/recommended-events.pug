@@ -1,10 +1,10 @@
 include ../event/event.pug
 include ../page-section/page-section.pug
 
-mixin recommended-events(eventList)
+mixin recommended-events({events = []} = {})
     +page-section({sectionTitle: "Recommended", addedClass: "recommended-events"})
         .recommended-events__events
-            each event in eventList
+            each eventData in events
                 .recommended-events__event
-                    +event(event)
+                    +event(eventData)
         a.recommended-events__see-more(href="/mock-address/") See more

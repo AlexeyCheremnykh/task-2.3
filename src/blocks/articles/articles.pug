@@ -1,12 +1,14 @@
 include ../search-section/search-section.pug
 include ../articles-filter/articles-filter.pug
-include ../articles-popular/articles-popular.pug
+include ../popular-articles/popular-articles.pug
 
 mixin articles
+    - const popularArticles = require("../../blocks/articles/block-data/popular-articles.json");
     main.articles
-        .articles__search-filter-container
+        .articles__search-filter
             .articles__search
                 +search-section({searchPlaceholder: "Articles search"})
-            +articles-filter
-        - const popularArticles = require("../../blocks/articles/block-data/popular-articles.json");
-        +articles-popular(popularArticles)
+            .articles__filter
+                +articles-filter
+        .articles__popular
+            +popular-articles(popularArticles)

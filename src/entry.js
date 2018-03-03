@@ -45,7 +45,7 @@ import './blocks/slider/slider.styl';
 import './blocks/slider/slider';
 import './blocks/calendar/calendar.styl';
 import './blocks/calendar/calendar';
-import './blocks/articles-popular/articles-popular.styl';
+import './blocks/popular-articles/popular-articles.styl';
 import './blocks/articles-filter/articles-filter.styl';
 import './blocks/articles/articles.styl';
 import './blocks/percentage/percentage.styl';

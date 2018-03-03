@@ -1,0 +1,8 @@
+include ../../blocks/page-section/page-section.pug
+include ../../blocks/article-preview/article-preview.pug
+
+mixin popular-articles({articles = []} = {})
+    +page-section({sectionTitle: "Popular", addedClass: "popular-articles"})
+        each article in articles
+            .popular-articles__article
+                +article-preview(article)

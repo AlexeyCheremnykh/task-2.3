@@ -13,6 +13,7 @@ import 'jquery-ui-slider-pips';
 import 'jquery-ui-slider-pips/dist/jquery-ui-slider-pips.min.css';
 import 'jquery-circle-progress';
 
+import './blocks/navigation-button/navigation-button.styl';
 import './blocks/home/home.styl';
 import './blocks/location/location.styl';
 import './blocks/location/location';

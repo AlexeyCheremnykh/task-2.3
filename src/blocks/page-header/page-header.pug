@@ -1,25 +1,27 @@
 include ../search/search.pug
 
-header.page-header.js-page-header
-    .page-header__content
-        .page-header__menu-icon.js-page-header__menu-icon
-            .page-header__menu-bar
-            .page-header__menu-bar
-            .page-header__menu-bar
-        a.page-header__logo(href="index.html") logo
-        nav.page-header__nav.js-page-header__nav
-            ul.page-header__nav-items
-                li.page-header__nav-item
-                    a.page-header__nav-link(href="news.html") News
-                li.page-header__nav-item
-                    a.page-header__nav-link(href="events.html") Events
-                li.page-header__nav-item
-                    a.page-header__nav-link(href="new-event.html") New event
-                li.page-header__nav-item
-                    a.page-header__nav-link(href="articles.html") Articles
-                li.page-header__nav-item
-                    a.page-header__nav-link(href="videos.html") Videos
 
-        .page-header__search
-            +search({placeholder: "Search", buttonColor: "grey"})
-        .page-header__profile-photo
+mixin page-header
+    header.page-header.js-page-header
+        .page-header__content
+            .page-header__menu-icon.js-page-header__menu-icon
+                .page-header__menu-bar
+                .page-header__menu-bar
+                .page-header__menu-bar
+            a.page-header__logo(href="index.html") logo
+            nav.page-header__nav.js-page-header__nav
+                ul.page-header__nav-items
+                    li.page-header__nav-item
+                        a.page-header__nav-link(href="news.html") News
+                    li.page-header__nav-item
+                        a.page-header__nav-link(href="events.html") Events
+                    li.page-header__nav-item
+                        a.page-header__nav-link(href="new-event.html") New event
+                    li.page-header__nav-item
+                        a.page-header__nav-link(href="articles.html") Articles
+                    li.page-header__nav-item
+                        a.page-header__nav-link(href="videos.html") Videos
+
+            .page-header__search
+                +search({placeholder: "Search", buttonColor: "grey"})
+            .page-header__profile-photo

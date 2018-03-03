@@ -2,10 +2,11 @@ include ../events-my-events/events-my-events.pug
 include ../events-recommended/events-recommended.pug
 include ../events-new-event/events-new-event.pug
 
-main.events
-    - const eventsDataPath = "src/blocks/events/block-data/";
-    - const myEvents = JSON.parse(fs.readFileSync(`${eventsDataPath}my-events.json`, "utf8"));
-    - const recommendedEvents = JSON.parse(fs.readFileSync(`${eventsDataPath}recommended-events.json`, "utf8"));
-    +events-my-events(myEvents)
-    +events-recommended(recommendedEvents)
-    +events-new-event
+mixin events
+    main.events
+        - const eventsDataPath = "src/blocks/events/block-data/";
+        - const myEvents = JSON.parse(fs.readFileSync(`${eventsDataPath}my-events.json`, "utf8"));
+        - const recommendedEvents = JSON.parse(fs.readFileSync(`${eventsDataPath}recommended-events.json`, "utf8"));
+        +events-my-events(myEvents)
+        +events-recommended(recommendedEvents)
+        +events-new-event

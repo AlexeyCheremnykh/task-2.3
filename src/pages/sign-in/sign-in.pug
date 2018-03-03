@@ -1,4 +1,5 @@
 extends ../page-template-logged-out/page-template-logged-out.pug
+include ../../blocks/sign-in/sign-in.pug
 
 block head
     meta(name="description" content="Sign in to the website")
@@ -6,4 +7,4 @@ block head
     title Sign in
 
 block page-content
-    include ../../blocks/sign-in/sign-in.pug
+    +sign-in

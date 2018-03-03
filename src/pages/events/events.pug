@@ -1,4 +1,5 @@
 extends ../page-template-logged-in/page-template-logged-in.pug
+include ../../blocks/events/events.pug
 
 block head
     meta(name="description" content="Browse through your events, find new events, and create your own events.")
@@ -6,5 +7,5 @@ block head
     title Events
 
 block page-content
-    include ../../blocks/events/events.pug
+    +events
     script(src="https://maps.google.com/maps/api/js?key=AIzaSyAOCIrJxKv-dWFvk6Ki9Wix-mJPiKKBKHc")

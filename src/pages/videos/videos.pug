@@ -1,4 +1,5 @@
 extends ../page-template-logged-in/page-template-logged-in.pug
+include ../../blocks/videos/videos.pug
 
 block head
     meta(name="description" content="Share your videos with friends, family, and the world.")
@@ -6,4 +7,4 @@ block head
     title Videos
 
 block page-content
-    include ../../blocks/videos/videos.pug
+    +videos

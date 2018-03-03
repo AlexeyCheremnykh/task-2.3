@@ -1,20 +1,22 @@
 include ../standard-button/standard-button.pug
 
-.sign-in
-    a.sign-in__logo(href="index.html") Logo
-    h1.sign-in__page-title Sign in
-    form.sign-in__form
-        .sign-in__email
-            label.sign-in__label Email
-                input.sign-in__input-field
 
-        .sign-in__password
-            label.sign-in__label Password
-                a.sign-in__forgot-password(href="/mock-address/") Forgot your password?
-                input.sign-in__input-field(type="password")
+mixin sign-in
+    .sign-in
+        a.sign-in__logo(href="index.html") Logo
+        h1.sign-in__page-title Sign in
+        form.sign-in__form
+            .sign-in__email
+                label.sign-in__label Email
+                    input.sign-in__input-field
 
-        .sign-in__button
-            +standard-button({size: "big", color: "cyan", label: "Sign in", long: true})
+            .sign-in__password
+                label.sign-in__label Password
+                    a.sign-in__forgot-password(href="/mock-address/") Forgot your password?
+                    input.sign-in__input-field(type="password")
 
-        .sign-in__no-account Don't have an account?
-            a.sign-in__sign-up(href="sign-up.html")  Sign up
+            .sign-in__button
+                +standard-button({size: "big", color: "cyan", label: "Sign in", long: true})
+
+            .sign-in__no-account Don't have an account?
+                a.sign-in__sign-up(href="sign-up.html")  Sign up

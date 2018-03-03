@@ -1,3 +1,5 @@
+include ../../blocks/page-header/page-header.pug
+
 doctype html
 html(lang="en")
     head
@@ -14,5 +16,5 @@ html(lang="en")
         meta(name="theme-color" content="#ffffff")
         block head
     body.logged-in-page
-        include ../../blocks/page-header/page-header.pug
+        +page-header
         block page-content

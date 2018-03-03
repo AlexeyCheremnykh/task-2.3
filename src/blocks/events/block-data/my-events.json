@@ -3,32 +3,38 @@
         {
             "dateString": "2018-05-15",
             "title": "Title",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit."
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
+            "added": true
         },
         {
             "dateString": "2018-05-15",
             "title": "Title",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit."
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
+            "added": true
         },
         {
             "dateString": "2018-05-15",
             "title": "Title",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit."
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
+            "added": true
         },
         {
             "dateString": "2018-05-15",
             "title": "Title",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit."
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
+            "added": true
         },
         {
             "dateString": "2018-05-15",
             "title": "Title",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit."
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
+            "added": true
         },
         {
             "dateString": "2018-05-15",
             "title": "Title",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit."
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
+            "added": true
         }
     ],
     "mapAddress": {

@@ -1,2 +1,2 @@
-mixin input-field({type, name, placeholder} = {})
-    input.input-field(type=type name=name placeholder=placeholder)
+mixin input-field({type, name, placeholder, color = "grey"} = {})
+    input(class=`input-field input-field_color_${color}` name=name placeholder=placeholder type=type)

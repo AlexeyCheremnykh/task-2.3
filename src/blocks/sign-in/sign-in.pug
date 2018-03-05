@@ -1,5 +1,5 @@
 include ../standard-button/standard-button.pug
-
+include ../input-field/input-field.pug
 
 mixin sign-in
     .sign-in
@@ -8,12 +8,14 @@ mixin sign-in
         form.sign-in__form
             .sign-in__email
                 label.sign-in__label Email
-                    input.sign-in__input-field
+                    .sign-in__input-field
+                        +input-field({type: "text", color: "white"})
 
             .sign-in__password
                 label.sign-in__label Password
                     a.sign-in__forgot-password(href="/mock-address/") Forgot your password?
-                    input.sign-in__input-field(type="password")
+                    .sign-in__input-field
+                        +input-field({type: "password", color: "white"})
 
             .sign-in__button
                 +standard-button({size: "big", color: "cyan", label: "Sign in", long: true})

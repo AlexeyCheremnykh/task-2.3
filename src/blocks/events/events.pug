@@ -3,9 +3,7 @@ include ../recommended-events/recommended-events.pug
 
 mixin events
     main.events
-        - const myEvents = require("../../blocks/events/block-data/my-events.json");
-        - const recommendedEvents = require("../../blocks/events/block-data/recommended-events.json");
         .events__my-events
-            +my-events(myEvents)
+            +my-events(eventsData.myEvents)
         .events__recommended
-            +recommended-events(recommendedEvents)
+            +recommended-events(eventsData.recommended)

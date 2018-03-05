@@ -3,7 +3,6 @@ include ../articles-filter/articles-filter.pug
 include ../popular-articles/popular-articles.pug
 
 mixin articles
-    - const popularArticles = require("../../blocks/articles/block-data/popular-articles.json");
     main.articles
         .articles__search-filter
             .articles__search
@@ -11,4 +10,4 @@ mixin articles
             .articles__filter
                 +articles-filter
         .articles__popular
-            +popular-articles(popularArticles)
+            +popular-articles(articlesData.popular)

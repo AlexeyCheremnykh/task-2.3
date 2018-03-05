@@ -18,8 +18,7 @@ mixin new-event
                 +event-options
 
         +new-event__stage({title: "Add speakers"})
-            - const speakers = require("../../blocks/new-event/block-data/speakers.json")
-            +event-speakers(speakers)
+            +event-speakers(newEventData.speakers)
 
         .new-event__exit-buttons
             form.new-event__cancel(action="events.html")

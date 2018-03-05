@@ -2,6 +2,5 @@ include __content/videos__content.pug
 
 mixin videos
     main.videos
-        - const videos = require("../../blocks/videos/block-data/videos.json");
         include __header/videos__header.pug
-        +videos__content(videos)
+        +videos__content(videosData)

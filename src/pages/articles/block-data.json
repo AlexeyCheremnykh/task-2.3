@@ -1,0 +1,111 @@
+{
+    "popular": {
+        "articles": [
+            {
+                "title": "Article title",
+                "articleAddress": "/mock-address/",
+                "dateString": "2017-08-15",
+                "category": {
+                    "name": "Category",
+                    "address": "/mock-address/"
+                },
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod non urna malesuada efficitur. Curabitur in sapien pulvinar, ultrices quam a, dignissim urna. Sed sed dolor nec eros mollis tincidunt. Vestibulum quis felis vehicula, ultrices risus a, tempor dolor. Sed ut libero blandit, fermentum lorem id, placerat sem. Proin vitae tristique nisl. Vivamus quam eros, tincidunt a auctor sed, varius quis metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod non urna malesuada efficitur. Curabitur in sapien pulvinar, ultrices quam a, dignissim urna. Sed sed dolor nec eros mollis tincidunt. Vestibulum quis felis vehicula, ultrices risus a, tempor dolor. Sed ut libero blandit, fermentum lorem id, placerat sem. Proin vitae tristique nisl. Vivamus quam eros, tincidunt a auctor sed, varius quis metus.",
+                "tags": {
+                    "tag1": "/mock-address/",
+                    "tag2": "/mock-address/",
+                    "tag3": "/mock-address/"
+                },
+                "author": {
+                    "name": "Article Author",
+                    "profession": "Article writer",
+                    "photo": "img/user-profile-man.jpg"
+                },
+                "rating": 66
+            },
+            {
+                "title": "Article title",
+                "articleAddress": "/mock-address/",
+                "dateString": "2017-08-15",
+                "category": {
+                    "name": "Category",
+                    "address": "/mock-address/"
+                },
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod non urna malesuada efficitur. Curabitur in sapien pulvinar, ultrices quam a, dignissim urna. Sed sed dolor nec eros mollis tincidunt. Vestibulum quis felis vehicula, ultrices risus a, tempor dolor. Sed ut libero blandit, fermentum lorem id, placerat sem. Proin vitae tristique nisl. Vivamus quam eros, tincidunt a auctor sed, varius quis metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod non urna malesuada efficitur. Curabitur in sapien pulvinar, ultrices quam a, dignissim urna. Sed sed dolor nec eros mollis tincidunt. Vestibulum quis felis vehicula, ultrices risus a, tempor dolor. Sed ut libero blandit, fermentum lorem id, placerat sem. Proin vitae tristique nisl. Vivamus quam eros, tincidunt a auctor sed, varius quis metus.",
+                "tags": {
+                    "tag1": "/mock-address/",
+                    "tag2": "/mock-address/",
+                    "tag3": "/mock-address/"
+                },
+                "author": {
+                    "name": "Article Author",
+                    "profession": "Article writer",
+                    "photo": "img/user-profile-man.jpg"
+                },
+                "rating": 66
+            },
+            {
+                "title": "Article title",
+                "articleAddress": "/mock-address/",
+                "dateString": "2017-08-15",
+                "category": {
+                    "name": "Category",
+                    "address": "/mock-address/"
+                },
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod non urna malesuada efficitur. Curabitur in sapien pulvinar, ultrices quam a, dignissim urna. Sed sed dolor nec eros mollis tincidunt. Vestibulum quis felis vehicula, ultrices risus a, tempor dolor. Sed ut libero blandit, fermentum lorem id, placerat sem. Proin vitae tristique nisl. Vivamus quam eros, tincidunt a auctor sed, varius quis metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod non urna malesuada efficitur. Curabitur in sapien pulvinar, ultrices quam a, dignissim urna. Sed sed dolor nec eros mollis tincidunt. Vestibulum quis felis vehicula, ultrices risus a, tempor dolor. Sed ut libero blandit, fermentum lorem id, placerat sem. Proin vitae tristique nisl. Vivamus quam eros, tincidunt a auctor sed, varius quis metus.",
+                "tags": {
+                    "tag1": "/mock-address/",
+                    "tag2": "/mock-address/",
+                    "tag3": "/mock-address/"
+                },
+                "author": {
+                    "name": "Article Author",
+                    "profession": "Article writer",
+                    "photo": "img/user-profile-man.jpg"
+                },
+                "rating": 66
+            },
+            {
+                "title": "Article title",
+                "articleAddress": "/mock-address/",
+                "dateString": "2017-08-15",
+                "category": {
+                    "name": "Category",
+                    "address": "/mock-address/"
+                },
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod non urna malesuada efficitur. Curabitur in sapien pulvinar, ultrices quam a, dignissim urna. Sed sed dolor nec eros mollis tincidunt. Vestibulum quis felis vehicula, ultrices risus a, tempor dolor. Sed ut libero blandit, fermentum lorem id, placerat sem. Proin vitae tristique nisl. Vivamus quam eros, tincidunt a auctor sed, varius quis metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod non urna malesuada efficitur. Curabitur in sapien pulvinar, ultrices quam a, dignissim urna. Sed sed dolor nec eros mollis tincidunt. Vestibulum quis felis vehicula, ultrices risus a, tempor dolor. Sed ut libero blandit, fermentum lorem id, placerat sem. Proin vitae tristique nisl. Vivamus quam eros, tincidunt a auctor sed, varius quis metus.",
+                "tags": {
+                    "tag1": "/mock-address/",
+                    "tag2": "/mock-address/",
+                    "tag3": "/mock-address/"
+                },
+                "author": {
+                    "name": "Article Author",
+                    "profession": "Article writer",
+                    "photo": "img/user-profile-man.jpg"
+                },
+                "rating": 66
+            },
+            {
+                "title": "Article title",
+                "articleAddress": "/mock-address/",
+                "dateString": "2017-08-15",
+                "category": {
+                    "name": "Category",
+                    "address": "/mock-address/"
+                },
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod non urna malesuada efficitur. Curabitur in sapien pulvinar, ultrices quam a, dignissim urna. Sed sed dolor nec eros mollis tincidunt. Vestibulum quis felis vehicula, ultrices risus a, tempor dolor. Sed ut libero blandit, fermentum lorem id, placerat sem. Proin vitae tristique nisl. Vivamus quam eros, tincidunt a auctor sed, varius quis metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod non urna malesuada efficitur. Curabitur in sapien pulvinar, ultrices quam a, dignissim urna. Sed sed dolor nec eros mollis tincidunt. Vestibulum quis felis vehicula, ultrices risus a, tempor dolor. Sed ut libero blandit, fermentum lorem id, placerat sem. Proin vitae tristique nisl. Vivamus quam eros, tincidunt a auctor sed, varius quis metus.",
+                "tags": {
+                    "tag1": "/mock-address/",
+                    "tag2": "/mock-address/",
+                    "tag3": "/mock-address/"
+                },
+                "author": {
+                    "name": "Article Author",
+                    "profession": "Article writer",
+                    "photo": "img/user-profile-man.jpg"
+                },
+                "rating": 66
+            }
+        ]
+    }
+}

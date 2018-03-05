@@ -3,12 +3,10 @@ include ../category-preview/category-preview.pug
 
 mixin news
     main.news
-        - const newsCategories = require("../../blocks/news/block-data/news-categories.json");
-        - const newsArticles = require("../../blocks/news/block-data/news-articles.json");
         .news__categories-navigation
-            +categories-navigation({categories: newsCategories.categories, selectedCategory: newsCategories.selected})
+            +categories-navigation({categories: newsData.categories.categoriesList, selectedCategory: newsData.categories.selected})
         .news__categories-preview
-            each categoryAddress, categoryName in newsCategories.categories
+            each categoryAddress, categoryName in newsData.categories.categoriesList
                 if (categoryName !== "All news")
                     .news__category-preview
-                        +category-preview({categoryTitle: categoryName, articles: newsArticles})
+                        +category-preview({categoryTitle: categoryName, articles: newsData.articles})

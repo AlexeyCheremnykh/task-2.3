@@ -1,0 +1,37 @@
+{
+    "articles": [
+        {
+            "color": "cyan",
+            "title": "Title",
+            "articleAddress": "/mock-address/",
+            "dateString": "2018-05-05",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet."
+        },
+        {
+            "color": "cyan",
+            "title": "Title",
+            "articleAddress": "/mock-address/",
+            "dateString": "2018-05-05",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet."
+        },
+        {
+            "color": "cyan",
+            "title": "Title",
+            "articleAddress": "/mock-address/",
+            "dateString": "2018-05-05",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet."
+        }
+    ],
+    "categories": {
+        "categoriesList": {
+            "All news": "/mock-address/",
+            "World": "/mock-address/",
+            "Russia": "/mock-address/",
+            "Business": "/mock-address/",
+            "Technologies": "/mock-address/",
+            "Entertainment": "/mock-address/",
+            "Sports": "/mock-address/"
+        },
+        "selected": "All news"
+    }
+}

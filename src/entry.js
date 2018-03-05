@@ -55,6 +55,7 @@ import './blocks/percentage/percentage.styl';
 import './blocks/percentage/percentage';
 import './blocks/spinner/spinner.styl';
 import './blocks/spinner/spinner';
+import './blocks/event-main-info/event-main-info.styl';
 import './blocks/event-options/event-options.styl';
 import './blocks/event-speakers/event-speakers.styl';
 import './blocks/new-event/new-event.styl';

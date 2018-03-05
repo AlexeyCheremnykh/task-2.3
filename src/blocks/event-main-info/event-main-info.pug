@@ -1,0 +1,9 @@
+include ../input-field/input-field.pug
+include ../text-field/text-field.pug
+
+mixin event-main-info
+    .event-main-info
+        .event-main-info__title-field
+            +input-field({type: "text", placeholder: "Event title"})
+        .event-main-info__description-field
+            +text-field({placeholder: "Event description"})

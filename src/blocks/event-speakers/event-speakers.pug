@@ -1,7 +1,7 @@
 include ../standard-button/standard-button.pug
 include ../user-profile/user-profile.pug
 
-mixin event-speakers(speakersList)
+mixin event-speakers({speakersList = []} = {})
     .event-speakers
         ul.event-speakers__added-speakers
             each speaker in speakersList

@@ -22,6 +22,6 @@ mixin article-preview({title, articleAddress, dateString, text, rating, tags = {
                     li.article-preview__tag
                         a.article-preview__link(href=tagAddress)=tagName
             .article-preview__author
-                +user-profile({color: "grey", name: author.name, profession: author.profession, photo: author.photo})
+                +user-profile({color: "grey", name: author.name, profession: author.profession, avatar: author.avatar})
             .article-preview__rating
                 +percentage({value: rating})

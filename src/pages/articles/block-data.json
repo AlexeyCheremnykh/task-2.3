@@ -18,7 +18,7 @@
                 "author": {
                     "name": "Article Author",
                     "profession": "Article writer",
-                    "photo": "img/user-profile-man.jpg"
+                    "avatar": "img/user-profile-man.jpg"
                 },
                 "rating": 66
             },
@@ -39,7 +39,7 @@
                 "author": {
                     "name": "Article Author",
                     "profession": "Article writer",
-                    "photo": "img/user-profile-man.jpg"
+                    "avatar": "img/user-profile-man.jpg"
                 },
                 "rating": 66
             },
@@ -60,7 +60,7 @@
                 "author": {
                     "name": "Article Author",
                     "profession": "Article writer",
-                    "photo": "img/user-profile-man.jpg"
+                    "avatar": "img/user-profile-man.jpg"
                 },
                 "rating": 66
             },
@@ -81,7 +81,7 @@
                 "author": {
                     "name": "Article Author",
                     "profession": "Article writer",
-                    "photo": "img/user-profile-man.jpg"
+                    "avatar": "img/user-profile-man.jpg"
                 },
                 "rating": 66
             },
@@ -102,7 +102,7 @@
                 "author": {
                     "name": "Article Author",
                     "profession": "Article writer",
-                    "photo": "img/user-profile-man.jpg"
+                    "avatar": "img/user-profile-man.jpg"
                 },
                 "rating": 66
             }

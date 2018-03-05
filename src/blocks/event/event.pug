@@ -1,6 +1,6 @@
 include ../standard-button/standard-button.pug
 
-mixin event({dateString = "2006-06-06", title = "No title", content = "No content", image = "img/event-sample.jpg", added = false} = {})
+mixin event({dateString, title, content, image, added = false} = {})
     - const eventDate = new Date(dateString);
     - const eventMonth = eventDate.toLocaleString("en", { month: "short" });
     - const eventDay = eventDate.toLocaleString("en", { day: "numeric" });
@@ -11,7 +11,7 @@ mixin event({dateString = "2006-06-06", title = "No title", content = "No conten
                 time.event__date(date=dateString)
                     span.event__day=eventDay
                     span.event__month=eventMonth
-                h2.event__title=title
+                h3.event__title=title
             p.event__content=content
-            .event__add-btn
+            .event__add-to-calendar
                 +standard-button({size: "big", color: "cyan", label: "add to calendar", darkShadow: true, thin: true})

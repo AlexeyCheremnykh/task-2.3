@@ -1,7 +1,7 @@
 mixin dropdown({options = [], hasDefault = false, multiple = false} = {})
- - const modClass = multiple ? " dropdown_multiple js-dropdown_multiple" : "";
-    select(class="dropdown js-dropdown" + modClass)
-        if (!hasDefault)
-            option(value="")
-        each opt in options
-            option.dropdown__option(value=opt)=opt
+    div(class=multiple ? "dropdown js-dropdown dropdown_multiple js-dropdown_multiple" : "dropdown js-dropdown")
+        select.dropdown__select.js-dropdown__select(style="width: 100%")
+            if (!hasDefault)
+                option(value="")
+            each opt in options
+                option.dropdown__option(value=opt)=opt

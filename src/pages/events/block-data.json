@@ -6,42 +6,42 @@
                 "title": "Title",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
                 "added": true,
-                "image": "img/event-sample.jpg"
+                "image": "img/event-1.jpg"
             },
             {
                 "dateString": "2018-05-15",
                 "title": "Title",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
                 "added": true,
-                "image": "img/event-sample.jpg"
+                "image": "img/event-2.jpg"
             },
             {
                 "dateString": "2018-05-15",
                 "title": "Title",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
                 "added": true,
-                "image": "img/event-sample.jpg"
+                "image": "img/event-1.jpg"
             },
             {
                 "dateString": "2018-05-15",
                 "title": "Title",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
                 "added": true,
-                "image": "img/event-sample.jpg"
+                "image": "img/event-2.jpg"
             },
             {
                 "dateString": "2018-05-15",
                 "title": "Title",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
                 "added": true,
-                "image": "img/event-sample.jpg"
+                "image": "img/event-1.jpg"
             },
             {
                 "dateString": "2018-05-15",
                 "title": "Title",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
                 "added": true,
-                "image": "img/event-sample.jpg"
+                "image": "img/event-2.jpg"
             }
         ],
         "mapAddress": {
@@ -56,25 +56,25 @@
                 "dateString": "2018-05-15",
                 "title": "Title",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "image": "img/event-sample.jpg"
+                "image": "img/event-1.jpg"
             },
             {
                 "dateString": "2018-05-15",
                 "title": "Title",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "image": "img/event-sample.jpg"
+                "image": "img/event-2.jpg"
             },
             {
                 "dateString": "2018-05-15",
                 "title": "Title",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "image": "img/event-sample.jpg"
+                "image": "img/event-1.jpg"
             },
             {
                 "dateString": "2018-05-15",
                 "title": "Title",
                 "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "image": "img/event-sample.jpg"
+                "image": "img/event-2.jpg"
             }
         ]
     }

@@ -36,6 +36,8 @@ import './blocks/news-article-preview/img/news-article-preview-3.jpg';
 import './blocks/arrow-button/arrow-button.styl';
 import './blocks/event/event.styl';
 import './blocks/event/img/event-sample.jpg';
+import './blocks/event/img/event-1.jpg';
+import './blocks/event/img/event-2.jpg';
 import './blocks/tick-box/tick-box.styl';
 import './blocks/input-field/input-field.styl';
 import './blocks/text-field/text-field.styl';

@@ -2,26 +2,26 @@
     "articles": [
         {
             "color": "cyan",
-            "title": "Title",
+            "title": "Kitty strikes again",
             "articleAddress": "/mock-address/",
             "dateString": "2018-05-05",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.",
+            "content": "Kitty strikes again and this is not a joke anymore.",
             "image": "img/news-article-preview-1.jpg"
         },
         {
             "color": "cyan",
-            "title": "Title",
+            "title": "Lost cat has been found",
             "articleAddress": "/mock-address/",
-            "dateString": "2018-05-05",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.",
+            "dateString": "2018-05-04",
+            "content": "A cat has been found recently. Turns out the cat has been training and now she is a kung fu master.",
             "image": "img/news-article-preview-2.jpg"
         },
         {
             "color": "cyan",
-            "title": "Title",
+            "title": "Floating pizza",
             "articleAddress": "/mock-address/",
-            "dateString": "2018-05-05",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.",
+            "dateString": "2018-05-03",
+            "content": "Floating pizza has been found in the middle of the ocean.",
             "image": "img/news-article-preview-3.jpg"
         }
     ],

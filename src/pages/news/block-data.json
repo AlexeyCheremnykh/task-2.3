@@ -6,7 +6,7 @@
             "articleAddress": "/mock-address/",
             "dateString": "2018-05-05",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.",
-            "image": "img/news-article-preview-sample.jpg"
+            "image": "img/news-article-preview-1.jpg"
         },
         {
             "color": "cyan",
@@ -14,7 +14,7 @@
             "articleAddress": "/mock-address/",
             "dateString": "2018-05-05",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.",
-            "image": "img/news-article-preview-sample.jpg"
+            "image": "img/news-article-preview-2.jpg"
         },
         {
             "color": "cyan",
@@ -22,7 +22,7 @@
             "articleAddress": "/mock-address/",
             "dateString": "2018-05-05",
             "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum varius eros, in bibendum lacus porta id. Etiam dictum hendrerit odio vitae sollicitudin. Nam tincidunt arcu mattis lorem egestas imperdiet.",
-            "image": "img/news-article-preview-sample.jpg"
+            "image": "img/news-article-preview-3.jpg"
         }
     ],
     "categories": {

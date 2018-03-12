@@ -3,43 +3,43 @@
         "events": [
             {
                 "dateString": "2018-05-15",
-                "title": "Title",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
+                "title": "Bowling",
+                "content": "Throwing some bawling balls.",
                 "added": true,
                 "image": "img/event-1.jpg"
             },
             {
-                "dateString": "2018-05-15",
-                "title": "Title",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
+                "dateString": "2018-05-14",
+                "title": "Surfing",
+                "content": "The annual surfing with your grandma.",
                 "added": true,
                 "image": "img/event-2.jpg"
             },
             {
                 "dateString": "2018-05-15",
-                "title": "Title",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
+                "title": "Bowling",
+                "content": "Throwing some bawling balls.",
                 "added": true,
                 "image": "img/event-1.jpg"
             },
             {
-                "dateString": "2018-05-15",
-                "title": "Title",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
+                "dateString": "2018-05-14",
+                "title": "Surfing",
+                "content": "The annual surfing with your grandma.",
                 "added": true,
                 "image": "img/event-2.jpg"
             },
             {
                 "dateString": "2018-05-15",
-                "title": "Title",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
+                "title": "Bowling",
+                "content": "Throwing some bawling balls.",
                 "added": true,
                 "image": "img/event-1.jpg"
             },
             {
-                "dateString": "2018-05-15",
-                "title": "Title",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Pellentesque eros quam, ullamcorper sed sem quis, cursus scelerisque elit.",
+                "dateString": "2018-05-14",
+                "title": "Surfing",
+                "content": "The annual surfing with your grandma.",
                 "added": true,
                 "image": "img/event-2.jpg"
             }
@@ -54,26 +54,26 @@
         "events": [
             {
                 "dateString": "2018-05-15",
-                "title": "Title",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "title": "Bowling",
+                "content": "Throwing some bawling balls.",
                 "image": "img/event-1.jpg"
             },
             {
-                "dateString": "2018-05-15",
-                "title": "Title",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "dateString": "2018-05-14",
+                "title": "Surfing",
+                "content": "The annual surfing with your grandma.",
                 "image": "img/event-2.jpg"
             },
             {
                 "dateString": "2018-05-15",
-                "title": "Title",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "title": "Bowling",
+                "content": "Throwing some bawling balls.",
                 "image": "img/event-1.jpg"
             },
             {
-                "dateString": "2018-05-15",
-                "title": "Title",
-                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "dateString": "2018-05-14",
+                "title": "Surfing",
+                "content": "The annual surfing with your grandma.",
                 "image": "img/event-2.jpg"
             }
         ]

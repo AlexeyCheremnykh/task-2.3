@@ -694,6 +694,22 @@
 .standard-button_color_cyan.standard-button_shadow_dark.standard-button_size_big:hover {
   background-color: #28a290;
 }
+.standard-button_color_orange {
+  color: #e88f30;
+  border: 0.0625rem solid #e88f30;
+}
+.standard-button_color_orange:hover {
+  background-color: #f4aa5a;
+}
+.standard-button_color_orange:focus {
+  border: 0.125rem solid #b77024;
+}
+.standard-button_color_orange.standard-button_size_big {
+  box-shadow: 0 0.1875rem 0 0 #b77024;
+}
+.standard-button_color_orange.standard-button_size_big:hover {
+  box-shadow: 0 0.1875rem 0 0 #b77024;
+}
 .standard-button_thin {
   width: 8rem;
   height: 1.375rem;
@@ -770,6 +786,9 @@
 }
 .news-article-preview_color_cyan .news-article-preview__main {
   background-color: #4eb7a8;
+}
+.news-article-preview_color_blue .news-article-preview__main {
+  background-color: #4e6ea3;
 }
 .news-article-preview__image {
   width: 5.9375rem;
@@ -891,6 +910,15 @@
     display: none;
   }
 }
+.event_color_cyan .event__main {
+  background-color: #4eb7a8;
+}
+.event_color_green .event__main {
+  background-color: #45d365;
+}
+.event_color_orange .event__main {
+  background-color: #e88f30;
+}
 .event__main {
   font-family: "Lato", "Arial", sans-serif;
   box-sizing: border-box;
@@ -899,7 +927,6 @@
   padding: 0.25rem 1.1875rem 0;
   display: inline-block;
   vertical-align: top;
-  background-color: #4eb7a8;
   color: #fff;
 }
 @media (max-width: 705px) {
@@ -1148,12 +1175,12 @@
 .recommended-events__see-more {
   text-decoration: none;
   font-family: "Lato", "Arial", sans-serif;
-  color: #4eb7a8;
+  color: #e88f30;
   text-transform: uppercase;
   font-weight: 700;
 }
 .recommended-events__see-more:hover {
-  color: #4e6ea3;
+  color: #f4aa5a;
 }
 .events {
   margin-left: auto;
@@ -1437,20 +1464,16 @@
   height: 1.1875rem;
   border-radius: 50%;
 }
-.slider_type_red {
+.slider_type_not-labeled {
   box-sizing: border-box;
 }
-.slider_type_red .slider__handle.ui-slider-handle {
-  background-color: #e75735;
-}
-.slider_type_red .ui-slider-tip {
+.slider_type_not-labeled .ui-slider-tip {
   visibility: visible;
   opacity: 1;
   top: -2rem;
   left: 0.5625rem;
   width: 2.1875rem;
   height: 1.5rem;
-  background-color: #e75735;
   border-radius: 0.3125rem;
   border: none;
   font-family: "Lato", "Arial", sans-serif;
@@ -1460,7 +1483,7 @@
   text-align: center;
   line-height: 1.5rem;
 }
-.slider_type_red .ui-slider-tip:after {
+.slider_type_not-labeled .ui-slider-tip:after {
   content: "";
   display: block;
   width: 0;
@@ -1469,33 +1492,52 @@
   left: 1.125rem;
   border-style: solid;
   border-width: 0.25rem 0.3125rem 0 0.3125rem;
-  border-color: #e75735 transparent transparent transparent;
 }
-.slider_type_red .ui-slider-tip:before {
+.slider_type_not-labeled .ui-slider-tip:before {
   border: none;
 }
-.slider_type_red .slider__handle:hover .ui-slider-tip,
-.slider_type_red .slider__handle:focus .ui-slider-tip {
+.slider_type_not-labeled .slider__handle:hover .ui-slider-tip,
+.slider_type_not-labeled .slider__handle:focus .ui-slider-tip {
   top: -2rem;
 }
-.slider_type_cyan {
+.slider_type_labeled {
   box-sizing: border-box;
 }
-.slider_type_cyan .slider__handle.ui-slider-handle,
-.slider_type_cyan .ui-slider-range {
-  background-color: #4eb7a8;
-}
-.slider_type_cyan .ui-slider-line {
+.slider_type_labeled .ui-slider-line {
   display: none;
 }
-.slider_type_cyan .ui-slider-pip {
+.slider_type_labeled .ui-slider-pip {
   font-size: 0.6875rem;
   color: #d1d1d1;
   font-family: "Lato", "Arial", sans-serif;
   font-weight: 900;
 }
-.slider_type_cyan .ui-slider-label {
+.slider_type_labeled .ui-slider-label {
   top: -0.3125rem;
+}
+.slider_color_red .slider__handle.ui-slider-handle {
+  background-color: #e75735;
+}
+.slider_color_red.slider_type_not-labeled .ui-slider-tip {
+  background-color: #e75735;
+}
+.slider_color_red.slider_type_not-labeled .ui-slider-tip::after {
+  border-color: #e75735 transparent transparent transparent;
+}
+.slider_color_red.slider_type_labeled .ui-slider-range {
+  background-color: #e75735;
+}
+.slider_color_cyan .slider__handle.ui-slider-handle {
+  background-color: #4eb7a8;
+}
+.slider_color_cyan.slider_type_not-labeled .ui-slider-tip {
+  background-color: #4eb7a8;
+}
+.slider_color_cyan.slider_type_not-labeled .ui-slider-tip::after {
+  border-color: #4eb7a8 transparent transparent transparent;
+}
+.slider_color_cyan.slider_type_labeled .ui-slider-range {
+  background-color: #4eb7a8;
 }
 .calendar {
   width: 17.4375rem;

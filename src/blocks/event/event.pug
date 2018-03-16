@@ -14,4 +14,4 @@ mixin event({dateString, title, content, image, added = false, color = "cyan"} =
                 h3.event__title=title
             p.event__content=content
             .event__add-to-calendar
-                +standard-button({size: "big", color: "cyan", label: "add to calendar", darkShadow: true, thin: true})
+                +standard-button({size: "big", color: color, label: "add to calendar", darkShadow: true, thin: true})

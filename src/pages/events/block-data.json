@@ -62,25 +62,29 @@
                 "dateString": "2018-05-15",
                 "title": "Bowling",
                 "content": "Throwing some bawling balls.",
-                "image": "img/event-1.jpg"
+                "image": "img/event-1.jpg",
+                "color": "orange"
             },
             {
                 "dateString": "2018-05-14",
                 "title": "Surfing",
                 "content": "The annual surfing with your grandma.",
-                "image": "img/event-2.jpg"
+                "image": "img/event-2.jpg",
+                "color": "orange"
             },
             {
                 "dateString": "2018-05-15",
                 "title": "Bowling",
                 "content": "Throwing some bawling balls.",
-                "image": "img/event-1.jpg"
+                "image": "img/event-1.jpg",
+                "color": "orange"
             },
             {
                 "dateString": "2018-05-14",
                 "title": "Surfing",
                 "content": "The annual surfing with your grandma.",
-                "image": "img/event-2.jpg"
+                "image": "img/event-2.jpg",
+                "color": "orange"
             }
         ]
     }

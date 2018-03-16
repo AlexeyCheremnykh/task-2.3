@@ -74,6 +74,19 @@
     &:hover
       background-color $dark-cyan
 
+  &_color_orange
+    color $orange
+    border 0.0625rem solid $orange
+    &:hover
+      background-color $light-orange
+    &:focus
+      border 0.125rem solid $dark-orange
+
+  &_color_orange&_size_big
+    box-shadow 0 0.1875rem 0 0 $dark-orange
+    &:hover
+      box-shadow 0 0.1875rem 0 0 $dark-orange
+
   &_thin
     width 8rem
     height 1.375rem

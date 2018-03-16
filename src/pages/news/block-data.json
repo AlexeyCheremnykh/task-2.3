@@ -1,7 +1,7 @@
 {
     "articles": [
         {
-            "color": "cyan",
+            "color": "blue",
             "title": "Kitty strikes again",
             "articleAddress": "/mock-address/",
             "dateString": "2018-05-05",
@@ -9,7 +9,7 @@
             "image": "img/news-article-preview-1.jpg"
         },
         {
-            "color": "cyan",
+            "color": "blue",
             "title": "Lost cat has been found",
             "articleAddress": "/mock-address/",
             "dateString": "2018-05-04",
@@ -17,7 +17,7 @@
             "image": "img/news-article-preview-2.jpg"
         },
         {
-            "color": "cyan",
+            "color": "blue",
             "title": "Floating pizza",
             "articleAddress": "/mock-address/",
             "dateString": "2018-05-03",

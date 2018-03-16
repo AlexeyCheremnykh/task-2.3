@@ -1,4 +1,4 @@
-mixin percentage({value = 100} = {})
-    .percentage.js-percentage
+mixin percentage({value = 100, color = "red"} = {})
+    .percentage.js-percentage(class=`percentage_color_${color}`)
         canvas.percentage__circle-progress.js-percentage__circle-progress
         .percentage__value.js-percentage__value=value

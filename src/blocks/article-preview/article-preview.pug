@@ -24,4 +24,4 @@ mixin article-preview({title, articleAddress, dateString, text, rating, tags = {
             .article-preview__author
                 +user-profile({color: "grey", name: author.name, profession: author.profession, avatar: author.avatar})
             .article-preview__rating
-                +percentage({value: rating})
+                +percentage({value: rating, color: "blue"})

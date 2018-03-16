@@ -21,7 +21,7 @@ mixin articles-filter
 
                 li.articles-filter__option
                     .articles-filter__option-title Minimum rating
-                    +slider({type: "red", min: 0, max: 100})
+                    +slider({type: "not-labeled", color:"cyan", min: 0, max: 100})
 
             .articles-filter__show-btn
-                +standard-button({size: "big", color: "red", label: "Show"})
+                +standard-button({size: "big", color: "cyan", label: "Show"})

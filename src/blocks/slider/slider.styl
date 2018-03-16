@@ -24,11 +24,8 @@
     height 1.1875rem
     border-radius 50%
 
-  &_type_red
+  &_type_not-labeled
     box-sizing border-box
-
-    .slider__handle.ui-slider-handle
-      background-color $main-red
 
     .ui-slider-tip
       visibility visible
@@ -37,7 +34,6 @@
       left 0.5625rem
       width 2.1875rem
       height 1.5rem
-      background-color $main-red
       border-radius 0.3125rem
       border none
       font-family "Lato", "Arial", sans-serif
@@ -56,7 +52,6 @@
         left 1.125rem
         border-style solid
         border-width 0.25rem 0.3125rem 0 0.3125rem
-        border-color $main-red transparent transparent transparent
 
       &:before
         border none
@@ -65,12 +60,8 @@
     & .slider__handle:focus .ui-slider-tip
       top -2rem
 
-  &_type_cyan
+  &_type_labeled
     box-sizing border-box
-
-    .slider__handle.ui-slider-handle,
-    .ui-slider-range
-      background-color $main-cyan
 
     .ui-slider-line
       display none
@@ -83,3 +74,31 @@
 
     .ui-slider-label
       top -0.3125rem
+
+  &_color_red
+    .slider__handle.ui-slider-handle
+      background-color $main-red
+
+  &_color_red&_type_not-labeled
+    .ui-slider-tip
+      background-color $main-red
+      &::after
+        border-color $main-red transparent transparent transparent
+
+  &_color_red&_type_labeled
+    .ui-slider-range
+      background-color $main-red
+
+  &_color_cyan
+    .slider__handle.ui-slider-handle
+      background-color $main-cyan
+
+  &_color_cyan&_type_not-labeled
+    .ui-slider-tip
+      background-color $main-cyan
+      &::after
+        border-color $main-cyan transparent transparent transparent
+
+  &_color_cyan&_type_labeled
+    .ui-slider-range
+      background-color $main-cyan

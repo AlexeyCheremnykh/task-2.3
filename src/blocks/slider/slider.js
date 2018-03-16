@@ -6,7 +6,7 @@ class Slider {
   }
 
   initElement() {
-    if (this._$slider.hasClass('slider_type_red')) {
+    if (this._$slider.hasClass('slider_type_not-labeled')) {
       this._$sliderLine
         .slider({
           min: this._$slider.data('min'),

@@ -1,7 +1,7 @@
 include ../categories-navigation/categories-navigation.pug
 include ../category-preview/category-preview.pug
 
-mixin news
+mixin news(newsData)
     main.news
         .news__categories-navigation
             +categories-navigation({categories: newsData.categories.categoriesList, selectedCategory: newsData.categories.selected})

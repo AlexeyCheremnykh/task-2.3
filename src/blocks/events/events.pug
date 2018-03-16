@@ -1,7 +1,7 @@
 include ../my-events/my-events.pug
 include ../recommended-events/recommended-events.pug
 
-mixin events
+mixin events(eventsData)
     main.events
         .events__my-events
             +my-events(eventsData.myEvents)

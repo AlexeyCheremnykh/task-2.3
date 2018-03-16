@@ -6,7 +6,7 @@ include ../event-options/event-options.pug
 include ../event-speakers/event-speakers.pug
 include ../standard-button/standard-button.pug
 
-mixin new-event
+mixin new-event(newEventData)
     main.new-event
         h1.new-event__page-title Create an event
         +new-event__stage({title: "Add a title and a description"})

@@ -1,6 +1,7 @@
 class Calendar {
   constructor(elem, id) {
     this._id = id;
+    this._selectedDate = (new Date()).getDate();
     this._$block = $(elem);
     this._$datepicker = this._$block.children('.js-calendar__datepicker');
     this._$day = this._$block.children('.js-calendar__day');
@@ -8,20 +9,17 @@ class Calendar {
   }
 
   initElement() {
-    let currentDate;
-
     this._$datepicker.datepicker({
       dayNamesMin: ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'],
       firstDay: 1,
       showOtherMonths: true,
       onSelect: () => {
-        currentDate = this._$datepicker.datepicker('getDate');
-        this._$day.text($.datepicker.formatDate('d', currentDate));
+        this._selectedDate = this._$datepicker.datepicker('getDate');
+        this._$day.text($.datepicker.formatDate('d', this._selectedDate));
       },
     });
 
-    currentDate = this._$datepicker.datepicker('getDate');
-    this._$day.text($.datepicker.formatDate('d', currentDate));
+    this._$day.text(this._selectedDate);
     return this;
   }
 

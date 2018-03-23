@@ -1,11 +1,11 @@
 class SpinnerInput {
   constructor(elem, id) {
     this._id = id;
-    this._$spinnerInput = $(elem);
+    this._$block = $(elem);
   }
 
   initElement() {
-    this._$spinnerInput.spinner({
+    this._$block.spinner({
       min: 0,
     });
   }

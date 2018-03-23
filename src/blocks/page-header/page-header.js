@@ -1,9 +1,9 @@
 class PageHeader {
   constructor(elem, id) {
     this._id = id;
-    this._$header = $(elem);
-    this._$menuIcon = $(elem).find('.js-page-header__menu-icon');
-    this._$nav = $(elem).find('.js-page-header__nav');
+    this._$block = $(elem);
+    this._$menuIcon = this._$block.find('.js-page-header__menu-icon');
+    this._$nav = this._$block.find('.js-page-header__nav');
   }
 
   initEventListeners() {

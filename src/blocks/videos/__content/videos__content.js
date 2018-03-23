@@ -1,11 +1,11 @@
 class VideosContainer {
   constructor(elem, id) {
     this._id = id;
-    this._$container = $(elem);
+    this._$block = $(elem);
   }
 
   initElement() {
-    this._$container.tabs();
+    this._$block.tabs();
   }
 }
 

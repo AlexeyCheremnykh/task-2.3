@@ -5,21 +5,21 @@ const constants = {
 class Percentage {
   constructor(elem, id) {
     this._id = id;
-    this._$percentage = $(elem);
-    this._$circleProgress = $(elem).children('.js-percentage__circle-progress');
-    this._$value = $(elem).children('.js-percentage__value');
+    this._$block = $(elem);
+    this._$circleProgress = this._$block.children('.js-percentage__circle-progress');
+    this._$value = this._$block.children('.js-percentage__value');
   }
 
   initElement() {
     const percentageValue = parseInt(this._$value.text(), 10) / 100;
-    const percentageSize = parseInt(this._$percentage.css('height'), 10);
+    const percentageSize = parseInt(this._$block.css('height'), 10);
     const percentageThickness = percentageSize / constants.SIZE_THICKNESS_RATIO;
     const getFillColor = () => {
-      if (this._$percentage.hasClass('percentage_color_red')) return '#e75735';
-      if (this._$percentage.hasClass('percentage_color_blue')) return '#4e6ea3';
+      if (this._$block.hasClass('percentage_color_red')) return '#e75735';
+      if (this._$block.hasClass('percentage_color_blue')) return '#4e6ea3';
       return '#000000';
     };
-    this._$percentage.circleProgress({
+    this._$block.circleProgress({
       canvas: this._$circleProgress[0],
       value: percentageValue,
       size: percentageSize,

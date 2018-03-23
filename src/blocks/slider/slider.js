@@ -1,25 +1,25 @@
 class Slider {
   constructor(elem, id) {
     this._id = id;
-    this._$slider = $(elem);
-    this._$sliderLine = $(elem).children('.js-slider__line');
+    this._$block = $(elem);
+    this._$sliderLine = this._$block.children('.js-slider__line');
   }
 
   initElement() {
-    if (this._$slider.hasClass('slider_type_not-labeled')) {
+    if (this._$block.hasClass('slider_type_not-labeled')) {
       this._$sliderLine
         .slider({
-          min: this._$slider.data('min'),
-          max: this._$slider.data('max'),
+          min: this._$block.data('min'),
+          max: this._$block.data('max'),
         })
         .slider('float');
     } else {
       this._$sliderLine
         .slider({
           range: 'min',
-          min: this._$slider.data('min'),
-          max: this._$slider.data('max'),
-          step: this._$slider.data('step'),
+          min: this._$block.data('min'),
+          max: this._$block.data('max'),
+          step: this._$block.data('step'),
         })
         .slider('pips', {
           rest: 'label',

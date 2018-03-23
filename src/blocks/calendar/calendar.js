@@ -1,10 +1,10 @@
 class Calendar {
   constructor(elem, id) {
     this._id = id;
-    this._$calendar = $(elem);
-    this._$datepicker = $(elem).children('.js-calendar__datepicker');
-    this._$day = $(elem).children('.js-calendar__day');
-    this._$todayBtn = $(elem).children('.js-calendar__today');
+    this._$block = $(elem);
+    this._$datepicker = this._$block.children('.js-calendar__datepicker');
+    this._$day = this._$block.children('.js-calendar__day');
+    this._$todayBtn = this._$block.children('.js-calendar__today');
   }
 
   initElement() {

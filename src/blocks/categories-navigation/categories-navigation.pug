@@ -2,9 +2,7 @@ mixin categories-navigation({categories = {}, selectedCategory} = {})
     nav.categories-navigation
         ul.categories-navigation__list
             each categoryAddress, categoryName in categories
-                if (categoryName !== selectedCategory)
-                    li.categories-navigation__category
-                        a.categories-navigation__link(href=categoryAddress)=categoryName
-                else
-                    li.categories-navigation__category.categories-navigation__category_selected
-                        a.categories-navigation__link(href=categoryAddress)=categoryName
+                li.categories-navigation__category(
+                    class=categoryName !== selectedCategory ? "" : "categories-navigation__category_selected"
+                )
+                    a.categories-navigation__link(href=categoryAddress)=categoryName

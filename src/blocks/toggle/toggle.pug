@@ -2,9 +2,5 @@ mixin toggle({enabled = true, label = "", color = "cyan", shape = "round"} = {})
     - let toggleClass = label ? "toggle" : "toggle toggle_not-labeled";
     - toggleClass += ` toggle_color_${color} toggle_shape_${shape}`;
     label(class=toggleClass)=label
-        if (enabled)
-            input.toggle__auxiliary-checkbox(type="checkbox" checked)
-            .toggle__switch
-        else
-            input.toggle__auxiliary-checkbox(type="checkbox")
-            .toggle__switch
+        input.toggle__auxiliary-checkbox(type="checkbox" checked=enabled)
+        .toggle__switch

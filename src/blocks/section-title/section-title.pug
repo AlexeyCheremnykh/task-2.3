@@ -1,6 +1,4 @@
 mixin section-title({title, address=""} = {})
-    if (address)
-        h2.section-title
+    h2.section-title=address ? "" : title
+        if (address)
             a.section-title__link(href=address)=title
-    else
-        h2.section-title=title

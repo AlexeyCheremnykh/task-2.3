@@ -1,7 +1,4 @@
 mixin arrow-button({direction = "left", disabled = false, long = false} = {})
     - let arrowBtnClass = `arrow-button arrow-button_${direction}`;
     - arrowBtnClass += long ? " arrow-button_long" : "";
-    if (!disabled)
-        button(class=arrowBtnClass)
-    else
-        button(class=arrowBtnClass disabled)
+    button(class=arrowBtnClass disabled=disabled)

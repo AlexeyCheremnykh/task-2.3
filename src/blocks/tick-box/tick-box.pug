@@ -2,9 +2,5 @@ mixin tick-box({checked = true, label = "", shape = "round"} = {})
     - let tickboxClass = label ? "tick-box" : "tick-box tick-box_not-labeled";
     - tickboxClass += ` tick-box_shape_${shape}`;
     label(class=tickboxClass)=label
-        if (checked)
-            input.tick-box__auxiliary-checkbox(type="checkbox" checked)
-            .tick-box__checkmark
-        else
-            input.tick-box__auxiliary-checkbox(type="checkbox")
-            .tick-box__checkmark
+        input.tick-box__auxiliary-checkbox(type="checkbox" checked=checked)
+        .tick-box__checkmark
